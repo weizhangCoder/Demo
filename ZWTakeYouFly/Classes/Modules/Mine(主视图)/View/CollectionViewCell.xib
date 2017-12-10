@@ -31,17 +31,42 @@
                             <constraint firstAttribute="height" constant="40" id="aZj-f9-gsl"/>
                         </constraints>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AmH-Rd-bc0">
+                        <rect key="frame" x="99.5" y="0.0" width="0.5" height="102"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="CiP-sg-GHM"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nxH-RN-ka1">
+                        <rect key="frame" x="0.0" y="101.5" width="100" height="0.5"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="S2B-Sp-rdF"/>
+                        </constraints>
+                    </view>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstItem="3tj-n5-bSe" firstAttribute="top" secondItem="ayJ-dg-ozr" secondAttribute="bottom" constant="10" id="13E-cg-gaK"/>
                 <constraint firstItem="ayJ-dg-ozr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="5bG-II-h1f"/>
+                <constraint firstAttribute="trailing" secondItem="nxH-RN-ka1" secondAttribute="trailing" id="Aex-Jf-iVK"/>
                 <constraint firstItem="3tj-n5-bSe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="CgY-d5-3Mi"/>
+                <constraint firstAttribute="trailing" secondItem="AmH-Rd-bc0" secondAttribute="trailing" id="Nc0-N1-i8s"/>
                 <constraint firstItem="ayJ-dg-ozr" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-15" id="ggA-j4-4hx"/>
+                <constraint firstItem="nxH-RN-ka1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hbn-Fp-CJJ"/>
+                <constraint firstAttribute="bottom" secondItem="nxH-RN-ka1" secondAttribute="bottom" id="lsq-4I-vwI"/>
                 <constraint firstAttribute="trailing" secondItem="3tj-n5-bSe" secondAttribute="trailing" constant="10" id="obj-vx-bCa"/>
                 <constraint firstAttribute="bottom" secondItem="3tj-n5-bSe" secondAttribute="bottom" constant="10" id="p3c-5W-Xla"/>
+                <constraint firstItem="AmH-Rd-bc0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qqR-0P-9nb"/>
+                <constraint firstAttribute="bottom" secondItem="AmH-Rd-bc0" secondAttribute="bottom" id="xsd-jE-xaK"/>
             </constraints>
             <size key="customSize" width="100" height="102"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="imageView" destination="ayJ-dg-ozr" id="SSh-bf-3Et"/>
                 <outlet property="nameLabel" destination="3tj-n5-bSe" id="yAf-iY-Qcf"/>

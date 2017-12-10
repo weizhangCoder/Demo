@@ -45,7 +45,7 @@
 
 //轮播图的宽高
 #define KCDCYLH    100
-#define Kcell_0_H    70
+#define Kcell_0_H   90
 
 //获取系统版本
 #define XZSystemVersion ([UIDevice currentDevice].systemVersion.floatValue)

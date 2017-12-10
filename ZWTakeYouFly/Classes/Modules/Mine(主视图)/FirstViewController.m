@@ -11,6 +11,8 @@
 #import "ZWCoverModel_1_Cell.h"
 #import "ZWCoverModel_2_Cell.h"
 #import "DataModel.h"
+#import "home_headView.h"
+
 @interface FirstViewController ()
 @property (nonatomic,strong)NSMutableArray *group;
 @end
@@ -35,6 +37,12 @@
     self.tableView.backgroundColor = [UIColor colorBackWithBackView];
        NSLog(@"viewDidLayoutSubviews  %@",NSStringFromCGRect(self.view.frame));
     
+    
+    home_headView *headView = [[[NSBundle mainBundle] loadNibNamed:@"home_headView" owner:nil options:nil] lastObject];
+    headView.backgroundColor = [UIColor colorTheme];
+    headView.autoresizingMask = UIViewAutoresizingNone;
+    headView.frame = CGRectMake(0, 0, kScreen_Width, 150);
+    self.tableView.tableHeaderView = headView;
 }
 
 - (void)login{
@@ -53,7 +61,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     if (indexPath.section == 0) {
-        return KCDCYLH * 2;
+        return Kcell_0_H * 2;
     }else if (indexPath.section == 1){
         return KCDCYLH *KWidth_Scale;
     }else if (indexPath.section == 2){

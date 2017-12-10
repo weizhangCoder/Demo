@@ -18,6 +18,8 @@
 		720A263E1FDD2D8E00C470DA /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A263C1FDD2D8E00C470DA /* CollectionViewCell.m */; };
 		720A263F1FDD2D8E00C470DA /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A263D1FDD2D8E00C470DA /* CollectionViewCell.xib */; };
 		720A26431FDD2E9000C470DA /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26421FDD2E9000C470DA /* DataModel.m */; };
+		720A26461FDD43D100C470DA /* home_headView.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26451FDD43D100C470DA /* home_headView.m */; };
+		720A26481FDD43E400C470DA /* home_headView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A26471FDD43E400C470DA /* home_headView.xib */; };
 		722AD9B11F46BF0000336154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B01F46BF0000336154 /* SystemConfiguration.framework */; };
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
@@ -91,6 +93,9 @@
 		720A263D1FDD2D8E00C470DA /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		720A26411FDD2E9000C470DA /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		720A26421FDD2E9000C470DA /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		720A26441FDD43D100C470DA /* home_headView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = home_headView.h; sourceTree = "<group>"; };
+		720A26451FDD43D100C470DA /* home_headView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = home_headView.m; sourceTree = "<group>"; };
+		720A26471FDD43E400C470DA /* home_headView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = home_headView.xib; sourceTree = "<group>"; };
 		722AD9B01F46BF0000336154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -263,6 +268,9 @@
 				720A263B1FDD2D8E00C470DA /* CollectionViewCell.h */,
 				720A263C1FDD2D8E00C470DA /* CollectionViewCell.m */,
 				720A263D1FDD2D8E00C470DA /* CollectionViewCell.xib */,
+				720A26441FDD43D100C470DA /* home_headView.h */,
+				720A26451FDD43D100C470DA /* home_headView.m */,
+				720A26471FDD43E400C470DA /* home_headView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -763,6 +771,7 @@
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
+				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,6 +857,7 @@
 				72F7FFAC1F21FFA000BFC7E6 /* UIView+IBExtension.m in Sources */,
 				72F7FFA81F21FFA000BFC7E6 /* UIImageView+CornerRadius.m in Sources */,
 				72F7FFAD1F21FFA000BFC7E6 /* UIView+Layer.m in Sources */,
+				720A26461FDD43D100C470DA /* home_headView.m in Sources */,
 				72F7FF0E1F21F7C300BFC7E6 /* ZWBaseViewController.m in Sources */,
 				72F7FED61F21F1DC00BFC7E6 /* main.m in Sources */,
 				5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */,
