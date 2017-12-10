@@ -57,6 +57,13 @@
 
 
 
+#define WEAKSELF __weak typeof(self) weakSelf = self
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define FIT_WIDTH [UIScreen mainScreen].bounds.size.width/375
+#define KSelectBorderColor      [UIColor colorWithRed:253/255.0 green:206/255.0 blue:41/255.0 alpha:1]
+#define KUnSelectBorderColor    [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:1]
+#define KButtonColor            [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
+
 /// View 圆角
 #define ViewRadius(View, Radius)\
 \

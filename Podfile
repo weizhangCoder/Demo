@@ -8,6 +8,7 @@ target 'ZWTakeYouFly' do
   pod 'HSSetTableViewController' , '1.3.1'
   pod 'ReactiveObjC'
   pod 'IQKeyboardManager'
+  pod 'Masonry','~> 1.0.1'
   pod 'SDAutoLayout', '2.1.8'
   pod 'AFNetworking', '3.0.4'
   pod 'SDWebImage', '3.7.3'

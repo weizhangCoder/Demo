@@ -37,6 +37,9 @@
 		720A26781FDD637400C470DA /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 720A26691FDD637400C470DA /* unicode_to_hanyu_pinyin.txt */; };
 		720A26791FDD637400C470DA /* ZYPinYinSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A266B1FDD637400C470DA /* ZYPinYinSearch.m */; };
 		720A267D1FDD65B300C470DA /* LXSegmentBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */; };
+		720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26801FDD757C00C470DA /* NSArray+ZMAdd.m */; };
+		720A26871FDD757D00C470DA /* MoreDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26831FDD757C00C470DA /* MoreDropDownMenu.m */; };
+		720A26881FDD757D00C470DA /* MoreDropDownMenuRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26851FDD757C00C470DA /* MoreDropDownMenuRowCell.m */; };
 		722AD9B11F46BF0000336154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B01F46BF0000336154 /* SystemConfiguration.framework */; };
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
@@ -145,6 +148,12 @@
 		720A266B1FDD637400C470DA /* ZYPinYinSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPinYinSearch.m; sourceTree = "<group>"; };
 		720A267B1FDD65B300C470DA /* LXSegmentBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentBtnView.h; sourceTree = "<group>"; };
 		720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentBtnView.m; sourceTree = "<group>"; };
+		720A267F1FDD757C00C470DA /* NSArray+ZMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZMAdd.h"; sourceTree = "<group>"; };
+		720A26801FDD757C00C470DA /* NSArray+ZMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZMAdd.m"; sourceTree = "<group>"; };
+		720A26821FDD757C00C470DA /* MoreDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenu.h; sourceTree = "<group>"; };
+		720A26831FDD757C00C470DA /* MoreDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenu.m; sourceTree = "<group>"; };
+		720A26841FDD757C00C470DA /* MoreDropDownMenuRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenuRowCell.h; sourceTree = "<group>"; };
+		720A26851FDD757C00C470DA /* MoreDropDownMenuRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenuRowCell.m; sourceTree = "<group>"; };
 		722AD9B01F46BF0000336154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -345,6 +354,26 @@
 				720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */,
 			);
 			path = LXSegmentBtn;
+			sourceTree = "<group>";
+		};
+		720A267E1FDD757C00C470DA /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				720A267F1FDD757C00C470DA /* NSArray+ZMAdd.h */,
+				720A26801FDD757C00C470DA /* NSArray+ZMAdd.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		720A26811FDD757C00C470DA /* MoreDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				720A26821FDD757C00C470DA /* MoreDropDownMenu.h */,
+				720A26831FDD757C00C470DA /* MoreDropDownMenu.m */,
+				720A26841FDD757C00C470DA /* MoreDropDownMenuRowCell.h */,
+				720A26851FDD757C00C470DA /* MoreDropDownMenuRowCell.m */,
+			);
+			path = MoreDropDownMenu;
 			sourceTree = "<group>";
 		};
 		72D9E22A1F26D77600FED4A4 /* GuideController */ = {
@@ -555,6 +584,8 @@
 		72F7FEFB1F21F67C00BFC7E6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				720A26811FDD757C00C470DA /* MoreDropDownMenu */,
+				720A267E1FDD757C00C470DA /* tool */,
 				720A267A1FDD65B300C470DA /* LXSegmentBtn */,
 				720A26501FDD637400C470DA /* ChinaCityList */,
 				72D9E22A1F26D77600FED4A4 /* GuideController */,
@@ -974,6 +1005,7 @@
 				720A26771FDD637400C470DA /* PinyinHelper.m in Sources */,
 				720A26751FDD637400C470DA /* PinyinFormatter.m in Sources */,
 				720A264F1FDD530D00C470DA /* ZWCompanyViewController.m in Sources */,
+				720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */,
 				72D9E2211F25EA3400FED4A4 /* ThreeViewController.m in Sources */,
 				720A26391FDD238E00C470DA /* ZWCoverModel_2_Cell.m in Sources */,
 				72F7FF611F21FDDC00BFC7E6 /* NHFileCacheManager.m in Sources */,
@@ -993,11 +1025,13 @@
 				72F7FFB91F21FFDE00BFC7E6 /* ZWProgressHUD.m in Sources */,
 				72E02C111FDD120800AC0D57 /* me_headView.m in Sources */,
 				72D9E22F1F26D77600FED4A4 /* HcdGuideView.m in Sources */,
+				720A26881FDD757D00C470DA /* MoreDropDownMenuRowCell.m in Sources */,
 				72F7FF9D1F21FFA000BFC7E6 /* DataSafe.m in Sources */,
 				72F7FFA61F21FFA000BFC7E6 /* UIFont+Extension.m in Sources */,
 				72F7FFAA1F21FFA000BFC7E6 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				720A264C1FDD52FE00C470DA /* ZWCityDetailViewController.m in Sources */,
 				720A26791FDD637400C470DA /* ZYPinYinSearch.m in Sources */,
+				720A26871FDD757D00C470DA /* MoreDropDownMenu.m in Sources */,
 				72F7FFCF1F22014F00BFC7E6 /* NHBaseTableViewCell.m in Sources */,
 				72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */,
 				72F7FFA41F21FFA000BFC7E6 /* UIButton+fast.m in Sources */,

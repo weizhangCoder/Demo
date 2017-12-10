@@ -9,6 +9,7 @@
 #import "ZWCityDetailViewController.h"
 
 
+
 @interface ZWCityDetailViewController ()
 
 @end
@@ -18,7 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"u382" target:self action:@selector(backHome) width:20 height:20];
+    
   
+}
+
+- (void)backHome{
+    [self popToRootVc];
 }
 
 - (void)didReceiveMemoryWarning {
