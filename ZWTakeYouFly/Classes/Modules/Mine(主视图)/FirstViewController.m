@@ -43,6 +43,11 @@
     headView.autoresizingMask = UIViewAutoresizingNone;
     headView.frame = CGRectMake(0, 0, kScreen_Width, 150);
     self.tableView.tableHeaderView = headView;
+    [headView setSegmetBlock:^(NSInteger index) {
+        NSLog(@"======%ld",index);
+        
+    }];
+  
 }
 
 - (void)login{

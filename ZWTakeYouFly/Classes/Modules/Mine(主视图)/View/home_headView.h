@@ -10,4 +10,6 @@
 
 @interface home_headView : UIView
 
+@property (nonatomic,copy)void(^segmetBlock)(NSInteger index);
+
 @end

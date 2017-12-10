@@ -16,7 +16,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="home_headView">
             <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -53,6 +53,9 @@
                         <segment title="查城市"/>
                     </segments>
                     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="changed:" destination="iN0-l3-epB" eventType="valueChanged" id="a12-sq-zcA"/>
+                    </connections>
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csj-VI-V7n">
                     <rect key="frame" x="20" y="78" width="90" height="30"/>
@@ -132,6 +135,9 @@
                 <constraint firstAttribute="trailing" secondItem="ul2-q7-Ijr" secondAttribute="trailing" constant="20" id="wtQ-or-TLz"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchView" destination="ul2-q7-Ijr" id="6n0-7A-yXP"/>
+            </connections>
             <point key="canvasLocation" x="34.5" y="133"/>
         </view>
     </objects>

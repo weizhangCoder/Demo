@@ -7,7 +7,7 @@ target 'ZWTakeYouFly' do
   pod 'CYLTabBarController', '1.13.1'
   pod 'HSSetTableViewController' , '1.3.1'
   pod 'ReactiveObjC'
-  pod 'IQKeyboardManager' ,'4.0.10'
+  pod 'IQKeyboardManager'
   pod 'SDAutoLayout', '2.1.8'
   pod 'AFNetworking', '3.0.4'
   pod 'SDWebImage', '3.7.3'

@@ -29,7 +29,7 @@
     CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
     [self.window setRootViewController:tabBarController];
     // 1.键盘全局设置
-    [self configureKeyboard];
+//    [self configureKeyboard];
     
     [self configBugly];
     

@@ -7,15 +7,33 @@
 //
 
 #import "home_headView.h"
+@interface home_headView()
+@property (weak, nonatomic) IBOutlet UIView *searchView;
+@property (nonatomic,strong)UISegmentedControl *segment;
+@end
 
 @implementation home_headView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(Click:)];
+    [self.searchView addGestureRecognizer:tap];
+    self.searchView.userInteractionEnabled = YES;
+    _segment.selectedSegmentIndex = 0;
 }
-*/
+
+- (IBAction)changed:(UISegmentedControl *)sender {
+    _segment = sender;
+    NSLog(@"------%ld",_segment.selectedSegmentIndex);
+    
+}
+
+- (void)Click:(UITapGestureRecognizer *)tap{
+    
+    if (self.segmetBlock) {
+        self.segmetBlock(_segment.selectedSegmentIndex);
+    }
+    
+}
 
 @end
