@@ -20,6 +20,23 @@
 		720A26431FDD2E9000C470DA /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26421FDD2E9000C470DA /* DataModel.m */; };
 		720A26461FDD43D100C470DA /* home_headView.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26451FDD43D100C470DA /* home_headView.m */; };
 		720A26481FDD43E400C470DA /* home_headView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A26471FDD43E400C470DA /* home_headView.xib */; };
+		720A264C1FDD52FE00C470DA /* ZWCityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A264B1FDD52FE00C470DA /* ZWCityDetailViewController.m */; };
+		720A264F1FDD530D00C470DA /* ZWCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A264E1FDD530D00C470DA /* ZWCompanyViewController.m */; };
+		720A266C1FDD637400C470DA /* ButtonGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26521FDD637400C470DA /* ButtonGroupView.m */; };
+		720A266D1FDD637400C470DA /* CityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26541FDD637400C470DA /* CityButton.m */; };
+		720A266E1FDD637400C470DA /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 720A26551FDD637400C470DA /* citydict.plist */; };
+		720A266F1FDD637400C470DA /* CityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26571FDD637400C470DA /* CityItem.m */; };
+		720A26701FDD637400C470DA /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26591FDD637400C470DA /* CityListViewController.m */; };
+		720A26711FDD637400C470DA /* ChineseInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A265C1FDD637400C470DA /* ChineseInclude.m */; };
+		720A26721FDD637400C470DA /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A265E1FDD637400C470DA /* ChineseToPinyinResource.m */; };
+		720A26731FDD637400C470DA /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26601FDD637400C470DA /* HanyuPinyinOutputFormat.m */; };
+		720A26741FDD637400C470DA /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26621FDD637400C470DA /* NSString+PinYin4Cocoa.m */; };
+		720A26751FDD637400C470DA /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26641FDD637400C470DA /* PinyinFormatter.m */; };
+		720A26761FDD637400C470DA /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26661FDD637400C470DA /* PinYinForObjc.m */; };
+		720A26771FDD637400C470DA /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26681FDD637400C470DA /* PinyinHelper.m */; };
+		720A26781FDD637400C470DA /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 720A26691FDD637400C470DA /* unicode_to_hanyu_pinyin.txt */; };
+		720A26791FDD637400C470DA /* ZYPinYinSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A266B1FDD637400C470DA /* ZYPinYinSearch.m */; };
+		720A267D1FDD65B300C470DA /* LXSegmentBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */; };
 		722AD9B11F46BF0000336154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B01F46BF0000336154 /* SystemConfiguration.framework */; };
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
@@ -96,6 +113,38 @@
 		720A26441FDD43D100C470DA /* home_headView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = home_headView.h; sourceTree = "<group>"; };
 		720A26451FDD43D100C470DA /* home_headView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = home_headView.m; sourceTree = "<group>"; };
 		720A26471FDD43E400C470DA /* home_headView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = home_headView.xib; sourceTree = "<group>"; };
+		720A264A1FDD52FE00C470DA /* ZWCityDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWCityDetailViewController.h; sourceTree = "<group>"; };
+		720A264B1FDD52FE00C470DA /* ZWCityDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWCityDetailViewController.m; sourceTree = "<group>"; };
+		720A264D1FDD530D00C470DA /* ZWCompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWCompanyViewController.h; sourceTree = "<group>"; };
+		720A264E1FDD530D00C470DA /* ZWCompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWCompanyViewController.m; sourceTree = "<group>"; };
+		720A26511FDD637400C470DA /* ButtonGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonGroupView.h; sourceTree = "<group>"; };
+		720A26521FDD637400C470DA /* ButtonGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonGroupView.m; sourceTree = "<group>"; };
+		720A26531FDD637400C470DA /* CityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityButton.h; sourceTree = "<group>"; };
+		720A26541FDD637400C470DA /* CityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityButton.m; sourceTree = "<group>"; };
+		720A26551FDD637400C470DA /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		720A26561FDD637400C470DA /* CityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityItem.h; sourceTree = "<group>"; };
+		720A26571FDD637400C470DA /* CityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityItem.m; sourceTree = "<group>"; };
+		720A26581FDD637400C470DA /* CityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		720A26591FDD637400C470DA /* CityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
+		720A265B1FDD637400C470DA /* ChineseInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseInclude.h; sourceTree = "<group>"; };
+		720A265C1FDD637400C470DA /* ChineseInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseInclude.m; sourceTree = "<group>"; };
+		720A265D1FDD637400C470DA /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		720A265E1FDD637400C470DA /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		720A265F1FDD637400C470DA /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		720A26601FDD637400C470DA /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		720A26611FDD637400C470DA /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		720A26621FDD637400C470DA /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		720A26631FDD637400C470DA /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		720A26641FDD637400C470DA /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		720A26651FDD637400C470DA /* PinYinForObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinForObjc.h; sourceTree = "<group>"; };
+		720A26661FDD637400C470DA /* PinYinForObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinForObjc.m; sourceTree = "<group>"; };
+		720A26671FDD637400C470DA /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		720A26681FDD637400C470DA /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		720A26691FDD637400C470DA /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		720A266A1FDD637400C470DA /* ZYPinYinSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPinYinSearch.h; sourceTree = "<group>"; };
+		720A266B1FDD637400C470DA /* ZYPinYinSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPinYinSearch.m; sourceTree = "<group>"; };
+		720A267B1FDD65B300C470DA /* LXSegmentBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentBtnView.h; sourceTree = "<group>"; };
+		720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentBtnView.m; sourceTree = "<group>"; };
 		722AD9B01F46BF0000336154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -235,6 +284,67 @@
 				720A26421FDD2E9000C470DA /* DataModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		720A26491FDD52AF00C470DA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				720A264A1FDD52FE00C470DA /* ZWCityDetailViewController.h */,
+				720A264B1FDD52FE00C470DA /* ZWCityDetailViewController.m */,
+				720A264D1FDD530D00C470DA /* ZWCompanyViewController.h */,
+				720A264E1FDD530D00C470DA /* ZWCompanyViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		720A26501FDD637400C470DA /* ChinaCityList */ = {
+			isa = PBXGroup;
+			children = (
+				720A26511FDD637400C470DA /* ButtonGroupView.h */,
+				720A26521FDD637400C470DA /* ButtonGroupView.m */,
+				720A26531FDD637400C470DA /* CityButton.h */,
+				720A26541FDD637400C470DA /* CityButton.m */,
+				720A26551FDD637400C470DA /* citydict.plist */,
+				720A26561FDD637400C470DA /* CityItem.h */,
+				720A26571FDD637400C470DA /* CityItem.m */,
+				720A26581FDD637400C470DA /* CityListViewController.h */,
+				720A26591FDD637400C470DA /* CityListViewController.m */,
+				720A265A1FDD637400C470DA /* ZYPinYinSearchLib */,
+			);
+			path = ChinaCityList;
+			sourceTree = "<group>";
+		};
+		720A265A1FDD637400C470DA /* ZYPinYinSearchLib */ = {
+			isa = PBXGroup;
+			children = (
+				720A265B1FDD637400C470DA /* ChineseInclude.h */,
+				720A265C1FDD637400C470DA /* ChineseInclude.m */,
+				720A265D1FDD637400C470DA /* ChineseToPinyinResource.h */,
+				720A265E1FDD637400C470DA /* ChineseToPinyinResource.m */,
+				720A265F1FDD637400C470DA /* HanyuPinyinOutputFormat.h */,
+				720A26601FDD637400C470DA /* HanyuPinyinOutputFormat.m */,
+				720A26611FDD637400C470DA /* NSString+PinYin4Cocoa.h */,
+				720A26621FDD637400C470DA /* NSString+PinYin4Cocoa.m */,
+				720A26631FDD637400C470DA /* PinyinFormatter.h */,
+				720A26641FDD637400C470DA /* PinyinFormatter.m */,
+				720A26651FDD637400C470DA /* PinYinForObjc.h */,
+				720A26661FDD637400C470DA /* PinYinForObjc.m */,
+				720A26671FDD637400C470DA /* PinyinHelper.h */,
+				720A26681FDD637400C470DA /* PinyinHelper.m */,
+				720A26691FDD637400C470DA /* unicode_to_hanyu_pinyin.txt */,
+				720A266A1FDD637400C470DA /* ZYPinYinSearch.h */,
+				720A266B1FDD637400C470DA /* ZYPinYinSearch.m */,
+			);
+			path = ZYPinYinSearchLib;
+			sourceTree = "<group>";
+		};
+		720A267A1FDD65B300C470DA /* LXSegmentBtn */ = {
+			isa = PBXGroup;
+			children = (
+				720A267B1FDD65B300C470DA /* LXSegmentBtnView.h */,
+				720A267C1FDD65B300C470DA /* LXSegmentBtnView.m */,
+			);
+			path = LXSegmentBtn;
 			sourceTree = "<group>";
 		};
 		72D9E22A1F26D77600FED4A4 /* GuideController */ = {
@@ -423,6 +533,7 @@
 		72F7FEF81F21F67C00BFC7E6 /* Mine(主视图) */ = {
 			isa = PBXGroup;
 			children = (
+				720A26491FDD52AF00C470DA /* ViewController */,
 				720A26401FDD2E6800C470DA /* Model */,
 				72E02C0C1FDD0E2400AC0D57 /* View */,
 				72D9E2271F25F5CD00FED4A4 /* ZWNavigationViewController.h */,
@@ -444,6 +555,8 @@
 		72F7FEFB1F21F67C00BFC7E6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				720A267A1FDD65B300C470DA /* LXSegmentBtn */,
+				720A26501FDD637400C470DA /* ChinaCityList */,
 				72D9E22A1F26D77600FED4A4 /* GuideController */,
 			);
 			path = ThirdParty;
@@ -765,8 +878,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */,
+				720A266E1FDD637400C470DA /* citydict.plist in Resources */,
 				720A263F1FDD2D8E00C470DA /* CollectionViewCell.xib in Resources */,
 				72E02C0E1FDD0E4C00AC0D57 /* me_headView.xib in Resources */,
+				720A26781FDD637400C470DA /* unicode_to_hanyu_pinyin.txt in Resources */,
 				720A26351FDD237E00C470DA /* ZWCoverModel_0_Cell.xib in Resources */,
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
@@ -835,15 +950,19 @@
 				72F7FEFE1F21F67C00BFC7E6 /* AppDelegate.m in Sources */,
 				72F7FFBC1F2200A800BFC7E6 /* ZWUserInfoManager.m in Sources */,
 				72D9E2301F26D77600FED4A4 /* HcdGuideViewCell.m in Sources */,
+				720A26721FDD637400C470DA /* ChineseToPinyinResource.m in Sources */,
 				72F7FFA91F21FFA000BFC7E6 /* UIImageView+Extension.m in Sources */,
 				72F7FFB01F21FFA000BFC7E6 /* UIViewController+ZWBaseMethods.m in Sources */,
 				72F7FFAE1F21FFA000BFC7E6 /* UIView+Tap.m in Sources */,
 				72F7FFA11F21FFA000BFC7E6 /* NSMutableAttributedString+ZWStrAttribued.m in Sources */,
 				72F7FFAF1F21FFA000BFC7E6 /* UIViewExt.m in Sources */,
 				72F7FF0C1F21F7C300BFC7E6 /* ZWBaseModel.m in Sources */,
+				720A26701FDD637400C470DA /* CityListViewController.m in Sources */,
 				72D9E2221F25EA3400FED4A4 /* TwoViewController.m in Sources */,
+				720A266D1FDD637400C470DA /* CityButton.m in Sources */,
 				72F7FFBF1F2200CB00BFC7E6 /* ZWUserInfoModel.m in Sources */,
 				720A262B1FDD15D200C470DA /* JYCustomButton.m in Sources */,
+				720A267D1FDD65B300C470DA /* LXSegmentBtnView.m in Sources */,
 				72F7FFA51F21FFA000BFC7E6 /* UIColor+applianceHex.m in Sources */,
 				72F7FF9E1F21FFA000BFC7E6 /* NSNotificationCenter+Addition.m in Sources */,
 				72D9E2291F25F5CD00FED4A4 /* ZWNavigationViewController.m in Sources */,
@@ -851,6 +970,10 @@
 				720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */,
 				72F7FFAB1F21FFA000BFC7E6 /* UILabel+Fast.m in Sources */,
 				72F7FFA71F21FFA000BFC7E6 /* UIImage+Extension.m in Sources */,
+				720A26711FDD637400C470DA /* ChineseInclude.m in Sources */,
+				720A26771FDD637400C470DA /* PinyinHelper.m in Sources */,
+				720A26751FDD637400C470DA /* PinyinFormatter.m in Sources */,
+				720A264F1FDD530D00C470DA /* ZWCompanyViewController.m in Sources */,
 				72D9E2211F25EA3400FED4A4 /* ThreeViewController.m in Sources */,
 				720A26391FDD238E00C470DA /* ZWCoverModel_2_Cell.m in Sources */,
 				72F7FF611F21FDDC00BFC7E6 /* NHFileCacheManager.m in Sources */,
@@ -862,6 +985,8 @@
 				72F7FED61F21F1DC00BFC7E6 /* main.m in Sources */,
 				5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */,
 				72F7FF9F1F21FFA000BFC7E6 /* NSDictionary+Addition.m in Sources */,
+				720A26761FDD637400C470DA /* PinYinForObjc.m in Sources */,
+				720A26741FDD637400C470DA /* NSString+PinYin4Cocoa.m in Sources */,
 				72F7FFA21F21FFA000BFC7E6 /* NSString+Addition.m in Sources */,
 				7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */,
 				72F7FFC21F22010400BFC7E6 /* NHCommonConstant.m in Sources */,
@@ -871,10 +996,15 @@
 				72F7FF9D1F21FFA000BFC7E6 /* DataSafe.m in Sources */,
 				72F7FFA61F21FFA000BFC7E6 /* UIFont+Extension.m in Sources */,
 				72F7FFAA1F21FFA000BFC7E6 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
+				720A264C1FDD52FE00C470DA /* ZWCityDetailViewController.m in Sources */,
+				720A26791FDD637400C470DA /* ZYPinYinSearch.m in Sources */,
 				72F7FFCF1F22014F00BFC7E6 /* NHBaseTableViewCell.m in Sources */,
 				72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */,
 				72F7FFA41F21FFA000BFC7E6 /* UIButton+fast.m in Sources */,
+				720A266F1FDD637400C470DA /* CityItem.m in Sources */,
 				72F7FFB81F21FFDE00BFC7E6 /* LCProgressHUD.m in Sources */,
+				720A266C1FDD637400C470DA /* ButtonGroupView.m in Sources */,
+				720A26731FDD637400C470DA /* HanyuPinyinOutputFormat.m in Sources */,
 				72F7FFCD1F22014F00BFC7E6 /* NHBaseTableHeaderFooterView.m in Sources */,
 				72F7FF0D1F21F7C300BFC7E6 /* ZWBaseTableViewController.m in Sources */,
 				720A263E1FDD2D8E00C470DA /* CollectionViewCell.m in Sources */,

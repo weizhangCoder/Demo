@@ -13,13 +13,24 @@
 #import "DataModel.h"
 #import "home_headView.h"
 
-@interface FirstViewController ()
+#import "ZWCompanyViewController.h"
+
+#import "CityListViewController.h"
+
+
+@interface FirstViewController ()<CityListViewDelegate>
 @property (nonatomic,strong)NSMutableArray *group;
 @end
 
 @implementation FirstViewController
 
 #pragma mark --------------------------LifeCycle----------------------/
+- (instancetype)initWithStyle:(UITableViewStyle)style{
+    if (self = [super initWithStyle:UITableViewStyleGrouped]) {
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -33,6 +44,7 @@
 //
 //    self.tableView.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10);
 //    self.tableView.separatorColor = [UIColor colorFromHex:@"#999999" alpha:0.3];
+    
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.backgroundColor = [UIColor colorBackWithBackView];
        NSLog(@"viewDidLayoutSubviews  %@",NSStringFromCGRect(self.view.frame));
@@ -45,11 +57,35 @@
     self.tableView.tableHeaderView = headView;
     [headView setSegmetBlock:^(NSInteger index) {
         NSLog(@"======%ld",index);
-        
+        if (index == 0) {
+          ZWCompanyViewController *company =  [ZWCompanyViewController new];
+          [self pushVc:company];
+        }else{
+            [self pushCity];
+//            ZWCityViewController *city =  [ZWCityViewController new];
+//            city.title = @"城市信用";
+//            [self pushVc:city];
+        }
     }];
   
 }
 
+- (void)pushCity{
+    CityListViewController *cityListView = [[CityListViewController alloc]init];
+    cityListView.delegate = self;
+    cityListView.title = @"城市信用";
+    //热门城市列表
+    cityListView.arrayHotCity = [NSMutableArray arrayWithObjects:@"北京",@"上海",@"天津",@"深圳",@"广州",@"厦门",@"重庆",@"福州",@"泉州",@"济南",@"长沙",@"无锡", nil];
+    //历史选择城市列表
+    cityListView.arrayHistoricalCity = [NSMutableArray arrayWithObjects:@"北京",@"上海",@"天津", nil];
+    //定位城市列表
+    cityListView.arrayLocatingCity   = [NSMutableArray arrayWithObjects:@"北京", nil];
+    [self.navigationController pushViewController:cityListView animated:YES];
+    //    [self presentViewController:cityListView animated:YES completion:nil];
+}
+- (void)didClickedWithCityName:(NSString*)cityName{
+    
+}
 - (void)login{
     
     
