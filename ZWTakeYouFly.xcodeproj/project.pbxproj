@@ -40,6 +40,11 @@
 		720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26801FDD757C00C470DA /* NSArray+ZMAdd.m */; };
 		720A26871FDD757D00C470DA /* MoreDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26831FDD757C00C470DA /* MoreDropDownMenu.m */; };
 		720A26881FDD757D00C470DA /* MoreDropDownMenuRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26851FDD757C00C470DA /* MoreDropDownMenuRowCell.m */; };
+		720A268C1FDEACFE00C470DA /* ListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A268A1FDEACFE00C470DA /* ListCollectionViewCell.m */; };
+		720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A268B1FDEACFE00C470DA /* ListCollectionViewCell.xib */; };
+		7229831A1FDEB00700F950EE /* HGSpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 722983191FDEB00700F950EE /* HGSpecialModel.m */; };
+		7229831E1FDEBD1600F950EE /* ZWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7229831C1FDEBD1600F950EE /* ZWTableViewCell.m */; };
+		7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7229831D1FDEBD1600F950EE /* ZWTableViewCell.xib */; };
 		722AD9B11F46BF0000336154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B01F46BF0000336154 /* SystemConfiguration.framework */; };
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
@@ -154,6 +159,14 @@
 		720A26831FDD757C00C470DA /* MoreDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenu.m; sourceTree = "<group>"; };
 		720A26841FDD757C00C470DA /* MoreDropDownMenuRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenuRowCell.h; sourceTree = "<group>"; };
 		720A26851FDD757C00C470DA /* MoreDropDownMenuRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenuRowCell.m; sourceTree = "<group>"; };
+		720A26891FDEACFE00C470DA /* ListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCollectionViewCell.h; sourceTree = "<group>"; };
+		720A268A1FDEACFE00C470DA /* ListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCollectionViewCell.m; sourceTree = "<group>"; };
+		720A268B1FDEACFE00C470DA /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		722983181FDEB00700F950EE /* HGSpecialModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGSpecialModel.h; sourceTree = "<group>"; };
+		722983191FDEB00700F950EE /* HGSpecialModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGSpecialModel.m; sourceTree = "<group>"; };
+		7229831B1FDEBD1600F950EE /* ZWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTableViewCell.h; sourceTree = "<group>"; };
+		7229831C1FDEBD1600F950EE /* ZWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTableViewCell.m; sourceTree = "<group>"; };
+		7229831D1FDEBD1600F950EE /* ZWTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWTableViewCell.xib; sourceTree = "<group>"; };
 		722AD9B01F46BF0000336154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -291,6 +304,8 @@
 			children = (
 				720A26411FDD2E9000C470DA /* DataModel.h */,
 				720A26421FDD2E9000C470DA /* DataModel.m */,
+				722983181FDEB00700F950EE /* HGSpecialModel.h */,
+				722983191FDEB00700F950EE /* HGSpecialModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -410,6 +425,12 @@
 				720A26441FDD43D100C470DA /* home_headView.h */,
 				720A26451FDD43D100C470DA /* home_headView.m */,
 				720A26471FDD43E400C470DA /* home_headView.xib */,
+				720A26891FDEACFE00C470DA /* ListCollectionViewCell.h */,
+				720A268A1FDEACFE00C470DA /* ListCollectionViewCell.m */,
+				720A268B1FDEACFE00C470DA /* ListCollectionViewCell.xib */,
+				7229831B1FDEBD1600F950EE /* ZWTableViewCell.h */,
+				7229831C1FDEBD1600F950EE /* ZWTableViewCell.m */,
+				7229831D1FDEBD1600F950EE /* ZWTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -908,6 +929,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */,
 				720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */,
 				720A266E1FDD637400C470DA /* citydict.plist in Resources */,
 				720A263F1FDD2D8E00C470DA /* CollectionViewCell.xib in Resources */,
@@ -916,6 +938,7 @@
 				720A26351FDD237E00C470DA /* ZWCoverModel_0_Cell.xib in Resources */,
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
+				720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
 				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
 			);
@@ -996,6 +1019,7 @@
 				720A267D1FDD65B300C470DA /* LXSegmentBtnView.m in Sources */,
 				72F7FFA51F21FFA000BFC7E6 /* UIColor+applianceHex.m in Sources */,
 				72F7FF9E1F21FFA000BFC7E6 /* NSNotificationCenter+Addition.m in Sources */,
+				720A268C1FDEACFE00C470DA /* ListCollectionViewCell.m in Sources */,
 				72D9E2291F25F5CD00FED4A4 /* ZWNavigationViewController.m in Sources */,
 				72F7FFA31F21FFA000BFC7E6 /* UIBarButtonItem+WNXBarButtonItem.m in Sources */,
 				720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */,
@@ -1003,6 +1027,7 @@
 				72F7FFA71F21FFA000BFC7E6 /* UIImage+Extension.m in Sources */,
 				720A26711FDD637400C470DA /* ChineseInclude.m in Sources */,
 				720A26771FDD637400C470DA /* PinyinHelper.m in Sources */,
+				7229831A1FDEB00700F950EE /* HGSpecialModel.m in Sources */,
 				720A26751FDD637400C470DA /* PinyinFormatter.m in Sources */,
 				720A264F1FDD530D00C470DA /* ZWCompanyViewController.m in Sources */,
 				720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */,
@@ -1012,6 +1037,7 @@
 				72F7FFAC1F21FFA000BFC7E6 /* UIView+IBExtension.m in Sources */,
 				72F7FFA81F21FFA000BFC7E6 /* UIImageView+CornerRadius.m in Sources */,
 				72F7FFAD1F21FFA000BFC7E6 /* UIView+Layer.m in Sources */,
+				7229831E1FDEBD1600F950EE /* ZWTableViewCell.m in Sources */,
 				720A26461FDD43D100C470DA /* home_headView.m in Sources */,
 				72F7FF0E1F21F7C300BFC7E6 /* ZWBaseViewController.m in Sources */,
 				72F7FED61F21F1DC00BFC7E6 /* main.m in Sources */,
@@ -1149,6 +1175,10 @@
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZWTakeYouFly/Classes/ThirdParty/MLSearchBar\\ Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1163,6 +1193,10 @@
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZWTakeYouFly/Classes/ThirdParty/MLSearchBar\\ Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -8,12 +8,20 @@
 
 #import "ZWCompanyViewController.h"
 #import "MoreDropDownMenu.h"
+#import "ListCollectionViewCell.h"
+#import "HGSpecialModel.h"
+#import "ZWTableViewCell.h"
 
-@interface ZWCompanyViewController ()<MoreDropDownMenuDataSource,MoreDropDownMenuDelegate>
+
+#define HGSpecialName  @"HGSpecialName"
+@interface ZWCompanyViewController ()<MoreDropDownMenuDataSource,MoreDropDownMenuDelegate,UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray               *cates;
 @property (nonatomic, strong) NSArray               *states;
 @property (nonatomic, strong) NSArray               *sorts;
 @property (nonatomic, strong) MoreDropDownMenu       *menu;
+
+@property (nonatomic,strong) NSMutableArray *specialArr;
+@property (nonatomic,strong)UITableView *tableView;
 @end
 
 @implementation ZWCompanyViewController
@@ -22,8 +30,53 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"u382" target:self action:@selector(backHome) width:20 height:20];
+    
     [self setup];
+    
+    [self.view addSubview:self.tableView];
+
+    
+
+    
+  
+    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 250, 35)];//allocate titleView
+    UIColor *color = [UIColor whiteColor];
+    [titleView setBackgroundColor:color];
+    
+    UISearchBar *searchBar = [[UISearchBar alloc] init];
+//    searchBar.delegate = self;
+    searchBar.placeholder = @"请输入查询内容";
+    searchBar.frame = CGRectMake(0, 0, 240, 35);
+    searchBar.backgroundColor = color;
+    searchBar.layer.cornerRadius = 18;
+    searchBar.layer.masksToBounds = YES;
+    [titleView addSubview:searchBar];
+    ViewRadius(titleView, 10);
+    //Set to titleView
+    self.navigationItem.titleView = titleView;
+    
+    NSMutableArray *headImageNames = [[NSMutableArray alloc]initWithObjects:@"u236",@"u272",@"u292",@"u312",@"u332",@"u368",@"u370", nil];
+    NSMutableArray *companys = [[NSMutableArray alloc]initWithObjects:@"小米科技有限公司",@"万科企业股份有限公司",@"北京宝亿嵘影业有限公司",@"中新力和有限公司",@"上海巨人网络有限公司",@"珠海格力集团有限公司",@"厦门美图网络科技有限公司", nil];
+    NSMutableArray *farenrray = [[NSMutableArray alloc]initWithObjects:@"法定代表人\n雷军",@"法定代表人\n郁亮",@"法定代表人\n任晓妍",@"法定代表人\n陈杭生",@"法定代表人\n刘伟",@"法定代表人\n周乐伟",@"法定代表人\n吴泽源", nil];
+    NSMutableArray *moneyArray = [[NSMutableArray alloc]initWithObjects:@"注册资本\n13200万元人民币",@"注册资本\n1099521.0218万元人民币",@"注册资本\n2000万元人民币",@"注册资本\n5300万元人民币",@"注册资本\n300万元人民币",@"注册资本\n180000万元人民币",@"注册资本\n13200万元人民币", nil];
+    NSMutableArray *timeArrays = [NSMutableArray arrayWithObjects:@"注册时间\n2010-03-03",@"注册时间\n1984-05-30",@"注册时间\n2010-08-30",@"注册时间\n2004-05-18",@"注册时间\n2004-11-18",@"注册时间\n1990-12-15",@"注册时间\n2003-06-18", nil];
+
+    
+    for (int i = 0; i < farenrray.count; i++) {
+        HGSpecialModel *model = [[HGSpecialModel alloc]init];
+        model.farenName = farenrray[i];
+        model.companyName = companys[i];
+        model.imageName = headImageNames[i];
+        model.moneyName = moneyArray[i];
+        model.timeName =  timeArrays[i];
+        [self.specialArr addObject:model];
+    }
+    [_tableView reloadData];
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+}
+
 - (void)backHome{
     [self popToRootVc];
 }
@@ -95,19 +148,93 @@
     
     NSLog(@"点击了菜单");
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSMutableArray *)specialArr
+{
+    if(_specialArr==nil) {
+        _specialArr=[NSMutableArray array];
+    }
+    return _specialArr;
+}
+#pragma mark - Table view data source
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+
+    return _specialArr.count;
+}
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    
+    
+    return 1;
+    
+    
 }
 
-/*
-#pragma mark - Navigation
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    ZWTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HGSpecialName];
+    if (cell == nil) {
+        cell = [ZWTableViewCell viewFromXib];
+    }
+    cell.model = self.specialArr[indexPath.row];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    return cell;
+    
+    
 }
-*/
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    
+    return 0.01;
+    
+}
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    UIView *viewFoot = [[UIView alloc]init];
+//    viewFoot.backgroundColor = JYControllerBackColor;
+    return viewFoot;
+}
+
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+
+    
+    return 0.01;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    
+    
+    return nil;
+    
+}
+
+
+
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+   
+}
+- (UITableView *)tableView{
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,50, kScreen_Width, kScreen_Height - 50- kNavigationHeight) style:UITableViewStylePlain];
+        _tableView.tableFooterView = [[UIView alloc]init];
+        _tableView.rowHeight = 100;
+        _tableView.separatorColor = [UIColor colorLine];
+        _tableView.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10);
+//        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+//        _tableView.backgroundColor = [UIColor clearColor];
+//        _tableView.tableFooterView.hidden = YES;
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+
+    }
+    
+    return _tableView;
+}
 
 @end
