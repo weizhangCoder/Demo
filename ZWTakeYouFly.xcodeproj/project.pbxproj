@@ -45,6 +45,7 @@
 		7229831A1FDEB00700F950EE /* HGSpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 722983191FDEB00700F950EE /* HGSpecialModel.m */; };
 		7229831E1FDEBD1600F950EE /* ZWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7229831C1FDEBD1600F950EE /* ZWTableViewCell.m */; };
 		7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7229831D1FDEBD1600F950EE /* ZWTableViewCell.xib */; };
+		7229832B1FDEE16100F950EE /* ZWComeyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7229832A1FDEE16100F950EE /* ZWComeyDetailViewController.m */; };
 		722AD9B11F46BF0000336154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B01F46BF0000336154 /* SystemConfiguration.framework */; };
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
@@ -167,6 +168,8 @@
 		7229831B1FDEBD1600F950EE /* ZWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTableViewCell.h; sourceTree = "<group>"; };
 		7229831C1FDEBD1600F950EE /* ZWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTableViewCell.m; sourceTree = "<group>"; };
 		7229831D1FDEBD1600F950EE /* ZWTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWTableViewCell.xib; sourceTree = "<group>"; };
+		722983291FDEE16100F950EE /* ZWComeyDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWComeyDetailViewController.h; sourceTree = "<group>"; };
+		7229832A1FDEE16100F950EE /* ZWComeyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWComeyDetailViewController.m; sourceTree = "<group>"; };
 		722AD9B01F46BF0000336154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -317,6 +320,8 @@
 				720A264B1FDD52FE00C470DA /* ZWCityDetailViewController.m */,
 				720A264D1FDD530D00C470DA /* ZWCompanyViewController.h */,
 				720A264E1FDD530D00C470DA /* ZWCompanyViewController.m */,
+				722983291FDEE16100F950EE /* ZWComeyDetailViewController.h */,
+				7229832A1FDEE16100F950EE /* ZWComeyDetailViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1031,6 +1036,7 @@
 				720A26751FDD637400C470DA /* PinyinFormatter.m in Sources */,
 				720A264F1FDD530D00C470DA /* ZWCompanyViewController.m in Sources */,
 				720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */,
+				7229832B1FDEE16100F950EE /* ZWComeyDetailViewController.m in Sources */,
 				72D9E2211F25EA3400FED4A4 /* ThreeViewController.m in Sources */,
 				720A26391FDD238E00C470DA /* ZWCoverModel_2_Cell.m in Sources */,
 				72F7FF611F21FDDC00BFC7E6 /* NHFileCacheManager.m in Sources */,
