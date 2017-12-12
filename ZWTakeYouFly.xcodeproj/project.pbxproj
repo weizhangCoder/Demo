@@ -53,6 +53,14 @@
 		723688331FE00F34008A14DC /* bottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688321FE00F34008A14DC /* bottomView.xib */; };
 		723688361FE015D1008A14DC /* topView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723688351FE015D1008A14DC /* topView.m */; };
 		723688381FE015DF008A14DC /* topView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688371FE015DF008A14DC /* topView.xib */; };
+		7236883D1FE01E64008A14DC /* one_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7236883B1FE01E64008A14DC /* one_CollectionViewCell.m */; };
+		7236883E1FE01E64008A14DC /* one_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7236883C1FE01E64008A14DC /* one_CollectionViewCell.xib */; };
+		723688421FE01E73008A14DC /* two_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723688401FE01E73008A14DC /* two_CollectionViewCell.m */; };
+		723688431FE01E73008A14DC /* two_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688411FE01E73008A14DC /* two_CollectionViewCell.xib */; };
+		723688471FE01E97008A14DC /* three_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723688451FE01E97008A14DC /* three_CollectionViewCell.m */; };
+		723688481FE01E97008A14DC /* three_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688461FE01E97008A14DC /* three_CollectionViewCell.xib */; };
+		7236884C1FE01EC3008A14DC /* head_CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */; };
+		7236884D1FE01EC3008A14DC /* head_CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */; };
 		7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */; };
 		7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */; };
 		7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */; };
@@ -187,6 +195,18 @@
 		723688341FE015D1008A14DC /* topView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = topView.h; sourceTree = "<group>"; };
 		723688351FE015D1008A14DC /* topView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topView.m; sourceTree = "<group>"; };
 		723688371FE015DF008A14DC /* topView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = topView.xib; sourceTree = "<group>"; };
+		7236883A1FE01E64008A14DC /* one_CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = one_CollectionViewCell.h; sourceTree = "<group>"; };
+		7236883B1FE01E64008A14DC /* one_CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = one_CollectionViewCell.m; sourceTree = "<group>"; };
+		7236883C1FE01E64008A14DC /* one_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = one_CollectionViewCell.xib; sourceTree = "<group>"; };
+		7236883F1FE01E73008A14DC /* two_CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = two_CollectionViewCell.h; sourceTree = "<group>"; };
+		723688401FE01E73008A14DC /* two_CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = two_CollectionViewCell.m; sourceTree = "<group>"; };
+		723688411FE01E73008A14DC /* two_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = two_CollectionViewCell.xib; sourceTree = "<group>"; };
+		723688441FE01E97008A14DC /* three_CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = three_CollectionViewCell.h; sourceTree = "<group>"; };
+		723688451FE01E97008A14DC /* three_CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = three_CollectionViewCell.m; sourceTree = "<group>"; };
+		723688461FE01E97008A14DC /* three_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = three_CollectionViewCell.xib; sourceTree = "<group>"; };
+		723688491FE01EC3008A14DC /* head_CollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = head_CollectionReusableView.h; sourceTree = "<group>"; };
+		7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = head_CollectionReusableView.m; sourceTree = "<group>"; };
+		7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = head_CollectionReusableView.xib; sourceTree = "<group>"; };
 		7275B66B1F2EC3DC00F5016A /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		7285D5A31FDFF8B40081AF93 /* detail_0_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_0_Cell.h; sourceTree = "<group>"; };
@@ -418,6 +438,25 @@
 			path = MoreDropDownMenu;
 			sourceTree = "<group>";
 		};
+		723688391FE01D56008A14DC /* citydetail */ = {
+			isa = PBXGroup;
+			children = (
+				7236883A1FE01E64008A14DC /* one_CollectionViewCell.h */,
+				7236883B1FE01E64008A14DC /* one_CollectionViewCell.m */,
+				7236883C1FE01E64008A14DC /* one_CollectionViewCell.xib */,
+				7236883F1FE01E73008A14DC /* two_CollectionViewCell.h */,
+				723688401FE01E73008A14DC /* two_CollectionViewCell.m */,
+				723688411FE01E73008A14DC /* two_CollectionViewCell.xib */,
+				723688441FE01E97008A14DC /* three_CollectionViewCell.h */,
+				723688451FE01E97008A14DC /* three_CollectionViewCell.m */,
+				723688461FE01E97008A14DC /* three_CollectionViewCell.xib */,
+				723688491FE01EC3008A14DC /* head_CollectionReusableView.h */,
+				7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */,
+				7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */,
+			);
+			path = citydetail;
+			sourceTree = "<group>";
+		};
 		7285D5A21FDFF88C0081AF93 /* detailView */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +491,7 @@
 		72E02C0C1FDD0E2400AC0D57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				723688391FE01D56008A14DC /* citydetail */,
 				7285D5A21FDFF88C0081AF93 /* detailView */,
 				720A262A1FDD15D200C470DA /* JYCustomButton.h */,
 				720A26291FDD15D200C470DA /* JYCustomButton.m */,
@@ -979,21 +1019,25 @@
 			files = (
 				7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */,
 				7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */,
+				7236884D1FE01EC3008A14DC /* head_CollectionReusableView.xib in Resources */,
 				720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */,
 				720A266E1FDD637400C470DA /* citydict.plist in Resources */,
 				720A263F1FDD2D8E00C470DA /* CollectionViewCell.xib in Resources */,
 				72E02C0E1FDD0E4C00AC0D57 /* me_headView.xib in Resources */,
 				720A26781FDD637400C470DA /* unicode_to_hanyu_pinyin.txt in Resources */,
+				7236883E1FE01E64008A14DC /* one_CollectionViewCell.xib in Resources */,
 				720A26351FDD237E00C470DA /* ZWCoverModel_0_Cell.xib in Resources */,
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
 				723688381FE015DF008A14DC /* topView.xib in Resources */,
 				720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */,
 				7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */,
+				723688431FE01E73008A14DC /* two_CollectionViewCell.xib in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
 				7285D5B11FDFFFCF0081AF93 /* CompanyView.xib in Resources */,
 				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
 				723688331FE00F34008A14DC /* bottomView.xib in Resources */,
+				723688481FE01E97008A14DC /* three_CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,9 +1098,11 @@
 			files = (
 				72D9E2201F25EA3400FED4A4 /* FourViewController.m in Sources */,
 				72D9E20A1F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m in Sources */,
+				7236883D1FE01E64008A14DC /* one_CollectionViewCell.m in Sources */,
 				72F7FEFE1F21F67C00BFC7E6 /* AppDelegate.m in Sources */,
 				72F7FFBC1F2200A800BFC7E6 /* ZWUserInfoManager.m in Sources */,
 				72D9E2301F26D77600FED4A4 /* HcdGuideViewCell.m in Sources */,
+				723688471FE01E97008A14DC /* three_CollectionViewCell.m in Sources */,
 				720A26721FDD637400C470DA /* ChineseToPinyinResource.m in Sources */,
 				72F7FFA91F21FFA000BFC7E6 /* UIImageView+Extension.m in Sources */,
 				72F7FFB01F21FFA000BFC7E6 /* UIViewController+ZWBaseMethods.m in Sources */,
@@ -1086,6 +1132,7 @@
 				720A26861FDD757D00C470DA /* NSArray+ZMAdd.m in Sources */,
 				7229832B1FDEE16100F950EE /* ZWComeyDetailViewController.m in Sources */,
 				72D9E2211F25EA3400FED4A4 /* ThreeViewController.m in Sources */,
+				723688421FE01E73008A14DC /* two_CollectionViewCell.m in Sources */,
 				720A26391FDD238E00C470DA /* ZWCoverModel_2_Cell.m in Sources */,
 				72F7FF611F21FDDC00BFC7E6 /* NHFileCacheManager.m in Sources */,
 				72F7FFAC1F21FFA000BFC7E6 /* UIView+IBExtension.m in Sources */,
@@ -1096,6 +1143,7 @@
 				72F7FF0E1F21F7C300BFC7E6 /* ZWBaseViewController.m in Sources */,
 				72F7FED61F21F1DC00BFC7E6 /* main.m in Sources */,
 				5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */,
+				7236884C1FE01EC3008A14DC /* head_CollectionReusableView.m in Sources */,
 				72F7FF9F1F21FFA000BFC7E6 /* NSDictionary+Addition.m in Sources */,
 				720A26761FDD637400C470DA /* PinYinForObjc.m in Sources */,
 				720A26741FDD637400C470DA /* NSString+PinYin4Cocoa.m in Sources */,

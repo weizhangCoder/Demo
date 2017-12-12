@@ -5,12 +5,27 @@
 //  Created by Zhangwei on 2017/12/10.
 //  Copyright © 2017年 zw. All rights reserved.
 //
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 
 #import "ZWCityDetailViewController.h"
+#import "one_CollectionViewCell.h"
+#import "two_CollectionViewCell.h"
+#import "three_CollectionViewCell.h"
+#import "head_CollectionReusableView.h"
+
+static NSString * const JYindentify_one = @"one_cityIdentifier";//collection
+static NSString * const JYindentify_two = @"two_cityIdentifier";//collection
+static NSString * const JYindentify_three = @"three_cityIdentifier";//collection
+
+static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
 
 
+@interface ZWCityDetailViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 
-@interface ZWCityDetailViewController ()
+@property(strong,nonatomic)UICollectionView *myCollectionV;
+@property (nonatomic , strong) UICollectionViewFlowLayout *flow;
 
 @end
 
@@ -19,11 +34,139 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor colorBackWithBackView];
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"u382" target:self action:@selector(backHome) width:20 height:20];
     
-  
+    [self setup];
 }
 
+
+- (void)setup{
+    
+    if (!_myCollectionV) {
+        
+        UICollectionViewFlowLayout *flow = [UICollectionViewFlowLayout new];
+//        //格子的大小 (长，高)
+//        flow.itemSize = CGSizeMake((kScreen_Width /4) ,Kcell_0_H);
+//        //横向最小距离
+//        flow.minimumInteritemSpacing = 0;
+//        //代表的是纵向的空间间隔
+//        flow.minimumLineSpacing=0;
+//        //设置，上／左／下／右 边距 空间间隔数是多少
+//        flow.sectionInset = UIEdgeInsetsMake(0,20,0,20);
+        [flow setScrollDirection:UICollectionViewScrollDirectionVertical];
+        
+        flow.headerReferenceSize = CGSizeMake(kScreen_Width, 40);
+        flow.footerReferenceSize = CGSizeMake(0, 0);
+        self.flow = flow;
+        
+        
+        _myCollectionV = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height) collectionViewLayout:flow];
+        _myCollectionV.backgroundColor = [UIColor clearColor];
+//        _myCollectionV.scrollEnabled = NO;
+        //设置代理为当前控制器
+        _myCollectionV.delegate = self;
+        _myCollectionV.dataSource = self;
+        _myCollectionV.contentInset = UIEdgeInsetsMake(0,20,0,20);
+        
+        
+        
+#pragma mark -- 注册单元格
+        
+        [_myCollectionV registerNib:[UINib nibWithNibName:NSStringFromClass([one_CollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:JYindentify_one];
+        [_myCollectionV registerNib:[UINib nibWithNibName:NSStringFromClass([two_CollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:JYindentify_two];
+        [_myCollectionV registerNib:[UINib nibWithNibName:NSStringFromClass([three_CollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:JYindentify_three];
+        
+        
+        //#pragma mark -- 注册头部视图
+        [_myCollectionV registerClass:[head_CollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:JYHeaderindentify];
+        
+        
+        //添加视图
+        [self.view addSubview:_myCollectionV];
+        
+        
+    }
+    
+    
+}
+
+#pragma mark --UICollectionView dataSource
+
+//每个section有多少个元素
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    if (section != 2) {
+        return 6;
+    }
+    return 1;
+}
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 3;
+}
+//- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
+//
+//    return UIEdgeInsetsMake(0, 20, 0, 20);
+//}
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        return CGSizeMake((kScreenWidth - 40 -10)/2, 100);
+    }else if (indexPath.section == 1){
+        return CGSizeMake((kScreenWidth - 40)/3, 60);
+    }
+    return CGSizeMake(kScreenWidth, 150);
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
+    if (section == 0) {
+        return 10;
+    }
+    return 0;
+}
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
+    if (section == 0) {
+        return 10;
+    }
+    return 0;
+}
+//每个单元格的数据
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if (indexPath.section == 0) {
+    one_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_one forIndexPath:indexPath];
+        return cell;
+    }else if (indexPath.section == 1){
+        NSArray *array = [NSArray arrayWithObjects:@"城市概况",@"诚信聚焦",@"法律法规",@"市场监管",@"立信企业",@"城市评论", nil];
+        two_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_two forIndexPath:indexPath];
+        NSString *name  = array[indexPath.row];
+        [cell.btnName setTitle:name forState:UIControlStateNormal];
+        cell.btnName.backgroundColor = randomColor;
+        ViewRadius(cell.btnName, 5);
+        return cell;
+    }
+    three_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_three forIndexPath:indexPath];
+    return cell;
+    
+    
+}
+//创建头视图
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
+           viewForSupplementaryElementOfKind:(NSString *)kind
+                                 atIndexPath:(NSIndexPath *)indexPath {
+    
+    head_CollectionReusableView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader
+                                                                            withReuseIdentifier:JYHeaderindentify
+                                                                                   forIndexPath:indexPath];
+    headView.backgroundColor = [UIColor clearColor];
+    if (indexPath.section == 0) {
+        headView.headTitle.text = @"信用名片";
+    }else if (indexPath.section == 1){
+        headView.headTitle.text = @"管理规划";
+    }
+       headView.headTitle.text = @"城市概况";
+    return headView;
+}
 - (void)backHome{
     [self popToRootVc];
 }
