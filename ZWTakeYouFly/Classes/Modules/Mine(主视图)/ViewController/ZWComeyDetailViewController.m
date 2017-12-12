@@ -24,6 +24,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view addSubview:self.tableView];
+    UIView * headView = [[UIView alloc]init];
+    headView.frame = CGRectMake(0, 0, kScreenWidth, 200);
+    self.tableView.tableHeaderView = headView;
 }
 - (UITableView *)tableView{
     if (_tableView == nil) {
@@ -99,6 +102,13 @@
     if (indexPath.section == 0) {
      detail_0_Cell *cell = [detail_0_Cell nibCellWithTableView:tableView];
         //        cell.group = self.group;
+        if (indexPath.row == 0) {
+            cell.textLabel.text = @"企业情报动态";
+            cell.subTitle.text = @"共有1076条动态";
+        }else{
+            cell.textLabel.text = @"小米科技";
+            cell.subTitle.text = @"E轮";
+        }
         return cell;
         
     }else if (indexPath.section == 1){

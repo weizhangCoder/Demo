@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CompanyView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFd-Id-ncQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="法定代表人\n雷军" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3G-yV-GZ9">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="80"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmt-BV-skp">
+                            <rect key="frame" x="125" y="0.0" width="125" height="80"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dsf " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2U-uD-0Lv">
+                            <rect key="frame" x="250" y="0.0" width="125" height="80"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Cmt-BV-skp" secondAttribute="bottom" id="0jU-xk-foX"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="width" secondItem="e2U-uD-0Lv" secondAttribute="width" id="1wg-j5-ORY"/>
+                        <constraint firstAttribute="bottom" secondItem="v3G-yV-GZ9" secondAttribute="bottom" id="26E-Dg-yBT"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="height" secondItem="Cmt-BV-skp" secondAttribute="height" id="2yQ-Lk-Xaj"/>
+                        <constraint firstItem="Cmt-BV-skp" firstAttribute="leading" secondItem="v3G-yV-GZ9" secondAttribute="trailing" id="3Jm-eY-k7P"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="height" secondItem="e2U-uD-0Lv" secondAttribute="height" id="5Of-c2-fTi"/>
+                        <constraint firstItem="e2U-uD-0Lv" firstAttribute="leading" secondItem="Cmt-BV-skp" secondAttribute="trailing" id="7WR-mC-l5G"/>
+                        <constraint firstItem="Cmt-BV-skp" firstAttribute="leading" secondItem="v3G-yV-GZ9" secondAttribute="trailing" id="9f8-7I-D9O"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="leading" secondItem="xFd-Id-ncQ" secondAttribute="leading" id="FfR-BN-KrW"/>
+                        <constraint firstItem="e2U-uD-0Lv" firstAttribute="top" secondItem="xFd-Id-ncQ" secondAttribute="top" id="NG1-rJ-RCe"/>
+                        <constraint firstAttribute="trailing" secondItem="e2U-uD-0Lv" secondAttribute="trailing" id="RA3-Ch-Liu"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="width" secondItem="Cmt-BV-skp" secondAttribute="width" id="aYU-6b-Cds"/>
+                        <constraint firstItem="v3G-yV-GZ9" firstAttribute="top" secondItem="xFd-Id-ncQ" secondAttribute="top" id="ccq-qc-Rf3"/>
+                        <constraint firstItem="Cmt-BV-skp" firstAttribute="top" secondItem="xFd-Id-ncQ" secondAttribute="top" id="gFy-wD-hS7"/>
+                        <constraint firstAttribute="bottom" secondItem="e2U-uD-0Lv" secondAttribute="bottom" id="wnM-12-FKZ"/>
+                        <constraint firstItem="e2U-uD-0Lv" firstAttribute="leading" secondItem="Cmt-BV-skp" secondAttribute="trailing" id="xKP-jK-vVo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xFd-Id-ncQ" secondAttribute="bottom" id="9iT-Th-S3a"/>
+                <constraint firstItem="xFd-Id-ncQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Iv5-GK-KXH"/>
+                <constraint firstAttribute="trailing" secondItem="xFd-Id-ncQ" secondAttribute="trailing" id="mSD-4h-AjA"/>
+                <constraint firstItem="xFd-Id-ncQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ugM-yP-kyG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

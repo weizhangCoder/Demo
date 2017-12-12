@@ -9,5 +9,6 @@
 #import "NHBaseTableViewCell.h"
 
 @interface detail_0_Cell : NHBaseTableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *subTitle;
 
 @end

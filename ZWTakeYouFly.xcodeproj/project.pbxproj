@@ -55,6 +55,8 @@
 		7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */; };
 		7285D5AB1FDFF8D10081AF93 /* detail_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A91FDFF8D10081AF93 /* detail_2.m */; };
 		7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5AA1FDFF8D10081AF93 /* detail_2.xib */; };
+		7285D5AF1FDFFFB60081AF93 /* CompanyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5AE1FDFFFB60081AF93 /* CompanyView.m */; };
+		7285D5B11FDFFFCF0081AF93 /* CompanyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5B01FDFFFCF0081AF93 /* CompanyView.xib */; };
 		72D9E20A1F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E2091F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m */; };
 		72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E2181F25EA3400FED4A4 /* FirstViewController.m */; };
 		72D9E2201F25EA3400FED4A4 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E21A1F25EA3400FED4A4 /* FourViewController.m */; };
@@ -186,6 +188,9 @@
 		7285D5A81FDFF8D10081AF93 /* detail_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_2.h; sourceTree = "<group>"; };
 		7285D5A91FDFF8D10081AF93 /* detail_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detail_2.m; sourceTree = "<group>"; };
 		7285D5AA1FDFF8D10081AF93 /* detail_2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detail_2.xib; sourceTree = "<group>"; };
+		7285D5AD1FDFFFB60081AF93 /* CompanyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyView.h; sourceTree = "<group>"; };
+		7285D5AE1FDFFFB60081AF93 /* CompanyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyView.m; sourceTree = "<group>"; };
+		7285D5B01FDFFFCF0081AF93 /* CompanyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyView.xib; sourceTree = "<group>"; };
 		72D9E2081F25CE6F00FED4A4 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
 		72D9E2091F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
 		72D9E2171F25EA3400FED4A4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -415,6 +420,9 @@
 				7285D5A81FDFF8D10081AF93 /* detail_2.h */,
 				7285D5A91FDFF8D10081AF93 /* detail_2.m */,
 				7285D5AA1FDFF8D10081AF93 /* detail_2.xib */,
+				7285D5AD1FDFFFB60081AF93 /* CompanyView.h */,
+				7285D5AE1FDFFFB60081AF93 /* CompanyView.m */,
+				7285D5B01FDFFFCF0081AF93 /* CompanyView.xib */,
 			);
 			path = detailView;
 			sourceTree = "<group>";
@@ -971,6 +979,7 @@
 				720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */,
 				7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
+				7285D5B11FDFFFCF0081AF93 /* CompanyView.xib in Resources */,
 				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1095,6 +1104,7 @@
 				72F7FFCF1F22014F00BFC7E6 /* NHBaseTableViewCell.m in Sources */,
 				72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */,
 				72F7FFA41F21FFA000BFC7E6 /* UIButton+fast.m in Sources */,
+				7285D5AF1FDFFFB60081AF93 /* CompanyView.m in Sources */,
 				720A266F1FDD637400C470DA /* CityItem.m in Sources */,
 				72F7FFB81F21FFDE00BFC7E6 /* LCProgressHUD.m in Sources */,
 				720A266C1FDD637400C470DA /* ButtonGroupView.m in Sources */,
