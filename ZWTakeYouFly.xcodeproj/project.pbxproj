@@ -51,6 +51,10 @@
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
 		722AD9B71F46BF3300336154 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B61F46BF3300336154 /* libc++.tbd */; };
 		7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */; };
+		7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */; };
+		7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */; };
+		7285D5AB1FDFF8D10081AF93 /* detail_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A91FDFF8D10081AF93 /* detail_2.m */; };
+		7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5AA1FDFF8D10081AF93 /* detail_2.xib */; };
 		72D9E20A1F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E2091F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m */; };
 		72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E2181F25EA3400FED4A4 /* FirstViewController.m */; };
 		72D9E2201F25EA3400FED4A4 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D9E21A1F25EA3400FED4A4 /* FourViewController.m */; };
@@ -176,6 +180,12 @@
 		722AD9B61F46BF3300336154 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7275B66B1F2EC3DC00F5016A /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		7285D5A31FDFF8B40081AF93 /* detail_0_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_0_Cell.h; sourceTree = "<group>"; };
+		7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detail_0_Cell.m; sourceTree = "<group>"; };
+		7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detail_0_Cell.xib; sourceTree = "<group>"; };
+		7285D5A81FDFF8D10081AF93 /* detail_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_2.h; sourceTree = "<group>"; };
+		7285D5A91FDFF8D10081AF93 /* detail_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detail_2.m; sourceTree = "<group>"; };
+		7285D5AA1FDFF8D10081AF93 /* detail_2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detail_2.xib; sourceTree = "<group>"; };
 		72D9E2081F25CE6F00FED4A4 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
 		72D9E2091F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
 		72D9E2171F25EA3400FED4A4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -396,6 +406,19 @@
 			path = MoreDropDownMenu;
 			sourceTree = "<group>";
 		};
+		7285D5A21FDFF88C0081AF93 /* detailView */ = {
+			isa = PBXGroup;
+			children = (
+				7285D5A31FDFF8B40081AF93 /* detail_0_Cell.h */,
+				7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */,
+				7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */,
+				7285D5A81FDFF8D10081AF93 /* detail_2.h */,
+				7285D5A91FDFF8D10081AF93 /* detail_2.m */,
+				7285D5AA1FDFF8D10081AF93 /* detail_2.xib */,
+			);
+			path = detailView;
+			sourceTree = "<group>";
+		};
 		72D9E22A1F26D77600FED4A4 /* GuideController */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +433,7 @@
 		72E02C0C1FDD0E2400AC0D57 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7285D5A21FDFF88C0081AF93 /* detailView */,
 				720A262A1FDD15D200C470DA /* JYCustomButton.h */,
 				720A26291FDD15D200C470DA /* JYCustomButton.m */,
 				72E02C0D1FDD0E4C00AC0D57 /* me_headView.xib */,
@@ -934,6 +958,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */,
 				7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */,
 				720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */,
 				720A266E1FDD637400C470DA /* citydict.plist in Resources */,
@@ -944,6 +969,7 @@
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
 				720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */,
+				7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
 				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
 			);
@@ -1052,6 +1078,7 @@
 				720A26761FDD637400C470DA /* PinYinForObjc.m in Sources */,
 				720A26741FDD637400C470DA /* NSString+PinYin4Cocoa.m in Sources */,
 				72F7FFA21F21FFA000BFC7E6 /* NSString+Addition.m in Sources */,
+				7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */,
 				7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */,
 				72F7FFC21F22010400BFC7E6 /* NHCommonConstant.m in Sources */,
 				72F7FFB91F21FFDE00BFC7E6 /* ZWProgressHUD.m in Sources */,
@@ -1064,6 +1091,7 @@
 				720A264C1FDD52FE00C470DA /* ZWCityDetailViewController.m in Sources */,
 				720A26791FDD637400C470DA /* ZYPinYinSearch.m in Sources */,
 				720A26871FDD757D00C470DA /* MoreDropDownMenu.m in Sources */,
+				7285D5AB1FDFF8D10081AF93 /* detail_2.m in Sources */,
 				72F7FFCF1F22014F00BFC7E6 /* NHBaseTableViewCell.m in Sources */,
 				72D9E21F1F25EA3400FED4A4 /* FirstViewController.m in Sources */,
 				72F7FFA41F21FFA000BFC7E6 /* UIButton+fast.m in Sources */,

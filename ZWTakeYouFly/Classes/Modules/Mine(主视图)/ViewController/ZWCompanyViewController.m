@@ -11,6 +11,8 @@
 #import "ListCollectionViewCell.h"
 #import "HGSpecialModel.h"
 #import "ZWTableViewCell.h"
+#import "ZWComeyDetailViewController.h"
+
 
 
 #define HGSpecialName  @"HGSpecialName"
@@ -81,9 +83,9 @@
     [self popToRootVc];
 }
 - (void)setup{
-    self.cates = @[@"全部",@"服饰",@"搭配",@"数码",@"餐厨",@"出行",@"文具",@"居家",@"品牌"];
-    self.states = @[@"预热中",@"预售中",@"预售失败",@"成功结束"];
-    self.sorts = @[@"最热",@"最新",@"价格"];
+    self.cates = @[@"全国",@"服饰",@"搭配",@"数码",@"餐厨",@"出行",@"文具",@"居家",@"品牌"];
+    self.states = @[@"全部行业",@"预售中",@"预售失败",@"成功结束"];
+    self.sorts = @[@"更多筛选",@"最新",@"价格"];
     
     _menu = [[MoreDropDownMenu alloc] initWithOrigin:CGPointMake(0, 0) andHeight:49.5];
     _menu.delegate = self;
@@ -177,12 +179,18 @@
     ZWTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HGSpecialName];
     if (cell == nil) {
         cell = [ZWTableViewCell viewFromXib];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     cell.model = self.specialArr[indexPath.row];
 
     return cell;
     
     
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    ZWComeyDetailViewController *detail = [[ZWComeyDetailViewController alloc]init];
+    [self pushVc:detail];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     

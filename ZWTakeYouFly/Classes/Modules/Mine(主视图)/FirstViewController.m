@@ -145,12 +145,12 @@
 //    ZWList *listModel = self.dataSources[indexPath.row];
     if (indexPath.section == 0) {
         ZWCoverModel_0_Cell *cell = [ZWCoverModel_0_Cell nibCellWithTableView:tableView];
-//        cell.group = self.group;
+        cell.group = self.group;
         return cell;
         
     }else if (indexPath.section == 1){
         ZWCoverModel_1_Cell *cell = [ZWCoverModel_1_Cell nibCellWithTableView:tableView];
-//        cell.listModel = listModel;
+//        cell.gr = listModel;
         return cell;
     }
     ZWCoverModel_2_Cell *cell = [ZWCoverModel_2_Cell nibCellWithTableView:tableView];
@@ -161,6 +161,22 @@
 }
 
 #pragma mark --------------------------Lazy----------------------/
+- (NSMutableArray *)group{
+    if (_group == nil) {
+        _group = [NSMutableArray array];
+        for (int i = 0; i < 8; i++) {
+            NSArray *nameGroup=[[NSArray alloc] initWithObjects:@"查税号",@"查法人",@"查风险",@"查信用编码",@"查地址",@"查电话",@"查商标",@"更多",nil];
+            NSArray *imageGroup=[[NSArray alloc] initWithObjects:@"u101",@"u113",@"u117",@"u121",@"u125",@"u129",@"u133",@"u137",nil];
+            
+            DataModel *model = [[DataModel alloc]init];
+            model.text = nameGroup[i];
+            model.imageName = imageGroup[i];
+            [_group addObject:model];
+            
+        }
+    }
+    return _group;
+}
 
 
 - (void)didReceiveMemoryWarning {
