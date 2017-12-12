@@ -18,11 +18,7 @@
     
     if (self) {
         
-        UIView *containerView = [[[UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil] instantiateWithOwner:self options:nil] firstObject ];
-        
-        containerView.frame = self.bounds;
-        
-        [self addSubview:containerView];
+  
         
     }
     

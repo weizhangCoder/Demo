@@ -12,6 +12,9 @@
 
 #import "detail_2.h"
 #import "detail_0_Cell.h"
+#import "CompanyView.h"
+#import "topView.h"
+
 
 @interface ZWComeyDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tableView;
@@ -19,14 +22,50 @@
 @end
 
 @implementation ZWComeyDetailViewController
-
+- (void)backHome{
+    [self popToRootVc];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"公司详情";
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"u382" target:self action:@selector(backHome) width:20 height:20];
+    
     [self.view addSubview:self.tableView];
     UIView * headView = [[UIView alloc]init];
-    headView.frame = CGRectMake(0, 0, kScreenWidth, 200);
+    headView.frame = CGRectMake(0, 0, kScreenWidth, 250);
     self.tableView.tableHeaderView = headView;
+    UIView *bottomView = [[[NSBundle mainBundle] loadNibNamed:@"bottomView" owner:nil options:nil] lastObject];;
+    [headView addSubview:bottomView];
+    ViewBorder(bottomView, [UIColor colorLine], 0.5);
+    [bottomView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(headView.mas_left);
+        make.right.equalTo(headView.mas_right);
+        make.bottom.equalTo(headView.mas_bottom);
+        make.height.mas_equalTo(40);
+    }];
+    CompanyView *company = [CompanyView viewFromXib];
+    [headView addSubview:company];
+    company.ceoLabel.text = self.model.farenName;
+    company.moneyLabel.text = self.model.moneyName;
+    company.timeLabel.text = self.model.timeName;
+    
+    [company mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(headView.mas_left);
+        make.right.equalTo(headView.mas_right);
+        make.bottom.equalTo(bottomView.mas_top);
+        make.height.mas_equalTo(80);
+    }];
+    topView *top = [topView viewFromXib];
+    [headView addSubview:top];
+    top.companyImage.image = [UIImage imageNamed:self.model.imageName];
+    top.companyLabel.text = self.model.companyName;
+    [top mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.equalTo(headView);
+        make.top.equalTo(headView.mas_top).offset(kNavigationHeight);
+        make.bottom.equalTo(company.mas_top);
+    }];
+    
 }
 - (UITableView *)tableView{
     if (_tableView == nil) {
@@ -69,6 +108,8 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     if (section != 0) {
         return 30;
+    }else if (section == 0){
+        return 10;
     }
     return 0.01;
 }
@@ -106,7 +147,7 @@
             cell.textLabel.text = @"企业情报动态";
             cell.subTitle.text = @"共有1076条动态";
         }else{
-            cell.textLabel.text = @"小米科技";
+            cell.textLabel.text = self.model.companyName;
             cell.subTitle.text = @"E轮";
         }
         return cell;

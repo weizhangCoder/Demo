@@ -50,6 +50,9 @@
 		722AD9B31F46BF0E00336154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B21F46BF0E00336154 /* Security.framework */; };
 		722AD9B51F46BF1C00336154 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B41F46BF1C00336154 /* libz.tbd */; };
 		722AD9B71F46BF3300336154 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 722AD9B61F46BF3300336154 /* libc++.tbd */; };
+		723688331FE00F34008A14DC /* bottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688321FE00F34008A14DC /* bottomView.xib */; };
+		723688361FE015D1008A14DC /* topView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723688351FE015D1008A14DC /* topView.m */; };
+		723688381FE015DF008A14DC /* topView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688371FE015DF008A14DC /* topView.xib */; };
 		7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */; };
 		7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */; };
 		7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */; };
@@ -180,6 +183,10 @@
 		722AD9B21F46BF0E00336154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		722AD9B41F46BF1C00336154 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		722AD9B61F46BF3300336154 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		723688321FE00F34008A14DC /* bottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bottomView.xib; sourceTree = "<group>"; };
+		723688341FE015D1008A14DC /* topView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = topView.h; sourceTree = "<group>"; };
+		723688351FE015D1008A14DC /* topView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topView.m; sourceTree = "<group>"; };
+		723688371FE015DF008A14DC /* topView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = topView.xib; sourceTree = "<group>"; };
 		7275B66B1F2EC3DC00F5016A /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		7285D5A31FDFF8B40081AF93 /* detail_0_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_0_Cell.h; sourceTree = "<group>"; };
@@ -423,6 +430,10 @@
 				7285D5AD1FDFFFB60081AF93 /* CompanyView.h */,
 				7285D5AE1FDFFFB60081AF93 /* CompanyView.m */,
 				7285D5B01FDFFFCF0081AF93 /* CompanyView.xib */,
+				723688321FE00F34008A14DC /* bottomView.xib */,
+				723688341FE015D1008A14DC /* topView.h */,
+				723688351FE015D1008A14DC /* topView.m */,
+				723688371FE015DF008A14DC /* topView.xib */,
 			);
 			path = detailView;
 			sourceTree = "<group>";
@@ -976,11 +987,13 @@
 				720A26351FDD237E00C470DA /* ZWCoverModel_0_Cell.xib in Resources */,
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
+				723688381FE015DF008A14DC /* topView.xib in Resources */,
 				720A268D1FDEACFE00C470DA /* ListCollectionViewCell.xib in Resources */,
 				7285D5AC1FDFF8D10081AF93 /* detail_2.xib in Resources */,
 				72F7FFB71F21FFDE00BFC7E6 /* LCProgressHUD.bundle in Resources */,
 				7285D5B11FDFFFCF0081AF93 /* CompanyView.xib in Resources */,
 				720A26481FDD43E400C470DA /* home_headView.xib in Resources */,
+				723688331FE00F34008A14DC /* bottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,6 +1108,7 @@
 				72D9E22F1F26D77600FED4A4 /* HcdGuideView.m in Sources */,
 				720A26881FDD757D00C470DA /* MoreDropDownMenuRowCell.m in Sources */,
 				72F7FF9D1F21FFA000BFC7E6 /* DataSafe.m in Sources */,
+				723688361FE015D1008A14DC /* topView.m in Sources */,
 				72F7FFA61F21FFA000BFC7E6 /* UIFont+Extension.m in Sources */,
 				72F7FFAA1F21FFA000BFC7E6 /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				720A264C1FDD52FE00C470DA /* ZWCityDetailViewController.m in Sources */,
@@ -1219,10 +1233,7 @@
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ZWTakeYouFly/Classes/ThirdParty/MLSearchBar\\ Library",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1237,10 +1248,7 @@
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ZWTakeYouFly/Classes/ThirdParty/MLSearchBar\\ Library",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

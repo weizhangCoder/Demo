@@ -7,8 +7,8 @@
 //
 
 #import "ZWBaseViewController.h"
-
+#import "HGSpecialModel.h"
 @interface ZWComeyDetailViewController : ZWBaseViewController
 
-
+@property (nonatomic,strong)HGSpecialModel *model;
 @end

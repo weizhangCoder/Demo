@@ -8,7 +8,7 @@
 
 #import "ZWCompanyViewController.h"
 #import "MoreDropDownMenu.h"
-#import "ListCollectionViewCell.h"
+//#import "ListCollectionViewCell.h"
 #import "HGSpecialModel.h"
 #import "ZWTableViewCell.h"
 #import "ZWComeyDetailViewController.h"
@@ -190,6 +190,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     ZWComeyDetailViewController *detail = [[ZWComeyDetailViewController alloc]init];
+    detail.model = self.specialArr[indexPath.row];
     [self pushVc:detail];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{

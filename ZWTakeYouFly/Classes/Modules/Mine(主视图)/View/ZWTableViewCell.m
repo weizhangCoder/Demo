@@ -8,9 +8,10 @@
 
 #import "ZWTableViewCell.h"
 @interface ZWTableViewCell ()
-@property (weak, nonatomic) IBOutlet UILabel *ceoLabel;
+
 @property (weak, nonatomic) IBOutlet UIImageView *headImage;
 @property (weak, nonatomic) IBOutlet UILabel *companyName;
+@property (weak, nonatomic) IBOutlet UILabel *ceoLabel;
 @property (weak, nonatomic) IBOutlet UILabel *moneyLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CompanyView : UIView
-
+@property (weak, nonatomic) IBOutlet UILabel *ceoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *moneyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 @end

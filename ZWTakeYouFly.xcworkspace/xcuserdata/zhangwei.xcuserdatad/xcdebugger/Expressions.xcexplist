@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ZWComeyDetailViewController viewDidLoad]:ZWComeyDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
