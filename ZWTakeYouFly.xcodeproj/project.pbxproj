@@ -61,8 +61,6 @@
 		723688431FE01E73008A14DC /* two_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688411FE01E73008A14DC /* two_CollectionViewCell.xib */; };
 		723688471FE01E97008A14DC /* three_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723688451FE01E97008A14DC /* three_CollectionViewCell.m */; };
 		723688481FE01E97008A14DC /* three_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723688461FE01E97008A14DC /* three_CollectionViewCell.xib */; };
-		7236884C1FE01EC3008A14DC /* head_CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */; };
-		7236884D1FE01EC3008A14DC /* head_CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */; };
 		7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */; };
 		7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7285D5A41FDFF8B40081AF93 /* detail_0_Cell.m */; };
 		7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7285D5A51FDFF8B40081AF93 /* detail_0_Cell.xib */; };
@@ -116,7 +114,7 @@
 		72F7FFCD1F22014F00BFC7E6 /* NHBaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7FFC71F22014F00BFC7E6 /* NHBaseTableHeaderFooterView.m */; };
 		72F7FFCE1F22014F00BFC7E6 /* NHBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7FFC91F22014F00BFC7E6 /* NHBaseTableView.m */; };
 		72F7FFCF1F22014F00BFC7E6 /* NHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7FFCB1F22014F00BFC7E6 /* NHBaseTableViewCell.m */; };
-		76B9A17557AEA23EC56BDA07 /* Pods_ZWTakeYouFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA29BBFE4F7EA7D9AC039F52 /* Pods_ZWTakeYouFly.framework */; };
+		76B9A17557AEA23EC56BDA07 /* Pods_ZWTakeYouFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA29BBFE4F7EA7D9AC039F52 /* Pods_ZWTakeYouFly.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,9 +212,6 @@
 		723688441FE01E97008A14DC /* three_CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = three_CollectionViewCell.h; sourceTree = "<group>"; };
 		723688451FE01E97008A14DC /* three_CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = three_CollectionViewCell.m; sourceTree = "<group>"; };
 		723688461FE01E97008A14DC /* three_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = three_CollectionViewCell.xib; sourceTree = "<group>"; };
-		723688491FE01EC3008A14DC /* head_CollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = head_CollectionReusableView.h; sourceTree = "<group>"; };
-		7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = head_CollectionReusableView.m; sourceTree = "<group>"; };
-		7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = head_CollectionReusableView.xib; sourceTree = "<group>"; };
 		7275B66B1F2EC3DC00F5016A /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		7285D5A31FDFF8B40081AF93 /* detail_0_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detail_0_Cell.h; sourceTree = "<group>"; };
@@ -482,9 +477,6 @@
 				723688441FE01E97008A14DC /* three_CollectionViewCell.h */,
 				723688451FE01E97008A14DC /* three_CollectionViewCell.m */,
 				723688461FE01E97008A14DC /* three_CollectionViewCell.xib */,
-				723688491FE01EC3008A14DC /* head_CollectionReusableView.h */,
-				7236884A1FE01EC3008A14DC /* head_CollectionReusableView.m */,
-				7236884B1FE01EC3008A14DC /* head_CollectionReusableView.xib */,
 			);
 			path = citydetail;
 			sourceTree = "<group>";
@@ -1054,7 +1046,6 @@
 			files = (
 				7285D5A71FDFF8B40081AF93 /* detail_0_Cell.xib in Resources */,
 				7229831F1FDEBD1600F950EE /* ZWTableViewCell.xib in Resources */,
-				7236884D1FE01EC3008A14DC /* head_CollectionReusableView.xib in Resources */,
 				720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */,
 				720A266E1FDD637400C470DA /* citydict.plist in Resources */,
 				720A263F1FDD2D8E00C470DA /* CollectionViewCell.xib in Resources */,
@@ -1159,7 +1150,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1218,7 +1209,6 @@
 				72F7FF0E1F21F7C300BFC7E6 /* ZWBaseViewController.m in Sources */,
 				72F7FED61F21F1DC00BFC7E6 /* main.m in Sources */,
 				5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */,
-				7236884C1FE01EC3008A14DC /* head_CollectionReusableView.m in Sources */,
 				72F7FF9F1F21FFA000BFC7E6 /* NSDictionary+Addition.m in Sources */,
 				720A26761FDD637400C470DA /* PinYinForObjc.m in Sources */,
 				720A26741FDD637400C470DA /* NSString+PinYin4Cocoa.m in Sources */,
@@ -1359,6 +1349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyall.feipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "16334da8-5ed1-447b-b29f-f8e750a90611";
@@ -1379,6 +1370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyall.feipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7d1f530c-71c4-4b8c-8b27-c147eee57507";

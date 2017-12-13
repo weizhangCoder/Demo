@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface one_CollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *headImage;
+@property (weak, nonatomic) IBOutlet UILabel *titleNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *hejiLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yuduLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 
 @end

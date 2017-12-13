@@ -46,17 +46,17 @@
     
     self.contentMode = UIViewContentModeScaleAspectFit;
 
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:image options:SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-        
-        if (progressHandle) {
-            progressHandle(receivedSize * 1.0 / expectedSize);
-        }
-    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        
-        if (finishHandle) {
-            finishHandle(error == nil, image);
-        }
-    }];
+//    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:image options:SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+//        
+//        if (progressHandle) {
+//            progressHandle(receivedSize * 1.0 / expectedSize);
+//        }
+//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+//        
+//        if (finishHandle) {
+//            finishHandle(error == nil, image);
+//        }
+//    }];
     
 
 }

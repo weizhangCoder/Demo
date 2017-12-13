@@ -13,7 +13,7 @@
 #import "one_CollectionViewCell.h"
 #import "two_CollectionViewCell.h"
 #import "three_CollectionViewCell.h"
-#import "head_CollectionReusableView.h"
+
 
 static NSString * const JYindentify_one = @"one_cityIdentifier";//collection
 static NSString * const JYindentify_two = @"two_cityIdentifier";//collection
@@ -61,7 +61,7 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
         self.flow = flow;
         
         
-        _myCollectionV = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height) collectionViewLayout:flow];
+        _myCollectionV = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height - kNavigationHeight) collectionViewLayout:flow];
         _myCollectionV.backgroundColor = [UIColor clearColor];
 //        _myCollectionV.scrollEnabled = NO;
         //设置代理为当前控制器
@@ -78,8 +78,8 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
         [_myCollectionV registerNib:[UINib nibWithNibName:NSStringFromClass([three_CollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:JYindentify_three];
         
         
-        //#pragma mark -- 注册头部视图
-        [_myCollectionV registerClass:[head_CollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:JYHeaderindentify];
+//        //#pragma mark -- 注册头部视图
+        [_myCollectionV registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:JYHeaderindentify];
         
         
         //添加视图
@@ -135,6 +135,10 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
     
     if (indexPath.section == 0) {
     one_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_one forIndexPath:indexPath];
+        NSArray *headarray = [NSArray arrayWithObjects:@"u674",@"u680",@"u686",@"u692",@"u698",@"u704", nil];
+        NSArray *textarray = [NSArray arrayWithObjects:@"企业数量",@"良好企业记录",@"不良企业记录",@"被投诉企业",@"立行政表彰企业",@"行政处罚企业", nil];
+        cell.headImage.image = [UIImage imageNamed:headarray[indexPath.row]];
+        cell.titleNameLabel.text =textarray[indexPath.row];
         return cell;
     }else if (indexPath.section == 1){
         NSArray *array = [NSArray arrayWithObjects:@"城市概况",@"诚信聚焦",@"法律法规",@"市场监管",@"立信企业",@"城市评论", nil];
@@ -151,21 +155,55 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
     
 }
 //创建头视图
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
-           viewForSupplementaryElementOfKind:(NSString *)kind
-                                 atIndexPath:(NSIndexPath *)indexPath {
+//- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
+//           viewForSupplementaryElementOfKind:(NSString *)kind
+//                                 atIndexPath:(NSIndexPath *)indexPath {
+//    
+//    head_CollectionReusableView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader
+//                                                                            withReuseIdentifier:JYHeaderindentify
+//                                                                                   forIndexPath:indexPath];
+////    headView.backgroundColor = [UIColor clearColor];
+////    UILabel *headLabel = [[UILabel alloc]init];
+////    headLabel.frame = CGRectMake(0, 0, kScreen_Width, 30);
+////    [headView addSubview:headLabel];
+////    
+////    if (indexPath.section == 0) {
+////        headLabel.text = @"信用名片";
+////    }else if (indexPath.section == 1){
+////        headLabel.text = @"管理规划";
+////    }
+////       headLabel.text = @"城市概况";
+//    return headView;
+//}
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     
-    head_CollectionReusableView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader
-                                                                            withReuseIdentifier:JYHeaderindentify
-                                                                                   forIndexPath:indexPath];
-    headView.backgroundColor = [UIColor clearColor];
-    if (indexPath.section == 0) {
-        headView.headTitle.text = @"信用名片";
-    }else if (indexPath.section == 1){
-        headView.headTitle.text = @"管理规划";
+    // 如果当前想要的是头部视图
+    // UICollectionElementKindSectionHeader是一个const修饰的字符串常量,所以可以直接使用==比较
+    if (kind == UICollectionElementKindSectionHeader) {
+      
+        UICollectionReusableView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:JYHeaderindentify forIndexPath:indexPath];
+        headerView.backgroundColor = [UIColor clearColor];
+        UILabel *headLabel = [[UILabel alloc]init];
+        headLabel.frame = headerView.bounds;
+        [headerView addSubview:headLabel];
+            if (indexPath.section == 0) {
+                headLabel.text = @"信用名片";
+            }else if (indexPath.section == 1){
+                headLabel.text = @"管理规划";
+            }else{
+                headLabel.text = @"城市概况";
+            }
+        
+        return headerView;
     }
-       headView.headTitle.text = @"城市概况";
-    return headView;
+    else { // 返回每一组的尾部视图
+        UICollectionReusableView *footerView =  [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:JYHeaderindentify forIndexPath:indexPath];
+
+        footerView.backgroundColor = [UIColor purpleColor];
+        return footerView;
+    }
+
+
 }
 - (void)backHome{
     [self popToRootVc];

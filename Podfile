@@ -10,18 +10,19 @@ target 'ZWTakeYouFly' do
   pod 'IQKeyboardManager'
   pod 'Masonry','~> 1.0.1'
   pod 'SDAutoLayout', '2.1.8'
-  pod 'AFNetworking', '3.0.4'
+#  pod 'AFNetworking', '3.0.4'
   pod 'SDWebImage', '3.7.3'
   pod 'MJExtension', '3.0.13'
-  pod 'MJRefresh', '3.0.6'
+#  pod 'MJRefresh', '3.0.6'
   pod 'RTRootNavigationController', '~> 0.5.26'
   pod 'SDCycleScrollView'
   pod 'BuglyHotfix'
+  pod 'MBProgressHUD'
   #添加照片所需要的
-  pod 'TZImagePickerController'
-  pod 'MWPhotoBrowser'
-  pod 'ACAlertController'
-  
+#  pod 'TZImagePickerController'
+#  pod 'MWPhotoBrowser'
+#  pod 'ACAlertController'
+
 
 end
 
