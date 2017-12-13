@@ -11,6 +11,7 @@
 #import "HcdGuideView.h"
 
 #import <BuglyHotfix/Bugly.h>
+#import "MMZCViewController.h"
 
 @interface AppDelegate ()<BuglyDelegate>
 
@@ -25,13 +26,18 @@
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
-    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc]init];
-    CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
-    [self.window setRootViewController:tabBarController];
+    MMZCViewController *login = [[MMZCViewController alloc]init];
+    [login setLogin:^{
+        CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc]init];
+        CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
+        [self.window setRootViewController:tabBarController];
+    }];
+    [self.window setRootViewController:login];
+    
     // 1.键盘全局设置
 //    [self configureKeyboard];
     
-    [self configBugly];
+//    [self configBugly];
     
 //    [self addGuideView];
     
