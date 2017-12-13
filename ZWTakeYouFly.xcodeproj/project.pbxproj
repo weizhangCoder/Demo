@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5306634B1FE12C80000BF402 /* MMZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663491FE12BE1000BF402 /* MMZCViewController.m */; };
+		5306634C1FE12C88000BF402 /* TKPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663481FE12BDF000BF402 /* TKPhoneTextField.m */; };
 		5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336BA4E1F95A588003CFA7D /* ZWTool.m */; };
 		720A262B1FDD15D200C470DA /* JYCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26291FDD15D200C470DA /* JYCustomButton.m */; };
 		720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A262D1FDD236000C470DA /* ZWCoverModel_1_Cell.m */; };
@@ -118,6 +120,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530663421FE12327000BF402 /* noCopyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = noCopyTextField.h; sourceTree = "<group>"; };
+		530663431FE12327000BF402 /* noCopyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = noCopyTextField.m; sourceTree = "<group>"; };
+		530663441FE12327000BF402 /* UITextFieldDisTance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldDisTance.h; sourceTree = "<group>"; };
+		530663451FE12327000BF402 /* UITextFieldDisTance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldDisTance.m; sourceTree = "<group>"; };
+		530663471FE12BDD000BF402 /* MMZCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMZCViewController.h; sourceTree = "<group>"; };
+		530663481FE12BDF000BF402 /* TKPhoneTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPhoneTextField.m; sourceTree = "<group>"; };
+		530663491FE12BE1000BF402 /* MMZCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMZCViewController.m; sourceTree = "<group>"; };
+		5306634A1FE12BE3000BF402 /* TKPhoneTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPhoneTextField.h; sourceTree = "<group>"; };
 		5336BA4D1F95A588003CFA7D /* ZWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTool.h; sourceTree = "<group>"; };
 		5336BA4E1F95A588003CFA7D /* ZWTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTool.m; sourceTree = "<group>"; };
 		720A26291FDD15D200C470DA /* JYCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCustomButton.m; sourceTree = "<group>"; };
@@ -335,6 +345,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530663411FE12327000BF402 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				530663421FE12327000BF402 /* noCopyTextField.h */,
+				530663431FE12327000BF402 /* noCopyTextField.m */,
+				530663441FE12327000BF402 /* UITextFieldDisTance.h */,
+				530663451FE12327000BF402 /* UITextFieldDisTance.m */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		530663461FE12BD5000BF402 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				530663471FE12BDD000BF402 /* MMZCViewController.h */,
+				530663491FE12BE1000BF402 /* MMZCViewController.m */,
+				5306634A1FE12BE3000BF402 /* TKPhoneTextField.h */,
+				530663481FE12BDF000BF402 /* TKPhoneTextField.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		5336BA4C1F95A569003CFA7D /* ZWTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -623,6 +655,7 @@
 		72F7FEF21F21F67C00BFC7E6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				530663461FE12BD5000BF402 /* login */,
 				72F7FEF31F21F67C00BFC7E6 /* Home(首页) */,
 				72F7FEF81F21F67C00BFC7E6 /* Mine(主视图) */,
 			);
@@ -705,6 +738,7 @@
 		72F7FEFC1F21F67C00BFC7E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				530663411FE12327000BF402 /* CustomTextField */,
 				5336BA4C1F95A569003CFA7D /* ZWTool */,
 				72F7FFB11F21FFDE00BFC7E6 /* LCProgressHUD */,
 				72F7FEFD1F21F67C00BFC7E6 /* Category */,
@@ -990,7 +1024,8 @@
 				TargetAttributes = {
 					72F7FED01F21F1DC00BFC7E6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2Y3Z3T4NVH;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1050,9 +1085,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZWTakeYouFly/Pods-ZWTakeYouFly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACAlertController/ACAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/HSSetTableViewController/HSSetTableViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HSSetTableViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1080,13 +1150,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZWTakeYouFly-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1096,6 +1169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5306634C1FE12C88000BF402 /* TKPhoneTextField.m in Sources */,
+				5306634B1FE12C80000BF402 /* MMZCViewController.m in Sources */,
 				72D9E2201F25EA3400FED4A4 /* FourViewController.m in Sources */,
 				72D9E20A1F25CE6F00FED4A4 /* CYLTabBarControllerConfig.m in Sources */,
 				7236883D1FE01E64008A14DC /* one_CollectionViewCell.m in Sources */,
@@ -1277,13 +1352,17 @@
 			baseConfigurationReference = F07C88DE032A6C1E5ED9B23C /* Pods-ZWTakeYouFly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2Y3Z3T4NVH;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZWTakeYouFly/Classes/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyall.feipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16334da8-5ed1-447b-b29f-f8e750a90611";
+				PROVISIONING_PROFILE_SPECIFIER = feipai_dev;
 			};
 			name = Debug;
 		};
@@ -1292,13 +1371,18 @@
 			baseConfigurationReference = D2FD85A3FFD58F7EDE3A8F91 /* Pods-ZWTakeYouFly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2Y3Z3T4NVH;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZWTakeYouFly/Classes/Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = ZWTakeYouFly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = zw.ZWTakeYouFly;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyall.feipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d1f530c-71c4-4b8c-8b27-c147eee57507";
+				PROVISIONING_PROFILE_SPECIFIER = feipai_dis;
 			};
 			name = Release;
 		};
