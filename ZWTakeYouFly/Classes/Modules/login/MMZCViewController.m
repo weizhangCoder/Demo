@@ -11,6 +11,8 @@
 #import "TKPhoneTextField.h"
 
 
+#define KaddHegth  80
+
 @interface MMZCViewController ()<UITextFieldDelegate>
 {
     UIImageView *View;
@@ -47,12 +49,12 @@
     [self.view addSubview:View];
 
     
-    UIButton *zhuce =[[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width-60, 30, 50, 30)];
-    [zhuce setTitle:@"注册" forState:UIControlStateNormal];
-    [zhuce setTitleColor:[UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1] forState:UIControlStateNormal];
-    zhuce.titleLabel.font=[UIFont systemFontOfSize:17];
-    [zhuce addTarget:self action:@selector(zhuce) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:zhuce];
+//    UIButton *zhuce =[[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width-60, 30, 50, 30)];
+//    [zhuce setTitle:@"注册" forState:UIControlStateNormal];
+//    [zhuce setTitleColor:[UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1] forState:UIControlStateNormal];
+//    zhuce.titleLabel.font=[UIFont systemFontOfSize:17];
+//    [zhuce addTarget:self action:@selector(zhuce) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:zhuce];
     
     
     UILabel *lanel=[[UILabel alloc]initWithFrame:CGRectMake((self.view.frame.size.width-30)/2, 30, 50, 30)];
@@ -62,10 +64,10 @@
 
     
     [self createButtons];
-    [self createImageViews];
+//    [self createImageViews];
     [self createTextFields];
     
-    [self createLabel];
+//    [self createLabel];
 }
 
 -(void)clickaddBtn:(UIButton *)button
@@ -89,7 +91,7 @@
 -(void)createTextFields
 {
     CGRect frame=[UIScreen mainScreen].bounds;
-    bgView=[[UIView alloc]initWithFrame:CGRectMake(10, 75, frame.size.width-20, 100)];
+    bgView=[[UIView alloc]initWithFrame:CGRectMake(10, 75+KaddHegth, frame.size.width-20, 100)];
     bgView.layer.cornerRadius=3.0;
     bgView.alpha=0.7;
     bgView.backgroundColor=[UIColor whiteColor];
@@ -164,14 +166,14 @@
 
 -(void)createButtons
 {
-    UIButton *landBtn=[self createButtonFrame:CGRectMake(10, 190, self.view.frame.size.width-20, 37) backImageName:nil title:@"登录" titleColor:[UIColor whiteColor]  font:[UIFont systemFontOfSize:19] target:self action:@selector(landClick)];
+    UIButton *landBtn=[self createButtonFrame:CGRectMake(10, 190+KaddHegth, self.view.frame.size.width-20, 37) backImageName:nil title:@"登录" titleColor:[UIColor whiteColor]  font:[UIFont systemFontOfSize:19] target:self action:@selector(landClick)];
     landBtn.backgroundColor=[UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1];
     landBtn.layer.cornerRadius=5.0f;
     
-    UIButton *newUserBtn=[self createButtonFrame:CGRectMake(5, 235, 70, 30) backImageName:nil title:@"快速注册" titleColor:[UIColor grayColor] font:[UIFont systemFontOfSize:13] target:self action:@selector(registration:)];
+    UIButton *newUserBtn=[self createButtonFrame:CGRectMake(5, 235+KaddHegth, 70, 30) backImageName:nil title:@"快速注册" titleColor:[UIColor grayColor] font:[UIFont systemFontOfSize:13] target:self action:@selector(registration:)];
     //newUserBtn.backgroundColor=[UIColor lightGrayColor];
     
-    UIButton *forgotPwdBtn=[self createButtonFrame:CGRectMake(self.view.frame.size.width-75, 235, 60, 30) backImageName:nil title:@"找回密码" titleColor:[UIColor grayColor] font:[UIFont systemFontOfSize:13] target:self action:@selector(fogetPwd:)];
+    UIButton *forgotPwdBtn=[self createButtonFrame:CGRectMake(self.view.frame.size.width-75, 235+KaddHegth, 60, 30) backImageName:nil title:@"找回密码" titleColor:[UIColor grayColor] font:[UIFont systemFontOfSize:13] target:self action:@selector(fogetPwd:)];
     //fogotPwdBtn.backgroundColor=[UIColor lightGrayColor];
   
     
@@ -201,9 +203,9 @@
     xinlangBtn.layer.cornerRadius=25;
     xinlangBtn=[self createButtonFrame:xinlangBtn.frame backImageName:@"ic_landing_microblog" title:nil titleColor:nil font:nil target:self action:@selector(onClickSina:)];
     
-    [self.view addSubview:weixinBtn];
-    [self.view addSubview:QQBtn];
-    [self.view addSubview:xinlangBtn];
+//    [self.view addSubview:weixinBtn];
+//    [self.view addSubview:QQBtn];
+//    [self.view addSubview:xinlangBtn];
     [self.view addSubview:landBtn];
     [self.view addSubview:newUserBtn];
     [self.view addSubview:forgotPwdBtn];
