@@ -114,7 +114,7 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
     }else if (indexPath.section == 1){
         return CGSizeMake((kScreenWidth - 40)/3, 60);
     }
-    return CGSizeMake(kScreenWidth, 150);
+    return CGSizeMake(kScreenWidth - 40, 150);
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{

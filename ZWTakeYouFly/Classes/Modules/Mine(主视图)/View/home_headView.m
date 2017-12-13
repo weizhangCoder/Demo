@@ -7,6 +7,8 @@
 //
 
 #import "home_headView.h"
+#import "HJDropDownMenu.h"
+
 @interface home_headView()
 @property (weak, nonatomic) IBOutlet UIView *searchView;
 @property (nonatomic,strong)UISegmentedControl *segment;
@@ -20,6 +22,10 @@
     [self.searchView addGestureRecognizer:tap];
     self.searchView.userInteractionEnabled = YES;
     _segment.selectedSegmentIndex = 0;
+    self.selectView.backgroundColor = [UIColor clearColor];
+  
+
+    
 }
 
 - (IBAction)changed:(UISegmentedControl *)sender {

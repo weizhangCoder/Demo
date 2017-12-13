@@ -10,6 +10,8 @@
 		5306634B1FE12C80000BF402 /* MMZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663491FE12BE1000BF402 /* MMZCViewController.m */; };
 		5306634C1FE12C88000BF402 /* TKPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663481FE12BDF000BF402 /* TKPhoneTextField.m */; };
 		5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336BA4E1F95A588003CFA7D /* ZWTool.m */; };
+		720922E01FE17F8700DFFB07 /* HJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */; };
+		720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */; };
 		720A262B1FDD15D200C470DA /* JYCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26291FDD15D200C470DA /* JYCustomButton.m */; };
 		720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A262D1FDD236000C470DA /* ZWCoverModel_1_Cell.m */; };
 		720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A262E1FDD236000C470DA /* ZWCoverModel_1_Cell.xib */; };
@@ -128,6 +130,10 @@
 		5306634A1FE12BE3000BF402 /* TKPhoneTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPhoneTextField.h; sourceTree = "<group>"; };
 		5336BA4D1F95A588003CFA7D /* ZWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTool.h; sourceTree = "<group>"; };
 		5336BA4E1F95A588003CFA7D /* ZWTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTool.m; sourceTree = "<group>"; };
+		720922DC1FE17F8600DFFB07 /* HJDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDropDownMenu.h; sourceTree = "<group>"; };
+		720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDropDownMenu.m; sourceTree = "<group>"; };
+		720922DE1FE17F8600DFFB07 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		720A26291FDD15D200C470DA /* JYCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCustomButton.m; sourceTree = "<group>"; };
 		720A262A1FDD15D200C470DA /* JYCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCustomButton.h; sourceTree = "<group>"; };
 		720A262C1FDD236000C470DA /* ZWCoverModel_1_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWCoverModel_1_Cell.h; sourceTree = "<group>"; };
@@ -369,6 +375,17 @@
 				5336BA4E1F95A588003CFA7D /* ZWTool.m */,
 			);
 			path = ZWTool;
+			sourceTree = "<group>";
+		};
+		720922DB1FE17F8600DFFB07 /* HJDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				720922DC1FE17F8600DFFB07 /* HJDropDownMenu.h */,
+				720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */,
+				720922DE1FE17F8600DFFB07 /* UIView+MJExtension.h */,
+				720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */,
+			);
+			path = HJDropDownMenu;
 			sourceTree = "<group>";
 		};
 		720A26401FDD2E6800C470DA /* Model */ = {
@@ -730,6 +747,7 @@
 		72F7FEFC1F21F67C00BFC7E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				720922DB1FE17F8600DFFB07 /* HJDropDownMenu */,
 				530663411FE12327000BF402 /* CustomTextField */,
 				5336BA4C1F95A569003CFA7D /* ZWTool */,
 				72F7FFB11F21FFDE00BFC7E6 /* LCProgressHUD */,
@@ -1187,6 +1205,7 @@
 				720A268C1FDEACFE00C470DA /* ListCollectionViewCell.m in Sources */,
 				72D9E2291F25F5CD00FED4A4 /* ZWNavigationViewController.m in Sources */,
 				72F7FFA31F21FFA000BFC7E6 /* UIBarButtonItem+WNXBarButtonItem.m in Sources */,
+				720922E01FE17F8700DFFB07 /* HJDropDownMenu.m in Sources */,
 				720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */,
 				72F7FFAB1F21FFA000BFC7E6 /* UILabel+Fast.m in Sources */,
 				72F7FFA71F21FFA000BFC7E6 /* UIImage+Extension.m in Sources */,
@@ -1240,6 +1259,7 @@
 				72F7FF0D1F21F7C300BFC7E6 /* ZWBaseTableViewController.m in Sources */,
 				720A263E1FDD2D8E00C470DA /* CollectionViewCell.m in Sources */,
 				720A26431FDD2E9000C470DA /* DataModel.m in Sources */,
+				720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */,
 				72F7FFCE1F22014F00BFC7E6 /* NHBaseTableView.m in Sources */,
 				72F7FFA01F21FFA000BFC7E6 /* NSFileManager+Paths.m in Sources */,
 				720A26341FDD237E00C470DA /* ZWCoverModel_0_Cell.m in Sources */,

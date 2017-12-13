@@ -12,29 +12,41 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="three_cityIdentifier" id="gTV-IL-0wX" customClass="three_CollectionViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+            <rect key="frame" x="0.0" y="0.0" width="300" height="149"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="149"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beijing" translatesAutoresizingMaskIntoConstraints="NO" id="8PW-C5-iPB">
-                        <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u746" translatesAutoresizingMaskIntoConstraints="NO" id="Mh4-xE-PtD">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="149"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="3dt-ln-aql"/>
+                        </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京是中华人民共和国首都，直辖市。国家中心城市超大城市国际大都市全国政治中心，文化中。国际交往中科技创新中是中国共产党中央委员会。中华人民共和国中央人民政府。全国人民代表大会中国政治协商会议全国委员会。中华共和国中央军事委员。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaW-ut-hsp">
+                        <rect key="frame" x="160" y="10" width="130" height="129"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="8PW-C5-iPB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="By2-Mv-cud"/>
-                <constraint firstAttribute="bottom" secondItem="8PW-C5-iPB" secondAttribute="bottom" id="RCF-oh-Hvb"/>
-                <constraint firstItem="8PW-C5-iPB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gJD-Sv-oi7"/>
-                <constraint firstAttribute="trailing" secondItem="8PW-C5-iPB" secondAttribute="trailing" id="rw2-tY-JNf"/>
+                <constraint firstAttribute="trailing" secondItem="kaW-ut-hsp" secondAttribute="trailing" constant="10" id="3iU-Eh-jAj"/>
+                <constraint firstItem="Mh4-xE-PtD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7YG-BL-9uI"/>
+                <constraint firstItem="kaW-ut-hsp" firstAttribute="leading" secondItem="Mh4-xE-PtD" secondAttribute="trailing" constant="10" id="8rP-Fa-HRN"/>
+                <constraint firstAttribute="bottom" secondItem="kaW-ut-hsp" secondAttribute="bottom" constant="10" id="CSJ-E2-YT9"/>
+                <constraint firstItem="kaW-ut-hsp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="buY-Pj-peP"/>
+                <constraint firstItem="Mh4-xE-PtD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cqb-3L-N9H"/>
+                <constraint firstAttribute="bottom" secondItem="Mh4-xE-PtD" secondAttribute="bottom" id="tNy-H1-SZE"/>
             </constraints>
-            <size key="customSize" width="197" height="99"/>
-            <point key="canvasLocation" x="58.5" y="170.5"/>
+            <size key="customSize" width="197" height="118"/>
+            <point key="canvasLocation" x="-78" y="158.5"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="beijing" width="1148" height="392"/>
+        <image name="u746" width="147" height="70"/>
     </resources>
 </document>

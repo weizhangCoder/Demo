@@ -12,6 +12,7 @@
 #import "ZWCoverModel_2_Cell.h"
 #import "DataModel.h"
 #import "home_headView.h"
+#import "HJDropDownMenu.h"
 
 #import "ZWCompanyViewController.h"
 
@@ -67,6 +68,12 @@
 //            [self pushVc:city];
         }
     }];
+    headView.selectView.userInteractionEnabled = YES;
+    HJDropDownMenu * peomMenu = [[HJDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, 90, 30)];
+    peomMenu.userInteractionEnabled = YES;
+    peomMenu.rowHeight = 30;
+    peomMenu.datas = @[@"企业名称",@"白露为霜",@"所谓伊人",@"在水一方",@"溯洄从之",@"道阻且长",@"溯游从之",@"宛在水中央"];
+    [headView.selectView addSubview:peomMenu];
   
 }
 

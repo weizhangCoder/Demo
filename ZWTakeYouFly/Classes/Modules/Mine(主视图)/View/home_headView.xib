@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热点" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfI-Jt-s8g">
-                    <rect key="frame" x="10" y="119" width="48" height="21"/>
+                    <rect key="frame" x="10" y="119" width="49" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="aUX-fT-sqd"/>
                     </constraints>
@@ -30,10 +30,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjx-bz-Iq8">
-                    <rect key="frame" x="58" y="119" width="5" height="21"/>
+                    <rect key="frame" x="59" y="119" width="4" height="21"/>
                     <color key="backgroundColor" red="1" green="0.56096501710000002" blue="0.18182237700000001" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="5" id="hwR-bp-UjI"/>
+                        <constraint firstAttribute="width" constant="4" id="hwR-bp-UjI"/>
                         <constraint firstAttribute="height" constant="21" id="lJh-gn-79f"/>
                     </constraints>
                 </view>
@@ -59,7 +59,7 @@
                 </segmentedControl>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csj-VI-V7n">
                     <rect key="frame" x="20" y="78" width="90" height="30"/>
-                    <color key="backgroundColor" red="1" green="0.56096501710000002" blue="0.18182237700000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="90" id="OlA-LT-etn"/>
                         <constraint firstAttribute="height" constant="30" id="up1-lq-7jK"/>
@@ -137,6 +137,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="searchView" destination="ul2-q7-Ijr" id="6n0-7A-yXP"/>
+                <outlet property="selectView" destination="Csj-VI-V7n" id="AVe-Vt-NWF"/>
             </connections>
             <point key="canvasLocation" x="34.5" y="133"/>
         </view>

@@ -10,6 +10,7 @@
 
 @interface home_headView : UIView
 
+@property (weak, nonatomic) IBOutlet UIView *selectView;
 @property (nonatomic,copy)void(^segmetBlock)(NSInteger index);
 
 @end
