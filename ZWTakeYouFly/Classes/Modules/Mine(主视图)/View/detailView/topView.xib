@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,7 +36,7 @@
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovb-dH-QJE">
                     <rect key="frame" x="10" y="55" width="50" height="17"/>
-                    <color key="backgroundColor" red="1" green="0.4362393282" blue="0.47821708629999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="1" green="0.43529411764705883" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="17" id="14v-LG-I6D"/>
                         <constraint firstAttribute="width" constant="50" id="sY5-Y3-0qp"/>
@@ -53,7 +53,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sx9-di-UU4">
                     <rect key="frame" x="80" y="55" width="50" height="17"/>
-                    <color key="backgroundColor" red="1" green="0.4362393282" blue="0.47821708629999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="Oal-q8-vwg"/>
                         <constraint firstAttribute="height" constant="17" id="bD3-4L-c24"/>
@@ -70,7 +70,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DA6-Hm-Rka">
                     <rect key="frame" x="220" y="55" width="50" height="17"/>
-                    <color key="backgroundColor" red="1" green="0.4362393282" blue="0.47821708629999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.58431372549019611" green="0.56862745098039214" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="17" id="KKm-8Z-faD"/>
                         <constraint firstAttribute="width" constant="50" id="Ow6-Ok-zgz"/>
@@ -87,7 +87,7 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i8-1H-Zl3">
                     <rect key="frame" x="150" y="55" width="50" height="17"/>
-                    <color key="backgroundColor" red="1" green="0.4362393282" blue="0.47821708629999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.18823529411764706" green="0.72941176470588232" blue="0.5607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="6cN-af-ZyM"/>
                         <constraint firstAttribute="height" constant="17" id="YAA-n3-HUd"/>

@@ -38,6 +38,13 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"u382" target:self action:@selector(backHome) width:20 height:20];
     
     [self setup];
+    
+    [ZWProgressHUD showWaitting];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [ZWProgressHUD hideHUD];
+        NSLog(@"%@", [NSThread currentThread]);
+    
+    });
 }
 
 
@@ -145,7 +152,10 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
         two_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_two forIndexPath:indexPath];
         NSString *name  = array[indexPath.row];
         [cell.btnName setTitle:name forState:UIControlStateNormal];
-        cell.btnName.backgroundColor = randomColor;
+//        int y =100 +  (arc4random() % 101);
+        NSArray *arrays = [NSArray arrayWithObjects:@"#95918c",@"#324ab2",@"#3bb08f",@"#ff496c",@"#6699cc",@"#fc6c85", nil];
+        NSString *color = arrays[indexPath.row];
+        cell.btnName.backgroundColor = [UIColor colorFromHex:color];
         ViewRadius(cell.btnName, 5);
         return cell;
     }

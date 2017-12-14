@@ -12,6 +12,7 @@
 #import "PinYinForObjc.h"
 #import "ZWCityDetailViewController.h"
 #import "LXSegmentBtnView.h"
+#import "JYSelectControl.h"
 #define KSectionIndexBackgroundColor  [UIColor clearColor] //索引试图未选中时的背景颜色
 #define kSectionIndexTrackingBackgroundColor [UIColor lightGrayColor]//索引试图选中时的背景
 #define kSectionIndexColor [UIColor grayColor]//索引试图字体颜色
@@ -62,19 +63,25 @@
     }
     return self;
 }
--(LXSegmentBtnView *)segmentView1{
-    if (!_segmentView1) {
-        _segmentView1 = [[LXSegmentBtnView alloc] init];
-        _segmentView1.delegate = self;
-        _segmentView1.btnBackgroundSelectColor = [UIColor colorTheme];
-        _segmentView1.titleFont = [UIFont systemFontOfSize:16];
-        [self.view addSubview:_segmentView1];
-    }
-    return _segmentView1;
-}
+//-(LXSegmentBtnView *)segmentView1{
+//    if (!_segmentView1) {
+//        _segmentView1 = [[LXSegmentBtnView alloc] init];
+//        _segmentView1.delegate = self;
+//        _segmentView1.btnBackgroundSelectColor = [UIColor colorTheme];
+//        _segmentView1.titleFont = [UIFont systemFontOfSize:16];
+//        [self.view addSubview:_segmentView1];
+//    }
+//    return _segmentView1;
+//}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [ZWProgressHUD showWaitting];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [ZWProgressHUD hideHUD];
+        NSLog(@"%@", [NSThread currentThread]);
+        
+    });
     
     self.view.backgroundColor = BGCOLOR;
     
@@ -82,8 +89,23 @@
     [self getCityData];
     
 //    CGFloat btnW = kScreen_Width/2;
-    self.segmentView1.frame = CGRectMake(0, kNavigationHeight, kScreen_Width, 40);
-    self.segmentView1.btnTitleArray = @[@"国内",@"国际"];
+//    self.segmentView1.frame = CGRectMake(0, kNavigationHeight, kScreen_Width, 40);
+//    self.segmentView1.btnTitleArray = @[@"国内",@"国际"];
+    JYSelectControl *selectControl = [[JYSelectControl alloc] initWithLeftTitle:@"国内" rightTitle:@"国际"];
+    selectControl.frame = CGRectMake(0, kNavigationHeight, kScreen_Width, 40);
+    [self.view addSubview:selectControl];
+//    selectControl.backgroundColor = [UIColor redColor];
+//    self.selectControl = selectControl;
+////    JY_WeakSelf
+//    [selectControl mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.equalTo(self.view.mas_left);
+//        make.top.equalTo(self.view.mas_top);
+//        make.right.equalTo(self.view.mas_right);
+//        make.height.mas_equalTo(40);
+//    }];
+    selectControl.selectBlock = ^(NSInteger index){
+        
+    };
     
     //3自定义背景
     
