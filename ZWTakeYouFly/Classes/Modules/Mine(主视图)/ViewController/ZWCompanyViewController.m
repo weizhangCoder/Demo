@@ -51,9 +51,10 @@
     UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 250, 35)];//allocate titleView
     UIColor *color = [UIColor whiteColor];
     [titleView setBackgroundColor:color];
-    
+//    UISearchBarBackground
     UISearchBar *searchBar = [[UISearchBar alloc] init];
-//    searchBar.delegate = self;
+
+    searchBar.backgroundImage = [UIImage imageFromContextWithColor:[UIColor whiteColor]];
     searchBar.placeholder = @"请输入查询内容";
     searchBar.frame = CGRectMake(0, 0, 240, 35);
     searchBar.backgroundColor = color;
