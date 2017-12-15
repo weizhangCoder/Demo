@@ -36,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
 
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"加号_白色" target:self action:@selector(login) width:40 height:40];
 
