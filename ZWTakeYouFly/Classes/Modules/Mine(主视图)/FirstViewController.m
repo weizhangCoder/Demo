@@ -72,7 +72,7 @@
     HJDropDownMenu * peomMenu = [[HJDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, 90, 30)];
     peomMenu.userInteractionEnabled = YES;
     peomMenu.rowHeight = 30;
-    peomMenu.datas = @[@"企业名称",@"白露为霜",@"所谓伊人",@"在水一方",@"溯洄从之",@"道阻且长",@"溯游从之",@"宛在水中央"];
+    peomMenu.datas = @[@"企业名称",@"法定代表人",@"注册地址",@"历史曾用名",@"主要产品"];
     [headView.selectView addSubview:peomMenu];
   
 }

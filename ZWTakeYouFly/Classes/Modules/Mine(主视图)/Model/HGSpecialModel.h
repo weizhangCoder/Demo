@@ -10,14 +10,14 @@
 
 @interface HGSpecialModel : NSObject
 
-@property (nonatomic,copy)NSString *imageName;
-
 @property (nonatomic,copy)NSString *companyName;
 
-@property (nonatomic,copy)NSString *farenName;
+@property (nonatomic,copy)NSString *companyIcon;
 
-@property (nonatomic,copy)NSString *moneyName;
+@property (nonatomic,copy)NSString *companyCeo;
 
-@property (nonatomic,copy)NSString *timeName;
+@property (nonatomic,copy)NSString *companyMoney;
+
+@property (nonatomic,copy)NSString *companyStarTime;
 
 @end

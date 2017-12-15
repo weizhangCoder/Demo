@@ -55,9 +55,9 @@
     }];
     CompanyView *company = [CompanyView viewFromXib];
     [headView addSubview:company];
-    company.ceoLabel.text = self.model.farenName;
-    company.moneyLabel.text = self.model.moneyName;
-    company.timeLabel.text = self.model.timeName;
+    company.ceoLabel.text = self.model.companyCeo;
+    company.moneyLabel.text = self.model.companyMoney;
+    company.timeLabel.text = self.model.companyStarTime;
     
     [company mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(headView.mas_left);
@@ -67,7 +67,7 @@
     }];
     topView *top = [topView viewFromXib];
     [headView addSubview:top];
-    top.companyImage.image = [UIImage imageNamed:self.model.imageName];
+    top.companyImage.image = [UIImage imageNamed:self.model.companyIcon];
     top.companyLabel.text = self.model.companyName;
     [top mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(headView);
@@ -177,11 +177,11 @@
         _group = [NSMutableArray array];
         for (int i = 0; i < 8; i++) {
             NSArray *nameGroup=[[NSArray alloc] initWithObjects:@"企业名片",@"基本信息",@"信用名片",@"信用档案",@"信用报告",@"企业风险",@"风险提示",@"企业评价",nil];
-            NSArray *imageGroup=[[NSArray alloc] initWithObjects:@"u482",@"u486",@"u490",@"u494",@"u498",@"u502",@"u506",@"u510",nil];
+//            NSArray *imageGroup=[[NSArray alloc] initWithObjects:@"u482",@"u486",@"u490",@"u494",@"u498",@"u502",@"u506",@"u510",nil];
             
             DataModel *model = [[DataModel alloc]init];
             model.text = nameGroup[i];
-            model.imageName = imageGroup[i];
+            model.imageName = nameGroup[i];
             [_group addObject:model];
             
         }

@@ -27,10 +27,10 @@
 - (void)setModel:(HGSpecialModel *)model{
     _model = model;
     self.companyName.text = model.companyName;
-    self.headImage.image = [UIImage imageNamed:model.imageName];
-    self.ceoLabel.text = model.farenName;
-    self.moneyLabel.text = model.moneyName;
-    self.timeLabel.text = model.timeName;
+    self.headImage.image = [UIImage imageNamed:model.companyIcon];
+    self.ceoLabel.text = model.companyCeo;
+    self.moneyLabel.text = model.companyMoney;
+    self.timeLabel.text = model.companyStarTime;
     
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

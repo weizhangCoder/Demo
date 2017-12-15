@@ -65,22 +65,22 @@
     //Set to titleView
     self.navigationItem.titleView = titleView;
     
-    NSMutableArray *headImageNames = [[NSMutableArray alloc]initWithObjects:@"u236",@"u272",@"u292",@"u312",@"u332",@"u368",@"u370", nil];
-    NSMutableArray *companys = [[NSMutableArray alloc]initWithObjects:@"小米科技有限公司",@"万科企业股份有限公司",@"北京宝亿嵘影业有限公司",@"中新力和有限公司",@"上海巨人网络有限公司",@"珠海格力集团有限公司",@"厦门美图网络科技有限公司", nil];
-    NSMutableArray *farenrray = [[NSMutableArray alloc]initWithObjects:@"法定代表人\n雷军",@"法定代表人\n郁亮",@"法定代表人\n任晓妍",@"法定代表人\n陈杭生",@"法定代表人\n刘伟",@"法定代表人\n周乐伟",@"法定代表人\n吴泽源", nil];
-    NSMutableArray *moneyArray = [[NSMutableArray alloc]initWithObjects:@"注册资本\n13200万元人民币",@"注册资本\n1099521.0218万元人民币",@"注册资本\n2000万元人民币",@"注册资本\n5300万元人民币",@"注册资本\n300万元人民币",@"注册资本\n180000万元人民币",@"注册资本\n13200万元人民币", nil];
-    NSMutableArray *timeArrays = [NSMutableArray arrayWithObjects:@"注册时间\n2010-03-03",@"注册时间\n1984-05-30",@"注册时间\n2010-08-30",@"注册时间\n2004-05-18",@"注册时间\n2004-11-18",@"注册时间\n1990-12-15",@"注册时间\n2003-06-18", nil];
+//    NSMutableArray *headImageNames = [[NSMutableArray alloc]initWithObjects:@"u236",@"u272",@"u292",@"u312",@"u332",@"u368",@"u370", nil];
+//    NSMutableArray *companys = [[NSMutableArray alloc]initWithObjects:@"小米科技有限公司",@"万科企业股份有限公司",@"北京宝亿嵘影业有限公司",@"中新力和有限公司",@"上海巨人网络有限公司",@"珠海格力集团有限公司",@"厦门美图网络科技有限公司", nil];
+//    NSMutableArray *farenrray = [[NSMutableArray alloc]initWithObjects:@"法定代表人\n雷军",@"法定代表人\n郁亮",@"法定代表人\n任晓妍",@"法定代表人\n陈杭生",@"法定代表人\n刘伟",@"法定代表人\n周乐伟",@"法定代表人\n吴泽源", nil];
+//    NSMutableArray *moneyArray = [[NSMutableArray alloc]initWithObjects:@"注册资本\n13200万元人民币",@"注册资本\n1099521.0218万元人民币",@"注册资本\n2000万元人民币",@"注册资本\n5300万元人民币",@"注册资本\n300万元人民币",@"注册资本\n180000万元人民币",@"注册资本\n13200万元人民币", nil];
+//    NSMutableArray *timeArrays = [NSMutableArray arrayWithObjects:@"注册时间\n2010-03-03",@"注册时间\n1984-05-30",@"注册时间\n2010-08-30",@"注册时间\n2004-05-18",@"注册时间\n2004-11-18",@"注册时间\n1990-12-15",@"注册时间\n2003-06-18", nil];
 
-    
-    for (int i = 0; i < farenrray.count; i++) {
-        HGSpecialModel *model = [[HGSpecialModel alloc]init];
-        model.farenName = farenrray[i];
-        model.companyName = companys[i];
-        model.imageName = headImageNames[i];
-        model.moneyName = moneyArray[i];
-        model.timeName =  timeArrays[i];
-        [self.specialArr addObject:model];
-    }
+//
+//    for (int i = 0; i < farenrray.count; i++) {
+//        HGSpecialModel *model = [[HGSpecialModel alloc]init];
+//        model.farenName = farenrray[i];
+//        model.companyName = companys[i];
+//        model.imageName = headImageNames[i];
+//        model.moneyName = moneyArray[i];
+//        model.timeName =  timeArrays[i];
+//        [self.specialArr addObject:model];
+//    }
     [_tableView reloadData];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -162,6 +162,59 @@
 {
     if(_specialArr==nil) {
         _specialArr=[NSMutableArray array];
+        _specialArr = @[
+                        @{
+                            @"companyName" : @"小米科技有限公司",
+                            @"companyIcon" : @"u236",
+                            @"companyCeo" : @"法定代表人\n雷军",
+                            @"companyMoney" : @"注册资本\n13200万元人民币",
+                            @"companyStarTime" : @"注册时间\n2010-03-03",
+                            },
+                        @{
+                            @"companyName" : @"万科企业股份有限公司",
+                            @"companyIcon" : @"u272",
+                            @"companyCeo" : @"法定代表人\n郁亮",
+                            @"companyMoney" : @"注册资本\n1099521.0218万元人民币",
+                            @"companyStarTime" : @"注册时间\n1984-05-30",
+                            },
+                        @{
+                            @"companyName" : @"北京宝亿嵘影业有限公司",
+                            @"companyIcon" : @"u292",
+                            @"companyCeo" : @"法定代表人\n任晓妍",
+                            @"companyMoney" : @"注册资本\n2000万元人民币",
+                            @"companyStarTime" : @"注册时间\n2004-05-18",
+                            },
+                        @{
+                            @"companyName" : @"中新力和有限公司",
+                            @"companyIcon" : @"u312",
+                            @"companyCeo" : @"法定代表人\n陈杭生",
+                            @"companyMoney" : @"注册资本\n5300万元人民币",
+                            @"companyStarTime" : @"注册时间\n2004-11-18",
+                            },
+                        @{
+                            @"companyName" : @"上海巨人网络有限公司",
+                            @"companyIcon" : @"u332",
+                            @"companyCeo" : @"法定代表人\n刘伟",
+                            @"companyMoney" : @"注册资本\n300万元人民币",
+                            @"companyStarTime" : @"注册时间\n1990-12-15",
+                            },
+                        @{
+                            @"companyName" : @"珠海格力集团有限公司",
+                            @"companyIcon" : @"u368",
+                            @"companyCeo" : @"法定代表人\n周乐伟",
+                            @"companyMoney" : @"注册资本\n180000万元人民币",
+                            @"companyStarTime" : @"注册时间\n2003-06-18",
+                            },
+                        @{
+                            @"companyName" : @"厦门美图网络科技有限公司",
+                            @"companyIcon" : @"u370",
+                            @"companyCeo" : @"法定代表人\n吴泽源",
+                            @"companyMoney" : @"注册资本\n13200万元人民币",
+                            @"companyStarTime" : @"注册时间\n2010-03-03",
+                            },
+                        
+                        
+                        ].mutableCopy;
     }
     return _specialArr;
 }
@@ -171,7 +224,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    return _specialArr.count;
+    return self.specialArr.count;
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     
@@ -189,7 +242,8 @@
         cell = [ZWTableViewCell viewFromXib];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    cell.model = self.specialArr[indexPath.row];
+    NSArray *array = [HGSpecialModel mj_objectArrayWithKeyValuesArray:self.specialArr];
+    cell.model = array[indexPath.row];
 
     return cell;
     
@@ -197,8 +251,9 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    NSArray *array = [HGSpecialModel mj_objectArrayWithKeyValuesArray:self.specialArr];
     ZWComeyDetailViewController *detail = [[ZWComeyDetailViewController alloc]init];
-    detail.model = self.specialArr[indexPath.row];
+    detail.model = array[indexPath.row];
     [self pushVc:detail];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
