@@ -12,7 +12,7 @@
 #import "HGSpecialModel.h"
 #import "ZWTableViewCell.h"
 #import "ZWComeyDetailViewController.h"
-
+#import "ZWDataManager.h"
 
 
 #define HGSpecialName  @"HGSpecialName"
@@ -64,23 +64,8 @@
     ViewRadius(titleView, 10);
     //Set to titleView
     self.navigationItem.titleView = titleView;
+    self.specialArr = [ZWDataManager sharedZWDataManager].dataAarry;
     
-//    NSMutableArray *headImageNames = [[NSMutableArray alloc]initWithObjects:@"u236",@"u272",@"u292",@"u312",@"u332",@"u368",@"u370", nil];
-//    NSMutableArray *companys = [[NSMutableArray alloc]initWithObjects:@"小米科技有限公司",@"万科企业股份有限公司",@"北京宝亿嵘影业有限公司",@"中新力和有限公司",@"上海巨人网络有限公司",@"珠海格力集团有限公司",@"厦门美图网络科技有限公司", nil];
-//    NSMutableArray *farenrray = [[NSMutableArray alloc]initWithObjects:@"法定代表人\n雷军",@"法定代表人\n郁亮",@"法定代表人\n任晓妍",@"法定代表人\n陈杭生",@"法定代表人\n刘伟",@"法定代表人\n周乐伟",@"法定代表人\n吴泽源", nil];
-//    NSMutableArray *moneyArray = [[NSMutableArray alloc]initWithObjects:@"注册资本\n13200万元人民币",@"注册资本\n1099521.0218万元人民币",@"注册资本\n2000万元人民币",@"注册资本\n5300万元人民币",@"注册资本\n300万元人民币",@"注册资本\n180000万元人民币",@"注册资本\n13200万元人民币", nil];
-//    NSMutableArray *timeArrays = [NSMutableArray arrayWithObjects:@"注册时间\n2010-03-03",@"注册时间\n1984-05-30",@"注册时间\n2010-08-30",@"注册时间\n2004-05-18",@"注册时间\n2004-11-18",@"注册时间\n1990-12-15",@"注册时间\n2003-06-18", nil];
-
-//
-//    for (int i = 0; i < farenrray.count; i++) {
-//        HGSpecialModel *model = [[HGSpecialModel alloc]init];
-//        model.farenName = farenrray[i];
-//        model.companyName = companys[i];
-//        model.imageName = headImageNames[i];
-//        model.moneyName = moneyArray[i];
-//        model.timeName =  timeArrays[i];
-//        [self.specialArr addObject:model];
-//    }
     [_tableView reloadData];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -91,9 +76,9 @@
     [self popToRootVc];
 }
 - (void)setup{
-    self.cates = @[@"全国",@"服饰",@"搭配",@"数码",@"餐厨",@"出行",@"文具",@"居家",@"品牌"];
-    self.states = @[@"全部行业",@"预售中",@"预售失败",@"成功结束"];
-    self.sorts = @[@"更多筛选",@"最新",@"价格"];
+    self.cates = @[@"全国",@"北京",@"上海",@"深圳",@"杭州"];
+    self.states = @[@"全部行业",@"全国行业"];
+    self.sorts = @[@"更多筛选",@"最新",@"注册资本"];
     
     _menu = [[MoreDropDownMenu alloc] initWithOrigin:CGPointMake(0, 0) andHeight:49.5];
     _menu.delegate = self;
@@ -158,66 +143,7 @@
     
     NSLog(@"点击了菜单");
 }
--(NSMutableArray *)specialArr
-{
-    if(_specialArr==nil) {
-        _specialArr=[NSMutableArray array];
-        _specialArr = @[
-                        @{
-                            @"companyName" : @"小米科技有限公司",
-                            @"companyIcon" : @"u236",
-                            @"companyCeo" : @"法定代表人\n雷军",
-                            @"companyMoney" : @"注册资本\n13200万元人民币",
-                            @"companyStarTime" : @"注册时间\n2010-03-03",
-                            },
-                        @{
-                            @"companyName" : @"万科企业股份有限公司",
-                            @"companyIcon" : @"u272",
-                            @"companyCeo" : @"法定代表人\n郁亮",
-                            @"companyMoney" : @"注册资本\n1099521.0218万元人民币",
-                            @"companyStarTime" : @"注册时间\n1984-05-30",
-                            },
-                        @{
-                            @"companyName" : @"北京宝亿嵘影业有限公司",
-                            @"companyIcon" : @"u292",
-                            @"companyCeo" : @"法定代表人\n任晓妍",
-                            @"companyMoney" : @"注册资本\n2000万元人民币",
-                            @"companyStarTime" : @"注册时间\n2004-05-18",
-                            },
-                        @{
-                            @"companyName" : @"中新力和有限公司",
-                            @"companyIcon" : @"u312",
-                            @"companyCeo" : @"法定代表人\n陈杭生",
-                            @"companyMoney" : @"注册资本\n5300万元人民币",
-                            @"companyStarTime" : @"注册时间\n2004-11-18",
-                            },
-                        @{
-                            @"companyName" : @"上海巨人网络有限公司",
-                            @"companyIcon" : @"u332",
-                            @"companyCeo" : @"法定代表人\n刘伟",
-                            @"companyMoney" : @"注册资本\n300万元人民币",
-                            @"companyStarTime" : @"注册时间\n1990-12-15",
-                            },
-                        @{
-                            @"companyName" : @"珠海格力集团有限公司",
-                            @"companyIcon" : @"u368",
-                            @"companyCeo" : @"法定代表人\n周乐伟",
-                            @"companyMoney" : @"注册资本\n180000万元人民币",
-                            @"companyStarTime" : @"注册时间\n2003-06-18",
-                            },
-                        @{
-                            @"companyName" : @"厦门美图网络科技有限公司",
-                            @"companyIcon" : @"u370",
-                            @"companyCeo" : @"法定代表人\n吴泽源",
-                            @"companyMoney" : @"注册资本\n13200万元人民币",
-                            @"companyStarTime" : @"注册时间\n2010-03-03",
-                            },
-                        
-                        
-                        ].mutableCopy;
-    }
-    return _specialArr;
-}
+
 #pragma mark - Table view data source
 
 

@@ -21,6 +21,7 @@
 
 @interface FirstViewController ()<CityListViewDelegate>
 @property (nonatomic,strong)NSMutableArray *group;
+
 @end
 
 @implementation FirstViewController
@@ -41,7 +42,9 @@
 
     UIImageView *logo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"u76"]];
     logo.frame = CGRectMake(0, 0, 165, 29);
-    self.navigationItem.titleView = logo;
+//    self.navigationItem.titleView = logo;
+    self.title = @"企业信用产品服务平台";
+    
 //
 //    self.tableView.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10);
 //    self.tableView.separatorColor = [UIColor colorFromHex:@"#999999" alpha:0.3];
@@ -61,19 +64,15 @@
         if (index == 0) {
           ZWCompanyViewController *company =  [ZWCompanyViewController new];
           [self pushVc:company];
+            
         }else{
             [self pushCity];
-//            ZWCityViewController *city =  [ZWCityViewController new];
-//            city.title = @"城市信用";
-//            [self pushVc:city];
+
         }
     }];
     headView.selectView.userInteractionEnabled = YES;
-    HJDropDownMenu * peomMenu = [[HJDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, 90, 30)];
-    peomMenu.userInteractionEnabled = YES;
-    peomMenu.rowHeight = 30;
-    peomMenu.datas = @[@"企业名称",@"法定代表人",@"注册地址",@"历史曾用名",@"主要产品"];
-    [headView.selectView addSubview:peomMenu];
+    
+  
   
 }
 

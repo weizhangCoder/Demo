@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self addChildVc:wait];
 }
 #pragma mark --------------------------SetUp----------------------/
 

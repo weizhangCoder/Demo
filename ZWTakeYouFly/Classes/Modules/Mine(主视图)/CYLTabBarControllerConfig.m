@@ -74,12 +74,12 @@
     UIViewController *secondNavigationController = [[ZWNavigationViewController alloc]
                                                     initWithRootViewController:secondViewController];
     
-    UIViewController *thirdViewController = [[ThreeViewController alloc] init];
+    UIViewController *thirdViewController = [[TwoViewController alloc] init];
     thirdViewController.navigationItem.title = @"报告";
     UIViewController *thirdNavigationController = [[ZWNavigationViewController alloc]
                                                    initWithRootViewController:thirdViewController];
     
-    UIViewController *fiveViewController = [[ThreeViewController alloc] init];
+    UIViewController *fiveViewController = [[TwoViewController alloc] init];
     thirdViewController.navigationItem.title = @"监控";
     UIViewController *fiveNavigationController = [[ZWNavigationViewController alloc]
                                                    initWithRootViewController:fiveViewController];

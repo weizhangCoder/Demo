@@ -19,6 +19,7 @@
 		5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336BA4E1F95A588003CFA7D /* ZWTool.m */; };
 		720922E01FE17F8700DFFB07 /* HJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */; };
 		720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */; };
+		720922E41FE3FA5900DFFB07 /* ZWDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922E31FE3FA5900DFFB07 /* ZWDataManager.m */; };
 		720A262B1FDD15D200C470DA /* JYCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A26291FDD15D200C470DA /* JYCustomButton.m */; };
 		720A262F1FDD236000C470DA /* ZWCoverModel_1_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A262D1FDD236000C470DA /* ZWCoverModel_1_Cell.m */; };
 		720A26301FDD236000C470DA /* ZWCoverModel_1_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720A262E1FDD236000C470DA /* ZWCoverModel_1_Cell.xib */; };
@@ -152,6 +153,8 @@
 		720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDropDownMenu.m; sourceTree = "<group>"; };
 		720922DE1FE17F8600DFFB07 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		720922E21FE3FA5900DFFB07 /* ZWDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWDataManager.h; sourceTree = "<group>"; };
+		720922E31FE3FA5900DFFB07 /* ZWDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWDataManager.m; sourceTree = "<group>"; };
 		720A26291FDD15D200C470DA /* JYCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCustomButton.m; sourceTree = "<group>"; };
 		720A262A1FDD15D200C470DA /* JYCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCustomButton.h; sourceTree = "<group>"; };
 		720A262C1FDD236000C470DA /* ZWCoverModel_1_Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWCoverModel_1_Cell.h; sourceTree = "<group>"; };
@@ -682,6 +685,8 @@
 				72F7FF5E1F21FDDC00BFC7E6 /* NHFileCacheManager.m */,
 				7275B66B1F2EC3DC00F5016A /* MJExtensionConfig.h */,
 				7275B66C1F2EC3DC00F5016A /* MJExtensionConfig.m */,
+				720922E21FE3FA5900DFFB07 /* ZWDataManager.h */,
+				720922E31FE3FA5900DFFB07 /* ZWDataManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -1188,7 +1193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1258,6 +1263,7 @@
 				7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */,
 				72F7FFC21F22010400BFC7E6 /* NHCommonConstant.m in Sources */,
 				5306638F1FE3BDCE000BF402 /* ZWTestTableViewCell.m in Sources */,
+				720922E41FE3FA5900DFFB07 /* ZWDataManager.m in Sources */,
 				72F7FFB91F21FFDE00BFC7E6 /* ZWProgressHUD.m in Sources */,
 				72E02C111FDD120800AC0D57 /* me_headView.m in Sources */,
 				72D9E22F1F26D77600FED4A4 /* HcdGuideView.m in Sources */,

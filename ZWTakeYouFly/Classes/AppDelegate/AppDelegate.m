@@ -26,6 +26,8 @@
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
     MMZCViewController *login = [[MMZCViewController alloc]init];
     [login setLogin:^{
         CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc]init];
