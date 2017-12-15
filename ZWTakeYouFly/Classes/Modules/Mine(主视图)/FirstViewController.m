@@ -166,6 +166,11 @@
  
     
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self pushVc:wait];
+    
+}
 
 #pragma mark --------------------------Lazy----------------------/
 - (NSMutableArray *)group{

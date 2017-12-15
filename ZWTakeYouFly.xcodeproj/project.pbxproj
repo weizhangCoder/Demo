@@ -10,6 +10,10 @@
 		5306634B1FE12C80000BF402 /* MMZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663491FE12BE1000BF402 /* MMZCViewController.m */; };
 		5306634C1FE12C88000BF402 /* TKPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663481FE12BDF000BF402 /* TKPhoneTextField.m */; };
 		530663801FE23457000BF402 /* JYSelectControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306637E1FE22CDB000BF402 /* JYSelectControl.m */; };
+		530663821FE3715A000BF402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530663811FE3715A000BF402 /* Images.xcassets */; };
+		530663861FE37A1E000BF402 /* ZWWaitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663841FE37A1E000BF402 /* ZWWaitViewController.m */; };
+		530663871FE37A1E000BF402 /* ZWWaitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530663851FE37A1E000BF402 /* ZWWaitViewController.xib */; };
+		5306638A1FE37CBF000BF402 /* JYJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663891FE37CBF000BF402 /* JYJumpTool.m */; };
 		5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336BA4E1F95A588003CFA7D /* ZWTool.m */; };
 		720922E01FE17F8700DFFB07 /* HJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */; };
 		720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */; };
@@ -131,6 +135,12 @@
 		5306634A1FE12BE3000BF402 /* TKPhoneTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPhoneTextField.h; sourceTree = "<group>"; };
 		5306637E1FE22CDB000BF402 /* JYSelectControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSelectControl.m; sourceTree = "<group>"; };
 		5306637F1FE22CDB000BF402 /* JYSelectControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYSelectControl.h; sourceTree = "<group>"; };
+		530663811FE3715A000BF402 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		530663831FE37A1E000BF402 /* ZWWaitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWaitViewController.h; sourceTree = "<group>"; };
+		530663841FE37A1E000BF402 /* ZWWaitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWaitViewController.m; sourceTree = "<group>"; };
+		530663851FE37A1E000BF402 /* ZWWaitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZWWaitViewController.xib; sourceTree = "<group>"; };
+		530663881FE37CBF000BF402 /* JYJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYJumpTool.h; sourceTree = "<group>"; };
+		530663891FE37CBF000BF402 /* JYJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYJumpTool.m; sourceTree = "<group>"; };
 		5336BA4D1F95A588003CFA7D /* ZWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTool.h; sourceTree = "<group>"; };
 		5336BA4E1F95A588003CFA7D /* ZWTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTool.m; sourceTree = "<group>"; };
 		720922DC1FE17F8600DFFB07 /* HJDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDropDownMenu.h; sourceTree = "<group>"; };
@@ -367,6 +377,9 @@
 				530663491FE12BE1000BF402 /* MMZCViewController.m */,
 				5306634A1FE12BE3000BF402 /* TKPhoneTextField.h */,
 				530663481FE12BDF000BF402 /* TKPhoneTextField.m */,
+				530663831FE37A1E000BF402 /* ZWWaitViewController.h */,
+				530663841FE37A1E000BF402 /* ZWWaitViewController.m */,
+				530663851FE37A1E000BF402 /* ZWWaitViewController.xib */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -591,6 +604,7 @@
 				72F7FEEB1F21F67C00BFC7E6 /* Classes */,
 				72F7FEE01F21F1DC00BFC7E6 /* Assets.xcassets */,
 				72F7FEE51F21F1DC00BFC7E6 /* Info.plist */,
+				530663811FE3715A000BF402 /* Images.xcassets */,
 				72F7FED41F21F1DC00BFC7E6 /* Supporting Files */,
 			);
 			path = ZWTakeYouFly;
@@ -750,6 +764,8 @@
 		72F7FEFC1F21F67C00BFC7E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				530663881FE37CBF000BF402 /* JYJumpTool.h */,
+				530663891FE37CBF000BF402 /* JYJumpTool.m */,
 				5306637F1FE22CDB000BF402 /* JYSelectControl.h */,
 				5306637E1FE22CDB000BF402 /* JYSelectControl.m */,
 				720922DB1FE17F8600DFFB07 /* HJDropDownMenu */,
@@ -1076,6 +1092,8 @@
 				720A26781FDD637400C470DA /* unicode_to_hanyu_pinyin.txt in Resources */,
 				7236883E1FE01E64008A14DC /* one_CollectionViewCell.xib in Resources */,
 				720A26351FDD237E00C470DA /* ZWCoverModel_0_Cell.xib in Resources */,
+				530663821FE3715A000BF402 /* Images.xcassets in Resources */,
+				530663871FE37A1E000BF402 /* ZWWaitViewController.xib in Resources */,
 				720A263A1FDD238E00C470DA /* ZWCoverModel_2_Cell.xib in Resources */,
 				72F7FEE11F21F1DC00BFC7E6 /* Assets.xcassets in Resources */,
 				723688381FE015DF008A14DC /* topView.xib in Resources */,
@@ -1191,6 +1209,7 @@
 				720A26701FDD637400C470DA /* CityListViewController.m in Sources */,
 				72D9E2221F25EA3400FED4A4 /* TwoViewController.m in Sources */,
 				720A266D1FDD637400C470DA /* CityButton.m in Sources */,
+				5306638A1FE37CBF000BF402 /* JYJumpTool.m in Sources */,
 				72F7FFBF1F2200CB00BFC7E6 /* ZWUserInfoModel.m in Sources */,
 				720A262B1FDD15D200C470DA /* JYCustomButton.m in Sources */,
 				720A267D1FDD65B300C470DA /* LXSegmentBtnView.m in Sources */,
@@ -1254,6 +1273,7 @@
 				720A263E1FDD2D8E00C470DA /* CollectionViewCell.m in Sources */,
 				720A26431FDD2E9000C470DA /* DataModel.m in Sources */,
 				720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */,
+				530663861FE37A1E000BF402 /* ZWWaitViewController.m in Sources */,
 				72F7FFCE1F22014F00BFC7E6 /* NHBaseTableView.m in Sources */,
 				72F7FFA01F21FFA000BFC7E6 /* NSFileManager+Paths.m in Sources */,
 				720A26341FDD237E00C470DA /* ZWCoverModel_0_Cell.m in Sources */,
@@ -1366,8 +1386,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyall.feipai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "16334da8-5ed1-447b-b29f-f8e750a90611";
-				PROVISIONING_PROFILE_SPECIFIER = feipai_dev;
+				PROVISIONING_PROFILE = "370cb81d-dfb0-4298-8241-054cd60c5f07";
+				PROVISIONING_PROFILE_SPECIFIER = feipai_dev_10;
 			};
 			name = Debug;
 		};

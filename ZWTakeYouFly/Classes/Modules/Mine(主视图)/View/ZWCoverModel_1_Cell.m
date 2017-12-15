@@ -49,7 +49,9 @@
 #pragma mark - 轮播图的代理
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
- 
+    
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [JYJumpTool pushViewController:wait animated:YES];
     
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

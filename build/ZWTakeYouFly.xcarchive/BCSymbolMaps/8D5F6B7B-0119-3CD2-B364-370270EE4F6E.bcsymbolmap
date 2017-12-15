@@ -1,0 +1,4582 @@
+BCSymbolMap Version: 2.0
+-[JYSelectControl initWithLeftTitle:rightTitle:]
+_CGRectMake
+___48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.89
+___copy_helper_block_.92
+___destroy_helper_block_.93
+___48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.95
+__MASBoxValue
+___copy_helper_block_.103
+___destroy_helper_block_.104
+___48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.106
+___copy_helper_block_.110
+___destroy_helper_block_.111
+-[JYSelectControl leftLabel]
+-[JYSelectControl rightLabel]
+-[JYSelectControl selectLine]
+-[JYSelectControl separateLine]
+-[JYSelectControl touchesEnded:withEvent:]
+-[JYSelectControl afterSelectChangeUIForIndex:]
+___47-[JYSelectControl afterSelectChangeUIForIndex:]_block_invoke
+___copy_helper_block_.146
+___destroy_helper_block_.147
+-[JYSelectControl selectBlock]
+-[JYSelectControl setSelectBlock:]
+-[JYSelectControl setLeftLabel:]
+-[JYSelectControl setRightLabel:]
+-[JYSelectControl setSeparateLine:]
+-[JYSelectControl setSelectLine:]
+-[JYSelectControl currentSelect]
+-[JYSelectControl setCurrentSelect:]
+-[JYSelectControl .cxx_destruct]
+_accountTypeTitle
+_accountTypeImageName
+_ZWShareIconApi
+_ZWShareWebApi
+_ZWImageUploadApi
+_ZWMineHelpApi
+_ZWMinesuggestionApi
+_ZWMineCouponsApi
+_ZWMineUnIndexApi
+_ZWMineUpdateUserInfoApi
+_ZWMineUAboutMeApi
+_ZWOrderCommitApi
+_ZWOrderunifiedorderApi
+_ZWOrderListApi
+_ZWOrderDeailApi
+_ZWOrderupdateStatusApi
+_ZWHallwxIndexApi
+_ZWHallyxIndexApi
+_ZWHallIndexApi
+_ZWMessagexUserApi
+_ZWMessageUpdateApi
+_ZWMessagedeleteApi
+_ZWLoginApi
+_ZWSendSmsApi
+_ZWloginPhoneApi
+___block_descriptor_tmp
+___block_descriptor_tmp.94
+___block_descriptor_tmp.105
+___block_descriptor_tmp.112
+_OBJC_IVAR_$_JYSelectControl._currentSelect
+_OBJC_IVAR_$_JYSelectControl._leftLabel
+_OBJC_IVAR_$_JYSelectControl._rightLabel
+_OBJC_IVAR_$_JYSelectControl._selectLine
+_OBJC_IVAR_$_JYSelectControl._separateLine
+___block_descriptor_tmp.148
+_OBJC_IVAR_$_JYSelectControl._selectBlock
+Apple LLVM version 9.0.0 (clang-900.0.37)
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/JYSelectControl.m
+/Users/zhangsan/Desktop/github pull computer/Demo
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/JYSelectControl.h
+__destroy_helper_block_
+__copy_helper_block_
+__47-[JYSelectControl afterSelectChangeUIForIndex:]_block_invoke
+__48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.106
+_MASBoxValue
+/Users/zhangsan/Library/Developer/Xcode/DerivedData/ZWTakeYouFly-dzovsiugcapypehagfyflngtkukm/Build/Intermediates.noindex/ArchiveIntermediates/ZWTakeYouFly/BuildProductsPath/Debug-iphoneos/Masonry/Masonry.framework/Headers/MASUtilities.h
+__48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.95
+__48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke.89
+__48-[JYSelectControl initWithLeftTitle:rightTitle:]_block_invoke
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[TKPhoneTextField initWithFrame:]
+-[TKPhoneTextField initWithCoder:]
+-[TKPhoneTextField reformatAsPhoneNumber:]
+-[TKPhoneTextField removeNonDigits:andPreserveCursorPosition:]
+-[TKPhoneTextField insertSpacesEveryFourDigitsIntoString:andPreserveCursorPosition:]
+-[TKPhoneTextField textField:shouldChangeCharactersInRange:replacementString:]
+-[TKPhoneTextField .cxx_destruct]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/login/TKPhoneTextField.m
+-[MMZCViewController viewWillAppear:]
+-[MMZCViewController viewDidLoad]
+-[MMZCViewController clickaddBtn:]
+-[MMZCViewController createLabel]
+-[MMZCViewController createTextFields]
+-[MMZCViewController touchesEnded:withEvent:]
+-[MMZCViewController touchesBegan:withEvent:]
+-[MMZCViewController createImageViews]
+-[MMZCViewController createButtons]
+-[MMZCViewController onClickQQ:]
+-[MMZCViewController onClickWX:]
+-[MMZCViewController onClickSina:]
+-[MMZCViewController createTextFielfFrame:font:placeholder:]
+-[MMZCViewController createImageViewFrame:imageName:color:]
+-[MMZCViewController createButtonFrame:backImageName:title:titleColor:font:target:action:]
+-[MMZCViewController landClick]
+___31-[MMZCViewController landClick]_block_invoke
+-[MMZCViewController textField:shouldChangeCharactersInRange:replacementString:]
+-[MMZCViewController zhuce]
+-[MMZCViewController registration:]
+-[MMZCViewController fogetPwd:]
+-[MMZCViewController login]
+-[MMZCViewController setLogin:]
+-[MMZCViewController accountNumber]
+-[MMZCViewController setAccountNumber:]
+-[MMZCViewController mmmm]
+-[MMZCViewController setMmmm:]
+-[MMZCViewController user]
+-[MMZCViewController setUser:]
+-[MMZCViewController .cxx_destruct]
+_OBJC_IVAR_$_MMZCViewController.View
+_OBJC_IVAR_$_MMZCViewController.bgView
+_OBJC_IVAR_$_MMZCViewController.accontuser
+_OBJC_IVAR_$_MMZCViewController.pwd
+_OBJC_IVAR_$_MMZCViewController.weixinBtn
+_OBJC_IVAR_$_MMZCViewController.QQBtn
+_OBJC_IVAR_$_MMZCViewController.xinlangBtn
+_OBJC_IVAR_$_MMZCViewController._login
+_OBJC_IVAR_$_MMZCViewController._accountNumber
+_OBJC_IVAR_$_MMZCViewController._mmmm
+_OBJC_IVAR_$_MMZCViewController._user
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/login/MMZCViewController.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/login/MMZCViewController.h
+__31-[MMZCViewController landClick]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/dispatch/queue.h
+-[FourViewController viewDidLoad]
+___33-[FourViewController viewDidLoad]_block_invoke
+___33-[FourViewController viewDidLoad]_block_invoke_2
+___33-[FourViewController viewDidLoad]_block_invoke_3
+___33-[FourViewController viewDidLoad]_block_invoke_4
+___33-[FourViewController viewDidLoad]_block_invoke_5
+___33-[FourViewController viewDidLoad]_block_invoke_6
+___33-[FourViewController viewDidLoad]_block_invoke_7
+-[FourViewController tableView:heightForFooterInSection:]
+-[FourViewController tableView:heightForHeaderInSection:]
+-[FourViewController didReceiveMemoryWarning]
+___block_literal_global
+___block_descriptor_tmp.96
+___block_literal_global.97
+___block_descriptor_tmp.102
+___block_literal_global.103
+___block_descriptor_tmp.110
+___block_literal_global.111
+___block_descriptor_tmp.118
+___block_literal_global.119
+___block_descriptor_tmp.126
+___block_literal_global.127
+___block_descriptor_tmp.134
+___block_literal_global.135
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/FourViewController.m
+__33-[FourViewController viewDidLoad]_block_invoke_7
+__33-[FourViewController viewDidLoad]_block_invoke_6
+__33-[FourViewController viewDidLoad]_block_invoke_5
+__33-[FourViewController viewDidLoad]_block_invoke_4
+__33-[FourViewController viewDidLoad]_block_invoke_3
+__33-[FourViewController viewDidLoad]_block_invoke_2
+__33-[FourViewController viewDidLoad]_block_invoke
+-[CYLTabBarControllerConfig tabBarController]
+-[CYLTabBarControllerConfig viewControllers]
+-[CYLTabBarControllerConfig tabBarItemsAttributesForController]
+-[CYLTabBarControllerConfig customizeTabBarAppearance:]
+-[CYLTabBarControllerConfig updateTabBarCustomizationWhenTabBarItemWidthDidUpdate]
+___82-[CYLTabBarControllerConfig updateTabBarCustomizationWhenTabBarItemWidthDidUpdate]_block_invoke
+-[CYLTabBarControllerConfig customizeTabBarSelectionIndicatorImage]
+_CGSizeMake
++[CYLTabBarControllerConfig imageWithColor:size:]
+-[CYLTabBarControllerConfig dealloc]
+-[CYLTabBarControllerConfig setTabBarController:]
+-[CYLTabBarControllerConfig .cxx_destruct]
+_OBJC_IVAR_$_CYLTabBarControllerConfig._tabBarController
+l_OBJC_PROTOCOL_$_UITabBarControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITabBarControllerDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/CYLTabBarControllerConfig.m
+CGSizeMake
+__82-[CYLTabBarControllerConfig updateTabBarCustomizationWhenTabBarItemWidthDidUpdate]_block_invoke
+-[one_CollectionViewCell awakeFromNib]
+-[one_CollectionViewCell getRandomNumber:to:]
+-[one_CollectionViewCell headImage]
+-[one_CollectionViewCell setHeadImage:]
+-[one_CollectionViewCell titleNameLabel]
+-[one_CollectionViewCell setTitleNameLabel:]
+-[one_CollectionViewCell hejiLabel]
+-[one_CollectionViewCell setHejiLabel:]
+-[one_CollectionViewCell yuduLabel]
+-[one_CollectionViewCell setYuduLabel:]
+-[one_CollectionViewCell yearLabel]
+-[one_CollectionViewCell setYearLabel:]
+-[one_CollectionViewCell .cxx_destruct]
+_OBJC_IVAR_$_one_CollectionViewCell._headImage
+_OBJC_IVAR_$_one_CollectionViewCell._titleNameLabel
+_OBJC_IVAR_$_one_CollectionViewCell._hejiLabel
+_OBJC_IVAR_$_one_CollectionViewCell._yuduLabel
+_OBJC_IVAR_$_one_CollectionViewCell._yearLabel
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/citydetail/one_CollectionViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/citydetail/one_CollectionViewCell.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+___57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke
+-[AppDelegate configureKeyboard]
+-[AppDelegate configBugly]
+-[AppDelegate addGuideView]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_BuglyDelegate
+l_OBJC_LABEL_PROTOCOL_$_BuglyDelegate
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/AppDelegate/AppDelegate.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/AppDelegate/AppDelegate.h
+__57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke
++[ZWUserInfoManager sharedManager]
+___34+[ZWUserInfoManager sharedManager]_block_invoke
+-[ZWUserInfoManager currentUserInfo]
+-[ZWUserInfoManager currentUserid]
+-[ZWUserInfoManager resetUserInfoWithUserInfo:]
+-[ZWUserInfoManager didLoginInWithUserInfo:]
+-[ZWUserInfoManager didLoginOut]
+-[ZWUserInfoManager isLogin]
+-[ZWUserInfoManager setIsLogin:]
+__singleton
+_sharedManager.onceToken
+_OBJC_IVAR_$_ZWUserInfoManager._isLogin
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Manager/ZWUserInfoManager.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Manager/ZWUserInfoManager.h
+__34+[ZWUserInfoManager sharedManager]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/dispatch/once.h
+-[HcdGuideViewCell init]
+-[HcdGuideViewCell initWithFrame:]
+-[HcdGuideViewCell initView]
+_CGPointMake
+-[HcdGuideViewCell imageView]
+-[HcdGuideViewCell setImageView:]
+-[HcdGuideViewCell button]
+-[HcdGuideViewCell setButton:]
+-[HcdGuideViewCell .cxx_destruct]
+_kCellIdentifier_HcdGuideViewCell
+_OBJC_IVAR_$_HcdGuideViewCell._imageView
+_OBJC_IVAR_$_HcdGuideViewCell._button
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/GuideController/HcdGuideViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/GuideController/HcdGuideViewCell.h
+CGPointMake
+-[three_CollectionViewCell awakeFromNib]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/citydetail/three_CollectionViewCell.m
+-[ChineseToPinyinResource init]
+-[ChineseToPinyinResource initializeResource]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[ChineseToPinyinResource initializeResource]_block_invoke
+-[ChineseToPinyinResource cachedObjectForKey:]
+_cachePathForKey
+-[ChineseToPinyinResource cacheObjec:forKey:]
+___45-[ChineseToPinyinResource cacheObjec:forKey:]_block_invoke
+___copy_helper_block_.118
+___destroy_helper_block_.119
+-[ChineseToPinyinResource getHanyuPinyinStringArrayWithChar:]
+-[ChineseToPinyinResource isValidRecordWithNSString:]
+-[ChineseToPinyinResource getHanyuPinyinRecordFromCharWithChar:]
++[ChineseToPinyinResource getInstance]
+___38+[ChineseToPinyinResource getInstance]_block_invoke
+___copy_helper_block_.152
+___destroy_helper_block_.153
+-[ChineseToPinyinResource .cxx_destruct]
+___block_descriptor_tmp.121
+_getInstance.sharedInstance
+_getInstance.onceToken
+___block_descriptor_tmp.154
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/ChineseToPinyinResource.m
+__38+[ChineseToPinyinResource getInstance]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+__45-[ChineseToPinyinResource cacheObjec:forKey:]_block_invoke
+cachePathForKey
+__45-[ChineseToPinyinResource initializeResource]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[UIImageView(Extension) zw_setImageWithUrl:]
+-[UIImageView(Extension) zw_setImageWithUrl:placeHolder:]
+-[UIImageView(Extension) zw_setImageWithUrl:placeHolder:progressHandle:finishHandle:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIImageView/UIImageView+Extension.m
+-[UIViewController(ZWBaseMethods) pop]
+-[UIViewController(ZWBaseMethods) popToRootVc]
+-[UIViewController(ZWBaseMethods) popToVc:]
+-[UIViewController(ZWBaseMethods) dismiss]
+-[UIViewController(ZWBaseMethods) dismissWithCompletion:]
+-[UIViewController(ZWBaseMethods) presentVc:]
+-[UIViewController(ZWBaseMethods) presentVc:completion:]
+-[UIViewController(ZWBaseMethods) pushVc:]
+-[UIViewController(ZWBaseMethods) removeChildVc:]
+-[UIViewController(ZWBaseMethods) addChildVc:]
+-[UIViewController(ZWBaseMethods) touchesBegan:withEvent:]
+-[UIViewController(ZWBaseMethods) showLoadingAnimation:]
+-[UIViewController(ZWBaseMethods) hideLoadingAnimation]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIViewController/UIViewController+ZWBaseMethods.m
+-[UIView(Tap) setTapActionWithBlock:]
+-[UIView(Tap) handleActionForTapGesture:]
+_ActionHandlerTapGestureKey
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIView/UIView+Tap.m
++[NSMutableAttributedString(ZWStrAttribued) levelAttributedStartText:endText:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/NSString/NSMutableAttributedString+ZWStrAttribued.m
+-[UIView(ViewGeometry) setX:]
+-[UIView(ViewGeometry) x]
+-[UIView(ViewGeometry) setY:]
+-[UIView(ViewGeometry) y]
+-[UIView(ViewGeometry) origin]
+-[UIView(ViewGeometry) setOrigin:]
+-[UIView(ViewGeometry) size]
+-[UIView(ViewGeometry) setSize:]
+-[UIView(ViewGeometry) setCenterX:]
+-[UIView(ViewGeometry) centerX]
+-[UIView(ViewGeometry) setCenterY:]
+-[UIView(ViewGeometry) centerY]
+-[UIView(ViewGeometry) bottomRight]
+-[UIView(ViewGeometry) bottomLeft]
+-[UIView(ViewGeometry) topRight]
+-[UIView(ViewGeometry) height]
+-[UIView(ViewGeometry) setHeight:]
+-[UIView(ViewGeometry) width]
+-[UIView(ViewGeometry) setWidth:]
+-[UIView(ViewGeometry) top]
+-[UIView(ViewGeometry) setTop:]
+-[UIView(ViewGeometry) left]
+-[UIView(ViewGeometry) setLeft:]
+-[UIView(ViewGeometry) bottom]
+-[UIView(ViewGeometry) setBottom:]
+-[UIView(ViewGeometry) right]
+-[UIView(ViewGeometry) setRight:]
+-[UIView(ViewGeometry) moveBy:]
+-[UIView(ViewGeometry) scaleBy:]
+-[UIView(ViewGeometry) fitInSize:]
+-[UIView(ViewGeometry) setMiddleX:]
+-[UIView(ViewGeometry) middleX]
+-[UIView(ViewGeometry) setMiddleY:]
+-[UIView(ViewGeometry) middleY]
+-[UIView(ViewGeometry) tail]
+-[UIView(ViewGeometry) setTail:]
+-[UIView(ViewGeometry) removeAllSubViews]
++[UIView(ViewGeometry) viewFromXib]
+-[UIView(ViewGeometry) reboundEffectAnimationDuration:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIView/UIViewExt.m
+CGRectMoveToCenter
+CGRectGetCenter
+-[ZWBaseModel initWithCoder:]
+-[ZWBaseModel encodeWithCoder:]
++[ZWBaseModel replacedKeyFromPropertyName]
++[ZWBaseModel modelArrayWithDictArray:]
++[ZWBaseModel modelWithDictionary:]
++[ZWBaseModel setUpModelClassInArrayWithContainDict:]
+___53+[ZWBaseModel setUpModelClassInArrayWithContainDict:]_block_invoke
++[ZWBaseModel modelArrayWithDictArray:containDict:]
++[ZWBaseModel modelWithDictionary:containDict:]
+-[ZWBaseModel unarchiver]
+-[ZWBaseModel archive]
+-[ZWBaseModel remove]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/Model/ZWBaseModel.m
+__53+[ZWBaseModel setUpModelClassInArrayWithContainDict:]_block_invoke
+-[CityListViewController init]
+-[CityListViewController viewDidLoad]
+___37-[CityListViewController viewDidLoad]_block_invoke
+___37-[CityListViewController viewDidLoad]_block_invoke_2
+-[CityListViewController resignFirstResponder:]
+-[CityListViewController gestureRecognizer:shouldReceiveTouch:]
+-[CityListViewController textChange:]
+-[CityListViewController textFieldDidBeginEditing:]
+-[CityListViewController textFieldShouldReturn:]
+-[CityListViewController setNavigationWithTitle:]
+-[CityListViewController back:]
+-[CityListViewController ininHeaderView]
+-[CityListViewController GetCityDataSoucre:]
+-[CityListViewController getCityData]
+-[CityListViewController tableView:heightForHeaderInSection:]
+-[CityListViewController tableView:viewForHeaderInSection:]
+-[CityListViewController sectionIndexTitlesForTableView:]
+-[CityListViewController numberOfSectionsInTableView:]
+-[CityListViewController tableView:sectionForSectionIndexTitle:atIndex:]
+-[CityListViewController showTipsWithTitle:]
+-[CityListViewController hiddenTipsView]
+___40-[CityListViewController hiddenTipsView]_block_invoke
+___40-[CityListViewController hiddenTipsView]_block_invoke.285
+___copy_helper_block_.288
+___destroy_helper_block_.289
+-[CityListViewController tableView:numberOfRowsInSection:]
+-[CityListViewController tableView:cellForRowAtIndexPath:]
+-[CityListViewController tableView:didSelectRowAtIndexPath:]
+-[CityListViewController ButtonGroupView:didClickedItem:]
+-[CityListViewController filterContentForSearchText:]
+-[CityListViewController didReceiveMemoryWarning]
+-[CityListViewController delegate]
+-[CityListViewController setDelegate:]
+-[CityListViewController arrayLocatingCity]
+-[CityListViewController setArrayLocatingCity:]
+-[CityListViewController arrayHotCity]
+-[CityListViewController setArrayHotCity:]
+-[CityListViewController arrayHistoricalCity]
+-[CityListViewController setArrayHistoricalCity:]
+-[CityListViewController tableView]
+-[CityListViewController setTableView:]
+-[CityListViewController segmentView1]
+-[CityListViewController setSegmentView1:]
+-[CityListViewController searchText]
+-[CityListViewController setSearchText:]
+-[CityListViewController searchResultDic]
+-[CityListViewController setSearchResultDic:]
+-[CityListViewController locatingCityGroupView]
+-[CityListViewController setLocatingCityGroupView:]
+-[CityListViewController hotCityGroupView]
+-[CityListViewController setHotCityGroupView:]
+-[CityListViewController historicalCityGroupView]
+-[CityListViewController setHistoricalCityGroupView:]
+-[CityListViewController tableHeaderView]
+-[CityListViewController setTableHeaderView:]
+-[CityListViewController arrayCitys]
+-[CityListViewController setArrayCitys:]
+-[CityListViewController cities]
+-[CityListViewController setCities:]
+-[CityListViewController keys]
+-[CityListViewController setKeys:]
+-[CityListViewController .cxx_destruct]
+___block_descriptor_tmp.106
+___block_literal_global.107
+_OBJC_IVAR_$_CityListViewController._searchText
+_OBJC_IVAR_$_CityListViewController._tableView
+_OBJC_IVAR_$_CityListViewController._tableHeaderView
+_OBJC_IVAR_$_CityListViewController._locatingCityGroupView
+_OBJC_IVAR_$_CityListViewController._arrayLocatingCity
+_OBJC_IVAR_$_CityListViewController._arrayHistoricalCity
+_OBJC_IVAR_$_CityListViewController._historicalCityGroupView
+_OBJC_IVAR_$_CityListViewController._arrayHotCity
+_OBJC_IVAR_$_CityListViewController._hotCityGroupView
+_OBJC_IVAR_$_CityListViewController._keys
+_OBJC_IVAR_$_CityListViewController._arrayCitys
+_OBJC_IVAR_$_CityListViewController._tipsView
+_OBJC_IVAR_$_CityListViewController._tipsLab
+_OBJC_IVAR_$_CityListViewController._timer
+_OBJC_IVAR_$_CityListViewController._bgImageView
+___block_descriptor_tmp.284
+___block_descriptor_tmp.291
+_OBJC_IVAR_$_CityListViewController._cities
+_tableView:cellForRowAtIndexPath:.CellIdentifier
+_OBJC_IVAR_$_CityListViewController._delegate
+_OBJC_IVAR_$_CityListViewController._searchResultDic
+_OBJC_IVAR_$_CityListViewController._segmentView1
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_PROTOCOL_$_UISearchBarDelegate
+l_OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
+l_OBJC_PROTOCOL_$_ButtonGroupViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_ButtonGroupViewDelegate
+l_OBJC_PROTOCOL_$_LXSegmentBtnViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_LXSegmentBtnViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityListViewController.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityListViewController.h
+cityNameSort
+__40-[CityListViewController hiddenTipsView]_block_invoke.285
+__40-[CityListViewController hiddenTipsView]_block_invoke
+__37-[CityListViewController viewDidLoad]_block_invoke_2
+__37-[CityListViewController viewDidLoad]_block_invoke
+-[TwoViewController viewDidLoad]
+-[TwoViewController didReceiveMemoryWarning]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/TwoViewController.m
+-[CityButton init]
+-[CityButton setupViews]
+-[CityButton layoutSubviews]
+-[CityButton setCityItem:]
+-[CityButton index]
+-[CityButton setIndex:]
+-[CityButton cityItem]
+-[CityButton container]
+-[CityButton setContainer:]
+-[CityButton titleName]
+-[CityButton setTitleName:]
+-[CityButton .cxx_destruct]
+_OBJC_IVAR_$_CityButton._cityItem
+_OBJC_IVAR_$_CityButton._index
+_OBJC_IVAR_$_CityButton._container
+_OBJC_IVAR_$_CityButton._titleName
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityButton.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityButton.h
++[ZWUserInfoModel replacedKeyFromPropertyName]
+-[ZWUserInfoModel nick_name]
+-[ZWUserInfoModel setNick_name:]
+-[ZWUserInfoModel phone]
+-[ZWUserInfoModel setPhone:]
+-[ZWUserInfoModel userId]
+-[ZWUserInfoModel setUserId:]
+-[ZWUserInfoModel create_time]
+-[ZWUserInfoModel setCreate_time:]
+-[ZWUserInfoModel open_id]
+-[ZWUserInfoModel setOpen_id:]
+-[ZWUserInfoModel sex]
+-[ZWUserInfoModel setSex:]
+-[ZWUserInfoModel type]
+-[ZWUserInfoModel setType:]
+-[ZWUserInfoModel status]
+-[ZWUserInfoModel setStatus:]
+-[ZWUserInfoModel update_time]
+-[ZWUserInfoModel setUpdate_time:]
+-[ZWUserInfoModel head_img]
+-[ZWUserInfoModel setHead_img:]
+-[ZWUserInfoModel .cxx_destruct]
+_OBJC_IVAR_$_ZWUserInfoModel._nick_name
+_OBJC_IVAR_$_ZWUserInfoModel._phone
+_OBJC_IVAR_$_ZWUserInfoModel._userId
+_OBJC_IVAR_$_ZWUserInfoModel._create_time
+_OBJC_IVAR_$_ZWUserInfoModel._open_id
+_OBJC_IVAR_$_ZWUserInfoModel._sex
+_OBJC_IVAR_$_ZWUserInfoModel._type
+_OBJC_IVAR_$_ZWUserInfoModel._status
+_OBJC_IVAR_$_ZWUserInfoModel._update_time
+_OBJC_IVAR_$_ZWUserInfoModel._head_img
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/Model/ZWUserInfoModel.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/Model/ZWUserInfoModel.h
+-[JYCustomButton initWithFrame:]
+-[JYCustomButton awakeFromNib]
+-[JYCustomButton setHighlighted:]
+-[JYCustomButton imageRectForContentRect:]
+-[JYCustomButton titleRectForContentRect:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/JYCustomButton.m
+-[LXSegmentBtnView initWithFrame:]
+-[LXSegmentBtnView initDefaults]
+-[LXSegmentBtnView layoutSubviews]
+-[LXSegmentBtnView initView]
+___28-[LXSegmentBtnView initView]_block_invoke
+-[LXSegmentBtnView setBtnTitleArray:]
+-[LXSegmentBtnView btnClick:]
+___29-[LXSegmentBtnView btnClick:]_block_invoke
+-[LXSegmentBtnView getBtn]
+-[LXSegmentBtnView getLineView]
+-[LXSegmentBtnView lx_imageWithColor:]
+-[LXSegmentBtnView btnTitleArray]
+-[LXSegmentBtnView btnTitleNormalColor]
+-[LXSegmentBtnView setBtnTitleNormalColor:]
+-[LXSegmentBtnView btnTitleSelectColor]
+-[LXSegmentBtnView setBtnTitleSelectColor:]
+-[LXSegmentBtnView btnBackgroundNormalColor]
+-[LXSegmentBtnView setBtnBackgroundNormalColor:]
+-[LXSegmentBtnView btnBackgroundSelectColor]
+-[LXSegmentBtnView setBtnBackgroundSelectColor:]
+-[LXSegmentBtnView titleFont]
+-[LXSegmentBtnView setTitleFont:]
+-[LXSegmentBtnView lxSegmentBtnSelectIndexBlock]
+-[LXSegmentBtnView setLxSegmentBtnSelectIndexBlock:]
+-[LXSegmentBtnView delegate]
+-[LXSegmentBtnView setDelegate:]
+-[LXSegmentBtnView btnArray]
+-[LXSegmentBtnView setBtnArray:]
+-[LXSegmentBtnView .cxx_destruct]
+_OBJC_IVAR_$_LXSegmentBtnView._btnTitleArray
+___block_descriptor_tmp.120
+_OBJC_IVAR_$_LXSegmentBtnView._btnTitleNormalColor
+_OBJC_IVAR_$_LXSegmentBtnView._btnTitleSelectColor
+_OBJC_IVAR_$_LXSegmentBtnView._btnBackgroundNormalColor
+_OBJC_IVAR_$_LXSegmentBtnView._btnBackgroundSelectColor
+_OBJC_IVAR_$_LXSegmentBtnView._titleFont
+_OBJC_IVAR_$_LXSegmentBtnView._lxSegmentBtnSelectIndexBlock
+_OBJC_IVAR_$_LXSegmentBtnView._delegate
+_OBJC_IVAR_$_LXSegmentBtnView._btnArray
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/LXSegmentBtn/LXSegmentBtnView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/LXSegmentBtn/LXSegmentBtnView.h
+__29-[LXSegmentBtnView btnClick:]_block_invoke
+__28-[LXSegmentBtnView initView]_block_invoke
++[UIColor(applianceHex) colorFromHex:]
++[UIColor(applianceHex) colorFromHex:alpha:]
++[UIColor(applianceHex) colorBackWithBackView]
++[UIColor(applianceHex) colorTheme]
++[UIColor(applianceHex) colorLine]
++[UIColor(applianceHex) colorTextBlack]
++[UIColor(applianceHex) colorPlaceholderTextBlack]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIColor/UIColor+applianceHex.m
++[NSNotificationCenter(Addition) postNotification:]
++[NSNotificationCenter(Addition) postNotification:object:]
++[NSNotificationCenter(Addition) removeAllObserverForObj:]
++[NSNotificationCenter(Addition) addObserver:action:name:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/Notification/NSNotificationCenter+Addition.m
+-[ListCollectionViewCell awakeFromNib]
+-[ListCollectionViewCell titleLabel]
+-[ListCollectionViewCell setTitleLabel:]
+-[ListCollectionViewCell headImage]
+-[ListCollectionViewCell setHeadImage:]
+-[ListCollectionViewCell subLabel_1]
+-[ListCollectionViewCell setSubLabel_1:]
+-[ListCollectionViewCell subLabel_2]
+-[ListCollectionViewCell setSubLabel_2:]
+-[ListCollectionViewCell subLabel_3]
+-[ListCollectionViewCell setSubLabel_3:]
+-[ListCollectionViewCell model]
+-[ListCollectionViewCell setModel:]
+-[ListCollectionViewCell .cxx_destruct]
+_OBJC_IVAR_$_ListCollectionViewCell._titleLabel
+_OBJC_IVAR_$_ListCollectionViewCell._headImage
+_OBJC_IVAR_$_ListCollectionViewCell._subLabel_1
+_OBJC_IVAR_$_ListCollectionViewCell._subLabel_2
+_OBJC_IVAR_$_ListCollectionViewCell._subLabel_3
+_OBJC_IVAR_$_ListCollectionViewCell._model
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ListCollectionViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ListCollectionViewCell.h
++[ZWNavigationViewController initialize]
+-[ZWNavigationViewController viewDidLoad]
++[ZWNavigationViewController setupNavigationBarTheme]
+-[ZWNavigationViewController pushViewController:animated:]
+-[ZWNavigationViewController back]
+-[ZWNavigationViewController didReceiveMemoryWarning]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ZWNavigationViewController.m
++[UIBarButtonItem(WNXBarButtonItem) initWithNormalImage:target:isLeftButton:action:]
++[UIBarButtonItem(WNXBarButtonItem) initWithNormalImage:title:target:action:]
+_UIEdgeInsetsMake
++[UIBarButtonItem(WNXBarButtonItem) initWithNormalImageBig:target:action:]
++[UIBarButtonItem(WNXBarButtonItem) initWithNormalImage:target:action:width:height:]
++[UIBarButtonItem(WNXBarButtonItem) initWithTitle:titleColor:target:action:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIBarButtonItem/UIBarButtonItem+WNXBarButtonItem.m
+UIEdgeInsetsMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+-[HJDropDownMenu initWithFrame:]
+-[HJDropDownMenu init]
+-[HJDropDownMenu configData]
+-[HJDropDownMenu setupUI]
+-[HJDropDownMenu layoutSubviews]
+-[HJDropDownMenu sectionHeaderClicked]
+___38-[HJDropDownMenu sectionHeaderClicked]_block_invoke
+-[HJDropDownMenu createIndicatorWithColor:andPosition:]
+-[HJDropDownMenu animateIndicator:Forward:complete:]
+-[HJDropDownMenu cellInsertOrDelete:]
+___37-[HJDropDownMenu cellInsertOrDelete:]_block_invoke
+___copy_helper_block_.197
+___destroy_helper_block_.198
+-[HJDropDownMenu closeMenu]
+-[HJDropDownMenu listTable]
+-[HJDropDownMenu setDatas:]
+-[HJDropDownMenu setRowHeight:]
+-[HJDropDownMenu tableView:numberOfRowsInSection:]
+-[HJDropDownMenu tableView:cellForRowAtIndexPath:]
+-[HJDropDownMenu numberOfSectionsInTableView:]
+-[HJDropDownMenu tableView:didSelectRowAtIndexPath:]
+-[HJDropDownMenu tableView:viewForHeaderInSection:]
+-[HJDropDownMenu tableView:heightForRowAtIndexPath:]
+-[HJDropDownMenu tableView:heightForHeaderInSection:]
+-[HJDropDownMenu tableView:heightForFooterInSection:]
+-[HJDropDownMenu rowHeight]
+-[HJDropDownMenu datas]
+-[HJDropDownMenu textColor]
+-[HJDropDownMenu setTextColor:]
+-[HJDropDownMenu indicatorColor]
+-[HJDropDownMenu setIndicatorColor:]
+-[HJDropDownMenu font]
+-[HJDropDownMenu setFont:]
+-[HJDropDownMenu autoCloseWhenSelected]
+-[HJDropDownMenu setAutoCloseWhenSelected:]
+-[HJDropDownMenu cellClickedBlock]
+-[HJDropDownMenu setCellClickedBlock:]
+-[HJDropDownMenu setListTable:]
+-[HJDropDownMenu headerBtn]
+-[HJDropDownMenu setHeaderBtn:]
+-[HJDropDownMenu headerSelected]
+-[HJDropDownMenu setHeaderSelected:]
+-[HJDropDownMenu shapeLayer]
+-[HJDropDownMenu setShapeLayer:]
+-[HJDropDownMenu .cxx_destruct]
+_kDropMenuCellIdentifier
+___block_descriptor_tmp.200
+_OBJC_IVAR_$_HJDropDownMenu._listTable
+_OBJC_IVAR_$_HJDropDownMenu._datas
+_OBJC_IVAR_$_HJDropDownMenu._rowHeight
+_OBJC_IVAR_$_HJDropDownMenu._textColor
+_OBJC_IVAR_$_HJDropDownMenu._indicatorColor
+_OBJC_IVAR_$_HJDropDownMenu._font
+_OBJC_IVAR_$_HJDropDownMenu._autoCloseWhenSelected
+_OBJC_IVAR_$_HJDropDownMenu._cellClickedBlock
+_OBJC_IVAR_$_HJDropDownMenu._headerBtn
+_OBJC_IVAR_$_HJDropDownMenu._headerSelected
+_OBJC_IVAR_$_HJDropDownMenu._shapeLayer
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/HJDropDownMenu/HJDropDownMenu.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/HJDropDownMenu/HJDropDownMenu.h
+__37-[HJDropDownMenu cellInsertOrDelete:]_block_invoke
+__38-[HJDropDownMenu sectionHeaderClicked]_block_invoke
+-[ZWCoverModel_1_Cell imageArray]
+-[ZWCoverModel_1_Cell awakeFromNib]
+-[ZWCoverModel_1_Cell cycleScrollView]
+-[ZWCoverModel_1_Cell cycleScrollView:didSelectItemAtIndex:]
+-[ZWCoverModel_1_Cell setSelected:animated:]
+-[ZWCoverModel_1_Cell setImageArray:]
+-[ZWCoverModel_1_Cell setCycleScrollView:]
+-[ZWCoverModel_1_Cell .cxx_destruct]
+_OBJC_IVAR_$_ZWCoverModel_1_Cell._imageArray
+_OBJC_IVAR_$_ZWCoverModel_1_Cell._cycleScrollView
+l_OBJC_PROTOCOL_$_SDCycleScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_SDCycleScrollViewDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWCoverModel_1_Cell.m
++[UILabel(Fast) labelWithTitle:andTitleColor:]
++[UILabel(Fast) labelWithTitle:andTitleColor:andAlignment:andFont:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UILable/UILabel+Fast.m
++[UIImage(Extension) imageWithBorderW:color:CircleImageName:]
+-[UIImage(Extension) drawCircleImage]
++[UIImage(Extension) resizableImageWithName:]
++[UIImage(Extension) imageWithName:]
+-[UIImage(Extension) scaleImageWithSize:]
+-[UIImage(Extension) scaleImageWithFrame:]
++[UIImage(Extension) thumbnailWithImageWithoutScale:size:]
++[UIImage(Extension) imageFromContextWithColor:size:]
++[UIImage(Extension) imageFromContextWithColor:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIImage/UIImage+Extension.m
++[ChineseInclude isIncludeChineseInString:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/ChineseInclude.m
++[PinyinHelper toHanyuPinyinStringArrayWithChar:]
++[PinyinHelper toHanyuPinyinStringArrayWithChar:withHanyuPinyinOutputFormat:]
++[PinyinHelper getFormattedHanyuPinyinStringArrayWithChar:withHanyuPinyinOutputFormat:]
++[PinyinHelper getUnformattedHanyuPinyinStringArrayWithChar:]
++[PinyinHelper toTongyongPinyinStringArrayWithChar:]
++[PinyinHelper toWadeGilesPinyinStringArrayWithChar:]
++[PinyinHelper toMPS2PinyinStringArrayWithChar:]
++[PinyinHelper toYalePinyinStringArrayWithChar:]
++[PinyinHelper convertToTargetPinyinStringArrayWithChar:withPinyinRomanizationType:]
++[PinyinHelper toGwoyeuRomatzyhStringArrayWithChar:]
++[PinyinHelper convertToGwoyeuRomatzyhStringArrayWithChar:]
++[PinyinHelper toHanyuPinyinStringWithNSString:withHanyuPinyinOutputFormat:withNSString:]
++[PinyinHelper getFirstHanyuPinyinStringWithChar:withHanyuPinyinOutputFormat:]
+-[PinyinHelper init]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/PinyinHelper.m
+-[HGSpecialModel imageName]
+-[HGSpecialModel setImageName:]
+-[HGSpecialModel companyName]
+-[HGSpecialModel setCompanyName:]
+-[HGSpecialModel farenName]
+-[HGSpecialModel setFarenName:]
+-[HGSpecialModel moneyName]
+-[HGSpecialModel setMoneyName:]
+-[HGSpecialModel timeName]
+-[HGSpecialModel setTimeName:]
+-[HGSpecialModel .cxx_destruct]
+_OBJC_IVAR_$_HGSpecialModel._imageName
+_OBJC_IVAR_$_HGSpecialModel._companyName
+_OBJC_IVAR_$_HGSpecialModel._farenName
+_OBJC_IVAR_$_HGSpecialModel._moneyName
+_OBJC_IVAR_$_HGSpecialModel._timeName
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/Model/HGSpecialModel.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/Model/HGSpecialModel.h
++[PinyinFormatter formatHanyuPinyinWithNSString:withHanyuPinyinOutputFormat:]
++[PinyinFormatter convertToneNumber2ToneMarkWithNSString:]
++[PinyinFormatter getNumericValue:]
++[PinyinFormatter indexOfChar:ch:]
+-[PinyinFormatter init]
+_numericKeys
+_numericValues
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/PinyinFormatter.m
+-[ZWCompanyViewController viewDidLoad]
+___38-[ZWCompanyViewController viewDidLoad]_block_invoke
+-[ZWCompanyViewController touchesBegan:withEvent:]
+-[ZWCompanyViewController backHome]
+-[ZWCompanyViewController setup]
+___32-[ZWCompanyViewController setup]_block_invoke
+-[ZWCompanyViewController numberOfColumnsInMenu:]
+-[ZWCompanyViewController menu:numberOfRowsInColumn:]
+-[ZWCompanyViewController menu:titleForRowAtIndexPath:]
+-[ZWCompanyViewController menu:arrayForRowAtIndexPath:]
+-[ZWCompanyViewController menu:didSelectRowAtIndexPath:]
+-[ZWCompanyViewController didTapMenu:]
+-[ZWCompanyViewController specialArr]
+-[ZWCompanyViewController tableView:numberOfRowsInSection:]
+-[ZWCompanyViewController numberOfSectionsInTableView:]
+-[ZWCompanyViewController tableView:cellForRowAtIndexPath:]
+-[ZWCompanyViewController tableView:didSelectRowAtIndexPath:]
+-[ZWCompanyViewController tableView:heightForFooterInSection:]
+-[ZWCompanyViewController tableView:viewForFooterInSection:]
+-[ZWCompanyViewController tableView:heightForHeaderInSection:]
+-[ZWCompanyViewController tableView:viewForHeaderInSection:]
+-[ZWCompanyViewController tableView:heightForRowAtIndexPath:]
+-[ZWCompanyViewController tableView]
+-[ZWCompanyViewController cates]
+-[ZWCompanyViewController setCates:]
+-[ZWCompanyViewController states]
+-[ZWCompanyViewController setStates:]
+-[ZWCompanyViewController sorts]
+-[ZWCompanyViewController setSorts:]
+-[ZWCompanyViewController menu]
+-[ZWCompanyViewController setMenu:]
+-[ZWCompanyViewController setSpecialArr:]
+-[ZWCompanyViewController setTableView:]
+-[ZWCompanyViewController .cxx_destruct]
+_OBJC_IVAR_$_ZWCompanyViewController._tableView
+_OBJC_IVAR_$_ZWCompanyViewController._menu
+___block_descriptor_tmp.267
+___block_literal_global.268
+_OBJC_IVAR_$_ZWCompanyViewController._specialArr
+_OBJC_IVAR_$_ZWCompanyViewController._cates
+_OBJC_IVAR_$_ZWCompanyViewController._states
+_OBJC_IVAR_$_ZWCompanyViewController._sorts
+l_OBJC_PROTOCOL_$_MoreDropDownMenuDataSource
+l_OBJC_LABEL_PROTOCOL_$_MoreDropDownMenuDataSource
+l_OBJC_PROTOCOL_$_MoreDropDownMenuDelegate
+l_OBJC_LABEL_PROTOCOL_$_MoreDropDownMenuDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ViewController/ZWCompanyViewController.m
+__32-[ZWCompanyViewController setup]_block_invoke
+__38-[ZWCompanyViewController viewDidLoad]_block_invoke
+-[NSArray(ZMAdd) safeObjectAtIndex:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/tool/NSArray+ZMAdd.m
+-[ZWComeyDetailViewController backHome]
+-[ZWComeyDetailViewController viewDidLoad]
+___42-[ZWComeyDetailViewController viewDidLoad]_block_invoke
+___42-[ZWComeyDetailViewController viewDidLoad]_block_invoke_2
+___42-[ZWComeyDetailViewController viewDidLoad]_block_invoke.156
+___copy_helper_block_.159
+___destroy_helper_block_.160
+___42-[ZWComeyDetailViewController viewDidLoad]_block_invoke.176
+___copy_helper_block_.181
+___destroy_helper_block_.182
+-[ZWComeyDetailViewController tableView]
+-[ZWComeyDetailViewController tableView:numberOfRowsInSection:]
+-[ZWComeyDetailViewController numberOfSectionsInTableView:]
+-[ZWComeyDetailViewController tableView:heightForHeaderInSection:]
+-[ZWComeyDetailViewController tableView:heightForFooterInSection:]
+-[ZWComeyDetailViewController tableView:heightForRowAtIndexPath:]
+-[ZWComeyDetailViewController tableView:viewForHeaderInSection:]
+-[ZWComeyDetailViewController tableView:viewForFooterInSection:]
+-[ZWComeyDetailViewController tableView:cellForRowAtIndexPath:]
+-[ZWComeyDetailViewController group]
+-[ZWComeyDetailViewController model]
+-[ZWComeyDetailViewController setModel:]
+-[ZWComeyDetailViewController setTableView:]
+-[ZWComeyDetailViewController setGroup:]
+-[ZWComeyDetailViewController .cxx_destruct]
+___block_descriptor_tmp.161
+___block_descriptor_tmp.183
+_OBJC_IVAR_$_ZWComeyDetailViewController._tableView
+_OBJC_IVAR_$_ZWComeyDetailViewController._group
+_OBJC_IVAR_$_ZWComeyDetailViewController._model
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ViewController/ZWComeyDetailViewController.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ViewController/ZWComeyDetailViewController.h
+__42-[ZWComeyDetailViewController viewDidLoad]_block_invoke.176
+__42-[ZWComeyDetailViewController viewDidLoad]_block_invoke.156
+__42-[ZWComeyDetailViewController viewDidLoad]_block_invoke_2
+__42-[ZWComeyDetailViewController viewDidLoad]_block_invoke
+-[ThreeViewController viewDidLoad]
+-[ThreeViewController didReceiveMemoryWarning]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ThreeViewController.m
+-[two_CollectionViewCell awakeFromNib]
+-[two_CollectionViewCell btnName]
+-[two_CollectionViewCell setBtnName:]
+-[two_CollectionViewCell .cxx_destruct]
+_OBJC_IVAR_$_two_CollectionViewCell._btnName
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/citydetail/two_CollectionViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/citydetail/two_CollectionViewCell.h
+-[ZWCoverModel_2_Cell awakeFromNib]
+-[ZWCoverModel_2_Cell setSelected:animated:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWCoverModel_2_Cell.m
++[NHFileCacheManager saveObject:byFileName:]
++[NHFileCacheManager getObjectByFileName:]
++[NHFileCacheManager removeObjectByFileName:]
++[NHFileCacheManager appendFilename:]
++[NHFileCacheManager appendFilePath:]
++[NHFileCacheManager saveUserData:forKey:]
++[NHFileCacheManager readUserDataForKey:]
++[NHFileCacheManager removeUserDataForkey:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Manager/NHFileCacheManager.m
+-[UIView(IBExtension) setBorderColor:]
+-[UIView(IBExtension) borderColor]
+-[UIView(IBExtension) setBorderWidth:]
+-[UIView(IBExtension) borderWidth]
+-[UIView(IBExtension) setCornerRadius:]
+-[UIView(IBExtension) cornerRadius]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIView/UIView+IBExtension.m
+-[UIImageView(CornerRadius) initWithRoundingRectImageView]
+-[UIImageView(CornerRadius) initWithCornerRadiusAdvance:rectCornerType:]
+-[UIImageView(CornerRadius) zy_attachBorderWidth:color:]
+-[UIImageView(CornerRadius) zy_cornerRadiusWithImage:cornerRadius:rectCornerType:]
+-[UIImageView(CornerRadius) zy_cornerRadiusWithImage:cornerRadius:rectCornerType:backgroundColor:]
+-[UIImageView(CornerRadius) zy_cornerRadiusAdvance:rectCornerType:]
+-[UIImageView(CornerRadius) zy_cornerRadiusRoundingRect]
+-[UIImageView(CornerRadius) drawBorder:]
+-[UIImageView(CornerRadius) zy_dealloc]
+-[UIImageView(CornerRadius) validateFrame]
++[UIImageView(CornerRadius) swizzleMethod:anotherMethod:]
++[UIImageView(CornerRadius) swizzleDealloc]
+___43+[UIImageView(CornerRadius) swizzleDealloc]_block_invoke
++[UIImageView(CornerRadius) swizzleLayoutSubviews]
+___50+[UIImageView(CornerRadius) swizzleLayoutSubviews]_block_invoke
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[UIImageView(CornerRadius) zy_LayoutSubviews]
+-[UIImageView(CornerRadius) observeValueForKeyPath:ofObject:change:context:]
+-[UIImageView(CornerRadius) zyBorderWidth]
+-[UIImageView(CornerRadius) setZyBorderWidth:]
+-[UIImageView(CornerRadius) zyBorderColor]
+-[UIImageView(CornerRadius) setZyBorderColor:]
+-[UIImageView(CornerRadius) zyHadAddObserver]
+-[UIImageView(CornerRadius) setZyHadAddObserver:]
+-[UIImageView(CornerRadius) zyIsRounding]
+-[UIImageView(CornerRadius) setZyIsRounding:]
+-[UIImageView(CornerRadius) roundingCorners]
+-[UIImageView(CornerRadius) setRoundingCorners:]
+-[UIImageView(CornerRadius) zyRadius]
+-[UIImageView(CornerRadius) setZyRadius:]
+_swizzleDealloc.onceToken
+_swizzleLayoutSubviews.onceToken
+___block_descriptor_tmp.135
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIImageView/UIImageView+CornerRadius.m
+__50+[UIImageView(CornerRadius) swizzleLayoutSubviews]_block_invoke
+__43+[UIImageView(CornerRadius) swizzleDealloc]_block_invoke
+-[UIView(Layer) setLayerCornerRadius:borderWidth:borderColor:]
+-[UIView(Layer) setLayerBorderColor:]
+-[UIView(Layer) layerBorderColor]
+-[UIView(Layer) setLayerBorderWidth:]
+-[UIView(Layer) layerBorderWidth]
+-[UIView(Layer) setLayerCornerRadius:]
+-[UIView(Layer) layerCornerRadius]
+-[UIView(Layer) _config]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIView/UIView+Layer.m
+-[ZWTableViewCell awakeFromNib]
+-[ZWTableViewCell setModel:]
+-[ZWTableViewCell setSelected:animated:]
+-[ZWTableViewCell model]
+-[ZWTableViewCell headImage]
+-[ZWTableViewCell setHeadImage:]
+-[ZWTableViewCell companyName]
+-[ZWTableViewCell setCompanyName:]
+-[ZWTableViewCell ceoLabel]
+-[ZWTableViewCell setCeoLabel:]
+-[ZWTableViewCell moneyLabel]
+-[ZWTableViewCell setMoneyLabel:]
+-[ZWTableViewCell timeLabel]
+-[ZWTableViewCell setTimeLabel:]
+-[ZWTableViewCell .cxx_destruct]
+_OBJC_IVAR_$_ZWTableViewCell._model
+_OBJC_IVAR_$_ZWTableViewCell._headImage
+_OBJC_IVAR_$_ZWTableViewCell._companyName
+_OBJC_IVAR_$_ZWTableViewCell._ceoLabel
+_OBJC_IVAR_$_ZWTableViewCell._moneyLabel
+_OBJC_IVAR_$_ZWTableViewCell._timeLabel
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWTableViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWTableViewCell.h
+-[home_headView awakeFromNib]
+-[home_headView changed:]
+-[home_headView Click:]
+-[home_headView selectView]
+-[home_headView setSelectView:]
+-[home_headView segmetBlock]
+-[home_headView setSegmetBlock:]
+-[home_headView searchView]
+-[home_headView setSearchView:]
+-[home_headView segment]
+-[home_headView setSegment:]
+-[home_headView .cxx_destruct]
+_OBJC_IVAR_$_home_headView._segment
+_OBJC_IVAR_$_home_headView._selectView
+_OBJC_IVAR_$_home_headView._segmetBlock
+_OBJC_IVAR_$_home_headView._searchView
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/home_headView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/home_headView.h
+-[ZWBaseViewController viewDidLoad]
+-[ZWBaseViewController requestSuccessNotification]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/ViewController/ZWBaseViewController.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/main.m
+main
++[ZWTool MApropertyModelWithDictionary:]
+___40+[ZWTool MApropertyModelWithDictionary:]_block_invoke
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/ZWTool/ZWTool.m
+__40+[ZWTool MApropertyModelWithDictionary:]_block_invoke
+-[NSDictionary(Addition) propertyCode]
+___38-[NSDictionary(Addition) propertyCode]_block_invoke
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/NSDictionary/NSDictionary+Addition.m
+__38-[NSDictionary(Addition) propertyCode]_block_invoke
++[PinYinForObjc chineseConvertToPinYin:]
++[PinYinForObjc chineseConvertToPinYinHead:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/PinYinForObjc.m
+-[NSString(PinYin4Cocoa) indexOfString:]
+-[NSString(PinYin4Cocoa) indexOfString:fromIndex:]
+-[NSString(PinYin4Cocoa) indexOf:]
+-[NSString(PinYin4Cocoa) indexOf:fromIndex:]
++[NSString(PinYin4Cocoa) valueOfChar:]
+-[NSString(PinYin4Cocoa) stringByReplacingRegexPattern:withString:caseInsensitive:]
+-[NSString(PinYin4Cocoa) stringByReplacingRegexPattern:withString:caseInsensitive:treatAsOneLine:]
+-[NSString(PinYin4Cocoa) stringByReplacingRegexPattern:withString:]
+-[NSString(PinYin4Cocoa) stringsByExtractingGroupsUsingRegexPattern:caseInsensitive:treatAsOneLine:]
+___100-[NSString(PinYin4Cocoa) stringsByExtractingGroupsUsingRegexPattern:caseInsensitive:treatAsOneLine:]_block_invoke
+-[NSString(PinYin4Cocoa) stringsByExtractingGroupsUsingRegexPattern:]
+-[NSString(PinYin4Cocoa) matchesPatternRegexPattern:caseInsensitive:treatAsOneLine:]
+-[NSString(PinYin4Cocoa) matchesPatternRegexPattern:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/NSString+PinYin4Cocoa.m
+__100-[NSString(PinYin4Cocoa) stringsByExtractingGroupsUsingRegexPattern:caseInsensitive:treatAsOneLine:]_block_invoke
+-[NSString(Addition) noWhiteSpaceString]
+-[NSString(Addition) sizeWithText:maxW:]
+-[NSString(Addition) sizeWithText:]
+-[NSString(Addition) fileSize]
+-[NSString(Addition) isPhoneNumber]
+-[NSString(Addition) isEmailWithString:]
+-[NSString(Addition) match:]
+-[NSString(Addition) isGloabelNumberWithString:]
+-[NSString(Addition) isValidateMobile:]
+-[NSString(Addition) dealedPriceString]
+-[NSString(Addition) convertToInt:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/NSString/NSString+Addition.m
+-[detail_0_Cell awakeFromNib]
+-[detail_0_Cell setSelected:animated:]
+-[detail_0_Cell subTitle]
+-[detail_0_Cell setSubTitle:]
+-[detail_0_Cell .cxx_destruct]
+_OBJC_IVAR_$_detail_0_Cell._subTitle
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/detail_0_Cell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/detail_0_Cell.h
++[MJExtensionConfig load]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Manager/MJExtensionConfig.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Manager/NHCommonConstant.m
++[ZWProgressHUD showMessage:]
++[ZWProgressHUD showSuccess:]
++[ZWProgressHUD showFailure:]
++[ZWProgressHUD showWaitting]
++[ZWProgressHUD showInfoMsg:]
++[ZWProgressHUD hideHUD]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/LCProgressHUD/ZWProgressHUD.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/me_headView.m
++[HcdGuideView sharedInstance]
+___30+[HcdGuideView sharedInstance]_block_invoke
+-[HcdGuideView view]
+-[HcdGuideView pageControl]
+-[HcdGuideView showGuideViewWithImages:andButtonTitle:andButtonTitleColor:andButtonBGColor:andButtonBorderColor:]
+-[HcdGuideView numberOfSectionsInCollectionView:]
+-[HcdGuideView collectionView:numberOfItemsInSection:]
+-[HcdGuideView collectionView:cellForItemAtIndexPath:]
+-[HcdGuideView adapterSizeImageSize:compareSize:]
+-[HcdGuideView scrollViewDidEndDecelerating:]
+-[HcdGuideView nextButtonHandler:]
+-[HcdGuideView window]
+-[HcdGuideView setWindow:]
+-[HcdGuideView setView:]
+-[HcdGuideView images]
+-[HcdGuideView setImages:]
+-[HcdGuideView setPageControl:]
+-[HcdGuideView buttonBgColor]
+-[HcdGuideView setButtonBgColor:]
+-[HcdGuideView buttonBorderColor]
+-[HcdGuideView setButtonBorderColor:]
+-[HcdGuideView titleColor]
+-[HcdGuideView setTitleColor:]
+-[HcdGuideView buttonTitle]
+-[HcdGuideView setButtonTitle:]
+-[HcdGuideView .cxx_destruct]
+_sharedInstance.instance
+_sharedInstance.onceToken
+_OBJC_IVAR_$_HcdGuideView._view
+_OBJC_IVAR_$_HcdGuideView._pageControl
+_OBJC_IVAR_$_HcdGuideView._window
+_OBJC_IVAR_$_HcdGuideView._images
+_OBJC_IVAR_$_HcdGuideView._buttonBgColor
+_OBJC_IVAR_$_HcdGuideView._buttonBorderColor
+_OBJC_IVAR_$_HcdGuideView._titleColor
+_OBJC_IVAR_$_HcdGuideView._buttonTitle
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/GuideController/HcdGuideView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/GuideController/HcdGuideView.h
+__30+[HcdGuideView sharedInstance]_block_invoke
+-[MoreDropDownMenuRowCell bottomV]
+___34-[MoreDropDownMenuRowCell bottomV]_block_invoke
+-[MoreDropDownMenuRowCell initWithStyle:reuseIdentifier:]
+-[MoreDropDownMenuRowCell setUI:]
+___33-[MoreDropDownMenuRowCell setUI:]_block_invoke
+-[MoreDropDownMenuRowCell cellView:tag:]
+___40-[MoreDropDownMenuRowCell cellView:tag:]_block_invoke
+-[MoreDropDownMenuRowCell setUI:data:]
+-[MoreDropDownMenuRowCell tapProduct:]
+-[MoreDropDownMenuRowCell setupButtonStyle:isAdd:]
+-[MoreDropDownMenuRowCell setSelected:animated:]
+-[MoreDropDownMenuRowCell brandName]
+-[MoreDropDownMenuRowCell setBrandName:]
+-[MoreDropDownMenuRowCell clickTagBlock]
+-[MoreDropDownMenuRowCell setClickTagBlock:]
+-[MoreDropDownMenuRowCell selectButton]
+-[MoreDropDownMenuRowCell setSelectButton:]
+-[MoreDropDownMenuRowCell lastCount]
+-[MoreDropDownMenuRowCell setLastCount:]
+-[MoreDropDownMenuRowCell setBottomV:]
+-[MoreDropDownMenuRowCell dataArray]
+-[MoreDropDownMenuRowCell setDataArray:]
+-[MoreDropDownMenuRowCell lastBTN]
+-[MoreDropDownMenuRowCell setLastBTN:]
+-[MoreDropDownMenuRowCell .cxx_destruct]
+-[MoreDropDownMenuRowCollectionCell initWithFrame:]
+-[MoreDropDownMenuRowCollectionCell button]
+___43-[MoreDropDownMenuRowCollectionCell button]_block_invoke
+-[MoreDropDownMenuRowCollectionCell setupUI:]
+-[MoreDropDownMenuRowCollectionCell setSelectCell:]
+-[MoreDropDownMenuRowCollectionCell setButton:]
+-[MoreDropDownMenuRowCollectionCell selectCell]
+-[MoreDropDownMenuRowCollectionCell .cxx_destruct]
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._bottomV
+_OBJC_IVAR_$_MoreDropDownMenuRowCell.imageCount
+_OBJC_IVAR_$_MoreDropDownMenuRowCell.imageSpace
+_OBJC_IVAR_$_MoreDropDownMenuRowCell.imageWidth
+_OBJC_IVAR_$_MoreDropDownMenuRowCell.imageHeight
+___block_descriptor_tmp.103
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._lastCount
+___block_descriptor_tmp.146
+___block_literal_global.147
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._brandName
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._clickTagBlock
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._selectButton
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._dataArray
+_OBJC_IVAR_$_MoreDropDownMenuRowCell._lastBTN
+_OBJC_IVAR_$_MoreDropDownMenuRowCollectionCell._button
+___block_descriptor_tmp.237
+___block_literal_global.238
+_OBJC_IVAR_$_MoreDropDownMenuRowCollectionCell._selectCell
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/MoreDropDownMenu/MoreDropDownMenuRowCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/MoreDropDownMenu/MoreDropDownMenuRowCell.h
+__43-[MoreDropDownMenuRowCollectionCell button]_block_invoke
+__40-[MoreDropDownMenuRowCell cellView:tag:]_block_invoke
+__33-[MoreDropDownMenuRowCell setUI:]_block_invoke
+__34-[MoreDropDownMenuRowCell bottomV]_block_invoke
+-[NSNumber(safeCJ) length]
+-[NSString(safeCJ) stringValue]
+-[NSMutableArray(safeCJ) addObjectOnSafe:]
+-[NSArray(safeCJ) objectAtIndexOnSafe:]
+-[NSMutableDictionary(safeCJ) setObjectOnSafe:forKey:]
+-[NSDictionary(safeCJ) dictionaryToJson]
+-[NSDictionary(safeCJ) objectForKeyOnSafe:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/DataSafe/DataSafe.m
+-[topView companyImage]
+-[topView setCompanyImage:]
+-[topView companyLabel]
+-[topView setCompanyLabel:]
+-[topView .cxx_destruct]
+_OBJC_IVAR_$_topView._companyImage
+_OBJC_IVAR_$_topView._companyLabel
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/topView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/topView.h
++[UIFont(Extension) fontWithDevice:]
++[UIFont(Extension) boldfontWithDevice:]
++[UIFont(Extension) fontBoldTitle_18]
++[UIFont(Extension) fontTitle_18]
++[UIFont(Extension) fontBoldTitle_15]
++[UIFont(Extension) fontTitle_15]
++[UIFont(Extension) fontBoldTitle_13]
++[UIFont(Extension) fontTitle_13]
++[UIFont(Extension) fontBoldTitle_11]
++[UIFont(Extension) fontTitle_11]
++[UIFont(Extension) fontNavBarTitle]
++[UIFont(Extension) fontConversationUsername]
++[UIFont(Extension) fontConversationDetail]
++[UIFont(Extension) fontConversationTime]
++[UIFont(Extension) fontFriendsUsername]
++[UIFont(Extension) fontMineNikename]
++[UIFont(Extension) fontMineUsername]
++[UIFont(Extension) fontSettingHeaderAndFooterTitle]
++[UIFont(Extension) fontTextMessageText]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIFont/UIFont+Extension.m
++[UILabel(ChangeLineSpaceAndWordSpace) changeLineSpaceForLabel:lineSpace:]
++[UILabel(ChangeLineSpaceAndWordSpace) changeWordSpaceForLabel:wordSpace:]
++[UILabel(ChangeLineSpaceAndWordSpace) changeLineSpaceForLabel:withLineSpace:wordSpace:]
++[UILabel(ChangeLineSpaceAndWordSpace) changeLineSpaceForLabel:withLineSpace:wordSpace:maxSize:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UILable/UILabel+ChangeLineSpaceAndWordSpace.m
+-[ZWCityDetailViewController viewDidLoad]
+___41-[ZWCityDetailViewController viewDidLoad]_block_invoke
+-[ZWCityDetailViewController setup]
+-[ZWCityDetailViewController collectionView:numberOfItemsInSection:]
+-[ZWCityDetailViewController numberOfSectionsInCollectionView:]
+-[ZWCityDetailViewController collectionView:layout:sizeForItemAtIndexPath:]
+-[ZWCityDetailViewController collectionView:layout:minimumLineSpacingForSectionAtIndex:]
+-[ZWCityDetailViewController collectionView:layout:minimumInteritemSpacingForSectionAtIndex:]
+-[ZWCityDetailViewController collectionView:cellForItemAtIndexPath:]
+-[ZWCityDetailViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
+-[ZWCityDetailViewController backHome]
+-[ZWCityDetailViewController didReceiveMemoryWarning]
+-[ZWCityDetailViewController myCollectionV]
+-[ZWCityDetailViewController setMyCollectionV:]
+-[ZWCityDetailViewController flow]
+-[ZWCityDetailViewController setFlow:]
+-[ZWCityDetailViewController .cxx_destruct]
+_JYindentify_one
+_JYindentify_two
+_JYindentify_three
+_JYHeaderindentify
+_OBJC_IVAR_$_ZWCityDetailViewController._myCollectionV
+_OBJC_IVAR_$_ZWCityDetailViewController._flow
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/ViewController/ZWCityDetailViewController.m
+__41-[ZWCityDetailViewController viewDidLoad]_block_invoke
++[ZYPinYinSearch searchWithOriginalArray:andSearchText:andSearchByPropertyName:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/ZYPinYinSearch.m
+-[MoreIndexPath initWithColumn:row:]
+-[MoreIndexPath initWithColumn:row:tem:]
++[MoreIndexPath indexPathWithCol:row:]
++[MoreIndexPath indexPathWithCol:row:item:]
+-[MoreIndexPath column]
+-[MoreIndexPath setColumn:]
+-[MoreIndexPath row]
+-[MoreIndexPath setRow:]
+-[MoreIndexPath item]
+-[MoreIndexPath setItem:]
+-[MoreBackgroundCellView drawRect:]
+-[MoreDropDownMenu indicatorColor]
+-[MoreDropDownMenu textColor]
+-[MoreDropDownMenu separatorColor]
+-[MoreDropDownMenu titleForRowAtIndexPath:]
+-[MoreDropDownMenu reloadData]
+___30-[MoreDropDownMenu reloadData]_block_invoke
+___30-[MoreDropDownMenu reloadData]_block_invoke_2
+___copy_helper_block_.91
+___destroy_helper_block_.92
+-[MoreDropDownMenu selectDefalutIndexPath]
+-[MoreDropDownMenu selectIndexPath:triggerDelegate:]
+-[MoreDropDownMenu selectIndexPath:]
+-[MoreDropDownMenu setDataSource:]
+-[MoreDropDownMenu setShow:]
+-[MoreDropDownMenu initWithOrigin:andHeight:]
+-[MoreDropDownMenu initWithOrigin:width:andHeight:]
+-[MoreDropDownMenu imageWithColor:size:]
+-[MoreDropDownMenu collectionView:numberOfItemsInSection:]
+-[MoreDropDownMenu collectionView:layout:sizeForItemAtIndexPath:]
+-[MoreDropDownMenu collectionView:layout:minimumLineSpacingForSectionAtIndex:]
+-[MoreDropDownMenu collectionView:layout:minimumInteritemSpacingForSectionAtIndex:]
+-[MoreDropDownMenu collectionView:layout:insetForSectionAtIndex:]
+-[MoreDropDownMenu collectionView:cellForItemAtIndexPath:]
+-[MoreDropDownMenu createBgLayerWithColor:andPosition:]
+-[MoreDropDownMenu createIndicatorWithColor:andPosition:]
+-[MoreDropDownMenu createSeparatorLineWithColor:andPosition:]
+-[MoreDropDownMenu createTextLayerWithNSString:withColor:andPosition:]
+-[MoreDropDownMenu calculateTitleSizeWithString:]
+-[MoreDropDownMenu menuTapped:]
+___31-[MoreDropDownMenu menuTapped:]_block_invoke
+___31-[MoreDropDownMenu menuTapped:]_block_invoke_2
+___copy_helper_block_.335
+___destroy_helper_block_.336
+___31-[MoreDropDownMenu menuTapped:]_block_invoke.340
+___copy_helper_block_.341
+___destroy_helper_block_.342
+___31-[MoreDropDownMenu menuTapped:]_block_invoke.348
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[MoreDropDownMenu backgroundTapped:]
+___37-[MoreDropDownMenu backgroundTapped:]_block_invoke
+___copy_helper_block_.352
+___destroy_helper_block_.353
+-[MoreDropDownMenu hideMenu]
+-[MoreDropDownMenu layoutIndicator:withTitle:]
+-[MoreDropDownMenu animateIndicator:Forward:complete:]
+-[MoreDropDownMenu animateIndicatorShapeLayer:Forward:complete:]
+-[MoreDropDownMenu animateIndicatorImageView:Forward:complete:]
+-[MoreDropDownMenu animateBackGroundView:show:complete:]
+___56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke
+___copy_helper_block_.409
+___destroy_helper_block_.410
+___56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke.414
+___copy_helper_block_.415
+___destroy_helper_block_.416
+___56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke.418
+___copy_helper_block_.421
+___destroy_helper_block_.422
+-[MoreDropDownMenu animateTableView:show:complete:]
+___51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke
+___copy_helper_block_.433
+___destroy_helper_block_.434
+___51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke.436
+___copy_helper_block_.437
+___destroy_helper_block_.438
+___51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke.440
+___copy_helper_block_.441
+___destroy_helper_block_.442
+-[MoreDropDownMenu animateTitle:show:complete:]
+-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]
+___81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke
+___81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_2
+___81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_3
+___81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_4
+___copy_helper_block_.446
+___destroy_helper_block_.447
+___copy_helper_block_.449
+___destroy_helper_block_.450
+___copy_helper_block_.452
+___destroy_helper_block_.453
+-[MoreDropDownMenu collectionView:didSelectItemAtIndexPath:]
+-[MoreDropDownMenu confiMenuWithSelectRow:]
+___43-[MoreDropDownMenu confiMenuWithSelectRow:]_block_invoke
+___43-[MoreDropDownMenu confiMenuWithSelectRow:]_block_invoke_2
+___copy_helper_block_.459
+___destroy_helper_block_.460
+-[MoreDropDownMenu dataSource]
+-[MoreDropDownMenu delegate]
+-[MoreDropDownMenu setDelegate:]
+-[MoreDropDownMenu cellStyle]
+-[MoreDropDownMenu setCellStyle:]
+-[MoreDropDownMenu setIndicatorColor:]
+-[MoreDropDownMenu setTextColor:]
+-[MoreDropDownMenu textSelectedColor]
+-[MoreDropDownMenu setTextSelectedColor:]
+-[MoreDropDownMenu detailTextColor]
+-[MoreDropDownMenu setDetailTextColor:]
+-[MoreDropDownMenu detailTextFont]
+-[MoreDropDownMenu setDetailTextFont:]
+-[MoreDropDownMenu setSeparatorColor:]
+-[MoreDropDownMenu fontSize]
+-[MoreDropDownMenu setFontSize:]
+-[MoreDropDownMenu finishedBlock]
+-[MoreDropDownMenu setFinishedBlock:]
+-[MoreDropDownMenu isClickHaveItemValid]
+-[MoreDropDownMenu setIsClickHaveItemValid:]
+-[MoreDropDownMenu isRemainMenuTitle]
+-[MoreDropDownMenu setRemainMenuTitle:]
+-[MoreDropDownMenu currentSelectRowArray]
+-[MoreDropDownMenu setCurrentSelectRowArray:]
+-[MoreDropDownMenu indicatorImageNames]
+-[MoreDropDownMenu setIndicatorImageNames:]
+-[MoreDropDownMenu indicatorAnimates]
+-[MoreDropDownMenu setIndicatorAnimates:]
+-[MoreDropDownMenu indicatorAlignType]
+-[MoreDropDownMenu setIndicatorAlignType:]
+-[MoreDropDownMenu currentSelectedMenudIndex]
+-[MoreDropDownMenu setCurrentSelectedMenudIndex:]
+-[MoreDropDownMenu show]
+-[MoreDropDownMenu numOfMenu]
+-[MoreDropDownMenu setNumOfMenu:]
+-[MoreDropDownMenu origin]
+-[MoreDropDownMenu setOrigin:]
+-[MoreDropDownMenu backGroundView]
+-[MoreDropDownMenu setBackGroundView:]
+-[MoreDropDownMenu leftCollectionView]
+-[MoreDropDownMenu setLeftCollectionView:]
+-[MoreDropDownMenu buttomImageView]
+-[MoreDropDownMenu setButtomImageView:]
+-[MoreDropDownMenu bottomShadow]
+-[MoreDropDownMenu setBottomShadow:]
+-[MoreDropDownMenu array]
+-[MoreDropDownMenu setArray:]
+-[MoreDropDownMenu titles]
+-[MoreDropDownMenu setTitles:]
+-[MoreDropDownMenu indicators]
+-[MoreDropDownMenu setIndicators:]
+-[MoreDropDownMenu bgLayers]
+-[MoreDropDownMenu setBgLayers:]
+-[MoreDropDownMenu indicatorIsImageView]
+-[MoreDropDownMenu setIndicatorIsImageView:]
+-[MoreDropDownMenu dropDownViewWidth]
+-[MoreDropDownMenu setDropDownViewWidth:]
+-[MoreDropDownMenu currentIndexPath]
+-[MoreDropDownMenu setCurrentIndexPath:]
+-[MoreDropDownMenu .cxx_destruct]
+_UI_USER_INTERFACE_IDIOM
+_OBJC_IVAR_$_MoreIndexPath._column
+_OBJC_IVAR_$_MoreIndexPath._row
+_OBJC_IVAR_$_MoreIndexPath._item
+_OBJC_IVAR_$_MoreDropDownMenu._indicatorColor
+_OBJC_IVAR_$_MoreDropDownMenu._textColor
+_OBJC_IVAR_$_MoreDropDownMenu._separatorColor
+_OBJC_IVAR_$_MoreDropDownMenu._backGroundView
+___block_descriptor_tmp.93
+_OBJC_IVAR_$_MoreDropDownMenu._dataSource
+_OBJC_IVAR_$_MoreDropDownMenu._delegate
+_OBJC_IVAR_$_MoreDropDownMenu._titles
+_OBJC_IVAR_$_MoreDropDownMenu._isClickHaveItemValid
+_OBJC_IVAR_$_MoreDropDownMenu._dataSourceFlags
+_OBJC_IVAR_$_MoreDropDownMenu._currentSelectRowArray
+_OBJC_IVAR_$_MoreDropDownMenu._indicators
+_OBJC_IVAR_$_MoreDropDownMenu._numOfMenu
+_OBJC_IVAR_$_MoreDropDownMenu._bottomShadow
+_OBJC_IVAR_$_MoreDropDownMenu._bgLayers
+_OBJC_IVAR_$_MoreDropDownMenu._show
+_OBJC_IVAR_$_MoreDropDownMenu._origin
+_OBJC_IVAR_$_MoreDropDownMenu._currentSelectedMenudIndex
+_OBJC_IVAR_$_MoreDropDownMenu._fontSize
+_OBJC_IVAR_$_MoreDropDownMenu._cellStyle
+_OBJC_IVAR_$_MoreDropDownMenu._textSelectedColor
+_OBJC_IVAR_$_MoreDropDownMenu._detailTextFont
+_OBJC_IVAR_$_MoreDropDownMenu._detailTextColor
+_OBJC_IVAR_$_MoreDropDownMenu._tableViewHeight
+_OBJC_IVAR_$_MoreDropDownMenu._dropDownViewWidth
+_OBJC_IVAR_$_MoreDropDownMenu._indicatorAlignType
+_OBJC_IVAR_$_MoreDropDownMenu._leftCollectionView
+_OBJC_IVAR_$_MoreDropDownMenu._buttomImageView
+___block_descriptor_tmp.332
+___block_descriptor_tmp.337
+___block_descriptor_tmp.343
+___block_descriptor_tmp.351
+___block_descriptor_tmp.354
+___block_descriptor_tmp.411
+___block_descriptor_tmp.417
+___block_descriptor_tmp.424
+___block_descriptor_tmp.435
+___block_descriptor_tmp.439
+___block_descriptor_tmp.443
+___block_descriptor_tmp.444
+___block_literal_global.445
+___block_descriptor_tmp.448
+___block_descriptor_tmp.451
+___block_descriptor_tmp.454
+___block_descriptor_tmp.457
+___block_literal_global.458
+___block_descriptor_tmp.461
+_OBJC_IVAR_$_MoreDropDownMenu._finishedBlock
+_OBJC_IVAR_$_MoreDropDownMenu._remainMenuTitle
+_OBJC_IVAR_$_MoreDropDownMenu._indicatorImageNames
+_OBJC_IVAR_$_MoreDropDownMenu._indicatorAnimates
+_OBJC_IVAR_$_MoreDropDownMenu._array
+_OBJC_IVAR_$_MoreDropDownMenu._indicatorIsImageView
+_OBJC_IVAR_$_MoreDropDownMenu._currentIndexPath
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/MoreDropDownMenu/MoreDropDownMenu.m
+UI_USER_INTERFACE_IDIOM
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/MoreDropDownMenu/MoreDropDownMenu.h
+__43-[MoreDropDownMenu confiMenuWithSelectRow:]_block_invoke_2
+__43-[MoreDropDownMenu confiMenuWithSelectRow:]_block_invoke
+__81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_4
+__81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_3
+__81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke_2
+__81-[MoreDropDownMenu animateIdicator:background:tableView:title:forward:complecte:]_block_invoke
+__51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke.440
+__51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke.436
+__51-[MoreDropDownMenu animateTableView:show:complete:]_block_invoke
+__56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke.418
+__56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke.414
+__56-[MoreDropDownMenu animateBackGroundView:show:complete:]_block_invoke
+__37-[MoreDropDownMenu backgroundTapped:]_block_invoke
+__31-[MoreDropDownMenu menuTapped:]_block_invoke.348
+__31-[MoreDropDownMenu menuTapped:]_block_invoke.340
+__31-[MoreDropDownMenu menuTapped:]_block_invoke_2
+__31-[MoreDropDownMenu menuTapped:]_block_invoke
+__30-[MoreDropDownMenu reloadData]_block_invoke_2
+__30-[MoreDropDownMenu reloadData]_block_invoke
+-[detail_2 awakeFromNib]
+-[detail_2 setSelected:animated:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/detail_2.m
+-[NHBaseTableViewCell tableView]
+-[NHBaseTableViewCell initWithStyle:reuseIdentifier:]
++[NHBaseTableViewCell cellWithTableView:]
++[NHBaseTableViewCell nibCellWithTableView:]
+-[NHBaseTableViewCell setTableView:]
+-[NHBaseTableViewCell .cxx_destruct]
+_OBJC_IVAR_$_NHBaseTableViewCell._tableView
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/View/NHBaseTableViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/View/NHBaseTableViewCell.h
+-[FirstViewController initWithStyle:]
+-[FirstViewController viewDidLoad]
+___34-[FirstViewController viewDidLoad]_block_invoke
+-[FirstViewController pushCity]
+-[FirstViewController didClickedWithCityName:]
+-[FirstViewController login]
+-[FirstViewController tableView:heightForRowAtIndexPath:]
+-[FirstViewController tableView:heightForHeaderInSection:]
+-[FirstViewController tableView:viewForHeaderInSection:]
+-[FirstViewController tableView:heightForFooterInSection:]
+-[FirstViewController tableView:viewForFooterInSection:]
+-[FirstViewController numberOfSectionsInTableView:]
+-[FirstViewController tableView:numberOfRowsInSection:]
+-[FirstViewController tableView:cellForRowAtIndexPath:]
+-[FirstViewController group]
+-[FirstViewController didReceiveMemoryWarning]
+-[FirstViewController setGroup:]
+-[FirstViewController .cxx_destruct]
+_OBJC_IVAR_$_FirstViewController._group
+l_OBJC_PROTOCOL_$_CityListViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_CityListViewDelegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/FirstViewController.m
+__34-[FirstViewController viewDidLoad]_block_invoke
++[UIButton(fast) buttonWithTitle:andTitleColor:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/UIKit/UIButton/UIButton+fast.m
+-[CompanyView initWithCoder:]
+-[CompanyView awakeFromNib]
+-[CompanyView ceoLabel]
+-[CompanyView setCeoLabel:]
+-[CompanyView moneyLabel]
+-[CompanyView setMoneyLabel:]
+-[CompanyView timeLabel]
+-[CompanyView setTimeLabel:]
+-[CompanyView .cxx_destruct]
+_OBJC_IVAR_$_CompanyView._ceoLabel
+_OBJC_IVAR_$_CompanyView._moneyLabel
+_OBJC_IVAR_$_CompanyView._timeLabel
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/CompanyView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/detailView/CompanyView.h
+-[CityItem initWithTitleName:]
++[CityItem initWithTitleName:]
+-[CityItem key]
+-[CityItem setKey:]
+-[CityItem titleName]
+-[CityItem setTitleName:]
+-[CityItem .cxx_destruct]
+_OBJC_IVAR_$_CityItem._key
+_OBJC_IVAR_$_CityItem._titleName
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityItem.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/CityItem.h
++[LCProgressHUD sharedHUD]
+___26+[LCProgressHUD sharedHUD]_block_invoke
++[LCProgressHUD showStatus:text:]
+___33+[LCProgressHUD showStatus:text:]_block_invoke
+___copy_helper_block_.99
+___destroy_helper_block_.100
+___33+[LCProgressHUD showStatus:text:]_block_invoke.106
+___copy_helper_block_.107
+___destroy_helper_block_.108
+___33+[LCProgressHUD showStatus:text:]_block_invoke.112
+___copy_helper_block_.113
+___destroy_helper_block_.114
++[LCProgressHUD showMessage:]
++[LCProgressHUD showInfoMsg:]
++[LCProgressHUD showFailure:]
++[LCProgressHUD showSuccess:]
++[LCProgressHUD showLoading:]
++[LCProgressHUD hide]
+-[LCProgressHUD isShowNow]
+-[LCProgressHUD setShowNow:]
+_sharedHUD.hud
+_sharedHUD.onceToken
+___block_descriptor_tmp.101
+___block_descriptor_tmp.109
+___block_descriptor_tmp.115
+_OBJC_IVAR_$_LCProgressHUD._showNow
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/LCProgressHUD/LCProgressHUD.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/LCProgressHUD/LCProgressHUD.h
+__33+[LCProgressHUD showStatus:text:]_block_invoke.112
+__33+[LCProgressHUD showStatus:text:]_block_invoke.106
+__33+[LCProgressHUD showStatus:text:]_block_invoke
+__26+[LCProgressHUD sharedHUD]_block_invoke
+-[ButtonGroupView buttons]
+-[ButtonGroupView layoutSubviews]
+-[ButtonGroupView setItems:]
+-[ButtonGroupView itemclick:]
+-[ButtonGroupView package]
+-[ButtonGroupView setPackage:]
+-[ButtonGroupView columns]
+-[ButtonGroupView setColumns:]
+-[ButtonGroupView items]
+-[ButtonGroupView setButtons:]
+-[ButtonGroupView delegate]
+-[ButtonGroupView setDelegate:]
+-[ButtonGroupView .cxx_destruct]
+_OBJC_IVAR_$_ButtonGroupView._buttons
+_OBJC_IVAR_$_ButtonGroupView._columns
+_OBJC_IVAR_$_ButtonGroupView._items
+_OBJC_IVAR_$_ButtonGroupView._package
+_OBJC_IVAR_$_ButtonGroupView._delegate
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ButtonGroupView.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ButtonGroupView.h
+-[HanyuPinyinOutputFormat init]
+-[HanyuPinyinOutputFormat restoreDefault]
+-[HanyuPinyinOutputFormat vCharType]
+-[HanyuPinyinOutputFormat setVCharType:]
+-[HanyuPinyinOutputFormat caseType]
+-[HanyuPinyinOutputFormat setCaseType:]
+-[HanyuPinyinOutputFormat toneType]
+-[HanyuPinyinOutputFormat setToneType:]
+_OBJC_IVAR_$_HanyuPinyinOutputFormat._vCharType
+_OBJC_IVAR_$_HanyuPinyinOutputFormat._caseType
+_OBJC_IVAR_$_HanyuPinyinOutputFormat._toneType
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/HanyuPinyinOutputFormat.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/ThirdParty/ChinaCityList/ZYPinYinSearchLib/HanyuPinyinOutputFormat.h
++[NHBaseTableHeaderFooterView headerFooterViewWithTableView:]
++[NHBaseTableHeaderFooterView nibHeaderFooterViewWithTableView:]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/View/NHBaseTableHeaderFooterView.m
+-[ZWBaseTableViewController viewDidLoad]
+-[ZWBaseTableViewController didReceiveMemoryWarning]
+-[ZWBaseTableViewController numberOfSectionsInTableView:]
+-[ZWBaseTableViewController tableView:numberOfRowsInSection:]
+-[ZWBaseTableViewController tableView:cellForRowAtIndexPath:]
+-[ZWBaseTableViewController tableView:heightForRowAtIndexPath:]
+-[ZWBaseTableViewController dataSources]
+-[ZWBaseTableViewController setDataSources:]
+-[ZWBaseTableViewController .cxx_destruct]
+_OBJC_IVAR_$_ZWBaseTableViewController._dataSources
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/ViewController/ZWBaseTableViewController.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/ViewController/ZWBaseTableViewController.h
+-[CollectionViewCell awakeFromNib]
+-[CollectionViewCell setModel:]
+-[CollectionViewCell model]
+-[CollectionViewCell imageView]
+-[CollectionViewCell setImageView:]
+-[CollectionViewCell nameLabel]
+-[CollectionViewCell setNameLabel:]
+-[CollectionViewCell .cxx_destruct]
+_OBJC_IVAR_$_CollectionViewCell._model
+_OBJC_IVAR_$_CollectionViewCell._imageView
+_OBJC_IVAR_$_CollectionViewCell._nameLabel
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/CollectionViewCell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/CollectionViewCell.h
+-[DataModel imageName]
+-[DataModel setImageName:]
+-[DataModel text]
+-[DataModel setText:]
+-[DataModel .cxx_destruct]
+_OBJC_IVAR_$_DataModel._imageName
+_OBJC_IVAR_$_DataModel._text
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/Model/DataModel.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/Model/DataModel.h
+-[UIView(MJExtension) setMj_x:]
+-[UIView(MJExtension) mj_x]
+-[UIView(MJExtension) setMj_y:]
+-[UIView(MJExtension) mj_y]
+-[UIView(MJExtension) setMj_w:]
+-[UIView(MJExtension) mj_w]
+-[UIView(MJExtension) setMj_h:]
+-[UIView(MJExtension) mj_h]
+-[UIView(MJExtension) setMj_size:]
+-[UIView(MJExtension) mj_size]
+-[UIView(MJExtension) setMj_origin:]
+-[UIView(MJExtension) mj_origin]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/HJDropDownMenu/UIView+MJExtension.m
+-[NHBaseTableView initWithFrame:style:]
+-[NHBaseTableView nh_registerCellClass:identifier:]
+-[NHBaseTableView nh_registerCellNib:nibIdentifier:]
+-[NHBaseTableView nh_registerHeaderFooterClass:identifier:]
+-[NHBaseTableView nh_registerHeaderFooterNib:nibIdentifier:]
+-[NHBaseTableView nh_updateWithUpdateBlock:]
+-[NHBaseTableView nh_cellAtIndexPath:]
+-[NHBaseTableView nh_reloadSingleRowAtIndexPath:]
+-[NHBaseTableView nh_reloadSingleRowAtIndexPath:animation:]
+-[NHBaseTableView nh_reloadRowsAtIndexPaths:]
+-[NHBaseTableView nh_reloadRowsAtIndexPaths:animation:]
+___55-[NHBaseTableView nh_reloadRowsAtIndexPaths:animation:]_block_invoke
+-[NHBaseTableView nh_reloadSingleSection:]
+-[NHBaseTableView nh_reloadSingleSection:animation:]
+-[NHBaseTableView nh_reloadSections:]
+-[NHBaseTableView nh_reloadSections:animation:]
+___47-[NHBaseTableView nh_reloadSections:animation:]_block_invoke
+___copy_helper_block_.122
+___destroy_helper_block_.123
+-[NHBaseTableView nh_deleteSingleRowAtIndexPath:]
+-[NHBaseTableView nh_deleteSingleRowAtIndexPath:animation:]
+-[NHBaseTableView nh_deleteRowsAtIndexPaths:]
+-[NHBaseTableView nh_deleteRowsAtIndexPaths:animation:]
+___55-[NHBaseTableView nh_deleteRowsAtIndexPaths:animation:]_block_invoke
+___copy_helper_block_.138
+___destroy_helper_block_.139
+-[NHBaseTableView nh_deleteSingleSection:]
+-[NHBaseTableView nh_deleteSingleSection:animation:]
+-[NHBaseTableView nh_deleteSections:]
+-[NHBaseTableView nh_deleteSections:animation:]
+___47-[NHBaseTableView nh_deleteSections:animation:]_block_invoke
+___copy_helper_block_.147
+___destroy_helper_block_.148
+-[NHBaseTableView nh_insertSingleRowAtIndexPath:]
+-[NHBaseTableView nh_insertSingleRowAtIndexPath:animation:]
+-[NHBaseTableView nh_insertSingleSection:]
+-[NHBaseTableView nh_insertSingleSection:animation:]
+-[NHBaseTableView nh_insertRowsAtIndexPaths:]
+-[NHBaseTableView nh_insertRowsAtIndexPaths:animation:]
+___55-[NHBaseTableView nh_insertRowsAtIndexPaths:animation:]_block_invoke
+___copy_helper_block_.166
+___destroy_helper_block_.167
+-[NHBaseTableView nh_insertSections:]
+-[NHBaseTableView nh_insertSections:animation:]
+___47-[NHBaseTableView nh_insertSections:animation:]_block_invoke
+___copy_helper_block_.171
+___destroy_helper_block_.172
+-[NHBaseTableView hitTest:withEvent:]
+___block_descriptor_tmp.125
+___block_descriptor_tmp.140
+___block_descriptor_tmp.149
+___block_descriptor_tmp.168
+___block_descriptor_tmp.173
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Base/View/NHBaseTableView.m
+__47-[NHBaseTableView nh_insertSections:animation:]_block_invoke
+__55-[NHBaseTableView nh_insertRowsAtIndexPaths:animation:]_block_invoke
+__47-[NHBaseTableView nh_deleteSections:animation:]_block_invoke
+__55-[NHBaseTableView nh_deleteRowsAtIndexPaths:animation:]_block_invoke
+__47-[NHBaseTableView nh_reloadSections:animation:]_block_invoke
+__55-[NHBaseTableView nh_reloadRowsAtIndexPaths:animation:]_block_invoke
++[NSFileManager(Paths) URLForDirectory:]
++[NSFileManager(Paths) pathForDirectory:]
++[NSFileManager(Paths) documentsURL]
++[NSFileManager(Paths) documentsPath]
++[NSFileManager(Paths) libraryURL]
++[NSFileManager(Paths) libraryPath]
++[NSFileManager(Paths) cachesURL]
++[NSFileManager(Paths) cachesPath]
++[NSFileManager(Paths) addSkipBackupAttributeToFile:]
++[NSFileManager(Paths) availableDiskSpace]
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Tool/Category/Foundation/NSFileManager/NSFileManager+Paths.m
+-[ZWCoverModel_0_Cell awakeFromNib]
+-[ZWCoverModel_0_Cell setup]
+-[ZWCoverModel_0_Cell collectionView:numberOfItemsInSection:]
+-[ZWCoverModel_0_Cell collectionView:cellForItemAtIndexPath:]
+-[ZWCoverModel_0_Cell group]
+-[ZWCoverModel_0_Cell setGroup:]
+-[ZWCoverModel_0_Cell myCollectionV]
+-[ZWCoverModel_0_Cell setMyCollectionV:]
+-[ZWCoverModel_0_Cell flow]
+-[ZWCoverModel_0_Cell setFlow:]
+-[ZWCoverModel_0_Cell nameGroup]
+-[ZWCoverModel_0_Cell setNameGroup:]
+-[ZWCoverModel_0_Cell imageGroup]
+-[ZWCoverModel_0_Cell setImageGroup:]
+-[ZWCoverModel_0_Cell .cxx_destruct]
+_JYindentify
+_OBJC_IVAR_$_ZWCoverModel_0_Cell._myCollectionV
+_OBJC_IVAR_$_ZWCoverModel_0_Cell._group
+_OBJC_IVAR_$_ZWCoverModel_0_Cell._flow
+_OBJC_IVAR_$_ZWCoverModel_0_Cell._nameGroup
+_OBJC_IVAR_$_ZWCoverModel_0_Cell._imageGroup
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWCoverModel_0_Cell.m
+/Users/zhangsan/Desktop/github pull computer/Demo/ZWTakeYouFly/Classes/Modules/Mine(主视图)/View/ZWCoverModel_0_Cell.h
+-[BLYFileOperation isAsynchronous]
+-[BLYFileOperation isConcurrent]
++[BLYGrayEventReq initialize]
+-[BLYGrayEventReq init]
++[BLYGrayEventReq jceType]
+-[BLYGrayEventReq jce_eventType]
+-[BLYGrayEventReq setJce_eventType:]
+-[BLYGrayEventReq jce_eventTime]
+-[BLYGrayEventReq setJce_eventTime:]
+-[BLYGrayEventReq jce_eventResult]
+-[BLYGrayEventReq setJce_eventResult:]
+-[BLYGrayEventReq jce_eventElapse]
+-[BLYGrayEventReq setJce_eventElapse:]
+-[BLYGrayEventReq jce_destAppInfo]
+-[BLYGrayEventReq setJce_destAppInfo:]
+-[BLYGrayEventReq jce_strategyId]
+-[BLYGrayEventReq setJce_strategyId:]
+-[BLYGrayEventReq jce_updateType]
+-[BLYGrayEventReq setJce_updateType:]
+-[BLYGrayEventReq jce_reserved]
+-[BLYGrayEventReq setJce_reserved:]
+-[BLYGrayEventReq .cxx_destruct]
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_0_r_eventType
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_1_r_eventTime
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_2_r_eventResult
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_3_o_eventElapse
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_4_o_destAppInfo
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_5_o_strategyId
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_6_o_updateType
+_OBJC_IVAR_$_BLYGrayEventReq.jcev2_p_7_o_reserved__b0x9i_M09ONSStringONSString
++[BLYGrayTacticsReq initialize]
+-[BLYGrayTacticsReq init]
++[BLYGrayTacticsReq jceType]
+-[BLYGrayTacticsReq jce_flag]
+-[BLYGrayTacticsReq setJce_flag:]
+-[BLYGrayTacticsReq jce_localStrategyId]
+-[BLYGrayTacticsReq setJce_localStrategyId:]
+-[BLYGrayTacticsReq jce_localStrategyTime]
+-[BLYGrayTacticsReq setJce_localStrategyTime:]
+-[BLYGrayTacticsReq jce_reserved]
+-[BLYGrayTacticsReq setJce_reserved:]
+-[BLYGrayTacticsReq .cxx_destruct]
+_OBJC_IVAR_$_BLYGrayTacticsReq.jcev2_p_0_o_flag
+_OBJC_IVAR_$_BLYGrayTacticsReq.jcev2_p_1_o_localStrategyId
+_OBJC_IVAR_$_BLYGrayTacticsReq.jcev2_p_2_o_localStrategyTime
+_OBJC_IVAR_$_BLYGrayTacticsReq.jcev2_p_3_o_reserved__b0x9i_M09ONSStringONSString
++[BLYGrayEventsReq initialize]
+-[BLYGrayEventsReq init]
++[BLYGrayEventsReq jceType]
+-[BLYGrayEventsReq jce_events]
+-[BLYGrayEventsReq setJce_events:]
+-[BLYGrayEventsReq .cxx_destruct]
+_OBJC_IVAR_$_BLYGrayEventsReq.jcev2_p_0_r_events__b0x9i_VOBLYGrayEventReq
++[BLYGrayStrategyDetail initialize]
+-[BLYGrayStrategyDetail init]
++[BLYGrayStrategyDetail jceType]
+-[BLYGrayStrategyDetail hash]
+-[BLYGrayStrategyDetail isEqual:]
+-[BLYGrayStrategyDetail jce_title]
+-[BLYGrayStrategyDetail setJce_title:]
+-[BLYGrayStrategyDetail jce_newFeature]
+-[BLYGrayStrategyDetail setJce_newFeature:]
+-[BLYGrayStrategyDetail jce_publishTime]
+-[BLYGrayStrategyDetail setJce_publishTime:]
+-[BLYGrayStrategyDetail jce_publishType]
+-[BLYGrayStrategyDetail setJce_publishType:]
+-[BLYGrayStrategyDetail jce_appBasicInfo]
+-[BLYGrayStrategyDetail setJce_appBasicInfo:]
+-[BLYGrayStrategyDetail jce_apkBaseInfo]
+-[BLYGrayStrategyDetail setJce_apkBaseInfo:]
+-[BLYGrayStrategyDetail jce_updateStrategy]
+-[BLYGrayStrategyDetail setJce_updateStrategy:]
+-[BLYGrayStrategyDetail jce_popTimes]
+-[BLYGrayStrategyDetail setJce_popTimes:]
+-[BLYGrayStrategyDetail jce_popInterval]
+-[BLYGrayStrategyDetail setJce_popInterval:]
+-[BLYGrayStrategyDetail jce_diffApkInfo]
+-[BLYGrayStrategyDetail setJce_diffApkInfo:]
+-[BLYGrayStrategyDetail jce_netType]
+-[BLYGrayStrategyDetail setJce_netType:]
+-[BLYGrayStrategyDetail jce_reserved]
+-[BLYGrayStrategyDetail setJce_reserved:]
+-[BLYGrayStrategyDetail jce_strategyId]
+-[BLYGrayStrategyDetail setJce_strategyId:]
+-[BLYGrayStrategyDetail jce_status]
+-[BLYGrayStrategyDetail setJce_status:]
+-[BLYGrayStrategyDetail jce_updateTime]
+-[BLYGrayStrategyDetail setJce_updateTime:]
+-[BLYGrayStrategyDetail jce_updateType]
+-[BLYGrayStrategyDetail setJce_updateType:]
+-[BLYGrayStrategyDetail .cxx_destruct]
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_0_r_title
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_1_r_newFeature
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_2_r_publishTime
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_3_r_publishType
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_4_r_BLYAppBasicInfo
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_5_r_apkBaseInfo
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_6_r_updateStrategy
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_7_o_popTimes
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_8_o_popInterval
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_9_o_diffApkInfo
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_10_o_netType
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_11_o_reserved__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_12_o_strategyId
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_13_o_status
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_14_o_updateTime
+_OBJC_IVAR_$_BLYGrayStrategyDetail.jcev2_p_15_o_updateType
+_____cxa_throw_block_invoke
+___bly_installCPPExceptionHandler_block_invoke
+__ZL24BLYCPPExceptionTerminatev
+___bly_uninstallCPPExceptionHandler_block_invoke
++[BLYCrashCXXHandler sharedHandler]
+___35+[BLYCrashCXXHandler sharedHandler]_block_invoke
+-[BLYCrashCXXHandler installHandler]
+__ZL25bly_cxx_exception_handlerPK32BLYCrashUncaughtCXXExceptionInfo
+-[BLYCrashCXXHandler uninstallHandler]
+___clang_call_terminate
+__ZZ11__cxa_throwE9predicate
+__ZZ11__cxa_throwE21__original__cxa_throw
+__ZZ11__cxa_throwE25__real_objc_ehtype_vtable
+__ZL15g_cxx_installed
+__ZL31_BLYCrashCXXExceptionInfoTSDKey
+__ZZ30bly_installCPPExceptionHandlerE13key_predicate
+___block_descriptor_tmp.3
+___block_literal_global.4
+__ZL33_BLYCrashCXXExceptionHandlingLock
+__ZL29g_originalCxxTerminateHandler
+__ZL16_BLY_CXX_Handler
+__ZZ32bly_uninstallCPPExceptionHandlerE13key_predicate
+___block_descriptor_tmp.5
+___block_literal_global.6
+__ZZ35+[BLYCrashCXXHandler sharedHandler]E13sharedHandler
+__ZZ35+[BLYCrashCXXHandler sharedHandler]E9onceToken
+___block_descriptor_tmp.9
+___block_literal_global.10
+__ZTSPKSt9exception
+__ZTIPKSt9exception
++[BLYMemoryMonitorManager sharedManager]
+___40+[BLYMemoryMonitorManager sharedManager]_block_invoke
+-[BLYMemoryMonitorManager init]
+-[BLYMemoryMonitorManager enableModule]
+-[BLYMemoryMonitorManager disableModule]
+-[BLYMemoryMonitorManager shouldEnable]
++[BLYMemoryMonitorManager constructSelector]
+-[BLYMemoryMonitorManager start]
+___32-[BLYMemoryMonitorManager start]_block_invoke
+___32-[BLYMemoryMonitorManager start]_block_invoke_2
+___32-[BLYMemoryMonitorManager start]_block_invoke_3
+-[BLYMemoryMonitorManager stop]
+-[BLYMemoryMonitorManager applicationDidCrashed:]
+-[BLYMemoryMonitorManager dumpMemoryInterval]
+-[BLYMemoryMonitorManager setDumpMemoryInterval:]
+-[BLYMemoryMonitorManager .cxx_destruct]
+_sharedManager.sharedManager
+_OBJC_IVAR_$_BLYMemoryMonitorManager._dumpMemoryInterval
+_OBJC_IVAR_$_BLYMemoryMonitorManager.timer
+___block_descriptor_tmp.31
+___block_literal_global.32
+___block_descriptor_tmp.35
+___block_literal_global.36
+___block_descriptor_tmp.41
+___block_literal_global.42
+_OBJC_IVAR_$_BLYMemoryMonitorManager._monitorThreadCanceled
++[BLYConsoleLog logs]
++[BLYConsoleLog allLogMessagesForCurrentProcess]
++[BLYConsoleLog logMessageFromASLMessage:]
++[BLYConsoleLog logContent:]
+___28+[BLYConsoleLog logContent:]_block_invoke
+-[BLYConsoleLog searchResultOfLog:]
+___35-[BLYConsoleLog searchResultOfLog:]_block_invoke
+-[BLYConsoleLog date]
+-[BLYConsoleLog setDate:]
+-[BLYConsoleLog sender]
+-[BLYConsoleLog setSender:]
+-[BLYConsoleLog messageText]
+-[BLYConsoleLog setMessageText:]
+-[BLYConsoleLog messageID]
+-[BLYConsoleLog setMessageID:]
+-[BLYConsoleLog PID]
+-[BLYConsoleLog setPID:]
+-[BLYConsoleLog .cxx_destruct]
+_formatter
+_logContent:.onceToken
+___block_descriptor_tmp.95
+_OBJC_IVAR_$_BLYConsoleLog._date
+_OBJC_IVAR_$_BLYConsoleLog._sender
+_OBJC_IVAR_$_BLYConsoleLog._messageText
+_OBJC_IVAR_$_BLYConsoleLog._messageID
+_OBJC_IVAR_$_BLYConsoleLog._PID
++[UIViewController(BuglyMartian) load]
+___38+[UIViewController(BuglyMartian) load]_block_invoke
+-[UIViewController(BuglyMartian) bugly_Martian_viewWillAppear:]
+_load.onceToken
++[BLYCrashSignalHandler sharedHandler]
+___38+[BLYCrashSignalHandler sharedHandler]_block_invoke
+-[BLYCrashSignalHandler init]
+-[BLYCrashSignalHandler checkHandler]
+_BLYBSDSignalHandlerCallback
+-[BLYCrashSignalHandler installHandler]
+-[BLYCrashSignalHandler uninstallHandler]
+_sharedHandler.sInstance
+_sharedHandler.onceToken
+_g_BLYSignalHandlerInstalled
+_g_BLYSignalStack
+_g_BLYPreviousSignalHandlers
+_g_BLYFatalSignals
+_gSignalHandlerForward
+-[BLYBlockLogic persistFileKey]
+-[BLYBlockLogic shouldPersist]
+-[BLYBlockLogic shouldUpload]
+-[BLYBlockLogic persistType]
+-[BLYBlockLogic persistentSuccessed:]
+-[BLYBlockLogic reportSuccessed:]
++[BLYCrashUncaughtExceptionHandler sharedHandler]
+___49+[BLYCrashUncaughtExceptionHandler sharedHandler]_block_invoke
+-[BLYCrashUncaughtExceptionHandler init]
+-[BLYCrashUncaughtExceptionHandler checkHandler]
+_BLYUncaughtExceptionHandlerCallback
+-[BLYCrashUncaughtExceptionHandler installHandler]
+-[BLYCrashUncaughtExceptionHandler uninstallHandler]
+_g_BLYUncaughtExceptionHandlerInstalled
+_g_BLYPreviousUncaughtExceptionHandler
+_gUncaughtExceptionHandlerForward
++[BLYLogger initialize]
+___23+[BLYLogger initialize]_block_invoke
+___23+[BLYLogger initialize]_block_invoke_2
++[BLYLogger setLogLevel:]
++[BLYLogger logLevel]
++[BLYLogger isLoggable:]
++[BLYLogger setLogUrgentMode:]
++[BLYLogger setUserLogActivied:]
++[BLYLogger isLogUserActivied]
++[BLYLogger logs]
++[BLYLogger initLogger:printStdout:]
++[BLYLogger level:file:function:line:tag:log:]
++[BLYLogger log:level:file:function:line:tag:]
++[BLYLogger queueLogMessage:]
+___29+[BLYLogger queueLogMessage:]_block_invoke
+___copy_helper_block_.55
+___destroy_helper_block_.56
++[BLYLogger printLog:]
+___22+[BLYLogger printLog:]_block_invoke
+___copy_helper_block_.62
+___destroy_helper_block_.63
++[BLYLogger addLogger:]
+___23+[BLYLogger addLogger:]_block_invoke
+___copy_helper_block_.67
+___destroy_helper_block_.68
++[BLYLogger removeLogger:]
+___26+[BLYLogger removeLogger:]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
++[BLYLogger removeAllLoggers]
+___29+[BLYLogger removeAllLoggers]_block_invoke
+___copy_helper_block_.79
+___destroy_helper_block_.80
++[BLYLogger addLoggerToQueue:]
+___30+[BLYLogger addLoggerToQueue:]_block_invoke
+___copy_helper_block_.83
+___destroy_helper_block_.84
++[BLYLogger removeLoggerFromQueue:]
+___35+[BLYLogger removeLoggerFromQueue:]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
++[BLYLogger cleanAllLoggers]
+-[BLYLogMessage initWithMessage:level:file:function:line:tag:timestamp:]
+-[BLYLogMessage logLevelName]
+-[BLYLogMessage logLevelFullName]
+-[BLYLogMessage logTag]
+-[BLYLogMessage copyWithZone:]
+-[BLYLogMessage message]
+-[BLYLogMessage level]
+-[BLYLogMessage file]
+-[BLYLogMessage fileName]
+-[BLYLogMessage function]
+-[BLYLogMessage line]
+-[BLYLogMessage tag]
+-[BLYLogMessage processId]
+-[BLYLogMessage threadId]
+-[BLYLogMessage threadName]
+-[BLYLogMessage timestamp]
+-[BLYLogMessage .cxx_destruct]
+-[BLYAbstraceLogger init]
+-[BLYAbstraceLogger loggerQueue]
+-[BLYAbstraceLogger loggerName]
+-[BLYAbstraceLogger isOnInternalLoggerQueue]
+-[BLYAbstraceLogger logMessage:]
+-[BLYAbstraceLogger setLoggerQueue:]
+-[BLYAbstraceLogger isOnGlobalLoggingQueue]
+-[BLYAbstraceLogger .cxx_destruct]
+-[BLYLoggerInfo initWithLogger:level:queue:]
++[BLYLoggerInfo infoWithLogger:level:queue:]
+-[BLYLoggerInfo logger]
+-[BLYLoggerInfo level]
+-[BLYLoggerInfo loggerQueue]
+-[BLYLoggerInfo .cxx_destruct]
+_initialize.onceToken
+__loggers
+__loggingQueue
+__loggingGroup
+_GlobalLoggingQueueIdentityKey
+__queueSemaphore
+_gBLYLogLevel
+___block_descriptor_tmp.22
+_gBLYLogUrgentMode
+_gBLYLogUserActivied
+___block_descriptor_tmp.57
+___block_descriptor_tmp.64
+___block_descriptor_tmp.70
+___block_descriptor_tmp.76
+___block_descriptor_tmp.82
+___block_descriptor_tmp.85
+___block_descriptor_tmp.90
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_BLYAbstraceLogger._onGlobalLoggingQueue
+l_OBJC_PROTOCOL_$_BLYLoggerDelegate
+l_OBJC_LABEL_PROTOCOL_$_BLYLoggerDelegate
+_BLYThreadBacktraceSymbolicate
++[BLYCrashHandler sharedHandler]
+___32+[BLYCrashHandler sharedHandler]_block_invoke
+-[BLYCrashHandler init]
++[BLYCrashHandler installHandlerWithCrashType:]
++[BLYCrashHandler uninstallHandlerByCrashType:]
++[BLYCrashHandler detectiveHandlerRunning]
+-[BLYCrashHandler installHandler]
+-[BLYCrashHandler uninstallHandler]
+_sharedHandler.instance
++[BLYKeychainUtils getPasswordForUsername:andServiceName:error:]
++[BLYKeychainUtils storeUsername:andPassword:forServiceName:updateExisting:error:]
++[BLYKeychainUtils storeUsername:andPassword:forServiceName:updateExisting:accessibility:error:]
++[BLYKeychainUtils deleteItemForUsername:andServiceName:error:]
++[BLYKeychainUtils purgeItemsForServiceName:error:]
+-[BLYUpgradeEventLogic initWithEventReq:]
+-[BLYUpgradeEventLogic jceModel]
+-[BLYUpgradeEventLogic eventsReqPackage]
+___40-[BLYUpgradeEventLogic eventsReqPackage]_block_invoke
+-[BLYUpgradeEventLogic persistType]
+-[BLYUpgradeEventLogic persistFileKey]
+-[BLYUpgradeEventLogic shouldPersist]
+-[BLYUpgradeEventLogic shouldUpload]
+-[BLYUpgradeEventLogic persistentSuccessed:]
+-[BLYUpgradeEventLogic reportSuccessed:]
+-[BLYUpgradeEventLogic jceCMDString]
+-[BLYUpgradeEventLogic setJceModel:]
+-[BLYUpgradeEventLogic event]
+-[BLYUpgradeEventLogic setEvent:]
+-[BLYUpgradeEventLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYUpgradeEventLogic._event
+_OBJC_IVAR_$_BLYUpgradeEventLogic._jceModel
++[BLYJceSerializer defaultSerializer]
+___37+[BLYJceSerializer defaultSerializer]_block_invoke
++[BLYJceSerializer dataWithJCEObject:]
++[BLYJceSerializer dataWithJCEObject:requestReserveInfo:]
++[BLYJceSerializer responsePkgWithData:]
++[BLYJceSerializer strategyWithData:decode:]
++[BLYJceSerializer mixStrategysWithData:decode:]
++[BLYJceSerializer encode:error:]
++[BLYJceSerializer decode:error:]
++[BLYJceSerializer requestPackageWithReserveInfo:]
++[BLYJceSerializer uniPacket]
+_importCategories
+_defaultSerializer.sharedSerializer_
+_defaultSerializer.onceToken
++[Bugly startWithAppId:]
++[Bugly convert:]
++[Bugly startWithAppId:developmentDevice:config:]
++[Bugly startWithAppId:config:]
++[Bugly startWithConfig:]
++[Bugly setUserIdentifier:]
++[Bugly updateAppVersion:]
++[Bugly setTag:]
++[Bugly setUserValue:forKey:]
++[Bugly allUserValues]
++[Bugly currentTag]
++[Bugly reportExceptionWithCategory:name:reason:callStack:extraInfo:terminateApp:]
++[Bugly sdkVersion]
++[Bugly buglyDeviceId]
++[Bugly reportException:]
++[Bugly reportError:]
++[Bugly isAppCrashedOnStartUpExceedTheLimit]
++[Bugly setComponentIdentifier:version:]
+_gSdkManagerInitilized
++[BLYCrashUserException isSupportedCategory:]
++[BLYCrashUserException exceptionWithError:]
++[BLYCrashUserException exceptionWithException:]
++[BLYCrashUserException exceptionWithCategory:name:]
+-[BLYCrashUserException init]
+-[BLYCrashUserException exceptionName]
+-[BLYCrashUserException exceptionReason]
+-[BLYCrashUserException callStack]
+-[BLYCrashUserException category]
+-[BLYCrashUserException setCategory:]
+-[BLYCrashUserException name]
+-[BLYCrashUserException setName:]
+-[BLYCrashUserException userError]
+-[BLYCrashUserException setUserError:]
+-[BLYCrashUserException userException]
+-[BLYCrashUserException setUserException:]
+-[BLYCrashUserException reason]
+-[BLYCrashUserException setReason:]
+-[BLYCrashUserException extraInfo]
+-[BLYCrashUserException setExtraInfo:]
+-[BLYCrashUserException userCallStack]
+-[BLYCrashUserException setUserCallStack:]
+-[BLYCrashUserException occurTime]
+-[BLYCrashUserException setOccurTime:]
+-[BLYCrashUserException backtrace]
+-[BLYCrashUserException setBacktrace:]
+-[BLYCrashUserException backtraceLength]
+-[BLYCrashUserException setBacktraceLength:]
+-[BLYCrashUserException .cxx_destruct]
++[BLYCrashUserExceptionHandler sharedHandler]
+___45+[BLYCrashUserExceptionHandler sharedHandler]_block_invoke
+-[BLYCrashUserExceptionHandler init]
+-[BLYCrashUserExceptionHandler installHandler]
+-[BLYCrashUserExceptionHandler uninstallHandler]
+-[BLYCrashUserExceptionHandler reportUserException:]
+_OBJC_IVAR_$_BLYCrashUserException._occurTime
+_OBJC_IVAR_$_BLYCrashUserException._name
+_OBJC_IVAR_$_BLYCrashUserException._reason
+_OBJC_IVAR_$_BLYCrashUserException._userCallStack
+_OBJC_IVAR_$_BLYCrashUserException._category
+_OBJC_IVAR_$_BLYCrashUserException._userError
+_OBJC_IVAR_$_BLYCrashUserException._userException
+_OBJC_IVAR_$_BLYCrashUserException._extraInfo
+_OBJC_IVAR_$_BLYCrashUserException._backtrace
+_OBJC_IVAR_$_BLYCrashUserException._backtraceLength
++[BLYWeakValue valueWithWeakObject:]
+-[BLYWeakValue weakObject]
+-[BLYWeakValue setWeakObject:]
+-[BLYWeakValue .cxx_destruct]
+-[BLYReachability enableModule]
+-[BLYReachability disableModule]
++[BLYReachability constructSelector]
++[BLYReachability _reachabilityStateForFlags:]
+-[BLYReachability initWithURL:]
++[BLYReachability sharedReachability]
+___37+[BLYReachability sharedReachability]_block_invoke
+-[BLYReachability dealloc]
+-[BLYReachability addSubscriber:]
+___33-[BLYReachability addSubscriber:]_block_invoke
+___copy_helper_block_.37
+___destroy_helper_block_.38
+-[BLYReachability removeSubscriber:]
+___36-[BLYReachability removeSubscriber:]_block_invoke
+___36-[BLYReachability removeSubscriber:]_block_invoke_2
+___copy_helper_block_.42
+___destroy_helper_block_.43
+___copy_helper_block_.50
+___destroy_helper_block_.51
+-[BLYReachability removeAllSubscribers]
+___39-[BLYReachability removeAllSubscribers]_block_invoke
+-[BLYReachability _notifyAllListeners]
+___38-[BLYReachability _notifyAllListeners]_block_invoke
+___38-[BLYReachability _notifyAllListeners]_block_invoke_2
+___copy_helper_block_.70
+___destroy_helper_block_.71
+-[BLYReachability setFlags:]
+___28-[BLYReachability setFlags:]_block_invoke
+___copy_helper_block_.78
+___destroy_helper_block_.79
+-[BLYReachability flags]
+___24-[BLYReachability flags]_block_invoke
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[BLYReachability currentState]
+-[BLYReachability _startMonitoringReachabilityWithURL:]
+___55-[BLYReachability _startMonitoringReachabilityWithURL:]_block_invoke
+__reachabilityCallback
+___copy_helper_block_.96
+___destroy_helper_block_.97
+-[BLYReachability networkReachability]
+-[BLYReachability setNetworkReachability:]
+-[BLYReachability synchronizationQueue]
+-[BLYReachability setSynchronizationQueue:]
+-[BLYReachability listenersArray]
+-[BLYReachability setListenersArray:]
+-[BLYReachability didInited]
+-[BLYReachability setDidInited:]
+-[BLYReachability .cxx_destruct]
+_OBJC_IVAR_$_BLYWeakValue._weakObject
+_OBJC_IVAR_$_BLYReachability._synchronizationQueue
+_OBJC_IVAR_$_BLYReachability._listenersArray
+_sharedReachability.reachability
+_sharedReachability.onceToken
+_OBJC_IVAR_$_BLYReachability._networkReachability
+___block_descriptor_tmp.39
+___block_descriptor_tmp.45
+___block_descriptor_tmp.52
+_OBJC_IVAR_$_BLYReachability._flags
+___block_descriptor_tmp.72
+___block_descriptor_tmp.75
+___block_descriptor_tmp.80
+___block_descriptor_tmp.83
+___block_descriptor_tmp.98
+_OBJC_IVAR_$_BLYReachability._didInited
++[BuglyMender sharedMender]
+___27+[BuglyMender sharedMender]_block_invoke
++[BuglyMender constructSelector]
+-[BuglyMender strategyGetterSelector]
+-[BuglyMender controlStrategy]
+___30-[BuglyMender controlStrategy]_block_invoke
+-[BuglyMender setControlStrategy:]
+-[BuglyMender patchStrategy]
+-[BuglyMender setPatchStrategy:]
+-[BuglyMender enableModule]
+-[BuglyMender invalidPatch]
+___27-[BuglyMender invalidPatch]_block_invoke
+-[BuglyMender start]
+-[BuglyMender uploadEvents]
+-[BuglyMender isLocalPatchFileValid]
+-[BuglyMender deletePatch]
+-[BuglyMender patchDirectory]
+___29-[BuglyMender patchDirectory]_block_invoke
+-[BuglyMender updatePatch:completion:]
+___38-[BuglyMender updatePatch:completion:]_block_invoke
+___copy_helper_block_.129
+___destroy_helper_block_.130
+___38-[BuglyMender updatePatch:completion:]_block_invoke.138
+___copy_helper_block_.153
+___destroy_helper_block_.154
+-[BuglyMender downloadPatch:sha1:]
+___34-[BuglyMender downloadPatch:sha1:]_block_invoke
+___34-[BuglyMender downloadPatch:sha1:]_block_invoke_2
+___copy_helper_block_.202
+___destroy_helper_block_.203
++[BuglyMender hotfixSDKVersion]
+-[BuglyMender currentPatchInfo]
+-[BuglyMender checkUpdate:]
+-[BuglyMender processPatchStrategy]
+-[BuglyMender dataManagerNotifyValue:changedForKey:]
+___52-[BuglyMender dataManagerNotifyValue:changedForKey:]_block_invoke
+___52-[BuglyMender dataManagerNotifyValue:changedForKey:]_block_invoke_2
+___52-[BuglyMender dataManagerNotifyValue:changedForKey:]_block_invoke_3
+___52-[BuglyMender dataManagerNotifyValue:changedForKey:]_block_invoke_4
+___52-[BuglyMender dataManagerNotifyValue:changedForKey:]_block_invoke_5
+-[BuglyMender defaultStrategy]
+-[BuglyMender reportHotfixEventType:eventResult:reserved:]
+-[BuglyMender reportPatchStatus:]
+-[BuglyMender checkRemoteConfigWithEventHandler:]
+-[BuglyMender taskQueue]
+-[BuglyMender setTaskQueue:]
+-[BuglyMender currentEventHandler]
+-[BuglyMender setCurrentEventHandler:]
+-[BuglyMender isEnabled]
+-[BuglyMender setEnable:]
+-[BuglyMender .cxx_destruct]
+_sharedMender.sharedMender
+_sharedMender.onceToken
+_OBJC_IVAR_$_BuglyMender._controlStrategy
+___block_descriptor_tmp.26
+___block_literal_global.27
+_OBJC_IVAR_$_BuglyMender._patchStrategy
+___block_descriptor_tmp.62
+___block_literal_global.63
+_patchDirectory.onceToken
+_updatePatch:completion:.onceToken
+___block_descriptor_tmp.131
+___block_descriptor_tmp.155
+___block_descriptor_tmp.199
+___block_descriptor_tmp.205
+___block_descriptor_tmp.275
+___block_literal_global.276
+___block_descriptor_tmp.279
+___block_literal_global.280
+___block_descriptor_tmp.285
+___block_literal_global.286
+___block_descriptor_tmp.287
+___block_literal_global.288
+___block_literal_global.292
+_OBJC_IVAR_$_BuglyMender._taskQueue
+_OBJC_IVAR_$_BuglyMender._currentEventHandler
+_OBJC_IVAR_$_BuglyMender._enable
+l_OBJC_PROTOCOL_$_BLYDataManagerKVOProtocol
+l_OBJC_LABEL_PROTOCOL_$_BLYDataManagerKVOProtocol
++[BLYExceptionUploadPackage initialize]
+-[BLYExceptionUploadPackage init]
++[BLYExceptionUploadPackage jceType]
+-[BLYExceptionUploadPackage jce_list]
+-[BLYExceptionUploadPackage setJce_list:]
+-[BLYExceptionUploadPackage .cxx_destruct]
+_OBJC_IVAR_$_BLYExceptionUploadPackage.jcev2_p_0_r_list__b0x9i_VOBLYExceptionUpload
+_fopen_file_func
+_fread_file_func
+_fwrite_file_func
+_ftell_file_func
+_fseek_file_func
+_fclose_file_func
+_ferror_file_func
+_fopen64_file_func
+_ftell64_file_func
+_fseek64_file_func
++[BLYSTDLogger defaultLogger]
+___29+[BLYSTDLogger defaultLogger]_block_invoke
+-[BLYSTDLogger init]
+-[BLYSTDLogger logMessage:]
+-[BLYSTDLogger printMessage:]
+-[BLYSTDLogger loggerName]
+-[BLYSTDLogger .cxx_destruct]
+_defaultLogger.onceToken
+_sInstance
+_OBJC_IVAR_$_BLYSTDLogger._calendarUnitFlags
+_OBJC_IVAR_$_BLYSTDLogger._appName
+_OBJC_IVAR_$_BLYSTDLogger._appLen
+_OBJC_IVAR_$_BLYSTDLogger._app
+_OBJC_IVAR_$_BLYSTDLogger._processID
+_OBJC_IVAR_$_BLYSTDLogger._pidLen
+_OBJC_IVAR_$_BLYSTDLogger._pid
++[BLYASLLogger defaultLogger]
+___29+[BLYASLLogger defaultLogger]_block_invoke
+-[BLYASLLogger init]
+-[BLYASLLogger loggerName]
+-[BLYASLLogger logMessage:]
+_OBJC_IVAR_$_BLYASLLogger._client
+_logMessage:.level_strings
+-[BLYJCEPropertyInfo tag]
+-[BLYJCEPropertyInfo setTag:]
+-[BLYJCEPropertyInfo dynamic]
+-[BLYJCEPropertyInfo setDynamic:]
+-[BLYJCEPropertyInfo weak]
+-[BLYJCEPropertyInfo setWeak:]
+-[BLYJCEPropertyInfo getter]
+-[BLYJCEPropertyInfo setGetter:]
+-[BLYJCEPropertyInfo setter]
+-[BLYJCEPropertyInfo setSetter:]
+-[BLYJCEPropertyInfo required]
+-[BLYJCEPropertyInfo setRequired:]
+-[BLYJCEPropertyInfo name]
+-[BLYJCEPropertyInfo setName:]
+-[BLYJCEPropertyInfo type]
+-[BLYJCEPropertyInfo setType:]
+-[BLYJCEPropertyInfo ext]
+-[BLYJCEPropertyInfo setExt:]
+-[BLYJCEPropertyInfo isJCE]
+-[BLYJCEPropertyInfo setIsJCE:]
+-[BLYJCEPropertyInfo memoryManagementPolicy]
+-[BLYJCEPropertyInfo setMemoryManagementPolicy:]
+-[BLYJCEPropertyInfo .cxx_destruct]
+_OBJC_IVAR_$_BLYJCEPropertyInfo._tag
+_OBJC_IVAR_$_BLYJCEPropertyInfo._dynamic
+_OBJC_IVAR_$_BLYJCEPropertyInfo._weak
+_OBJC_IVAR_$_BLYJCEPropertyInfo._getter
+_OBJC_IVAR_$_BLYJCEPropertyInfo._setter
+_OBJC_IVAR_$_BLYJCEPropertyInfo._required
+_OBJC_IVAR_$_BLYJCEPropertyInfo._name
+_OBJC_IVAR_$_BLYJCEPropertyInfo._type
+_OBJC_IVAR_$_BLYJCEPropertyInfo._ext
+_OBJC_IVAR_$_BLYJCEPropertyInfo._isJCE
+_OBJC_IVAR_$_BLYJCEPropertyInfo._memoryManagementPolicy
++[BuglyLog convert:]
++[BuglyLog initLogger:consolePrint:]
++[BuglyLog log:]
++[BuglyLog level:logs:]
++[BuglyLog level:log:]
++[BuglyLog level:tag:log:]
+-[BLYAbstractLogic init]
+-[BLYAbstractLogic isExecuting]
+-[BLYAbstractLogic isFinished]
+-[BLYAbstractLogic isReady]
+-[BLYAbstractLogic isCancelled]
+-[BLYAbstractLogic isConcurrent]
+-[BLYAbstractLogic isAsynchronous]
+-[BLYAbstractLogic cancel]
+-[BLYAbstractLogic finish]
+-[BLYAbstractLogic persistFileKey]
+-[BLYAbstractLogic persistType]
+-[BLYAbstractLogic jceCMDString]
+-[BLYAbstractLogic errorWithDescription:]
+-[BLYAbstractLogic executionTimes]
+-[BLYAbstractLogic setExecutionTimes:]
+-[BLYAbstractLogic shouldRetry]
+-[BLYAbstractLogic setShouldRetry:]
+-[BLYAbstractLogic logicNumber]
+-[BLYAbstractLogic setLogicNumber:]
+-[BLYAbstractLogic error]
+-[BLYAbstractLogic setError:]
+-[BLYAbstractLogic logicExecuting]
+-[BLYAbstractLogic setLogicExecuting:]
+-[BLYAbstractLogic logicFinished]
+-[BLYAbstractLogic setLogicFinished:]
+-[BLYAbstractLogic logicReady]
+-[BLYAbstractLogic setLogicReady:]
+-[BLYAbstractLogic logicCanceled]
+-[BLYAbstractLogic setLogicCanceled:]
+-[BLYAbstractLogic lock]
+-[BLYAbstractLogic setLock:]
+-[BLYAbstractLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYAbstractLogic._executionTimes
+_OBJC_IVAR_$_BLYAbstractLogic._shouldRetry
+_OBJC_IVAR_$_BLYAbstractLogic._logicReady
+_OBJC_IVAR_$_BLYAbstractLogic._logicExecuting
+_OBJC_IVAR_$_BLYAbstractLogic._logicFinished
+_OBJC_IVAR_$_BLYAbstractLogic._logicCanceled
+_OBJC_IVAR_$_BLYAbstractLogic._logicNumber
+_OBJC_IVAR_$_BLYAbstractLogic._error
+_OBJC_IVAR_$_BLYAbstractLogic._lock
++[BLYMixPkg initialize]
+-[BLYMixPkg init]
++[BLYMixPkg jceType]
+-[BLYMixPkg jce_mixMap]
+-[BLYMixPkg setJce_mixMap:]
+-[BLYMixPkg .cxx_destruct]
+_OBJC_IVAR_$_BLYMixPkg.jcev2_p_0_r_mixMap__b0x9i_M09ONSNumberONSData
++[BLYHelper generateUUID]
++[BLYHelper isPreiOS7Environment]
+___33+[BLYHelper isPreiOS7Environment]_block_invoke
++[BLYHelper isPreiOS8Environment]
+___33+[BLYHelper isPreiOS8Environment]_block_invoke
++[BLYHelper isRunningInAppExtension]
+___36+[BLYHelper isRunningInAppExtension]_block_invoke
++[BLYHelper isTheAppStoreEnvironment]
++[BLYHelper isDebugBuild]
++[BLYHelper isSimulatorBuild]
++[BLYHelper getReceiptUrlPath]
++[BLYHelper isTestBuild]
++[BLYHelper hasAppStoreReceipt]
++[BLYHelper getBuildType]
++[BLYHelper componentInfos]
++[BLYHelper isDebuggerAttached]
+___31+[BLYHelper isDebuggerAttached]_block_invoke
++[BLYHelper fixedTimestamp:]
++[BLYHelper currentTimeStamp]
++[BLYHelper isEmptyString:]
++[BLYHelper SHA1:]
++[BLYHelper fileSHA1:]
++[BLYHelper aes256EncryptWithKey:data:]
++[BLYHelper aes256DecryptWithkey:data:]
+_isPreiOS7Environment.isPreiOS7Environment
+_isPreiOS7Environment.checkOS
+_isPreiOS8Environment.isPreiOS8Environment
+_isPreiOS8Environment.checkOS8
+_isRunningInAppExtension.isRunningInAppExtension
+_isRunningInAppExtension.checkAppExtension
+___block_descriptor_tmp.15
+___block_literal_global.16
+_isDebuggerAttached.debuggerIsAttached
+_isDebuggerAttached.debuggerPredicate
+___block_literal_global.106
++[BLYUserInfoPackage initialize]
+-[BLYUserInfoPackage init]
++[BLYUserInfoPackage jceType]
+-[BLYUserInfoPackage jce_type]
+-[BLYUserInfoPackage setJce_type:]
+-[BLYUserInfoPackage jce_proceName]
+-[BLYUserInfoPackage setJce_proceName:]
+-[BLYUserInfoPackage jce_deviceId]
+-[BLYUserInfoPackage setJce_deviceId:]
+-[BLYUserInfoPackage jce_list]
+-[BLYUserInfoPackage setJce_list:]
+-[BLYUserInfoPackage jce_valueMap]
+-[BLYUserInfoPackage setJce_valueMap:]
+-[BLYUserInfoPackage .cxx_destruct]
+_OBJC_IVAR_$_BLYUserInfoPackage.jcev2_p_0_r_type
+_OBJC_IVAR_$_BLYUserInfoPackage.jcev2_p_1_o_proceName
+_OBJC_IVAR_$_BLYUserInfoPackage.jcev2_p_2_o_deviceId
+_OBJC_IVAR_$_BLYUserInfoPackage.jcev2_p_3_o_list__b0x9i_VOBLYSummaryInfo
+_OBJC_IVAR_$_BLYUserInfoPackage.jcev2_p_4_o_valueMap__b0x9i_M09ONSStringONSString
++[BLYUniPacket packet]
+-[BLYUniPacket init]
+-[BLYUniPacket description]
+-[BLYUniPacket objectKeyWithName:]
+-[BLYUniPacket __pack:]
+-[BLYUniPacket __unpack:]
+-[BLYUniPacket getObjectAttr:forClass:]
+-[BLYUniPacket putDataAttr:value:]
+-[BLYUniPacket putObjectAttr:type:value:]
+-[BLYUniPacket putObjectAttr:value:]
+-[BLYUniPacket attributes]
+-[BLYUniPacket .cxx_destruct]
+_OBJC_IVAR_$_BLYUniPacket._attributes
++[BLYDFTLogger defaultLogger]
+___29+[BLYDFTLogger defaultLogger]_block_invoke
+-[BLYDFTLogger init]
+-[BLYDFTLogger logMessage:]
+-[BLYDFTLogger addLog:]
+-[BLYDFTLogger logs]
+-[BLYDFTLogger loggerName]
+_OBJC_IVAR_$_BLYDFTLogger._calendarUnitFlags
+__logs
+__logSize
+-[BLYFileLogger loggerName]
+-[BLYFileLogger logMessage:]
++[BLYAttachment initialize]
+-[BLYAttachment init]
++[BLYAttachment jceType]
+-[BLYAttachment jce_type]
+-[BLYAttachment setJce_type:]
+-[BLYAttachment jce_fileName]
+-[BLYAttachment setJce_fileName:]
+-[BLYAttachment jce_data]
+-[BLYAttachment setJce_data:]
+-[BLYAttachment .cxx_destruct]
+_OBJC_IVAR_$_BLYAttachment.jcev2_p_0_r_type
+_OBJC_IVAR_$_BLYAttachment.jcev2_p_1_r_fileName
+_OBJC_IVAR_$_BLYAttachment.jcev2_p_2_o_data
++[BLYJceObject object]
++[BLYJceObject fromData:]
+-[BLYJceObject fromData:]
+-[BLYJceObject toData]
++[BLYJceObject jceType]
+-[BLYJceObject jceType]
+-[BLYJceObject __pack:]
+-[BLYJceObject __unpack:]
+-[BLYJceObject description]
+_genTab
+___27-[BLYJceObject description]_block_invoke
+-[BLYJceObject classForKeyedArchiver]
+-[BLYJceObject classForCoder]
+-[BLYJceObject encodeWithCoder:]
+-[BLYJceObject initWithCoder:]
++[BLYJceObject supportsSecureCoding]
+_description.indent
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++[BLYConstants defaultRequestUrl]
++[BLYConstants defaultTLSRequestUrl]
++[BLYConstants enableDebugLog:]
++[BLYConstants isDebugLogEnabled]
++[BLYConstants level:log:]
+_gBLYSDKDebugLogEnable
+-[BLYJceStream init]
+-[BLYJceStream data]
+-[BLYJceStream description]
+-[BLYJceStream streamBuffer]
+-[BLYJceStream setStreamBuffer:]
+-[BLYJceStream streamSize]
+-[BLYJceStream setStreamSize:]
+-[BLYJceStream cursor]
+-[BLYJceStream setCursor:]
+-[BLYBinaryImage init]
+-[BLYBinaryImage debugDescription]
++[BLYBinaryImage formatAddress:]
+-[BLYBinaryImage baseAddress]
+-[BLYBinaryImage setBaseAddress:]
+-[BLYBinaryImage endAddress]
+-[BLYBinaryImage setEndAddress:]
+-[BLYBinaryImage name]
+-[BLYBinaryImage setName:]
+-[BLYBinaryImage arch]
+-[BLYBinaryImage setArch:]
+-[BLYBinaryImage uuid]
+-[BLYBinaryImage setUuid:]
+-[BLYBinaryImage path]
+-[BLYBinaryImage setPath:]
+-[BLYBinaryImage .cxx_destruct]
+-[BLYRegisterInfo init]
+-[BLYRegisterInfo description]
+-[BLYRegisterInfo category]
+-[BLYRegisterInfo setCategory:]
+-[BLYRegisterInfo name]
+-[BLYRegisterInfo setName:]
+-[BLYRegisterInfo content]
+-[BLYRegisterInfo setContent:]
+-[BLYRegisterInfo .cxx_destruct]
+-[BLYStackFrame init]
+-[BLYStackFrame frameSymbol]
+-[BLYStackFrame frame]
+-[BLYStackFrame debugDescription]
+-[BLYStackFrame index]
+-[BLYStackFrame setIndex:]
+-[BLYStackFrame module]
+-[BLYStackFrame setModule:]
+-[BLYStackFrame loadAddress]
+-[BLYStackFrame setLoadAddress:]
+-[BLYStackFrame baseAddress]
+-[BLYStackFrame setBaseAddress:]
+-[BLYStackFrame offset]
+-[BLYStackFrame setOffset:]
+-[BLYStackFrame symbol]
+-[BLYStackFrame setSymbol:]
+-[BLYStackFrame .cxx_destruct]
+-[BLYThreadInfo init]
+-[BLYThreadInfo callStackSymbols]
+-[BLYThreadInfo callStack]
+-[BLYThreadInfo exceptionCallStackSymbols]
+-[BLYThreadInfo index]
+-[BLYThreadInfo setIndex:]
+-[BLYThreadInfo threadId]
+-[BLYThreadInfo setThreadId:]
+-[BLYThreadInfo name]
+-[BLYThreadInfo setName:]
+-[BLYThreadInfo isHighLightedThread]
+-[BLYThreadInfo setHighLightThread:]
+-[BLYThreadInfo isMainThread]
+-[BLYThreadInfo setMainThread:]
+-[BLYThreadInfo stackFrames]
+-[BLYThreadInfo setStackFrames:]
+-[BLYThreadInfo backtrace]
+-[BLYThreadInfo setBacktrace:]
+-[BLYThreadInfo exceptionCallStack]
+-[BLYThreadInfo setExceptionCallStack:]
+-[BLYThreadInfo .cxx_destruct]
++[BLYCrashReport sharedReport]
+___30+[BLYCrashReport sharedReport]_block_invoke
+-[BLYCrashReport init]
+-[BLYCrashReport identifier]
+-[BLYCrashReport setThreadList:]
+-[BLYCrashReport setImageList:]
+-[BLYCrashReport setRegisterList:]
+-[BLYCrashReport threadState]
+-[BLYCrashReport key]
+-[BLYCrashReport setKey:]
+-[BLYCrashReport isHandlingCrash]
+-[BLYCrashReport setCrashHandling:]
+-[BLYCrashReport isCrashedDuringCrashHandling]
+-[BLYCrashReport setCrashedDuringCrashHandling:]
+-[BLYCrashReport crashedTime]
+-[BLYCrashReport setCrashedTime:]
+-[BLYCrashReport crashCategory]
+-[BLYCrashReport setCrashCategory:]
+-[BLYCrashReport crashType]
+-[BLYCrashReport setCrashType:]
+-[BLYCrashReport crashName]
+-[BLYCrashReport setCrashName:]
+-[BLYCrashReport crashReason]
+-[BLYCrashReport setCrashReason:]
+-[BLYCrashReport faultAddress]
+-[BLYCrashReport setFaultAddress:]
+-[BLYCrashReport uncaughtException]
+-[BLYCrashReport setUncaughtException:]
+-[BLYCrashReport crashedThread]
+-[BLYCrashReport setCrashedThread:]
+-[BLYCrashReport threads]
+-[BLYCrashReport setThreads:]
+-[BLYCrashReport registers]
+-[BLYCrashReport setRegisters:]
+-[BLYCrashReport images]
+-[BLYCrashReport setImages:]
+-[BLYCrashReport setIdentifier:]
+-[BLYCrashReport .cxx_destruct]
+_OBJC_IVAR_$_BLYBinaryImage._baseAddress
+_OBJC_IVAR_$_BLYBinaryImage._endAddress
+_OBJC_IVAR_$_BLYBinaryImage._name
+_OBJC_IVAR_$_BLYBinaryImage._arch
+_OBJC_IVAR_$_BLYBinaryImage._uuid
+_OBJC_IVAR_$_BLYBinaryImage._path
+_OBJC_IVAR_$_BLYRegisterInfo._category
+_OBJC_IVAR_$_BLYRegisterInfo._content
+_OBJC_IVAR_$_BLYRegisterInfo._name
+_OBJC_IVAR_$_BLYStackFrame._index
+_OBJC_IVAR_$_BLYStackFrame._module
+_OBJC_IVAR_$_BLYStackFrame._loadAddress
+_OBJC_IVAR_$_BLYStackFrame._symbol
+_OBJC_IVAR_$_BLYStackFrame._baseAddress
+_OBJC_IVAR_$_BLYStackFrame._offset
+_OBJC_IVAR_$_BLYThreadInfo._stackFrames
+_OBJC_IVAR_$_BLYThreadInfo._backtrace
+_OBJC_IVAR_$_BLYThreadInfo._exceptionCallStack
+_OBJC_IVAR_$_BLYThreadInfo._index
+_OBJC_IVAR_$_BLYThreadInfo._threadId
+_OBJC_IVAR_$_BLYThreadInfo._name
+_OBJC_IVAR_$_BLYThreadInfo._highLightThread
+_OBJC_IVAR_$_BLYThreadInfo._mainThread
+_sharedReport.instance
+_sharedReport.onceToken
+_OBJC_IVAR_$_BLYCrashReport._identifier
+_OBJC_IVAR_$_BLYCrashReport._threads
+_OBJC_IVAR_$_BLYCrashReport._images
+_OBJC_IVAR_$_BLYCrashReport._registers
+_OBJC_IVAR_$_BLYCrashReport._crashedThread
+_OBJC_IVAR_$_BLYCrashReport._key
+_OBJC_IVAR_$_BLYCrashReport._crashHandling
+_OBJC_IVAR_$_BLYCrashReport._crashedDuringCrashHandling
+_OBJC_IVAR_$_BLYCrashReport._crashedTime
+_OBJC_IVAR_$_BLYCrashReport._crashCategory
+_OBJC_IVAR_$_BLYCrashReport._crashType
+_OBJC_IVAR_$_BLYCrashReport._crashName
+_OBJC_IVAR_$_BLYCrashReport._crashReason
+_OBJC_IVAR_$_BLYCrashReport._faultAddress
+_OBJC_IVAR_$_BLYCrashReport._uncaughtException
++[BLYJceOutputStreamV2 stream]
++[BLYJceOutputStreamV2 streamWithCapability:]
+-[BLYJceOutputStreamV2 init]
+-[BLYJceOutputStreamV2 initWithBufferSize:]
+-[BLYJceOutputStreamV2 dealloc]
+-[BLYJceOutputStreamV2 preventBufferOverflow:]
+-[BLYJceOutputStreamV2 data]
+-[BLYJceOutputStreamV2 writeTag:type:]
+-[BLYJceOutputStreamV2 writeInt1:]
+-[BLYJceOutputStreamV2 writeInt2:]
+-[BLYJceOutputStreamV2 writeInt4:]
+-[BLYJceOutputStreamV2 writeInt8:]
+-[BLYJceOutputStreamV2 writeBytes:size:]
+-[BLYJceOutputStreamV2 writeFloat:tag:]
+-[BLYJceOutputStreamV2 writeDouble:tag:]
+-[BLYJceOutputStreamV2 writeInt:tag:]
+-[BLYJceOutputStreamV2 writeDictionary:tag:required:]
+-[BLYJceOutputStreamV2 writeArray:tag:required:]
+-[BLYJceOutputStreamV2 writeNumber:tag:required:]
+-[BLYJceOutputStreamV2 writeObject:tag:required:]
+-[BLYJceOutputStreamV2 writeString:tag:required:]
+-[BLYJceOutputStreamV2 writeData:tag:required:]
+-[BLYJceOutputStreamV2 writeAnything:tag:required:]
+-[BLYAnalyticsLogic initWithSummaryInfo:]
+-[BLYAnalyticsLogic jceModel]
+-[BLYAnalyticsLogic userInfoPackage]
+___36-[BLYAnalyticsLogic userInfoPackage]_block_invoke
+-[BLYAnalyticsLogic persistType]
+-[BLYAnalyticsLogic persistFileKey]
+-[BLYAnalyticsLogic jceCMDString]
+-[BLYAnalyticsLogic asynchronous]
+-[BLYAnalyticsLogic isConcurrent]
+-[BLYAnalyticsLogic shouldPersist]
+-[BLYAnalyticsLogic persistentSuccessed:]
+-[BLYAnalyticsLogic reportSuccessed:]
+-[BLYAnalyticsLogic shouldUpload]
+-[BLYAnalyticsLogic setJceModel:]
+-[BLYAnalyticsLogic summaryInfo]
+-[BLYAnalyticsLogic setSummaryInfo:]
+-[BLYAnalyticsLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYAnalyticsLogic._summaryInfo
+_OBJC_IVAR_$_BLYAnalyticsLogic._jceModel
+_unzOpenInternal
+_unz64local_GetCurrentFileInfoInternal
+_unz64local_getLong
+_unz64local_getLong64
+_unz64local_getShort
+_unz64local_getByte
+-[BLYSDKConfig debugMode]
+-[BLYSDKConfig setDebugMode:]
+-[BLYSDKConfig channel]
+-[BLYSDKConfig setChannel:]
+-[BLYSDKConfig version]
+-[BLYSDKConfig setVersion:]
+-[BLYSDKConfig defaultVersionFieldUsed]
+-[BLYSDKConfig setDefaultVersionFieldUsed:]
+-[BLYSDKConfig deviceIdentifier]
+-[BLYSDKConfig setDeviceIdentifier:]
+-[BLYSDKConfig monitorEnabled]
+-[BLYSDKConfig setMonitorEnabled:]
+-[BLYSDKConfig monitorTimeout]
+-[BLYSDKConfig setMonitorTimeout:]
+-[BLYSDKConfig delegate]
+-[BLYSDKConfig setDelegate:]
+-[BLYSDKConfig symbolicateInProcessEnable]
+-[BLYSDKConfig setSymbolicateInProcessEnable:]
+-[BLYSDKConfig unexpectedTerminatingDetectionEnable]
+-[BLYSDKConfig setUnexpectedTerminatingDetectionEnable:]
+-[BLYSDKConfig viewControllerTrackingEnable]
+-[BLYSDKConfig setViewControllerTrackingEnable:]
+-[BLYSDKConfig applicationGroupIdentifier]
+-[BLYSDKConfig setApplicationGroupIdentifier:]
+-[BLYSDKConfig customizedLogLevelReport]
+-[BLYSDKConfig setCustomizedLogLevelReport:]
+-[BLYSDKConfig excludeModuleFilter]
+-[BLYSDKConfig setExcludeModuleFilter:]
+-[BLYSDKConfig consolelogEnable]
+-[BLYSDKConfig setConsolelogEnable:]
+-[BLYSDKConfig .cxx_destruct]
+-[BLYModule initWithClass:]
+-[BLYModule moduleName]
+-[BLYModule description]
+-[BLYModule isEqual:]
+-[BLYModule hash]
+-[BLYModule setModuleName:]
+-[BLYModule className]
+-[BLYModule setClassName:]
+-[BLYModule .cxx_destruct]
++[BLYSDKManager sharedManager]
+___30+[BLYSDKManager sharedManager]_block_invoke
+-[BLYSDKManager init]
+-[BLYSDKManager setInProgress:]
+-[BLYSDKManager inProgress]
+-[BLYSDKManager setCrashedOverFlow:]
+-[BLYSDKManager crashedOverFlow]
+-[BLYSDKManager enabledModules]
+-[BLYSDKManager setEnabledModules:]
+-[BLYSDKManager sdkStartQueue]
+-[BLYSDKManager setSdkStartQueue:]
+-[BLYSDKManager start]
+___22-[BLYSDKManager start]_block_invoke
+___22-[BLYSDKManager start]_block_invoke_2
+___copy_helper_block_.186
+___destroy_helper_block_.187
+-[BLYSDKManager observeValueForKeyPath:ofObject:change:context:]
+-[BLYSDKManager loadStrategy]
+___29-[BLYSDKManager loadStrategy]_block_invoke
+___copy_helper_block_.220
+___destroy_helper_block_.221
+-[BLYSDKManager defaultStrategy]
+-[BLYSDKManager dataManagerNotifyValue:changedForKey:]
+-[BLYSDKManager moduleWithClassName:]
+-[BLYSDKManager basicModules]
+-[BLYSDKManager shouldEnableModule:]
+-[BLYSDKManager constructModules]
+-[BLYSDKManager toggleModule:enable:]
+-[BLYSDKManager updateModule:]
+-[BLYSDKManager findModuleWithClass:]
+-[BLYSDKManager fixCallStackSymbols:skipFrame:]
+-[BLYSDKManager shouldEnableSDK:]
+-[BLYSDKManager startWithAppId:developmentDevice:config:]
+___57-[BLYSDKManager startWithAppId:developmentDevice:config:]_block_invoke
+___57-[BLYSDKManager startWithAppId:developmentDevice:config:]_block_invoke_2
+___57-[BLYSDKManager startWithAppId:developmentDevice:config:]_block_invoke_3
+___57-[BLYSDKManager startWithAppId:developmentDevice:config:]_block_invoke_4
+-[BLYSDKManager stop]
+-[BLYSDKManager reportCustomizedException:name:reason:callStack:extraInfo:terminateApp:]
+___88-[BLYSDKManager reportCustomizedException:name:reason:callStack:extraInfo:terminateApp:]_block_invoke
+___88-[BLYSDKManager reportCustomizedException:name:reason:callStack:extraInfo:terminateApp:]_block_invoke_2
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[BLYSDKManager reportException:reason:extraInfo:]
+___50-[BLYSDKManager reportException:reason:extraInfo:]_block_invoke
+___copy_helper_block_.475
+___destroy_helper_block_.476
+-[BLYSDKManager reportError:reason:extraInfo:]
+___46-[BLYSDKManager reportError:reason:extraInfo:]_block_invoke
+___copy_helper_block_.480
+___destroy_helper_block_.481
+-[BLYSDKManager currentTag]
+-[BLYSDKManager setUserValue:forKey:]
+___37-[BLYSDKManager setUserValue:forKey:]_block_invoke
+___copy_helper_block_.496
+___destroy_helper_block_.497
+-[BLYSDKManager allUserValues]
++[BLYSDKManager sdkVersion]
++[BLYSDKManager userFriendlyVersion]
+-[BLYSDKManager deviceIdentify]
+-[BLYSDKManager updateAppVersion:]
+-[BLYSDKManager setUserInfo:]
+___29-[BLYSDKManager setUserInfo:]_block_invoke
+-[BLYSDKManager setTag:]
+___24-[BLYSDKManager setTag:]_block_invoke
+-[BLYSDKManager isAppCrashedOnStartUpExceedTheLimit]
+-[BLYSDKManager dealloc]
+-[BLYSDKManager isStarted]
+-[BLYSDKManager setStarted:]
+-[BLYSDKManager modules]
+-[BLYSDKManager setModules:]
+-[BLYSDKManager strategy]
+-[BLYSDKManager setStrategy:]
+-[BLYSDKManager config]
+-[BLYSDKManager setConfig:]
+-[BLYSDKManager .cxx_destruct]
+_OBJC_IVAR_$_BLYSDKConfig._debugMode
+_OBJC_IVAR_$_BLYSDKConfig._channel
+_OBJC_IVAR_$_BLYSDKConfig._version
+_OBJC_IVAR_$_BLYSDKConfig._defaultVersionFieldUsed
+_OBJC_IVAR_$_BLYSDKConfig._deviceIdentifier
+_OBJC_IVAR_$_BLYSDKConfig._monitorEnabled
+_OBJC_IVAR_$_BLYSDKConfig._monitorTimeout
+_OBJC_IVAR_$_BLYSDKConfig._delegate
+_OBJC_IVAR_$_BLYSDKConfig._symbolicateInProcessEnable
+_OBJC_IVAR_$_BLYSDKConfig._unexpectedTerminatingDetectionEnable
+_OBJC_IVAR_$_BLYSDKConfig._viewControllerTrackingEnable
+_OBJC_IVAR_$_BLYSDKConfig._applicationGroupIdentifier
+_OBJC_IVAR_$_BLYSDKConfig._customizedLogLevelReport
+_OBJC_IVAR_$_BLYSDKConfig._excludeModuleFilter
+_OBJC_IVAR_$_BLYSDKConfig._consolelogEnable
+_OBJC_IVAR_$_BLYModule._className
+_OBJC_IVAR_$_BLYModule._moduleName
+_OBJC_IVAR_$_BLYSDKManager._modules
+_OBJC_IVAR_$_BLYSDKManager._started
+_OBJC_IVAR_$_BLYSDKManager._inProgress
+_OBJC_IVAR_$_BLYSDKManager._crashedOverFlow
+_OBJC_IVAR_$_BLYSDKManager._enabledModules
+_OBJC_IVAR_$_BLYSDKManager._sdkStartQueue
+_start.token
+___block_descriptor_tmp.177
+_kSDKBootQueueContext
+___block_descriptor_tmp.188
+___block_descriptor_tmp.223
+___block_descriptor_tmp.375
+___block_literal_global.376
+___block_descriptor_tmp.392
+___block_literal_global.393
+___block_descriptor_tmp.414
+___block_literal_global.415
+___block_descriptor_tmp.419
+___block_literal_global.420
+___block_descriptor_tmp.467
+___block_literal_global.468
+___block_descriptor_tmp.471
+___block_descriptor_tmp.477
+___block_descriptor_tmp.482
+___block_descriptor_tmp.498
+___block_descriptor_tmp.512
+___block_literal_global.513
+___block_descriptor_tmp.517
+_OBJC_IVAR_$_BLYSDKManager._strategy
+_OBJC_IVAR_$_BLYSDKManager._config
++[BLYAppSession initialize]
+-[BLYAppSession init]
++[BLYAppSession jceType]
+-[BLYAppSession jce_sessionId]
+-[BLYAppSession setJce_sessionId:]
+-[BLYAppSession jce_events]
+-[BLYAppSession setJce_events:]
+-[BLYAppSession .cxx_destruct]
+_OBJC_IVAR_$_BLYAppSession.jcev2_p_0_r_sessionId
+_OBJC_IVAR_$_BLYAppSession.jcev2_p_1_o_events__b0x9i_VONSString
++[BLYMixStrategys initialize]
+-[BLYMixStrategys init]
++[BLYMixStrategys jceType]
+-[BLYMixStrategys jce_baseStrategy]
+-[BLYMixStrategys setJce_baseStrategy:]
+-[BLYMixStrategys jce_grayStrategy]
+-[BLYMixStrategys setJce_grayStrategy:]
+-[BLYMixStrategys .cxx_destruct]
+_OBJC_IVAR_$_BLYMixStrategys.jcev2_p_0_o_baseStrategy
+_OBJC_IVAR_$_BLYMixStrategys.jcev2_p_1_o_grayStrategy
++[BLYAppInfo initialize]
+-[BLYAppInfo init]
++[BLYAppInfo jceType]
+-[BLYAppInfo jce_name]
+-[BLYAppInfo setJce_name:]
+-[BLYAppInfo jce_arch]
+-[BLYAppInfo setJce_arch:]
+-[BLYAppInfo jce_UUID]
+-[BLYAppInfo setJce_UUID:]
+-[BLYAppInfo jce_baseAddr]
+-[BLYAppInfo setJce_baseAddr:]
+-[BLYAppInfo jce_ver]
+-[BLYAppInfo setJce_ver:]
+-[BLYAppInfo jce_valueMap]
+-[BLYAppInfo setJce_valueMap:]
+-[BLYAppInfo .cxx_destruct]
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_0_r_name
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_1_o_arch
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_2_o_UUID
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_3_o_baseAddr
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_4_o_ver
+_OBJC_IVAR_$_BLYAppInfo.jcev2_p_5_o_valueMap__b0x9i_M09ONSStringONSString
+-[BLYCommonUploadLogic httpRequest]
+-[BLYCommonUploadLogic compeletionHandler]
+___42-[BLYCommonUploadLogic compeletionHandler]_block_invoke
+-[BLYCommonUploadLogic handleResponseData:]
+___43-[BLYCommonUploadLogic handleResponseData:]_block_invoke
+___43-[BLYCommonUploadLogic handleResponseData:]_block_invoke_2
+-[BLYCommonUploadLogic persistFileKey]
+-[BLYCommonUploadLogic persistType]
+-[BLYCommonUploadLogic httpHeaderField]
+-[BLYCommonUploadLogic shouldPersist]
+-[BLYCommonUploadLogic shouldUpload]
+-[BLYCommonUploadLogic jceCMDString]
+-[BLYCommonUploadLogic cancel]
+-[BLYCommonUploadLogic main]
+___28-[BLYCommonUploadLogic main]_block_invoke
+___copy_helper_block_.238
+___destroy_helper_block_.239
+___28-[BLYCommonUploadLogic main]_block_invoke.258
+___copy_helper_block_.275
+___destroy_helper_block_.276
+-[BLYCommonUploadLogic persistentSuccessed:]
+-[BLYCommonUploadLogic reportSuccessed:]
+-[BLYCommonUploadLogic requestReservedInfo]
+-[BLYCommonUploadLogic requestUrlString]
+-[BLYCommonUploadLogic jceModel]
+-[BLYCommonUploadLogic setJceModel:]
+-[BLYCommonUploadLogic requestData]
+-[BLYCommonUploadLogic setRequestData:]
+-[BLYCommonUploadLogic setHttpRequest:]
+-[BLYCommonUploadLogic responsePakage]
+-[BLYCommonUploadLogic setResponsePakage:]
+-[BLYCommonUploadLogic isExcuting]
+-[BLYCommonUploadLogic setIsExcuting:]
+-[BLYCommonUploadLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYCommonUploadLogic._httpRequest
+___block_descriptor_tmp.137
+___block_descriptor_tmp.167
+___block_literal_global.168
+___block_descriptor_tmp.241
+___block_descriptor_tmp.278
+_OBJC_IVAR_$_BLYCommonUploadLogic._jceModel
+_OBJC_IVAR_$_BLYCommonUploadLogic._requestData
+_OBJC_IVAR_$_BLYCommonUploadLogic._responsePakage
+_OBJC_IVAR_$_BLYCommonUploadLogic._isExcuting
++[BLYSummaryInfo initialize]
+-[BLYSummaryInfo init]
++[BLYSummaryInfo jceType]
+-[BLYSummaryInfo jce_startTime]
+-[BLYSummaryInfo setJce_startTime:]
+-[BLYSummaryInfo jce_startType]
+-[BLYSummaryInfo setJce_startType:]
+-[BLYSummaryInfo jce_userId]
+-[BLYSummaryInfo setJce_userId:]
+-[BLYSummaryInfo jce_proceName]
+-[BLYSummaryInfo setJce_proceName:]
+-[BLYSummaryInfo jce_sessionId]
+-[BLYSummaryInfo setJce_sessionId:]
+-[BLYSummaryInfo jce_valueMap]
+-[BLYSummaryInfo setJce_valueMap:]
+-[BLYSummaryInfo jce_gatewayIp]
+-[BLYSummaryInfo setJce_gatewayIp:]
+-[BLYSummaryInfo jce_coldStart]
+-[BLYSummaryInfo setJce_coldStart:]
+-[BLYSummaryInfo .cxx_destruct]
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_0_r_startTime
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_1_r_startType
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_2_o_userId
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_3_o_proceName
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_4_o_sessionId
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_5_o_valueMap__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_6_o_gatewayIp
+_OBJC_IVAR_$_BLYSummaryInfo.jcev2_p_7_o_coldStart
+-[NSData(BLYJCE) dataByGZipCompressingWithError:]
+-[NSData(BLYJCE) dataByGZipCompressingAtLevel:windowSize:memoryLevel:strategy:error:]
+-[NSData(BLYJCE) dataByGZipDecompressingDataWithError:]
+-[NSData(BLYJCE) dataByGZipDecompressingDataWithWindowSize:error:]
+-[NSData(BLYJCE) dataByENCryptDESWithKey:error:]
+-[NSData(BLYJCE) dataByDECryptDESWithKey:error:]
++[BLYCrashReporter sharedReporter]
+___34+[BLYCrashReporter sharedReporter]_block_invoke
+-[BLYCrashReporter init]
+-[BLYCrashReporter setCrashIncident:]
+-[BLYCrashReporter enableCrashReporter:]
+-[BLYCrashReporter disableCrashReporter:]
+-[BLYCrashReporter sendLiveCrashReport]
+-[BLYCrashReporter sendPendingCrashReport]
+-[BLYCrashReporter hasPendingCrashReport]
+-[BLYCrashReporter detectiveCrashReporterRunning]
+-[BLYCrashReporter accidentShouldIgnoredAccordingCallStackSymbols:]
+-[BLYCrashReporter mainThreadCallStackReturnAddresses]
+-[BLYCrashReporter cstringToNSString:defaultValue:]
+-[BLYCrashReporter mainThreadCallStackSymbols]
+-[BLYCrashReporter generateLiveReport]
+-[BLYCrashReporter hasCrashIncident]
+-[BLYCrashReporter delegate]
+-[BLYCrashReporter setDelegate:]
+-[BLYCrashReporter callStackSymbolExcludeFilter]
+-[BLYCrashReporter setCallStackSymbolExcludeFilter:]
+-[BLYCrashReporter .cxx_destruct]
+_sharedReporter.sInstance
+_sharedReporter.onceToken
+_OBJC_IVAR_$_BLYCrashReporter._crashIncident
+_OBJC_IVAR_$_BLYCrashReporter._delegate
+l_OBJC_PROTOCOL_$_BLYCrashReporterDelegate
+l_OBJC_LABEL_PROTOCOL_$_BLYCrashReporterDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_BLYCrashReporterDelegate
+_OBJC_IVAR_$_BLYCrashReporter._callStackSymbolExcludeFilter
++[BLYJCEBaseObject enumeratePropertiesUsingBlock:]
++[BLYJCEBaseObject initialize]
++[BLYJCEBaseObject allocWithZone:]
+-[BLYJCEBaseObject dealloc]
+___27-[BLYJCEBaseObject dealloc]_block_invoke
+___copy_helper_block_.32
+___destroy_helper_block_.33
++[BLYJCEBaseObject propertyInfos]
+___33+[BLYJCEBaseObject propertyInfos]_block_invoke
+___copy_helper_block_.106
+___destroy_helper_block_.107
+___33+[BLYJCEBaseObject propertyInfos]_block_invoke.112
++[BLYJCEBaseObject setupDynamicClass]
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_2
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_3
+___copy_helper_block_.135
+___destroy_helper_block_.136
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke.138
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_2.142
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_3.146
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_4
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_5
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_6
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_7
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_8
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_9
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_10
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_11
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_12
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_13
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_14
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_15
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_16
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_17
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_18
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_19
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_20
+___copy_helper_block_.209
+___destroy_helper_block_.210
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke.212
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_2.216
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_3.220
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_4.224
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_5.228
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_6.231
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_7.235
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_8.239
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_9.243
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_10.247
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_11.250
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_12.254
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_13.258
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_14.262
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_15.266
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_16.270
+___37+[BLYJCEBaseObject setupDynamicClass]_block_invoke_17.274
+___copy_helper_block_.278
+___destroy_helper_block_.279
+_gMutex
+_JCECachedPropertyInfosKey
+___block_descriptor_tmp.116
+___block_descriptor_tmp.141
+___block_descriptor_tmp.145
+___block_descriptor_tmp.152
+___block_descriptor_tmp.157
+___block_descriptor_tmp.160
+___block_descriptor_tmp.163
+___block_descriptor_tmp.166
+___block_descriptor_tmp.171
+___block_descriptor_tmp.174
+___block_descriptor_tmp.181
+___block_descriptor_tmp.185
+___block_descriptor_tmp.189
+___block_descriptor_tmp.193
+___block_descriptor_tmp.202
+___block_descriptor_tmp.211
+___block_descriptor_tmp.215
+___block_descriptor_tmp.219
+___block_descriptor_tmp.227
+___block_descriptor_tmp.230
+___block_descriptor_tmp.234
+___block_descriptor_tmp.238
+___block_descriptor_tmp.242
+___block_descriptor_tmp.246
+___block_descriptor_tmp.249
+___block_descriptor_tmp.253
+___block_descriptor_tmp.257
+___block_descriptor_tmp.261
+___block_descriptor_tmp.265
+___block_descriptor_tmp.269
+___block_descriptor_tmp.273
+___block_descriptor_tmp.277
+___block_descriptor_tmp.280
++[BLYAnalyticsManager sharedManager]
+___36+[BLYAnalyticsManager sharedManager]_block_invoke
+-[BLYAnalyticsManager init]
++[BLYAnalyticsManager constructSelector]
+-[BLYAnalyticsManager strategyGetterSelector]
+-[BLYAnalyticsManager enableModule]
+-[BLYAnalyticsManager disableModule]
+-[BLYAnalyticsManager receivedEventNotification:]
+-[BLYAnalyticsManager applicationDidCrashed:]
+-[BLYAnalyticsManager willResignActiveHandler]
+-[BLYAnalyticsManager willTerminateHandler]
+-[BLYAnalyticsManager didFinishLaunchingHandler]
+-[BLYAnalyticsManager didBecomeActiveHandler]
+-[BLYAnalyticsManager willEnterForegroundHandler]
+-[BLYAnalyticsManager didEnterBackgroundHandler]
+-[BLYAnalyticsManager createSummaryInfo]
+-[BLYAnalyticsManager lastSessionUseInfo]
+-[BLYAnalyticsManager recordEvent]
+___34-[BLYAnalyticsManager recordEvent]_block_invoke
+-[BLYAnalyticsManager startLogicWithSummaryInfo:]
+-[BLYAnalyticsManager recordPrevUseTime]
+-[BLYAnalyticsManager launchTimestamp]
+-[BLYAnalyticsManager activeTimestamp]
+-[BLYAnalyticsManager inActiveTimestamp]
+-[BLYAnalyticsManager setLaunchTimestamp:]
+-[BLYAnalyticsManager setActiveTimestamp:]
+-[BLYAnalyticsManager setInActiveTimestamp:]
+-[BLYAnalyticsManager isColdStart]
+-[BLYAnalyticsManager setColdStart:]
+-[BLYAnalyticsManager inProgress]
+-[BLYAnalyticsManager setInProgress:]
+-[BLYAnalyticsManager previousActiveTimestamp]
+-[BLYAnalyticsManager setPreviousActiveTimestamp:]
+-[BLYAnalyticsManager previousInActiveTimestamp]
+-[BLYAnalyticsManager setPreviousInActiveTimestamp:]
+-[BLYAnalyticsManager previousUsedTime]
+-[BLYAnalyticsManager setPreviousUsedTime:]
+-[BLYAnalyticsManager crashedLastSession]
+-[BLYAnalyticsManager setCrashedLastSession:]
+_OBJC_IVAR_$_BLYAnalyticsManager._coldStart
+_OBJC_IVAR_$_BLYAnalyticsManager._inProgress
+_OBJC_IVAR_$_BLYAnalyticsManager._launchTimestamp
+_OBJC_IVAR_$_BLYAnalyticsManager._activeTimestamp
+_OBJC_IVAR_$_BLYAnalyticsManager._inActiveTimestamp
+_OBJC_IVAR_$_BLYAnalyticsManager._previousActiveTimestamp
+_OBJC_IVAR_$_BLYAnalyticsManager._previousInActiveTimestamp
+_OBJC_IVAR_$_BLYAnalyticsManager._previousUsedTime
+_OBJC_IVAR_$_BLYAnalyticsManager._crashedLastSession
++[BLYBundle currentBundle]
+___26+[BLYBundle currentBundle]_block_invoke
+-[BLYBundle init]
+-[BLYBundle objectValueFromInfoPlist:]
+-[BLYBundle bundleIdentifier]
+-[BLYBundle bundleVer]
+-[BLYBundle bundleBuild]
+-[BLYBundle ciUUID]
+-[BLYBundle fullBundleVersion]
+-[BLYBundle customizedChannel]
+-[BLYBundle bundleName]
+-[BLYBundle bundleExecutable]
+-[BLYBundle processName]
+-[BLYBundle applicatiionName]
+-[BLYBundle loadExecutableInfo]
+-[BLYBundle isVersionChanged]
+-[BLYBundle executableUUID]
+-[BLYBundle setExecutableUUID:]
+-[BLYBundle executableBaseAddress]
+-[BLYBundle setExecutableBaseAddress:]
+-[BLYBundle executableArch]
+-[BLYBundle setExecutableArch:]
+-[BLYBundle customizedVersion]
+-[BLYBundle setCustomizedVersion:]
+-[BLYBundle setCustomizedChannel:]
+-[BLYBundle setBundleIdentifier:]
+-[BLYBundle setBundleVer:]
+-[BLYBundle setBundleBuild:]
+-[BLYBundle setProcessName:]
+-[BLYBundle setApplicatiionName:]
+-[BLYBundle setCiUUID:]
+-[BLYBundle .cxx_destruct]
+_currentBundle.sInstance
+_currentBundle.onceToken
+_OBJC_IVAR_$_BLYBundle._bundleIdentifier
+_OBJC_IVAR_$_BLYBundle._bundleVer
+_OBJC_IVAR_$_BLYBundle._bundleBuild
+_OBJC_IVAR_$_BLYBundle._ciUUID
+_OBJC_IVAR_$_BLYBundle._customizedVersion
+_OBJC_IVAR_$_BLYBundle._customizedChannel
+_OBJC_IVAR_$_BLYBundle._processName
+_OBJC_IVAR_$_BLYBundle._applicatiionName
+_OBJC_IVAR_$_BLYBundle._executableUUID
+_OBJC_IVAR_$_BLYBundle._executableBaseAddress
+_OBJC_IVAR_$_BLYBundle._executableArch
++[BLYResponsePkg initialize]
+-[BLYResponsePkg init]
++[BLYResponsePkg jceType]
+-[BLYResponsePkg jce_result]
+-[BLYResponsePkg setJce_result:]
+-[BLYResponsePkg jce_cmd]
+-[BLYResponsePkg setJce_cmd:]
+-[BLYResponsePkg jce_sBuffer]
+-[BLYResponsePkg setJce_sBuffer:]
+-[BLYResponsePkg jce_gatewayIp]
+-[BLYResponsePkg setJce_gatewayIp:]
+-[BLYResponsePkg jce_serverTime]
+-[BLYResponsePkg setJce_serverTime:]
+-[BLYResponsePkg jce_status]
+-[BLYResponsePkg setJce_status:]
+-[BLYResponsePkg jce_qimei]
+-[BLYResponsePkg setJce_qimei:]
+-[BLYResponsePkg jce_valueMap]
+-[BLYResponsePkg setJce_valueMap:]
+-[BLYResponsePkg .cxx_destruct]
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_0_r_result
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_1_r_cmd
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_2_o_sBuffer
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_3_o_gatewayIp
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_4_o_serverTime
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_5_o_status
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_6_o_qimei
+_OBJC_IVAR_$_BLYResponsePkg.jcev2_p_7_o_valueMap__b0x9i_M09ONSStringONSString
++[BLYJceObjectV2 jceType]
+-[BLYJceObjectV2 jceType]
+-[BLYJceObjectV2 jceRefObject]
+-[BLYJceObjectV2 __pack:]
+___25-[BLYJceObjectV2 __pack:]_block_invoke
+-[BLYJceObjectV2 __unpack:]
+___27-[BLYJceObjectV2 __unpack:]_block_invoke
++[BLYRqdStrategy initialize]
+-[BLYRqdStrategy init]
++[BLYRqdStrategy jceType]
+-[BLYRqdStrategy hash]
+-[BLYRqdStrategy isEqual:]
+-[BLYRqdStrategy jce_enable]
+-[BLYRqdStrategy setJce_enable:]
+-[BLYRqdStrategy jce_enableUserInfo]
+-[BLYRqdStrategy setJce_enableUserInfo:]
+-[BLYRqdStrategy jce_enableQuery]
+-[BLYRqdStrategy setJce_enableQuery:]
+-[BLYRqdStrategy jce_url]
+-[BLYRqdStrategy setJce_url:]
+-[BLYRqdStrategy jce_expUrl]
+-[BLYRqdStrategy setJce_expUrl:]
+-[BLYRqdStrategy jce_security]
+-[BLYRqdStrategy setJce_security:]
+-[BLYRqdStrategy jce_valueMap]
+-[BLYRqdStrategy setJce_valueMap:]
+-[BLYRqdStrategy jce_strategylastUpdateTime]
+-[BLYRqdStrategy setJce_strategylastUpdateTime:]
+-[BLYRqdStrategy jce_httpsUrl]
+-[BLYRqdStrategy setJce_httpsUrl:]
+-[BLYRqdStrategy jce_httpsExpUrl]
+-[BLYRqdStrategy setJce_httpsExpUrl:]
+-[BLYRqdStrategy jce_eventRecordCount]
+-[BLYRqdStrategy setJce_eventRecordCount:]
+-[BLYRqdStrategy jce_eventTimeInterval]
+-[BLYRqdStrategy setJce_eventTimeInterval:]
+-[BLYRqdStrategy .cxx_destruct]
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_0_r_enable
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_1_r_enableUserInfo
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_2_r_enableQuery
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_3_o_url
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_4_o_expUrl
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_5_o_security
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_6_o_valueMap__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_7_o_strategylastUpdateTime
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_8_o_httpsUrl
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_9_o_httpsExpUrl
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_10_o_eventRecordCount
+_OBJC_IVAR_$_BLYRqdStrategy.jcev2_p_11_o_eventTimeInterval
+-[BLYCheckUpgradeLogic initWithTacticsReq:]
+-[BLYCheckUpgradeLogic jceModel]
+-[BLYCheckUpgradeLogic shouldPersist]
+-[BLYCheckUpgradeLogic shouldUpload]
+-[BLYCheckUpgradeLogic persistentSuccessed:]
+-[BLYCheckUpgradeLogic reportSuccessed:]
+-[BLYCheckUpgradeLogic getSubscriberKey]
+-[BLYCheckUpgradeLogic jceCMDString]
+-[BLYCheckUpgradeLogic tacticsReq]
+-[BLYCheckUpgradeLogic setTacticsReq:]
+-[BLYCheckUpgradeLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYCheckUpgradeLogic._tacticsReq
+-[BuglyConfig init]
+-[BuglyConfig debugMode]
+-[BuglyConfig setDebugMode:]
+-[BuglyConfig channel]
+-[BuglyConfig setChannel:]
+-[BuglyConfig version]
+-[BuglyConfig setVersion:]
+-[BuglyConfig deviceIdentifier]
+-[BuglyConfig setDeviceIdentifier:]
+-[BuglyConfig blockMonitorEnable]
+-[BuglyConfig setBlockMonitorEnable:]
+-[BuglyConfig blockMonitorTimeout]
+-[BuglyConfig setBlockMonitorTimeout:]
+-[BuglyConfig applicationGroupIdentifier]
+-[BuglyConfig setApplicationGroupIdentifier:]
+-[BuglyConfig symbolicateInProcessEnable]
+-[BuglyConfig setSymbolicateInProcessEnable:]
+-[BuglyConfig unexpectedTerminatingDetectionEnable]
+-[BuglyConfig setUnexpectedTerminatingDetectionEnable:]
+-[BuglyConfig viewControllerTrackingEnable]
+-[BuglyConfig setViewControllerTrackingEnable:]
+-[BuglyConfig delegate]
+-[BuglyConfig setDelegate:]
+-[BuglyConfig reportLogLevel]
+-[BuglyConfig setReportLogLevel:]
+-[BuglyConfig excludeModuleFilter]
+-[BuglyConfig setExcludeModuleFilter:]
+-[BuglyConfig consolelogEnable]
+-[BuglyConfig setConsolelogEnable:]
+-[BuglyConfig hotfixEnable]
+-[BuglyConfig setHotfixEnable:]
+-[BuglyConfig hotfixDebugMode]
+-[BuglyConfig setHotfixDebugMode:]
+-[BuglyConfig hotfixEncryptEnable]
+-[BuglyConfig setHotfixEncryptEnable:]
+-[BuglyConfig .cxx_destruct]
+_OBJC_IVAR_$_BuglyConfig._debugMode
+_OBJC_IVAR_$_BuglyConfig._blockMonitorEnable
+_OBJC_IVAR_$_BuglyConfig._blockMonitorTimeout
+_OBJC_IVAR_$_BuglyConfig._symbolicateInProcessEnable
+_OBJC_IVAR_$_BuglyConfig._unexpectedTerminatingDetectionEnable
+_OBJC_IVAR_$_BuglyConfig._viewControllerTrackingEnable
+_OBJC_IVAR_$_BuglyConfig._reportLogLevel
+_OBJC_IVAR_$_BuglyConfig._consolelogEnable
+_OBJC_IVAR_$_BuglyConfig._hotfixEnable
+_OBJC_IVAR_$_BuglyConfig._hotfixDebugMode
+_OBJC_IVAR_$_BuglyConfig._channel
+_OBJC_IVAR_$_BuglyConfig._version
+_OBJC_IVAR_$_BuglyConfig._deviceIdentifier
+_OBJC_IVAR_$_BuglyConfig._applicationGroupIdentifier
+_OBJC_IVAR_$_BuglyConfig._delegate
+_OBJC_IVAR_$_BuglyConfig._excludeModuleFilter
+_OBJC_IVAR_$_BuglyConfig._hotfixEncryptEnable
++[BLYRqdSecurity initialize]
+-[BLYRqdSecurity init]
++[BLYRqdSecurity jceType]
+-[BLYRqdSecurity jce_encKey]
+-[BLYRqdSecurity setJce_encKey:]
+-[BLYRqdSecurity jce_encPubKey]
+-[BLYRqdSecurity setJce_encPubKey:]
+-[BLYRqdSecurity .cxx_destruct]
+_OBJC_IVAR_$_BLYRqdSecurity.jcev2_p_0_r_encKey
+_OBJC_IVAR_$_BLYRqdSecurity.jcev2_p_1_r_encPubKey
++[BLYUserInfoList initialize]
+-[BLYUserInfoList init]
++[BLYUserInfoList jceType]
+-[BLYUserInfoList jce_list]
+-[BLYUserInfoList setJce_list:]
+-[BLYUserInfoList .cxx_destruct]
+_OBJC_IVAR_$_BLYUserInfoList.jcev2_p_0_r_list__b0x9i_VOBLYUserInfoPackage
+-[BLYDataManagerKVOModel initWithSubscriber:key:]
+-[BLYDataManagerKVOModel description]
+-[BLYDataManagerKVOModel subscribers]
+-[BLYDataManagerKVOModel setSubscribers:]
+-[BLYDataManagerKVOModel key]
+-[BLYDataManagerKVOModel setKey:]
+-[BLYDataManagerKVOModel .cxx_destruct]
++[BLYDataManager sharedManager]
+___31+[BLYDataManager sharedManager]_block_invoke
+-[BLYDataManager init]
+-[BLYDataManager removeOldFolder]
+___33-[BLYDataManager removeOldFolder]_block_invoke
+___33-[BLYDataManager removeOldFolder]_block_invoke_2
+-[BLYDataManager keyValueCache]
+-[BLYDataManager setKeyValueCache:]
+-[BLYDataManager keyValueStorage]
+-[BLYDataManager setKeyValueStorage:]
+-[BLYDataManager kvoModels]
+-[BLYDataManager setKvoModels:]
+-[BLYDataManager saveValue:forKey:persistence:completion:]
+___58-[BLYDataManager saveValue:forKey:persistence:completion:]_block_invoke
+___58-[BLYDataManager saveValue:forKey:persistence:completion:]_block_invoke_2
+___copy_helper_block_.143
+___destroy_helper_block_.144
+___58-[BLYDataManager saveValue:forKey:persistence:completion:]_block_invoke.146
+___copy_helper_block_.149
+___destroy_helper_block_.150
+-[BLYDataManager batchFetch:]
+-[BLYDataManager batchSave:persistence:completion:]
+___51-[BLYDataManager batchSave:persistence:completion:]_block_invoke
+___51-[BLYDataManager batchSave:persistence:completion:]_block_invoke_2
+___copy_helper_block_.157
+___destroy_helper_block_.158
+___51-[BLYDataManager batchSave:persistence:completion:]_block_invoke.163
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___copy_helper_block_.167
+___destroy_helper_block_.168
+___51-[BLYDataManager batchSave:persistence:completion:]_block_invoke.170
+___51-[BLYDataManager batchSave:persistence:completion:]_block_invoke_2.171
+___copy_helper_block_.172
+___destroy_helper_block_.173
+___copy_helper_block_.175
+___destroy_helper_block_.176
+-[BLYDataManager fetchValueForKey:completion:]
+___46-[BLYDataManager fetchValueForKey:completion:]_block_invoke
+___copy_helper_block_.180
+___destroy_helper_block_.181
+-[BLYDataManager saveValue:forKey:]
+-[BLYDataManager persistValue:forKey:]
+-[BLYDataManager fetchValueForKey:]
+___35-[BLYDataManager fetchValueForKey:]_block_invoke
+___copy_helper_block_.185
+___destroy_helper_block_.186
+-[BLYDataManager fetchStringForKey:]
+-[BLYDataManager clearKeyValueCache]
+___36-[BLYDataManager clearKeyValueCache]_block_invoke
+___copy_helper_block_.192
+___destroy_helper_block_.193
+-[BLYDataManager clearKeyValueStorage]
+___38-[BLYDataManager clearKeyValueStorage]_block_invoke
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[BLYDataManager errorWithDescription:]
+-[BLYDataManager allCrashFileURL]
+-[BLYDataManager allFilesExceptCrash]
+-[BLYDataManager crashLogDirectoryPath]
+-[BLYDataManager deleteAllFilesExceptCrash]
+-[BLYDataManager deleteAllCrashFiles]
+-[BLYDataManager buglyRootFilePath]
+-[BLYDataManager persistObj:persistenceType:enableNotifications:withCompletionBlock:]
+___85-[BLYDataManager persistObj:persistenceType:enableNotifications:withCompletionBlock:]_block_invoke
+___copy_helper_block_.226
+___destroy_helper_block_.227
+-[BLYDataManager fetchObjWithKey:persistenceType:enableNotifications:withCompletionBlock:]
+-[BLYDataManager fetchObjWithKey:persistenceType:]
+-[BLYDataManager fetchObjFromFileWithFileName:persistenceType:]
+___63-[BLYDataManager fetchObjFromFileWithFileName:persistenceType:]_block_invoke
+___copy_helper_block_.243
+___destroy_helper_block_.244
+-[BLYDataManager fetchObjFromFileWithFileName:persistenceType:enableNotifications:withCompletionBlock:]
+___103-[BLYDataManager fetchObjFromFileWithFileName:persistenceType:enableNotifications:withCompletionBlock:]_block_invoke
+___copy_helper_block_.250
+___destroy_helper_block_.251
+-[BLYDataManager deleteFileWithKey:persistenceType:enableNotifications:withCompletionBlock:]
+-[BLYDataManager persistData:ofType:enableNotifications:withCompletionBlock:]
+___77-[BLYDataManager persistData:ofType:enableNotifications:withCompletionBlock:]_block_invoke
+___copy_helper_block_.261
+___destroy_helper_block_.262
+-[BLYDataManager savedKeyValueStorage]
+-[BLYDataManager dataAtPath:]
+-[BLYDataManager sendDataSavedNotificationSuccess:]
+___51-[BLYDataManager sendDataSavedNotificationSuccess:]_block_invoke
+-[BLYDataManager deleteFileAtPath:]
+___35-[BLYDataManager deleteFileAtPath:]_block_invoke
+-[BLYDataManager fileNameForPersitenceType:]
+-[BLYDataManager folderPathForPersistenceType:]
+___47-[BLYDataManager folderPathForPersistenceType:]_block_invoke
+___copy_helper_block_.312
+___destroy_helper_block_.313
+-[BLYDataManager createFolderAtPathIfNeeded:]
+-[BLYDataManager createApplicationSupportDirectoryIfNeeded]
+-[BLYDataManager allFileURLWithPriority:]
+-[BLYDataManager notifySubscribersForValue:changedForKey:]
+___58-[BLYDataManager notifySubscribersForValue:changedForKey:]_block_invoke
+___copy_helper_block_.350
+___destroy_helper_block_.351
+-[BLYDataManager isKeySubscriped:]
+___34-[BLYDataManager isKeySubscriped:]_block_invoke
+___copy_helper_block_.353
+___destroy_helper_block_.354
+-[BLYDataManager kvoModelForKey:]
+___33-[BLYDataManager kvoModelForKey:]_block_invoke
+___copy_helper_block_.356
+___destroy_helper_block_.357
+-[BLYDataManager isSubscriber:existForKey:]
+___43-[BLYDataManager isSubscriber:existForKey:]_block_invoke
+___copy_helper_block_.363
+___destroy_helper_block_.364
+-[BLYDataManager addSubscriber:forKey:]
+___39-[BLYDataManager addSubscriber:forKey:]_block_invoke
+___copy_helper_block_.373
+___destroy_helper_block_.374
+-[BLYDataManager removeSubscriber:forKey:]
+___42-[BLYDataManager removeSubscriber:forKey:]_block_invoke
+___copy_helper_block_.380
+___destroy_helper_block_.381
+-[BLYDataManager keyValueQueue]
+-[BLYDataManager setKeyValueQueue:]
+-[BLYDataManager keyValueSubscriptionQueue]
+-[BLYDataManager setKeyValueSubscriptionQueue:]
+-[BLYDataManager fileQueue]
+-[BLYDataManager setFileQueue:]
+-[BLYDataManager .cxx_destruct]
+_OBJC_IVAR_$_BLYDataManagerKVOModel._subscribers
+_OBJC_IVAR_$_BLYDataManagerKVOModel._key
+_OBJC_IVAR_$_BLYDataManager._keyValueQueue
+_OBJC_IVAR_$_BLYDataManager._keyValueSubscriptionQueue
+_OBJC_IVAR_$_BLYDataManager._fileQueue
+_removeOldFolder.onceToken
+___block_literal_global.73
+___block_literal_global.96
+_OBJC_IVAR_$_BLYDataManager._keyValueCache
+_OBJC_IVAR_$_BLYDataManager._keyValueStorage
+_OBJC_IVAR_$_BLYDataManager._kvoModels
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+___block_descriptor_tmp.142
+___block_descriptor_tmp.151
+___block_descriptor_tmp.169
+___block_descriptor_tmp.182
+___block_descriptor_tmp.187
+___block_descriptor_tmp.194
+___block_descriptor_tmp.197
+___block_descriptor_tmp.228
+___block_descriptor_tmp.245
+___block_descriptor_tmp.252
+___block_descriptor_tmp.263
+___block_descriptor_tmp.290
+_folderPathForPersistenceType:.persistenceFolder
+_folderPathForPersistenceType:.persistenceFolderToken
+___block_descriptor_tmp.314
+___block_descriptor_tmp.352
+___block_descriptor_tmp.355
+___block_descriptor_tmp.358
+___block_descriptor_tmp.365
+___block_descriptor_tmp.382
+-[BLYGrayUploadLogic requestReservedInfo]
+-[BLYGrayUploadLogic httpHeaderField]
+-[BLYGrayUploadLogic requestUrlString]
+-[BLYAbstractModule init]
+-[BLYAbstractModule isEnabled]
+-[BLYAbstractModule setEnable:]
+-[BLYAbstractModule setJobFinished:]
+-[BLYAbstractModule enableModule]
+-[BLYAbstractModule disableModule]
+-[BLYAbstractModule shouldEnable]
++[BLYAbstractModule constructSelector]
+-[BLYAbstractModule strategyGetterSelector]
+-[BLYAbstractModule strategyValueMapKey]
+-[BLYAbstractModule isJobFinished]
+_OBJC_IVAR_$_BLYAbstractModule._jobFinished
+_OBJC_IVAR_$_BLYAbstractModule._enable
++[BLYJCEPair pairWithValue:forKey:]
+-[BLYJCEPair description]
++[BLYJCEPair parseExtString:]
++[BLYJCEPair pairFromExtString:]
+-[BLYJCEPair key]
+-[BLYJCEPair setKey:]
+-[BLYJCEPair value]
+-[BLYJCEPair setValue:]
+-[BLYJCEPair .cxx_destruct]
+_OBJC_IVAR_$_BLYJCEPair._key
+_OBJC_IVAR_$_BLYJCEPair._value
+-[BLYCrashLogic initWithExceptionModel:]
+-[BLYCrashLogic jceModel]
+-[BLYCrashLogic exceptionUploadPackage]
+___39-[BLYCrashLogic exceptionUploadPackage]_block_invoke
+-[BLYCrashLogic persistFileKey]
+-[BLYCrashLogic persistType]
+-[BLYCrashLogic jceCMDString]
+-[BLYCrashLogic shouldPersist]
+-[BLYCrashLogic shouldUpload]
+-[BLYCrashLogic persistentSuccessed:]
+-[BLYCrashLogic reportSuccessed:]
+-[BLYCrashLogic setJceModel:]
+-[BLYCrashLogic isCrashed]
+-[BLYCrashLogic setIsCrashed:]
+-[BLYCrashLogic crashModel]
+-[BLYCrashLogic setCrashModel:]
+-[BLYCrashLogic .cxx_destruct]
+_OBJC_IVAR_$_BLYCrashLogic._crashModel
+_OBJC_IVAR_$_BLYCrashLogic._jceModel
+l_OBJC_PROTOCOL_REFERENCE_$_BuglyDelegate
+_OBJC_IVAR_$_BLYCrashLogic._isCrashed
++[BLYUnexpectedExitManager sharedManager]
+___41+[BLYUnexpectedExitManager sharedManager]_block_invoke
+-[BLYUnexpectedExitManager enableModule]
+-[BLYUnexpectedExitManager disableModule]
++[BLYUnexpectedExitManager constructSelector]
+-[BLYUnexpectedExitManager receivedEventNotification:]
+-[BLYUnexpectedExitManager reportUnexpectExit:]
+___47-[BLYUnexpectedExitManager reportUnexpectExit:]_block_invoke
+___47-[BLYUnexpectedExitManager reportUnexpectExit:]_block_invoke_2
+-[BLYUnexpectedExitManager isCausedBySystemReboot]
+-[BLYUnexpectedExitManager checkUnexpectedExit]
+___47-[BLYUnexpectedExitManager checkUnexpectedExit]_block_invoke
+___47-[BLYUnexpectedExitManager checkUnexpectedExit]_block_invoke_2
+-[BLYUnexpectedExitManager leavingAppSafely]
+___44-[BLYUnexpectedExitManager leavingAppSafely]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+-[BLYUnexpectedExitManager didReceiveMemoryWarning:]
+___52-[BLYUnexpectedExitManager didReceiveMemoryWarning:]_block_invoke
+-[BLYUnexpectedExitManager didLogLowMemoryWarning]
+-[BLYUnexpectedExitManager setDidLogLowMemoryWarning:]
+-[BLYUnexpectedExitManager didChecked]
+-[BLYUnexpectedExitManager setDidChecked:]
+-[BLYUnexpectedExitManager didRecored]
+-[BLYUnexpectedExitManager setDidRecored:]
+_reportUnexpectExit:.onceToken
+___block_descriptor_tmp.73
+___block_descriptor_tmp.74
+___block_literal_global.113
+___block_literal_global.122
+_OBJC_IVAR_$_BLYUnexpectedExitManager._didLogLowMemoryWarning
+_OBJC_IVAR_$_BLYUnexpectedExitManager._didChecked
+_OBJC_IVAR_$_BLYUnexpectedExitManager._didRecored
++[BLYMainRunloopMonitorManager sharedManager]
+___45+[BLYMainRunloopMonitorManager sharedManager]_block_invoke
+-[BLYMainRunloopMonitorManager init]
+-[BLYMainRunloopMonitorManager enableModule]
+-[BLYMainRunloopMonitorManager disableModule]
++[BLYMainRunloopMonitorManager constructSelector]
+-[BLYMainRunloopMonitorManager strategyGetterSelector]
+-[BLYMainRunloopMonitorManager strategyValueMapKey]
+-[BLYMainRunloopMonitorManager dataManagerNotifyValue:changedForKey:]
+-[BLYMainRunloopMonitorManager updateStrategy:]
+-[BLYMainRunloopMonitorManager start]
+-[BLYMainRunloopMonitorManager stop]
+-[BLYMainRunloopMonitorManager addRunloopObserver]
+_BLYMainRunloopObserverCallback
+-[BLYMainRunloopMonitorManager removeRunloopObserver]
+-[BLYMainRunloopMonitorManager startMonitorThread]
+-[BLYMainRunloopMonitorManager stopMonitorThread]
+-[BLYMainRunloopMonitorManager monitorThreadRun]
+-[BLYMainRunloopMonitorManager dumpMainThreadCallStackSymbols]
+-[BLYMainRunloopMonitorManager packageModelFromCrashReport:]
+-[BLYMainRunloopMonitorManager sendPendingData]
+___47-[BLYMainRunloopMonitorManager sendPendingData]_block_invoke
+-[BLYMainRunloopMonitorManager runloopTimeoutThreshold]
+-[BLYMainRunloopMonitorManager setRunloopTimeoutThreshold:]
+-[BLYMainRunloopMonitorManager runloopCPURatioThreshold]
+-[BLYMainRunloopMonitorManager setRunloopCPURatioThreshold:]
+-[BLYMainRunloopMonitorManager runloopReportCountForWiFi]
+-[BLYMainRunloopMonitorManager setRunloopReportCountForWiFi:]
+-[BLYMainRunloopMonitorManager runloopReportTrafficForWiFi]
+-[BLYMainRunloopMonitorManager setRunloopReportTrafficForWiFi:]
+-[BLYMainRunloopMonitorManager runloopReportCountForCellular]
+-[BLYMainRunloopMonitorManager setRunloopReportCountForCellular:]
+-[BLYMainRunloopMonitorManager runloopReportTrafficForCellular]
+-[BLYMainRunloopMonitorManager setRunloopReportTrafficForCellular:]
+-[BLYMainRunloopMonitorManager .cxx_destruct]
+_sharedManager.instance
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopTimeoutEvent
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._monitorThreadCanceled
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopTimeoutThreshold
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopCPURatioThreshold
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopReportCountForWiFi
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopReportTrafficForWiFi
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopReportCountForCellular
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopReportTrafficForCellular
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._runloopObserver
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._monitorThread
+_OBJC_IVAR_$_BLYMainRunloopMonitorManager._duration
+_g_BLYRunloopDataGenerating
+___block_descriptor_tmp.176
+___block_literal_global.177
++[BLYEnvironmentInfo sharedInfo]
+___32+[BLYEnvironmentInfo sharedInfo]_block_invoke
+-[BLYEnvironmentInfo init]
+-[BLYEnvironmentInfo enableModule]
+-[BLYEnvironmentInfo disableModule]
++[BLYEnvironmentInfo constructSelector]
+-[BLYEnvironmentInfo subscribeForReachability]
+-[BLYEnvironmentInfo setReachabilityState:]
+-[BLYEnvironmentInfo reachability:didChangeReachabilityState:]
+-[BLYEnvironmentInfo isWIFIAvailable]
+-[BLYEnvironmentInfo isNetworkReachable]
+-[BLYEnvironmentInfo subscribeForApplicationLifecycleEvents:]
+-[BLYEnvironmentInfo postAppLifeCycleNotification:]
+-[BLYEnvironmentInfo registerApplicationLifeCycleEventsObserver]
+-[BLYEnvironmentInfo applicationDidEnterBackgroundHandler:]
+-[BLYEnvironmentInfo applicationWillEnterForegroundHandler:]
+-[BLYEnvironmentInfo applicationDidFinishLaunchingHandler:]
+-[BLYEnvironmentInfo applicationDidBecomeActiveHandler:]
+-[BLYEnvironmentInfo applicationWillResignActiveHandler:]
+-[BLYEnvironmentInfo applicationWillTerminateHandler:]
+-[BLYEnvironmentInfo applicationDidReceiveMemoryWarning:]
+___57-[BLYEnvironmentInfo applicationDidReceiveMemoryWarning:]_block_invoke
+-[BLYEnvironmentInfo networkAPN]
+-[BLYEnvironmentInfo setNetworkAPN:]
+-[BLYEnvironmentInfo reachabilityState]
+-[BLYEnvironmentInfo lastEvent]
+-[BLYEnvironmentInfo setLastEvent:]
+-[BLYEnvironmentInfo didReceiveMemoryWarning]
+-[BLYEnvironmentInfo setDidReceiveMemoryWarning:]
+-[BLYEnvironmentInfo receivedMemoryWarningCount]
+-[BLYEnvironmentInfo setReceivedMemoryWarningCount:]
+-[BLYEnvironmentInfo lifecycleEventBlock]
+-[BLYEnvironmentInfo setLifecycleEventBlock:]
+-[BLYEnvironmentInfo .cxx_destruct]
+_sharedInfo.sharedInfo
+_sharedInfo.onceToken
+_OBJC_IVAR_$_BLYEnvironmentInfo._networkAPN
+_OBJC_IVAR_$_BLYEnvironmentInfo._reachabilityState
+_OBJC_IVAR_$_BLYEnvironmentInfo._lastEvent
+_OBJC_IVAR_$_BLYEnvironmentInfo._didReceiveMemoryWarning
+_OBJC_IVAR_$_BLYEnvironmentInfo._receivedMemoryWarningCount
+_OBJC_IVAR_$_BLYEnvironmentInfo._lifecycleEventBlock
+l_OBJC_PROTOCOL_$_BLYReachabilitySubscription
+l_OBJC_LABEL_PROTOCOL_$_BLYReachabilitySubscription
++[BLYCrashManager sharedManager]
+___32+[BLYCrashManager sharedManager]_block_invoke
+-[BLYCrashManager init]
+-[BLYCrashManager dealloc]
++[BLYCrashManager constructSelector]
+-[BLYCrashManager strategyGetterSelector]
+-[BLYCrashManager enableModule]
+-[BLYCrashManager disableModule]
+-[BLYCrashManager startManager]
+___31-[BLYCrashManager startManager]_block_invoke
+-[BLYCrashManager stopManager]
+-[BLYCrashManager setExcludeModuleFilter:]
+-[BLYCrashManager didCrashAccidentHappened]
+-[BLYCrashManager willSendCrashReport]
+-[BLYCrashManager startProtectTimer]
+___36-[BLYCrashManager startProtectTimer]_block_invoke
+___copy_helper_block_.68
+___destroy_helper_block_.69
+-[BLYCrashManager unregisterObservers]
+-[BLYCrashManager registerObservers]
+-[BLYCrashManager receivedEventNotification:]
+-[BLYCrashManager protectHandler:]
+-[BLYCrashManager sendPendingCrashReport]
+___41-[BLYCrashManager sendPendingCrashReport]_block_invoke
+-[BLYCrashManager sendCrashReport:]
+-[BLYCrashManager sendLiveCrashReport]
+-[BLYCrashManager generateExceptionUploadPackage]
+-[BLYCrashManager isSymbolicationOnDeviceEnabled]
+-[BLYCrashManager setEnableSymbolicationOnDevice:]
+-[BLYCrashManager isAppNotTerminatingSafelyDetectionEnabled]
+-[BLYCrashManager setEnableAppNotTerminatingSafelyDetection:]
+-[BLYCrashManager didCrashInLastSession]
+-[BLYCrashManager didReceiveMemoryWarningInLastSession]
+-[BLYCrashManager timeIntervalCrashInLastSessionOccurred]
+-[BLYCrashManager crashReporter]
+-[BLYCrashManager setCrashReporter:]
+-[BLYCrashManager isInstalled]
+-[BLYCrashManager setIsInstalled:]
+-[BLYCrashManager isObserverRegistered]
+-[BLYCrashManager setIsObserverRegistered:]
+-[BLYCrashManager didCrashed]
+-[BLYCrashManager setDidCrashed:]
+-[BLYCrashManager checkerCount]
+-[BLYCrashManager setCheckerCount:]
+-[BLYCrashManager .cxx_destruct]
+_sharedManager.sInstance
+_OBJC_IVAR_$_BLYCrashManager._isInstalled
+_OBJC_IVAR_$_BLYCrashManager._enableSymbolicationOnDevice
+_startManager.onceToken
+___block_descriptor_tmp.43
+_OBJC_IVAR_$_BLYCrashManager._isObserverRegistered
+_OBJC_IVAR_$_BLYCrashManager._enableAppNotTerminatingSafelyDetection
+_OBJC_IVAR_$_BLYCrashManager._didCrashInLastSession
+_OBJC_IVAR_$_BLYCrashManager._didReceiveMemoryWarningInLastSession
+_OBJC_IVAR_$_BLYCrashManager._timeIntervalCrashInLastSessionOccurred
+_OBJC_IVAR_$_BLYCrashManager._crashReporter
+_OBJC_IVAR_$_BLYCrashManager._didCrashed
+_OBJC_IVAR_$_BLYCrashManager._checkerCount
++[BLYMartianTracker sharedTracker]
+___34+[BLYMartianTracker sharedTracker]_block_invoke
+_importMartianCategories
+-[BLYMartianTracker enableModule]
+-[BLYMartianTracker disableModule]
++[BLYMartianTracker constructSelector]
+-[BLYMartianTracker init]
+-[BLYMartianTracker startTrack]
+___31-[BLYMartianTracker startTrack]_block_invoke
+-[BLYMartianTracker registerAppLifeCycleEvents]
+-[BLYMartianTracker didReceiveAppLifeCycleEvent:]
+-[BLYMartianTracker trackMessage:]
+___34-[BLYMartianTracker trackMessage:]_block_invoke
+___copy_helper_block_.61
+___destroy_helper_block_.62
++[BLYMartianTracker currentTimeString]
+-[BLYMartianTracker allLogs]
+___28-[BLYMartianTracker allLogs]_block_invoke
++[BLYMartianTracker trackLog]
++[BLYMartianTracker trackPageView:]
+-[BLYMartianTracker trackAppLifeCycleEvent:]
+-[BLYMartianTracker isAutoTrackingEnabled]
+-[BLYMartianTracker setAutoTrackingEnable:]
+-[BLYMartianTracker trackerQueue]
+-[BLYMartianTracker setTrackerQueue:]
+-[BLYMartianTracker trackerMessages]
+-[BLYMartianTracker setTrackerMessages:]
+-[BLYMartianTracker .cxx_destruct]
+_sharedTracker.sharedTracker
+_sharedTracker.onceToken
+_OBJC_IVAR_$_BLYMartianTracker._trackerQueue
+_OBJC_IVAR_$_BLYMartianTracker._trackerMessages
+_OBJC_IVAR_$_BLYMartianTracker._autoTrackingEnable
+_startTrack.onceToken
+___block_descriptor_tmp.20
+___block_descriptor_tmp.63
++[BLYDevice currentDevice]
+___26+[BLYDevice currentDevice]_block_invoke
++[BLYDevice generateDeviceID]
++[BLYDevice deviceIDFromKeychain]
++[BLYDevice qIMEIFromKeychain]
+-[BLYDevice deviceIdentifier]
+___29-[BLYDevice deviceIdentifier]_block_invoke
+-[BLYDevice qIMEI]
+-[BLYDevice setQIMEI:]
+___22-[BLYDevice setQIMEI:]_block_invoke
+-[BLYDevice systemVersionCode]
+-[BLYDevice hardwareModel]
+-[BLYDevice fullSystemVersion]
+-[BLYDevice cpuArch]
++[BLYDevice deviceName]
++[BLYDevice systemName]
++[BLYDevice systemVersion]
++[BLYDevice freeDiskSpace]
++[BLYDevice totalDiskSpace]
++[BLYDevice freeMemeory]
++[BLYDevice totalMemeory]
+-[BLYDevice getHostMemoryUsage]
+-[BLYDevice getProcessMemoryInfo]
+-[BLYDevice getThreadInfo]
+-[BLYDevice isJailbroken]
++[BLYDevice isJailBreak]
++[BLYDevice idfv]
++[BLYDevice systemUpTime]
++[BLYDevice systemBootTime]
++[BLYDevice cpuCount]
++[BLYDevice languageList]
++[BLYDevice countryCode]
++[BLYDevice hardwareFingerPrint]
+-[BLYDevice isDevelopmentDevice]
+-[BLYDevice setDevelopmentDevice:]
+-[BLYDevice setDeviceIdentifier:]
+-[BLYDevice deviceName]
+-[BLYDevice setDeviceName:]
+-[BLYDevice systemName]
+-[BLYDevice setSystemName:]
+-[BLYDevice systemVersion]
+-[BLYDevice setSystemVersion:]
+-[BLYDevice setSystemVersionCode:]
+-[BLYDevice setHardwareModel:]
+-[BLYDevice setCpuArch:]
+-[BLYDevice freeDiskSpace]
+-[BLYDevice setFreeDiskSpace:]
+-[BLYDevice totalDiskSpace]
+-[BLYDevice setTotalDiskSpace:]
+-[BLYDevice freeMemeory]
+-[BLYDevice setFreeMemeory:]
+-[BLYDevice totalMemeory]
+-[BLYDevice setTotalMemeory:]
+-[BLYDevice jailbrokenStatus]
+-[BLYDevice setJailbrokenStatus:]
+-[BLYDevice .cxx_destruct]
+_currentDevice.sInstance
+_currentDevice.onceToken
+_OBJC_IVAR_$_BLYDevice._deviceIdentifier
+_OBJC_IVAR_$_BLYDevice._qIMEI
+_OBJC_IVAR_$_BLYDevice._systemVersionCode
+_OBJC_IVAR_$_BLYDevice._hardwareModel
+_OBJC_IVAR_$_BLYDevice._cpuArch
+_OBJC_IVAR_$_BLYDevice._jailbrokenStatus
+_OBJC_IVAR_$_BLYDevice._developmentDevice
+_OBJC_IVAR_$_BLYDevice._deviceName
+_OBJC_IVAR_$_BLYDevice._systemName
+_OBJC_IVAR_$_BLYDevice._systemVersion
+_OBJC_IVAR_$_BLYDevice._freeDiskSpace
+_OBJC_IVAR_$_BLYDevice._totalDiskSpace
+_OBJC_IVAR_$_BLYDevice._freeMemeory
+_OBJC_IVAR_$_BLYDevice._totalMemeory
++[BLYJceInputStreamV2 streamWithData:]
+-[BLYJceInputStreamV2 init]
+-[BLYJceInputStreamV2 data]
+-[BLYJceInputStreamV2 peakHead]
+-[BLYJceInputStreamV2 readHead]
+-[BLYJceInputStreamV2 readInt1]
+-[BLYJceInputStreamV2 readInt2]
+-[BLYJceInputStreamV2 readInt4]
+-[BLYJceInputStreamV2 readInt8]
+_unpack_64
+-[BLYJceInputStreamV2 readInt:]
+-[BLYJceInputStreamV2 readFloat:]
+-[BLYJceInputStreamV2 readDouble:]
+-[BLYJceInputStreamV2 readFloat]
+-[BLYJceInputStreamV2 readDouble]
+-[BLYJceInputStreamV2 readBytes:]
+-[BLYJceInputStreamV2 skip:]
+-[BLYJceInputStreamV2 readDataWithSize:]
+-[BLYJceInputStreamV2 readNumber:required:]
+-[BLYJceInputStreamV2 readString:required:]
+-[BLYJceInputStreamV2 readData:required:]
+-[BLYJceInputStreamV2 readObject:required:description:]
+-[BLYJceInputStreamV2 readArray:required:description:]
+-[BLYJceInputStreamV2 readDictionary:required:description:]
+-[BLYJceInputStreamV2 readAnything:required:description:]
+-[BLYJceInputStreamV2 headType]
+-[BLYJceInputStreamV2 setHeadType:]
+-[BLYJceInputStreamV2 headTag]
+-[BLYJceInputStreamV2 dataHolders]
+-[BLYJceInputStreamV2 setDataHolders:]
+-[BLYJceInputStreamV2 .cxx_destruct]
+_OBJC_IVAR_$_BLYJceInputStreamV2._dataHolders
+-[BLYRequestPacket init]
+-[BLYRequestPacket __pack:]
+-[BLYRequestPacket __unpack:]
+-[BLYRequestPacket iVersion]
+-[BLYRequestPacket setIVersion:]
+-[BLYRequestPacket cPacketType]
+-[BLYRequestPacket setCPacketType:]
+-[BLYRequestPacket iMessageType]
+-[BLYRequestPacket setIMessageType:]
+-[BLYRequestPacket iRequestId]
+-[BLYRequestPacket setIRequestId:]
+-[BLYRequestPacket sServantName]
+-[BLYRequestPacket setSServantName:]
+-[BLYRequestPacket sFuncName]
+-[BLYRequestPacket setSFuncName:]
+-[BLYRequestPacket sBuffer]
+-[BLYRequestPacket setSBuffer:]
+-[BLYRequestPacket iTimeout]
+-[BLYRequestPacket setITimeout:]
+-[BLYRequestPacket context]
+-[BLYRequestPacket setContext:]
+-[BLYRequestPacket status]
+-[BLYRequestPacket setStatus:]
+-[BLYRequestPacket .cxx_destruct]
+_OBJC_IVAR_$_BLYRequestPacket._context
+_OBJC_IVAR_$_BLYRequestPacket._status
+_OBJC_IVAR_$_BLYRequestPacket._iVersion
+_OBJC_IVAR_$_BLYRequestPacket._cPacketType
+_OBJC_IVAR_$_BLYRequestPacket._iMessageType
+_OBJC_IVAR_$_BLYRequestPacket._iRequestId
+_OBJC_IVAR_$_BLYRequestPacket._sServantName
+_OBJC_IVAR_$_BLYRequestPacket._sFuncName
+_OBJC_IVAR_$_BLYRequestPacket._sBuffer
+_OBJC_IVAR_$_BLYRequestPacket._iTimeout
+-[BLYCrashDeadlockMonitor init]
+___31-[BLYCrashDeadlockMonitor init]_block_invoke
+-[BLYCrashDeadlockMonitor cancel]
+-[BLYCrashDeadlockMonitor watchdogPulse]
+___40-[BLYCrashDeadlockMonitor watchdogPulse]_block_invoke
+___copy_helper_block_.24
+___destroy_helper_block_.25
+-[BLYCrashDeadlockMonitor watchdogAnswer]
+-[BLYCrashDeadlockMonitor handleDeadlock]
+-[BLYCrashDeadlockMonitor runMonitor]
+-[BLYCrashDeadlockMonitor monitorThread]
+-[BLYCrashDeadlockMonitor setMonitorThread:]
+-[BLYCrashDeadlockMonitor mainThread]
+-[BLYCrashDeadlockMonitor setMainThread:]
+-[BLYCrashDeadlockMonitor awaitingResponse]
+-[BLYCrashDeadlockMonitor setAwaitingResponse:]
+-[BLYCrashDeadlockMonitor .cxx_destruct]
++[BLYCrashDeadlockHandler sharedHandler]
+___40+[BLYCrashDeadlockHandler sharedHandler]_block_invoke
+-[BLYCrashDeadlockHandler setDeadlockHandlerWatchdogInterval:]
+_g_BLYDeadlockMonitorWatchdogInterval
+_OBJC_IVAR_$_BLYCrashDeadlockMonitor._monitorThread
+_OBJC_IVAR_$_BLYCrashDeadlockMonitor._mainThread
+_OBJC_IVAR_$_BLYCrashDeadlockMonitor._awaitingResponse
+___block_descriptor_tmp.58
++[BLYLogicManager sharedManager]
+___32+[BLYLogicManager sharedManager]_block_invoke
+-[BLYLogicManager setQueue:]
+-[BLYLogicManager queue]
+-[BLYLogicManager setCount:]
+-[BLYLogicManager count]
+-[BLYLogicManager addLogic:]
+___28-[BLYLogicManager addLogic:]_block_invoke
+-[BLYLogicManager executeEmergencyLogic:]
+___41-[BLYLogicManager executeEmergencyLogic:]_block_invoke
+___copy_helper_block_.52
+___destroy_helper_block_.53
+-[BLYLogicManager .cxx_destruct]
+_OBJC_IVAR_$_BLYLogicManager._queue
+_OBJC_IVAR_$_BLYLogicManager._count
+___block_descriptor_tmp.28
+___block_descriptor_tmp.54
+-[BLYUniAttribute init]
+-[BLYUniAttribute dealloc]
++[BLYUniAttribute fromAttributeData:]
+-[BLYUniAttribute attributeData]
+-[BLYUniAttribute attrValueWithName:andType:]
+-[BLYUniAttribute setAttrValue:withName:andType:]
+-[BLYUniAttribute jce_uniAttributes]
+-[BLYUniAttribute setJce_uniAttributes:]
+-[BLYUniAttribute .cxx_destruct]
++[BLYJceObject(uniAttribute) objectWithName:andType:inAttributes:]
+-[BLYJceObject(uniAttribute) setInAttributes:withName:andType:]
++[BLYJceObjectV2(uniAttribute) objectWithName:inAttributes:]
+-[BLYJceObjectV2(uniAttribute) setInAttributes:withName:]
+-[NSData(uniAttribute) setInAttributes:withName:]
++[NSString(uniAttribute) stringWithName:inAttributes:]
+-[NSString(uniAttribute) setInAttributes:withName:]
+-[NSArray(uniAttribute) setInAttributes:withName:andType:]
++[NSNumber(uniAttribute) intValueWithName:inAttributes:]
++[NSNumber(uniAttribute) setLonglong:InAttributes:withName:]
+-[NSNumber(uniAttribute) setInAttributes:withName:]
+_OBJC_IVAR_$_BLYUniAttribute.jcev2_p_0_r_uniAttributes__b0x9i_M09ONSStringM09ONSStringONSData
+-[BLYHttpRequest initWithUrlString:requestData:headerInfo:completionHandler:]
+-[BLYHttpRequest stringByAddingPercentEncodingForFormData:]
+-[BLYHttpRequest initWithUrlRequest:completionHandler:]
+-[BLYHttpRequest dataTask]
+___26-[BLYHttpRequest dataTask]_block_invoke
+-[BLYHttpRequest sendUrlConnectionRequest]
+___42-[BLYHttpRequest sendUrlConnectionRequest]_block_invoke
+-[BLYHttpRequest start]
+-[BLYHttpRequest cancel]
+-[BLYHttpRequest completionBlock]
+-[BLYHttpRequest setCompletionBlock:]
+-[BLYHttpRequest request]
+-[BLYHttpRequest setRequest:]
+-[BLYHttpRequest setDataTask:]
+-[BLYHttpRequest isLoading]
+-[BLYHttpRequest setLoading:]
+-[BLYHttpRequest .cxx_destruct]
+___block_descriptor_tmp.91
+l_OBJC_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDataDelegate
++[BLYRequestPkg initialize]
+-[BLYRequestPkg init]
++[BLYRequestPkg jceType]
+-[BLYRequestPkg jce_platformId]
+-[BLYRequestPkg setJce_platformId:]
+-[BLYRequestPkg jce_prodId]
+-[BLYRequestPkg setJce_prodId:]
+-[BLYRequestPkg jce_bundleId]
+-[BLYRequestPkg setJce_bundleId:]
+-[BLYRequestPkg jce_version]
+-[BLYRequestPkg setJce_version:]
+-[BLYRequestPkg jce_channel]
+-[BLYRequestPkg setJce_channel:]
+-[BLYRequestPkg jce_sdkVer]
+-[BLYRequestPkg setJce_sdkVer:]
+-[BLYRequestPkg jce_cmd]
+-[BLYRequestPkg setJce_cmd:]
+-[BLYRequestPkg jce_sBuffer]
+-[BLYRequestPkg setJce_sBuffer:]
+-[BLYRequestPkg jce_model]
+-[BLYRequestPkg setJce_model:]
+-[BLYRequestPkg jce_osVer]
+-[BLYRequestPkg setJce_osVer:]
+-[BLYRequestPkg jce_reserved]
+-[BLYRequestPkg setJce_reserved:]
+-[BLYRequestPkg jce_sessionId]
+-[BLYRequestPkg setJce_sessionId:]
+-[BLYRequestPkg jce_strategylastUpdateTime]
+-[BLYRequestPkg setJce_strategylastUpdateTime:]
+-[BLYRequestPkg jce_sdkId]
+-[BLYRequestPkg setJce_sdkId:]
+-[BLYRequestPkg jce_deviceId]
+-[BLYRequestPkg setJce_deviceId:]
+-[BLYRequestPkg jce_apn]
+-[BLYRequestPkg setJce_apn:]
+-[BLYRequestPkg jce_uploadTime]
+-[BLYRequestPkg setJce_uploadTime:]
+-[BLYRequestPkg jce_imei]
+-[BLYRequestPkg setJce_imei:]
+-[BLYRequestPkg jce_qimei]
+-[BLYRequestPkg setJce_qimei:]
+-[BLYRequestPkg jce_imsi]
+-[BLYRequestPkg setJce_imsi:]
+-[BLYRequestPkg jce_mac]
+-[BLYRequestPkg setJce_mac:]
+-[BLYRequestPkg jce_androidId]
+-[BLYRequestPkg setJce_androidId:]
+-[BLYRequestPkg jce_networkType]
+-[BLYRequestPkg setJce_networkType:]
+-[BLYRequestPkg jce_idfv]
+-[BLYRequestPkg setJce_idfv:]
+-[BLYRequestPkg .cxx_destruct]
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_0_r_platformId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_1_r_prodId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_2_r_bundleId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_3_r_version
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_4_o_channel
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_5_r_sdkVer
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_6_r_cmd
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_7_r_sBuffer
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_8_o_model
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_9_o_osVer
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_10_o_reserved__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_11_o_sessionId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_12_o_strategylastUpdateTime
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_13_o_sdkId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_14_o_deviceId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_15_o_apn
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_16_o_uploadTime
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_17_o_imei
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_18_o_qimei
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_19_o_imsi
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_20_o_mac
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_21_o_androidId
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_22_o_networkType
+_OBJC_IVAR_$_BLYRequestPkg.jcev2_p_23_o_idfv
+-[BLYSafeMutableArray init]
+-[BLYSafeMutableArray initWithCapacity:]
+-[BLYSafeMutableArray dealloc]
+-[BLYSafeMutableArray count]
+-[BLYSafeMutableArray objectAtIndex:]
+-[BLYSafeMutableArray addObject:]
+-[BLYSafeMutableArray insertObject:atIndex:]
+-[BLYSafeMutableArray removeLastObject]
+-[BLYSafeMutableArray removeObjectAtIndex:]
+-[BLYSafeMutableArray replaceObjectAtIndex:withObject:]
+-[BLYSafeMutableArray firstObject]
+-[BLYSafeMutableArray lastObject]
+-[BLYSafeMutableArray removeAllObjects]
+-[BLYSafeMutableArray removeObjectsInRange:]
+-[BLYSafeMutableArray indexOfObject:]
+-[BLYSafeMutableArray removeFirstObject]
+-[BLYSafeMutableArray lock]
+-[BLYSafeMutableArray unlock]
+-[BLYSafeMutableArray .cxx_destruct]
+_OBJC_IVAR_$_BLYSafeMutableArray._safeLock
+_OBJC_IVAR_$_BLYSafeMutableArray._array
+l_OBJC_PROTOCOL_$_NSLocking
+l_OBJC_LABEL_PROTOCOL_$_NSLocking
++[BLYExceptionUpload initialize]
+-[BLYExceptionUpload init]
++[BLYExceptionUpload jceType]
+-[BLYExceptionUpload jce_type]
+-[BLYExceptionUpload setJce_type:]
+-[BLYExceptionUpload jce_crashTime]
+-[BLYExceptionUpload setJce_crashTime:]
+-[BLYExceptionUpload jce_expName]
+-[BLYExceptionUpload setJce_expName:]
+-[BLYExceptionUpload jce_expMessage]
+-[BLYExceptionUpload setJce_expMessage:]
+-[BLYExceptionUpload jce_expAddr]
+-[BLYExceptionUpload setJce_expAddr:]
+-[BLYExceptionUpload jce_crashThread]
+-[BLYExceptionUpload setJce_crashThread:]
+-[BLYExceptionUpload jce_callStack]
+-[BLYExceptionUpload setJce_callStack:]
+-[BLYExceptionUpload jce_allStacks]
+-[BLYExceptionUpload setJce_allStacks:]
+-[BLYExceptionUpload jce_expuid]
+-[BLYExceptionUpload setJce_expuid:]
+-[BLYExceptionUpload jce_session]
+-[BLYExceptionUpload setJce_session:]
+-[BLYExceptionUpload jce_crashCount]
+-[BLYExceptionUpload setJce_crashCount:]
+-[BLYExceptionUpload jce_userid]
+-[BLYExceptionUpload setJce_userid:]
+-[BLYExceptionUpload jce_deviceId]
+-[BLYExceptionUpload setJce_deviceId:]
+-[BLYExceptionUpload jce_appInfo]
+-[BLYExceptionUpload setJce_appInfo:]
+-[BLYExceptionUpload jce_libInfos]
+-[BLYExceptionUpload setJce_libInfos:]
+-[BLYExceptionUpload jce_plugins]
+-[BLYExceptionUpload setJce_plugins:]
+-[BLYExceptionUpload jce_attaches]
+-[BLYExceptionUpload setJce_attaches:]
+-[BLYExceptionUpload jce_valueMap]
+-[BLYExceptionUpload setJce_valueMap:]
+-[BLYExceptionUpload jce_userMap]
+-[BLYExceptionUpload setJce_userMap:]
+-[BLYExceptionUpload jce_gatewayIp]
+-[BLYExceptionUpload setJce_gatewayIp:]
+-[BLYExceptionUpload jce_coldStart]
+-[BLYExceptionUpload setJce_coldStart:]
+-[BLYExceptionUpload .cxx_destruct]
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_0_r_type
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_1_r_crashTime
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_2_r_expName
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_3_o_expMessage
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_4_o_expAddr
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_5_o_crashThread
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_6_o_callStack
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_7_o_allStacks__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_8_o_expuid
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_9_o_session
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_10_o_crashCount
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_11_o_userid
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_12_o_deviceId
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_13_o_appInfo
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_14_o_libInfos__b0x9i_VOBLYAppInfo
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_15_o_plugins__b0x9i_VOBLYAppInfo
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_16_o_attaches__b0x9i_VOBLYAttachment
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_17_o_valueMap__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_18_o_userMap__b0x9i_M09ONSStringONSString
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_19_o_gatewayIp
+_OBJC_IVAR_$_BLYExceptionUpload.jcev2_p_20_o_coldStart
+-[ZipArchive init]
+-[ZipArchive initWithFileManager:]
+-[ZipArchive dealloc]
+-[ZipArchive UnzipOpenFile:]
+-[ZipArchive UnzipFileTo:overWrite:]
+-[ZipArchive UnzipCloseFile]
+-[ZipArchive getZipFileContents]
+-[ZipArchive OutputErrorMessage:]
+-[ZipArchive OverWrite:]
+-[ZipArchive Date1980]
+-[ZipArchive delegate]
+-[ZipArchive setDelegate:]
+-[ZipArchive numFiles]
+-[ZipArchive password]
+-[ZipArchive setPassword:]
+-[ZipArchive unzippedFiles]
+-[ZipArchive stringEncoding]
+-[ZipArchive setStringEncoding:]
+-[ZipArchive .cxx_destruct]
+_OBJC_IVAR_$_ZipArchive._zipFile
+_OBJC_IVAR_$_ZipArchive._fileManager
+_OBJC_IVAR_$_ZipArchive._unzippedFiles
+_OBJC_IVAR_$_ZipArchive._unzFile
+_OBJC_IVAR_$_ZipArchive._numFiles
+_OBJC_IVAR_$_ZipArchive._password
+_OBJC_IVAR_$_ZipArchive._delegate
+_OBJC_IVAR_$_ZipArchive._stringEncoding
+-[RqdCrashReporterLiteException initWithCoder:]
+-[RqdCrashReporterLiteException initWithException:]
+-[RqdCrashReporterLiteException encodeWithCoder:]
++[RqdCrashReporterLiteException supportsSecureCoding]
+-[RqdCrashReporterLiteException threadName]
+-[RqdCrashReporterLiteException processName]
+-[RqdCrashReporterLiteException bundleId]
+-[RqdCrashReporterLiteException appVersion]
+-[RqdCrashReporterLiteException description]
+-[RqdCrashReporterLiteException typeString]
+-[RqdCrashReporterLiteException extensionType]
+-[RqdCrashReporterLiteException fetchArchInfo]
+-[RqdCrashReporterLiteException getcpu:subType:]
+-[RqdCrashReporterLiteException bugly_encode16:size:]
+-[RqdCrashReporterLiteException name]
+-[RqdCrashReporterLiteException setName:]
+-[RqdCrashReporterLiteException reason]
+-[RqdCrashReporterLiteException setReason:]
+-[RqdCrashReporterLiteException setThreadName:]
+-[RqdCrashReporterLiteException callStack]
+-[RqdCrashReporterLiteException setCallStack:]
+-[RqdCrashReporterLiteException appId]
+-[RqdCrashReporterLiteException setAppId:]
+-[RqdCrashReporterLiteException setBundleId:]
+-[RqdCrashReporterLiteException setAppVersion:]
+-[RqdCrashReporterLiteException setProcessName:]
+-[RqdCrashReporterLiteException cpuArch]
+-[RqdCrashReporterLiteException setCpuArch:]
+-[RqdCrashReporterLiteException execUUID]
+-[RqdCrashReporterLiteException setExecUUID:]
+-[RqdCrashReporterLiteException baseAddr]
+-[RqdCrashReporterLiteException setBaseAddr:]
+-[RqdCrashReporterLiteException setTypeString:]
+-[RqdCrashReporterLiteException setExtensionType:]
+-[RqdCrashReporterLiteException time]
+-[RqdCrashReporterLiteException setTime:]
+-[RqdCrashReporterLiteException screenBoundsString]
+-[RqdCrashReporterLiteException setScreenBoundsString:]
+-[RqdCrashReporterLiteException systemVersion]
+-[RqdCrashReporterLiteException setSystemVersion:]
+-[RqdCrashReporterLiteException deviceName]
+-[RqdCrashReporterLiteException setDeviceName:]
+-[RqdCrashReporterLiteException model]
+-[RqdCrashReporterLiteException setModel:]
+-[RqdCrashReporterLiteException systemName]
+-[RqdCrashReporterLiteException setSystemName:]
+-[RqdCrashReporterLiteException .cxx_destruct]
+_OBJC_IVAR_$_RqdCrashReporterLiteException._threadName
+_OBJC_IVAR_$_RqdCrashReporterLiteException._processName
+_OBJC_IVAR_$_RqdCrashReporterLiteException._bundleId
+_OBJC_IVAR_$_RqdCrashReporterLiteException._appVersion
+_OBJC_IVAR_$_RqdCrashReporterLiteException._typeString
+_OBJC_IVAR_$_RqdCrashReporterLiteException._extensionType
+_OBJC_IVAR_$_RqdCrashReporterLiteException._name
+_OBJC_IVAR_$_RqdCrashReporterLiteException._reason
+_OBJC_IVAR_$_RqdCrashReporterLiteException._callStack
+_OBJC_IVAR_$_RqdCrashReporterLiteException._appId
+_OBJC_IVAR_$_RqdCrashReporterLiteException._cpuArch
+_OBJC_IVAR_$_RqdCrashReporterLiteException._execUUID
+_OBJC_IVAR_$_RqdCrashReporterLiteException._baseAddr
+_OBJC_IVAR_$_RqdCrashReporterLiteException._time
+_OBJC_IVAR_$_RqdCrashReporterLiteException._screenBoundsString
+_OBJC_IVAR_$_RqdCrashReporterLiteException._systemVersion
+_OBJC_IVAR_$_RqdCrashReporterLiteException._deviceName
+_OBJC_IVAR_$_RqdCrashReporterLiteException._model
+_OBJC_IVAR_$_RqdCrashReporterLiteException._systemName
++[BLYExtensionExceptionManager sharedManager]
+___45+[BLYExtensionExceptionManager sharedManager]_block_invoke
++[BLYExtensionExceptionManager constructSelector]
+-[BLYExtensionExceptionManager enableModule]
+-[BLYExtensionExceptionManager disableModule]
+-[BLYExtensionExceptionManager isAppGroupAvailable]
+___51-[BLYExtensionExceptionManager isAppGroupAvailable]_block_invoke
+-[BLYExtensionExceptionManager buglyMartian_wcSessionDelegate]
+___62-[BLYExtensionExceptionManager buglyMartian_wcSessionDelegate]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+-[BLYExtensionExceptionManager packageDataWithException:]
+-[BLYExtensionExceptionManager packetExtraValues:]
+-[BLYExtensionExceptionManager documentDirectoryPath]
+-[BLYExtensionExceptionManager appGroupDirectoryPath]
+-[BLYExtensionExceptionManager exceptionsFromOldPath]
+___53-[BLYExtensionExceptionManager exceptionsFromOldPath]_block_invoke
+___copy_helper_block_.198
+___destroy_helper_block_.199
+-[BLYExtensionExceptionManager exceptionFromFileURL:]
+-[BLYExtensionExceptionManager checkAndUpload]
+-[BLYExtensionExceptionManager saveException:]
+_importWCSessionCategories
+-[BLYExtensionExceptionManager appGroupIdentifier]
+-[BLYExtensionExceptionManager setAppGroupIdentifier:]
+-[BLYExtensionExceptionManager isUploading]
+-[BLYExtensionExceptionManager setUploading:]
+-[BLYExtensionExceptionManager uploadingFiles]
+-[BLYExtensionExceptionManager setUploadingFiles:]
+-[BLYExtensionExceptionManager wcsessionExist]
+-[BLYExtensionExceptionManager setWcsessionExist:]
+-[BLYExtensionExceptionManager setAppGroupAvailable:]
+-[BLYExtensionExceptionManager .cxx_destruct]
+_sharedManager.sharedInstance_
+_OBJC_IVAR_$_BLYExtensionExceptionManager._appGroupAvailable
+_isAppGroupAvailable.onceToken
+___block_descriptor_tmp.27
+_buglyMartian_wcSessionDelegate.onceToken
+_OBJC_IVAR_$_BLYExtensionExceptionManager._wcsessionExist
+_OBJC_IVAR_$_BLYExtensionExceptionManager._appGroupIdentifier
+_OBJC_IVAR_$_BLYExtensionExceptionManager._uploading
+_OBJC_IVAR_$_BLYExtensionExceptionManager._uploadingFiles
++[BLYAppBasicInfo initialize]
+-[BLYAppBasicInfo init]
++[BLYAppBasicInfo jceType]
+-[BLYAppBasicInfo jce_appId]
+-[BLYAppBasicInfo setJce_appId:]
+-[BLYAppBasicInfo jce_platformId]
+-[BLYAppBasicInfo setJce_platformId:]
+-[BLYAppBasicInfo jce_versionCode]
+-[BLYAppBasicInfo setJce_versionCode:]
+-[BLYAppBasicInfo jce_versionName]
+-[BLYAppBasicInfo setJce_versionName:]
+-[BLYAppBasicInfo jce_buildNo]
+-[BLYAppBasicInfo setJce_buildNo:]
+-[BLYAppBasicInfo jce_iconUrl]
+-[BLYAppBasicInfo setJce_iconUrl:]
+-[BLYAppBasicInfo jce_apkId]
+-[BLYAppBasicInfo setJce_apkId:]
+-[BLYAppBasicInfo jce_channelId]
+-[BLYAppBasicInfo setJce_channelId:]
+-[BLYAppBasicInfo jce_md5]
+-[BLYAppBasicInfo setJce_md5:]
+-[BLYAppBasicInfo jce_sdkVer]
+-[BLYAppBasicInfo setJce_sdkVer:]
+-[BLYAppBasicInfo jce_bundleId]
+-[BLYAppBasicInfo setJce_bundleId:]
+-[BLYAppBasicInfo .cxx_destruct]
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_0_r_appId
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_1_r_platformId
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_2_r_versionCode
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_3_o_versionName
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_4_o_buildNo
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_5_o_iconUrl
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_6_o_apkId
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_7_o_channelId
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_8_o_md5
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_9_o_sdkVer
+_OBJC_IVAR_$_BLYAppBasicInfo.jcev2_p_10_o_bundleId
++[NSObject(BUGLY_WCSessionRuntime) load]
+___40+[NSObject(BUGLY_WCSessionRuntime) load]_block_invoke
++[NSObject(BUGLY_WCSessionRuntime) swizzleWcsessionProtocol]
+___60+[NSObject(BUGLY_WCSessionRuntime) swizzleWcsessionProtocol]_block_invoke
+_kBUGLY_WCSESSION_INTERCEPTOR_KEY
+_swizzleWcsessionProtocol.onceToken
+___block_descriptor_tmp.12
++[BLYApkBaseInfo initialize]
+-[BLYApkBaseInfo init]
++[BLYApkBaseInfo jceType]
+-[BLYApkBaseInfo jce_apkMd5]
+-[BLYApkBaseInfo setJce_apkMd5:]
+-[BLYApkBaseInfo jce_apkUrl]
+-[BLYApkBaseInfo setJce_apkUrl:]
+-[BLYApkBaseInfo jce_manifestMd5]
+-[BLYApkBaseInfo setJce_manifestMd5:]
+-[BLYApkBaseInfo jce_fileSize]
+-[BLYApkBaseInfo setJce_fileSize:]
+-[BLYApkBaseInfo jce_signatureMd5]
+-[BLYApkBaseInfo setJce_signatureMd5:]
+-[BLYApkBaseInfo .cxx_destruct]
+_OBJC_IVAR_$_BLYApkBaseInfo.jcev2_p_0_r_apkMd5
+_OBJC_IVAR_$_BLYApkBaseInfo.jcev2_p_1_r_apkUrl
+_OBJC_IVAR_$_BLYApkBaseInfo.jcev2_p_2_o_manifestMd5
+_OBJC_IVAR_$_BLYApkBaseInfo.jcev2_p_3_r_fileSize
+_OBJC_IVAR_$_BLYApkBaseInfo.jcev2_p_4_o_signatureMd5
+-[BLYExtensionLogic persistFileKey]
+-[BLYExtensionLogic shouldUpload]
++[BLYWCSessionDelegateInterceptor sharedInterceptor]
+___52+[BLYWCSessionDelegateInterceptor sharedInterceptor]_block_invoke
+-[BLYWCSessionDelegateInterceptor setTarget:]
++[BLYWCSessionDelegateInterceptor load]
+___39+[BLYWCSessionDelegateInterceptor load]_block_invoke
+-[BLYWCSessionDelegateInterceptor respondsToSelector:]
+-[BLYWCSessionDelegateInterceptor methodSignatureForSelector:]
+-[BLYWCSessionDelegateInterceptor forwardInvocation:]
+-[BLYWCSessionDelegateInterceptor Bugly_Session:didReceiveMessage:replyHandler:]
+-[BLYWCSessionDelegateInterceptor updateApplicationContext:]
+-[BLYWCSessionDelegateInterceptor Bugly_Session:didReceiveApplicationContext:]
+-[BLYWCSessionDelegateInterceptor target]
+_sharedInterceptor.onceToken
+_sharedInterceptor.interceptor_
+_OBJC_IVAR_$_BLYWCSessionDelegateInterceptor._target
+/Users/zhangsan/Desktop/github pull computer/Demo/Pods/Target Support Files/Pods-ZWTakeYouFly/Pods-ZWTakeYouFly-dummy.m
+/Users/zhangsan/Desktop/github pull computer/Demo/Pods
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 9.0.0 (clang-900.0.35)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=302.3
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

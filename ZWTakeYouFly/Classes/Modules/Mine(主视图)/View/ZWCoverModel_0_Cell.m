@@ -104,5 +104,9 @@ static NSString * const JYindentify = @"JZCollectionViewIdentifier";//collection
     return cell;
     
 }
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [JYJumpTool pushViewController:wait animated:YES];
+}
 
 @end

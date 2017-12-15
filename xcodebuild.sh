@@ -1,11 +1,11 @@
 #工程名
-project_name=TakeYouFly
+project_name=ZWTakeYouFly
 
 #打包模式 Debug/Release
-development_mode=Release
+development_mode=Debug
 
 #scheme名
-scheme_name=TakeYouFly
+scheme_name=ZWTakeYouFly
 
 #plist文件所在路径
 exportOptionsPlistPath=./DevelopmentExportOptionsPlist.plist

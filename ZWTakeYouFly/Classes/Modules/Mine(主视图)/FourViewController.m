@@ -17,6 +17,10 @@
 
 @implementation FourViewController
 
+- (void)pushWait:(UIGestureRecognizer *)tap{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self pushVc:wait];
+}
 #pragma mark --------------------------LifeCycle----------------------/
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,6 +46,9 @@
     headView.frame = CGRectMake(0, 0, kScreen_Width, 250);
     self.hs_tableView.tableHeaderView = headView;
     self.hs_tableView.backgroundColor = [UIColor colorBackWithBackView];
+    headView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(pushWait:)];
+    [headView addGestureRecognizer:tap];
     
     HSTitleCellModel *guanzhu = [[HSTitleCellModel alloc] initWithTitle:@"我的关注" actionBlock:^(HSBaseCellModel *model) {
         HSLog(@"点击相册")
@@ -107,7 +114,11 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 0.01;
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self pushVc:wait];
+    
+}
 #pragma mark --------------------------Lazy----------------------/
 
 - (void)didReceiveMemoryWarning {

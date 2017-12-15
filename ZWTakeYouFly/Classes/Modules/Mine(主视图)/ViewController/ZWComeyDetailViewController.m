@@ -189,6 +189,10 @@
     return _group;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self pushVc:wait];
+}
 /*
 #pragma mark - Navigation
 

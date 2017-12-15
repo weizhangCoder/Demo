@@ -164,6 +164,10 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
     
     
 }
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [self pushVc:wait];
+}
 //创建头视图
 //- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView
 //           viewForSupplementaryElementOfKind:(NSString *)kind
