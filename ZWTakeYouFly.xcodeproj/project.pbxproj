@@ -15,6 +15,7 @@
 		530663871FE37A1E000BF402 /* ZWWaitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530663851FE37A1E000BF402 /* ZWWaitViewController.xib */; };
 		5306638A1FE37CBF000BF402 /* JYJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 530663891FE37CBF000BF402 /* JYJumpTool.m */; };
 		5306638C1FE3A109000BF402 /* CompanyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5306638B1FE3A109000BF402 /* CompanyList.plist */; };
+		5306638F1FE3BDCE000BF402 /* ZWTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306638E1FE3BDCE000BF402 /* ZWTestTableViewCell.m */; };
 		5336BA4F1F95A588003CFA7D /* ZWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336BA4E1F95A588003CFA7D /* ZWTool.m */; };
 		720922E01FE17F8700DFFB07 /* HJDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */; };
 		720922E11FE17F8700DFFB07 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */; };
@@ -143,6 +144,8 @@
 		530663881FE37CBF000BF402 /* JYJumpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYJumpTool.h; sourceTree = "<group>"; };
 		530663891FE37CBF000BF402 /* JYJumpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYJumpTool.m; sourceTree = "<group>"; };
 		5306638B1FE3A109000BF402 /* CompanyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CompanyList.plist; sourceTree = "<group>"; };
+		5306638D1FE3BDCE000BF402 /* ZWTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTestTableViewCell.h; sourceTree = "<group>"; };
+		5306638E1FE3BDCE000BF402 /* ZWTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTestTableViewCell.m; sourceTree = "<group>"; };
 		5336BA4D1F95A588003CFA7D /* ZWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTool.h; sourceTree = "<group>"; };
 		5336BA4E1F95A588003CFA7D /* ZWTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTool.m; sourceTree = "<group>"; };
 		720922DC1FE17F8600DFFB07 /* HJDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDropDownMenu.h; sourceTree = "<group>"; };
@@ -402,6 +405,8 @@
 				720922DD1FE17F8600DFFB07 /* HJDropDownMenu.m */,
 				720922DE1FE17F8600DFFB07 /* UIView+MJExtension.h */,
 				720922DF1FE17F8600DFFB07 /* UIView+MJExtension.m */,
+				5306638D1FE3BDCE000BF402 /* ZWTestTableViewCell.h */,
+				5306638E1FE3BDCE000BF402 /* ZWTestTableViewCell.m */,
 			);
 			path = HJDropDownMenu;
 			sourceTree = "<group>";
@@ -1252,6 +1257,7 @@
 				7285D5A61FDFF8B40081AF93 /* detail_0_Cell.m in Sources */,
 				7275B66D1F2EC3DC00F5016A /* MJExtensionConfig.m in Sources */,
 				72F7FFC21F22010400BFC7E6 /* NHCommonConstant.m in Sources */,
+				5306638F1FE3BDCE000BF402 /* ZWTestTableViewCell.m in Sources */,
 				72F7FFB91F21FFDE00BFC7E6 /* ZWProgressHUD.m in Sources */,
 				72E02C111FDD120800AC0D57 /* me_headView.m in Sources */,
 				72D9E22F1F26D77600FED4A4 /* HcdGuideView.m in Sources */,
