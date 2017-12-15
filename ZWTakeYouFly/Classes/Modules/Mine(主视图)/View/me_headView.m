@@ -17,5 +17,9 @@
     // Drawing code
 }
 */
+- (IBAction)clickBtnzw:(JYCustomButton *)sender {
+    ZWWaitViewController *wait = [ZWWaitViewController new];
+    [JYJumpTool pushViewController:wait animated:YES];
+}
 
 @end

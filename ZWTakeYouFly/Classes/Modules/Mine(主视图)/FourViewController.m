@@ -8,7 +8,7 @@
 
 #import "FourViewController.h"
 
-
+#import "me_headView.h"
 
 
 @interface FourViewController ()
@@ -17,10 +17,10 @@
 
 @implementation FourViewController
 
-- (void)pushWait:(UIGestureRecognizer *)tap{
-    ZWWaitViewController *wait = [ZWWaitViewController new];
-    [self pushVc:wait];
-}
+//- (void)pushWait{
+//    ZWWaitViewController *wait = [ZWWaitViewController new];
+//    [self pushVc:wait];
+//}
 #pragma mark --------------------------LifeCycle----------------------/
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,15 +40,15 @@
 //    }];
 //    header.text = @"天霸动霸tuo";
 //    header.cellHeight = 100;
-    UIView *headView = [[[NSBundle mainBundle] loadNibNamed:@"me_headView" owner:nil options:nil] lastObject];
+    me_headView *headView = [[[NSBundle mainBundle] loadNibNamed:@"me_headView" owner:nil options:nil] lastObject];
     headView.backgroundColor = [UIColor clearColor];
     headView.autoresizingMask = UIViewAutoresizingNone;
     headView.frame = CGRectMake(0, 0, kScreen_Width, 250);
     self.hs_tableView.tableHeaderView = headView;
     self.hs_tableView.backgroundColor = [UIColor colorBackWithBackView];
-    headView.userInteractionEnabled = YES;
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(pushWait:)];
-    [headView addGestureRecognizer:tap];
+//    [headView.ClickBtn addTarget:self action:@selector(pushWait) forControlEvents:UIControlEventTouchUpInside];
+//    headView.userInteractionEnabled = YES;
+   
     
     HSTitleCellModel *guanzhu = [[HSTitleCellModel alloc] initWithTitle:@"我的关注" actionBlock:^(HSBaseCellModel *model) {
         HSLog(@"点击相册")

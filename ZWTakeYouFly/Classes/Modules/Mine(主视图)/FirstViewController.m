@@ -178,11 +178,11 @@
         _group = [NSMutableArray array];
         for (int i = 0; i < 8; i++) {
             NSArray *nameGroup=[[NSArray alloc] initWithObjects:@"查税号",@"查法人",@"查风险",@"查信用编码",@"查地址",@"查电话",@"查商标",@"更多",nil];
-            NSArray *imageGroup=[[NSArray alloc] initWithObjects:@"u101",@"u113",@"u117",@"u121",@"u125",@"u129",@"u133",@"u137",nil];
+//            NSArray *imageGroup=[[NSArray alloc] initWithObjects:@"u101",@"u113",@"u117",@"u121",@"u125",@"u129",@"u133",@"u137",nil];
             
             DataModel *model = [[DataModel alloc]init];
             model.text = nameGroup[i];
-            model.imageName = imageGroup[i];
+            model.imageName = nameGroup[i];
             [_group addObject:model];
             
         }

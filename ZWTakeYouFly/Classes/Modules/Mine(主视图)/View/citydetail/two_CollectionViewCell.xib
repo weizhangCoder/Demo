@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,24 +18,25 @@
                 <rect key="frame" x="0.0" y="0.0" width="183" height="90"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLx-Kt-S7g">
-                        <rect key="frame" x="22.5" y="11.5" width="137" height="67.5"/>
-                        <color key="backgroundColor" red="1" green="0.56096501710000002" blue="0.18182237700000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6C8-wh-90l">
+                        <rect key="frame" x="10" y="10" width="163" height="70"/>
+                        <color key="backgroundColor" red="0.1137254902" green="0.67450980390000004" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <state key="normal" title="Button"/>
-                    </button>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="rLx-Kt-S7g" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="3:4" id="2hb-9W-AUO"/>
-                <constraint firstItem="rLx-Kt-S7g" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="AZ6-vW-Lh8"/>
-                <constraint firstItem="rLx-Kt-S7g" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="HKc-X1-tEZ"/>
-                <constraint firstItem="rLx-Kt-S7g" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="3:4" id="kTq-Pg-7SK"/>
+                <constraint firstAttribute="trailing" secondItem="6C8-wh-90l" secondAttribute="trailing" constant="10" id="J4S-rJ-rQT"/>
+                <constraint firstItem="6C8-wh-90l" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="JWI-xB-5Dh"/>
+                <constraint firstAttribute="bottom" secondItem="6C8-wh-90l" secondAttribute="bottom" constant="10" id="Jl8-A2-Lv0"/>
+                <constraint firstItem="6C8-wh-90l" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="WXq-d2-4KI"/>
             </constraints>
             <size key="customSize" width="183" height="90"/>
             <connections>
-                <outlet property="btnName" destination="rLx-Kt-S7g" id="rvG-uk-gt1"/>
+                <outlet property="btnName" destination="6C8-wh-90l" id="hRF-uB-5DW"/>
             </connections>
             <point key="canvasLocation" x="43" y="169"/>
         </collectionViewCell>

@@ -151,7 +151,9 @@ static NSString * const JYHeaderindentify = @"HeaderView"; //collectionHead
         NSArray *array = [NSArray arrayWithObjects:@"城市概况",@"诚信聚焦",@"法律法规",@"市场监管",@"立信企业",@"城市评论", nil];
         two_CollectionViewCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:JYindentify_two forIndexPath:indexPath];
         NSString *name  = array[indexPath.row];
-        [cell.btnName setTitle:name forState:UIControlStateNormal];
+
+        cell.btnName.text = name;
+//        [cell.btnName setTitle:name forState:UIControlStateNormal];
 //        int y =100 +  (arc4random() % 101);
         NSArray *arrays = [NSArray arrayWithObjects:@"#95918c",@"#324ab2",@"#3bb08f",@"#ff496c",@"#6699cc",@"#fc6c85", nil];
         NSString *color = arrays[indexPath.row];

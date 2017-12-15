@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZWWaitViewController">
             <connections>
@@ -20,22 +25,22 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="敬请期待" translatesAutoresizingMaskIntoConstraints="NO" id="8IA-Hd-zCj">
-                    <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
+                    <rect key="frame" x="137.5" y="233.5" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="MDX-5S-3vH"/>
                         <constraint firstAttribute="width" constant="100" id="dke-nB-P5A"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="敬请期待" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfT-YI-ACT">
-                    <rect key="frame" x="0.0" y="393.5" width="375" height="19.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="frame" x="0.0" y="343.5" width="375" height="20"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="8IA-Hd-zCj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="AQo-Uh-L5f"/>
+                <constraint firstItem="8IA-Hd-zCj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-50" id="AQo-Uh-L5f"/>
                 <constraint firstItem="8IA-Hd-zCj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Pqg-8O-Hdx"/>
                 <constraint firstAttribute="trailing" secondItem="zfT-YI-ACT" secondAttribute="trailing" id="Yd9-hz-eg1"/>
                 <constraint firstItem="zfT-YI-ACT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iai-Ml-c41"/>

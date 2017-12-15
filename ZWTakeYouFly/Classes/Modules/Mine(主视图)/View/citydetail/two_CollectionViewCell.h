@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface two_CollectionViewCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIButton *btnName;
+@property (weak, nonatomic) IBOutlet UILabel *btnName;
 
 @end

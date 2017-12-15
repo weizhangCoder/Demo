@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,6 +24,9 @@
                             <state key="normal" title="我的订单" image="u788">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="clickBtnzw:" destination="E4b-OX-jIU" eventType="touchUpInside" id="yZ5-aa-KHn"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26u-AY-YpZ" customClass="JYCustomButton">
                             <rect key="frame" x="80" y="0.0" width="80" height="80"/>
@@ -31,13 +34,9 @@
                             <state key="normal" title="我的特权" image="u792">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVM-iR-SGA" customClass="JYCustomButton">
-                            <rect key="frame" x="160" y="0.0" width="80" height="80"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <state key="normal" title="我的消息" image="u796">
-                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </state>
+                            <connections>
+                                <action selector="clickBtnzw:" destination="E4b-OX-jIU" eventType="touchUpInside" id="3BX-Tb-iFH"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAw-df-wRF" customClass="JYCustomButton">
                             <rect key="frame" x="240" y="0.0" width="80" height="80"/>
@@ -45,6 +44,19 @@
                             <state key="normal" title="我的账户" image="u800">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="clickBtnzw:" destination="E4b-OX-jIU" eventType="touchUpInside" id="svt-nL-c3M"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVM-iR-SGA" customClass="JYCustomButton">
+                            <rect key="frame" x="168" y="0.0" width="80" height="80"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="我的消息" image="u796">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBtnzw:" destination="E4b-OX-jIU" eventType="touchUpInside" id="qte-JG-cfZ"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,6 +146,9 @@
                 <constraint firstAttribute="trailing" secondItem="TWg-wy-f6X" secondAttribute="trailing" id="u5x-0Z-DeU"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ClickBtn" destination="26u-AY-YpZ" id="cIj-fz-hjZ"/>
+            </connections>
             <point key="canvasLocation" x="97" y="55"/>
         </view>
     </objects>
