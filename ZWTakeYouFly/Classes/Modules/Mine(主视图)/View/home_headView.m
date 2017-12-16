@@ -49,8 +49,9 @@
     HGSpecialModel *model_2 = [ZWDataManager sharedZWDataManager].dataAarry[2] ;
     [self.threeBtn setTitle:@"宝亿嵘" forState:UIControlStateNormal];
     
-    HJDropDownMenu * peomMenu = [[HJDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, 90, 30)];
+    HJDropDownMenu * peomMenu = [[HJDropDownMenu alloc] initWithFrame:CGRectMake(-10, 0, 100, 30)];
     peomMenu.userInteractionEnabled = YES;
+    peomMenu.autoresizesSubviews = YES;
     peomMenu.rowHeight = 30;
     peomMenu.datas = @[@"企业名称",@"法定代表人",@"注册地址",@"历史曾用名",@"主要产品"];
     [self.selectView addSubview:peomMenu];
@@ -60,6 +61,17 @@
     self.textFiled.returnKeyType = UIReturnKeySearch;
 
     
+}
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
+    UIView *view = [super hitTest:point withEvent:event];
+    if (view == nil) {
+        CGPoint tempoint = [self.peomMenu convertPoint:point fromView:self];
+        if (CGRectContainsPoint(self.peomMenu.bounds, tempoint))
+        {
+            view = self.peomMenu;
+        }
+    }
+    return view;
 }
 
 - (IBAction)changed:(UISegmentedControl *)sender {

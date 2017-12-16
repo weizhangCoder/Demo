@@ -45,7 +45,7 @@
     //设置NavigationBar背景颜色
     View=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     //View.backgroundColor=[UIColor redColor];
-    View.image=[UIImage imageNamed:@"bg4"];
+    View.image=[UIImage imageNamed:@"back"];
     [self.view addSubview:View];
 
     

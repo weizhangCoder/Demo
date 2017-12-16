@@ -54,7 +54,7 @@ static const CGFloat kCellDefaultHeight = 44.f;
     
     self.textColor = [UIColor blackColor];
     
-    self.font = [UIFont systemFontOfSize:14.f];
+    self.font = [UIFont systemFontOfSize:12.f];
 
 }
 #pragma mark - About UI
@@ -221,18 +221,18 @@ static const CGFloat kCellDefaultHeight = 44.f;
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+
     [self.headerBtn setTitle:self.datas[indexPath.row] forState:UIControlStateNormal];
-    
+
     if(self.cellClickedBlock){
         self.cellClickedBlock(self.datas[indexPath.row], indexPath.row);
     }
-    
-    
+
+
     if (self.autoCloseWhenSelected) {
         [self closeMenu];
     }
-    
+
 }
 
 
