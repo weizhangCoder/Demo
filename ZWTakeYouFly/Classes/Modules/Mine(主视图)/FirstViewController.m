@@ -40,10 +40,10 @@
 
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithNormalImage:@"加号_白色" target:self action:@selector(login) width:40 height:40];
 
-    UIImageView *logo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"u76"]];
+    UIImageView *logo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"logohome"]];
     logo.frame = CGRectMake(0, 0, 165, 29);
-//    self.navigationItem.titleView = logo;
-    self.title = @"企业信用产品服务平台";
+    self.navigationItem.titleView = logo;
+//    self.title = @"企业信用产品服务平台";
     
 //
 //    self.tableView.separatorInset = UIEdgeInsetsMake(0, 10, 0, 10);
@@ -57,7 +57,7 @@
     home_headView *headView = [[[NSBundle mainBundle] loadNibNamed:@"home_headView" owner:nil options:nil] lastObject];
     headView.backgroundColor = [UIColor colorTheme];
     headView.autoresizingMask = UIViewAutoresizingNone;
-    headView.frame = CGRectMake(0, 0, kScreen_Width, 150);
+    headView.frame = CGRectMake(0, 0, kScreen_Width, 120);
     self.tableView.tableHeaderView = headView;
     [headView setSegmetBlock:^(NSInteger index) {
         NSLog(@"======%ld",index);
@@ -120,8 +120,9 @@
     if (section == 2) {
         return 40;
     }
-    return 0;
+    return 0.01;
 }
+
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     if (section == 2) {
         UILabel *headLabel  = [[UILabel alloc]init];
