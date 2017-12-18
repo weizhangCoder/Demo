@@ -10,6 +10,7 @@
 #import "JYCustomButton.h"
 
 @interface me_headView : UIView
+@property (weak, nonatomic) IBOutlet UIView *backView;
 
 @property (weak, nonatomic) IBOutlet JYCustomButton *ClickBtn;
 

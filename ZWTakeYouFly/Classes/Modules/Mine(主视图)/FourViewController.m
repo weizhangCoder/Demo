@@ -41,6 +41,7 @@
 //    header.text = @"天霸动霸tuo";
 //    header.cellHeight = 100;
     me_headView *headView = [[[NSBundle mainBundle] loadNibNamed:@"me_headView" owner:nil options:nil] lastObject];
+    headView.backView.backgroundColor = [UIColor colorTheme];
     headView.backgroundColor = [UIColor clearColor];
     headView.autoresizingMask = UIViewAutoresizingNone;
     headView.frame = CGRectMake(0, 0, kScreen_Width, 250);

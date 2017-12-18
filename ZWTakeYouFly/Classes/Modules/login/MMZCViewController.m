@@ -123,8 +123,8 @@
     pwd.clearButtonMode = UITextFieldViewModeWhileEditing;
     //pwd.text=@"123456";
     //密文样式
-//    pwd.secureTextEntry=YES;
-    //pwd.keyboardType=UIKeyboardTypeNumberPad;
+    pwd.secureTextEntry=YES;
+    pwd.keyboardType=UIKeyboardTypeNumberPad;
 
     accontuser.text = @"admin";
     pwd.text = @"admin";

@@ -122,7 +122,7 @@
                             </userDefinedRuntimeAttributes>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="0.12549019607843137" green="0.33333333333333331" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="3ks-bS-1Rh" firstAttribute="centerY" secondItem="S6d-mo-yrt" secondAttribute="centerY" id="3jr-Dh-jtU"/>
                         <constraint firstItem="ySU-87-ckn" firstAttribute="centerX" secondItem="S6d-mo-yrt" secondAttribute="centerX" id="6h6-HQ-rDH"/>
@@ -148,6 +148,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="ClickBtn" destination="26u-AY-YpZ" id="cIj-fz-hjZ"/>
+                <outlet property="backView" destination="S6d-mo-yrt" id="wu5-g1-SjI"/>
             </connections>
             <point key="canvasLocation" x="97" y="55"/>
         </view>
