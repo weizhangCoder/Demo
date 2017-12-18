@@ -42,8 +42,9 @@
     textAttrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
     textAttrs[NSFontAttributeName] = [UIFont fontTitle_18];
     [appearance setBarTintColor:[UIColor colorTheme]];
+    
 //    [appearance setBackgroundImage:[UIImage imageNamed:@"navBarBack_icon"] forBarMetrics:UIBarMetricsDefault];
-    appearance.shadowImage = [UIImage imageFromContextWithColor:[UIColor clearColor]];
+//    appearance.shadowImage = [UIImage imageFromContextWithColor:[UIColor clearColor]];
     // UIOffsetZero是结构体, 只要包装成NSValue对象, 才能放进字典\数组中
     [appearance setTitleTextAttributes:textAttrs];
  
