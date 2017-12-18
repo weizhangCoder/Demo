@@ -11,7 +11,7 @@
 #import "TKPhoneTextField.h"
 
 
-#define KaddHegth  80
+#define KaddHegth  180
 
 @interface MMZCViewController ()<UITextFieldDelegate>
 {
@@ -45,7 +45,7 @@
     //设置NavigationBar背景颜色
     View=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     //View.backgroundColor=[UIColor redColor];
-    View.image=[UIImage imageNamed:@"bg4"];
+    View.image=[UIImage imageNamed:@"IMG_7034"];
     [self.view addSubview:View];
 
     
@@ -61,6 +61,16 @@
     lanel.text=@"登录";
     lanel.textColor=[UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1];
     [self.view addSubview:lanel];
+    
+    UIImageView *logo = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"logohome"]];
+//    logo.frame = CGRectMake(0, 0, 165, 29);
+    [self.view addSubview:logo];
+    [logo mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view.mas_centerX);
+        make.top.equalTo(self.view).offset(150);
+        make.size.mas_equalTo(CGSizeMake(165, 29));
+    }];
+//    self.navigationItem.titleView = logo;
 
     
     [self createButtons];
@@ -113,9 +123,11 @@
     pwd.clearButtonMode = UITextFieldViewModeWhileEditing;
     //pwd.text=@"123456";
     //密文样式
-    pwd.secureTextEntry=YES;
+//    pwd.secureTextEntry=YES;
     //pwd.keyboardType=UIKeyboardTypeNumberPad;
 
+    accontuser.text = @"admin";
+    pwd.text = @"admin";
     
     UIImageView *userImageView=[self createImageViewFrame:CGRectMake(20, 10, 25, 25) imageName:@"ic_landing_nickname" color:nil];
     UIImageView *pwdImageView=[self createImageViewFrame:CGRectMake(20, 60, 25, 25) imageName:@"mm_normal" color:nil];

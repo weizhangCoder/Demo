@@ -26,7 +26,6 @@
     // Initialization code
     [self.contentView addSubview:self.cycleScrollView];
     [self.imageArray addObject:@"u141"];
-    [self.imageArray addObject:@"u746"];
     self.cycleScrollView.imageURLStringsGroup = self.imageArray;
 }
 

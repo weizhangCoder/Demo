@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[ZWCompanyViewController viewDidLoad]:ZWCompanyViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.specialArr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[ZWComeyDetailViewController viewDidLoad]:ZWComeyDetailViewController.m">
          <PersistentStrings>
             <PersistentString
